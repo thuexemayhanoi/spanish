@@ -1,6 +1,7 @@
 // Rebuild all static HTML, canonical tags, breadcrumbs, schema and sitemap without dependencies.
 // Usage: node scripts/build.mjs
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+import {addApprovedContextualLinks} from './seo-links-a4.mjs';
 import {validateTaxonomy,decorateTaxonomy,taxonomyMenu,parentCategorySection,categoryArchiveBody,articleCategoryTrail} from './taxonomy.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const data=JSON.parse(fs.readFileSync(path.join(root,'site/data.json'),'utf8'));
@@ -45,6 +46,7 @@ const registry=JSON.parse(fs.readFileSync(path.join(root,'data/editorial-plan.js
 const published=JSON.parse(fs.readFileSync(path.join(root,'data/factory-state.json'),'utf8')).published_ids;
 const taxonomy=JSON.parse(fs.readFileSync(path.join(root,'site/taxonomy.json'),'utf8'));
 validateTaxonomy(taxonomy,registry,published,data.pages);
+const approvedLinks=JSON.parse(fs.readFileSync(path.join(root,'data/internal-link-matrix-a4.json'),'utf8')).recommendations.add_link;
 const accepted=[];
 for(const id of published){
  const row=registry.find(p=>p.id===id);
@@ -59,6 +61,11 @@ for(const id of published){
 data.taxonomy=taxonomy;
 data.liveCategories=decorateTaxonomy(taxonomy,data.pages,accepted);
 const files=generate(data);
+for(const page of accepted){
+ const filename=page.url.slice(1)+'index.html';
+ files[filename]=addApprovedContextualLinks(files[filename],page.url,approvedLinks);
+}
+
 const escapeHtml=x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 for(const page of accepted){
  const filename=page.url.slice(1)+'index.html';
