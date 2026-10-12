@@ -29,4 +29,6 @@ jobs:
           node scripts/build.mjs --check
           node scripts/qa-factory.mjs
           node scripts/qa-taxonomy.mjs
+          node --check scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-growth-a4-a6.mjs
           node scripts/smoke-factory.mjs

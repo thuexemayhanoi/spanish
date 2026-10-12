@@ -1,0 +1,802 @@
+{
+  "schema_version": 1,
+  "repository": "thuexemayhanoi/spanish",
+  "source_commit": "33e7ce7b",
+  "scope": "A4 full published-site internal-link matrix",
+  "pages_crawled": 17,
+  "extraction": "Only links in <main id=content>, excludes sitewide header/footer",
+  "graph": [
+    {
+      "url": "/",
+      "title": "Alquiler de motos en Hanói | Scooters y motos 50 cc",
+      "canonical": "https://es.rentbikehanoi.com/",
+      "outgoing": [
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Explorar motos ↗"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Ver precios"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/tipos-de-motos/scooters/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/tipos-de-motos/motos-50cc/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Leer la guía completa ↗"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "Ver las 20 preguntas frecuentes ↗"
+        }
+      ],
+      "incoming": [
+        "/sobre-nosotros/",
+        "/tipos-de-motos/",
+        "/tipos-de-motos/scooters/",
+        "/tipos-de-motos/motos-50cc/",
+        "/precios/",
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/documentacion-y-deposito/",
+        "/faq/",
+        "/contacto/",
+        "/politica-de-privacidad/",
+        "/terminos-y-condiciones/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 16
+    },
+    {
+      "url": "/sobre-nosotros/",
+      "title": "Sobre nosotros | Alquiler de motos Nguyễn Tú en Hanói",
+      "canonical": "https://es.rentbikehanoi.com/sobre-nosotros/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [],
+      "content_in_degree": 0
+    },
+    {
+      "url": "/tipos-de-motos/",
+      "title": "Tipos de motos para alquilar en Hanói | Comparativa",
+      "canonical": "https://es.rentbikehanoi.com/tipos-de-motos/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/tipos-de-motos/scooters/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/tipos-de-motos/motos-50cc/",
+          "anchor": "Descubrir ↗"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/tipos-de-motos/scooters/",
+        "/tipos-de-motos/motos-50cc/",
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/"
+      ],
+      "content_in_degree": 6
+    },
+    {
+      "url": "/tipos-de-motos/scooters/",
+      "title": "Scooters de alquiler en Hanói | Vision y Air Blade",
+      "canonical": "https://es.rentbikehanoi.com/tipos-de-motos/scooters/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Una moto para cada manera de viajar."
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/tipos-de-motos/"
+      ],
+      "content_in_degree": 2
+    },
+    {
+      "url": "/tipos-de-motos/motos-50cc/",
+      "title": "Alquiler de motos 50 cc en Hanói | Precios y requisitos",
+      "canonical": "https://es.rentbikehanoi.com/tipos-de-motos/motos-50cc/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Una moto para cada manera de viajar."
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/tipos-de-motos/"
+      ],
+      "content_in_degree": 2
+    },
+    {
+      "url": "/precios/",
+      "title": "Precios de alquiler de motos en Hanói | Día y mes",
+      "canonical": "https://es.rentbikehanoi.com/precios/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Documentación y depósito ↗"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/sobre-nosotros/",
+        "/tipos-de-motos/",
+        "/tipos-de-motos/scooters/",
+        "/tipos-de-motos/motos-50cc/",
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/documentacion-y-deposito/",
+        "/politica-de-privacidad/",
+        "/terminos-y-condiciones/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 13
+    },
+    {
+      "url": "/guia-de-alquiler/",
+      "title": "Guía para alquilar una moto en Hanói | Paso a paso",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Descubrir ↗"
+        },
+        {
+          "url": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+          "anchor": "Cómo alquilar una moto en Hanói paso a paso: guía práctica"
+        },
+        {
+          "url": "/guia-de-alquiler/errores-al-alquilar-moto/",
+          "anchor": "Siete errores al alquilar una moto en Hanói y cómo evitarlos"
+        },
+        {
+          "url": "/guia-de-alquiler/contrato-de-alquiler/",
+          "anchor": "Contrato de alquiler de moto en Hanói: qué revisar antes de firmar"
+        },
+        {
+          "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+          "anchor": "Cómo revisar una moto de alquiler antes de salir en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/entrega-y-recogida/",
+          "anchor": "Entrega y recogida de motos en Hanói: qué debes confirmar"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/guia-de-alquiler/documentacion-y-deposito/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 7
+    },
+    {
+      "url": "/guia-de-alquiler/documentacion-y-deposito/",
+      "title": "Documentación y depósito para alquilar moto en Hanói",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/documentacion-y-deposito/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/precios/",
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 6
+    },
+    {
+      "url": "/faq/",
+      "title": "FAQ | 20 preguntas sobre alquiler de motos en Hanói",
+      "canonical": "https://es.rentbikehanoi.com/faq/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        }
+      ],
+      "incoming": [
+        "/",
+        "/sobre-nosotros/",
+        "/tipos-de-motos/scooters/",
+        "/tipos-de-motos/motos-50cc/",
+        "/guia-de-alquiler/documentacion-y-deposito/",
+        "/politica-de-privacidad/",
+        "/terminos-y-condiciones/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 12
+    },
+    {
+      "url": "/contacto/",
+      "title": "Contacto | Alquiler de motos Nguyễn Tú en Hanói",
+      "canonical": "https://es.rentbikehanoi.com/contacto/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        }
+      ],
+      "incoming": [
+        "/sobre-nosotros/",
+        "/tipos-de-motos/scooters/",
+        "/tipos-de-motos/motos-50cc/",
+        "/guia-de-alquiler/documentacion-y-deposito/",
+        "/politica-de-privacidad/",
+        "/terminos-y-condiciones/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
+      ],
+      "content_in_degree": 9
+    },
+    {
+      "url": "/politica-de-privacidad/",
+      "title": "Política de privacidad | Nguyễn Tú Hanói",
+      "canonical": "https://es.rentbikehanoi.com/politica-de-privacidad/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [],
+      "content_in_degree": 0
+    },
+    {
+      "url": "/terminos-y-condiciones/",
+      "title": "Términos y condiciones | Nguyễn Tú Hanói",
+      "canonical": "https://es.rentbikehanoi.com/terminos-y-condiciones/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios ↗"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ ↗"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto ↗"
+        }
+      ],
+      "incoming": [],
+      "content_in_degree": 0
+    },
+    {
+      "url": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "title": "Cómo alquilar una moto en Hanói paso a paso: guía práctica",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía de alquiler › Proceso y trámites"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Tipos de motos para alquilar en Hanói | Comparativa"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios de alquiler de motos en Hanói | Día y mes"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Documentación y depósito para alquilar moto en Hanói"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        }
+      ],
+      "incoming": [
+        "/guia-de-alquiler/"
+      ],
+      "content_in_degree": 1
+    },
+    {
+      "url": "/guia-de-alquiler/errores-al-alquilar-moto/",
+      "title": "Siete errores al alquilar una moto en Hanói y cómo evitarlos",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/errores-al-alquilar-moto/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía de alquiler › Proceso y trámites"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía para alquilar una moto en Hanói | Paso a paso"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios de alquiler de motos en Hanói | Día y mes"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Documentación y depósito para alquilar moto en Hanói"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        }
+      ],
+      "incoming": [
+        "/guia-de-alquiler/"
+      ],
+      "content_in_degree": 1
+    },
+    {
+      "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+      "title": "Cómo revisar una moto de alquiler antes de salir en Hanói",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/revisar-una-moto-alquilada/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía de alquiler › Revisión y seguridad"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía para alquilar una moto en Hanói | Paso a paso"
+        },
+        {
+          "url": "/tipos-de-motos/",
+          "anchor": "Tipos de motos para alquilar en Hanói | Comparativa"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto | Alquiler de motos Nguyễn Tú en Hanói"
+        }
+      ],
+      "incoming": [
+        "/guia-de-alquiler/"
+      ],
+      "content_in_degree": 1
+    },
+    {
+      "url": "/guia-de-alquiler/entrega-y-recogida/",
+      "title": "Entrega y recogida de motos en Hanói: qué debes confirmar",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/entrega-y-recogida/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía de alquiler › Entrega, devolución e incidencias"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto | Alquiler de motos Nguyễn Tú en Hanói"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios de alquiler de motos en Hanói | Día y mes"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía para alquilar una moto en Hanói | Paso a paso"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        }
+      ],
+      "incoming": [
+        "/guia-de-alquiler/"
+      ],
+      "content_in_degree": 1
+    },
+    {
+      "url": "/guia-de-alquiler/contrato-de-alquiler/",
+      "title": "Contrato de alquiler de moto en Hanói: qué revisar antes de firmar",
+      "canonical": "https://es.rentbikehanoi.com/guia-de-alquiler/contrato-de-alquiler/",
+      "outgoing": [
+        {
+          "url": "/",
+          "anchor": "Inicio"
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Una buena ruta empieza antes del motor."
+        },
+        {
+          "url": "/guia-de-alquiler/",
+          "anchor": "Guía de alquiler › Proceso y trámites"
+        },
+        {
+          "url": "/guia-de-alquiler/documentacion-y-deposito/",
+          "anchor": "Documentación y depósito para alquilar moto en Hanói"
+        },
+        {
+          "url": "/precios/",
+          "anchor": "Precios de alquiler de motos en Hanói | Día y mes"
+        },
+        {
+          "url": "/contacto/",
+          "anchor": "Contacto | Alquiler de motos Nguyễn Tú en Hanói"
+        },
+        {
+          "url": "/faq/",
+          "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        }
+      ],
+      "incoming": [
+        "/guia-de-alquiler/"
+      ],
+      "content_in_degree": 1
+    }
+  ],
+  "recommendations": {
+    "add_link": [
+      {
+        "id": "LK-01",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "section_h2": "Inspecciona la moto en el momento de recibirla",
+        "anchor_proposal": "inspección de una moto antes de salir",
+        "source_existing_link": false,
+        "priority": "HIGH",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-02",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "to": "/guia-de-alquiler/contrato-de-alquiler/",
+        "section_h2": "Comprueba documentos y condiciones legales",
+        "anchor_proposal": "cláusulas esenciales del contrato",
+        "source_existing_link": false,
+        "priority": "HIGH",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-03",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "section_h2": "Error 4: ignorar la revisión física del vehículo",
+        "anchor_proposal": "lista para revisar una moto de alquiler",
+        "source_existing_link": false,
+        "priority": "HIGH",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-04",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "to": "/guia-de-alquiler/contrato-de-alquiler/",
+        "section_h2": "Error 3: aceptar condiciones sin comprenderlas",
+        "anchor_proposal": "cómo leer el contrato de alquiler",
+        "source_existing_link": false,
+        "priority": "HIGH",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-05",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "to": "/guia-de-alquiler/entrega-y-recogida/",
+        "section_h2": "Prepara una inspección breve y repetible",
+        "anchor_proposal": "condiciones de entrega de la moto",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-06",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "to": "/guia-de-alquiler/contrato-de-alquiler/",
+        "section_h2": "Revisa daños previos y accesorios incluidos",
+        "anchor_proposal": "revisión de daños y obligaciones contractuales",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-07",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/entrega-y-recogida/",
+        "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "section_h2": "Qué revisar en la entrega presencial",
+        "anchor_proposal": "verificaciones de neumáticos y frenos",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-08",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/entrega-y-recogida/",
+        "to": "/guia-de-alquiler/contrato-de-alquiler/",
+        "section_h2": "Organiza la devolución con la misma precisión",
+        "anchor_proposal": "cláusulas de devolución y depósito",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-09",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/contrato-de-alquiler/",
+        "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "section_h2": "Entiende las reglas sobre daños, mantenimiento e incidencias",
+        "anchor_proposal": "inspección de la unidad alquilada",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      },
+      {
+        "id": "LK-10",
+        "action": "ADD LINK",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/guia-de-alquiler/contrato-de-alquiler/",
+        "to": "/guia-de-alquiler/entrega-y-recogida/",
+        "section_h2": "Confirma entrega, devolución e inspección final",
+        "anchor_proposal": "cómo coordinar la recogida y devolución",
+        "source_existing_link": false,
+        "priority": "MEDIUM",
+        "rationale": "Relevant passage supports a natural contextual link; avoid repetition and commercial stuffing"
+      }
+    ],
+    "keep_link": [
+      {
+        "id": "KEEP-1",
+        "action": "KEEP LINK",
+        "from": "/guia-de-alquiler/",
+        "to": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "status": "PRESERVE",
+        "reason": "Live parent hub → supporting article link"
+      },
+      {
+        "id": "KEEP-2",
+        "action": "KEEP LINK",
+        "from": "/guia-de-alquiler/",
+        "to": "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "status": "PRESERVE",
+        "reason": "Live parent hub → supporting article link"
+      },
+      {
+        "id": "KEEP-3",
+        "action": "KEEP LINK",
+        "from": "/guia-de-alquiler/",
+        "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "status": "PRESERVE",
+        "reason": "Live parent hub → supporting article link"
+      },
+      {
+        "id": "KEEP-4",
+        "action": "KEEP LINK",
+        "from": "/guia-de-alquiler/",
+        "to": "/guia-de-alquiler/entrega-y-recogida/",
+        "status": "PRESERVE",
+        "reason": "Live parent hub → supporting article link"
+      },
+      {
+        "id": "KEEP-5",
+        "action": "KEEP LINK",
+        "from": "/guia-de-alquiler/",
+        "to": "/guia-de-alquiler/contrato-de-alquiler/",
+        "status": "PRESERVE",
+        "reason": "Live parent hub → supporting article link"
+      }
+    ],
+    "change_anchor": [
+      {
+        "id": "ANCHOR-01",
+        "action": "CHANGE ANCHOR",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/",
+        "to": "/tipos-de-motos/scooters/",
+        "current_anchor": "Descubrir ↗",
+        "proposed_anchor": "Comparar scooters automáticos",
+        "priority": "LOW"
+      },
+      {
+        "id": "ANCHOR-02",
+        "action": "CHANGE ANCHOR",
+        "status": "PENDING_SEPARATE_APPROVAL",
+        "from": "/",
+        "to": "/tipos-de-motos/motos-50cc/",
+        "current_anchor": "Descubrir ↗",
+        "proposed_anchor": "Explorar motos de 50 cc",
+        "priority": "LOW"
+      }
+    ],
+    "remove_link": []
+  },
+  "no_change_policy": "No links or anchors modified; this action list requires separate approval for insertion",
+  "known_limitations": [
+    "Header/footer links intentionally excluded from content graph",
+    "Possible duplication from boilerplate CTA in <main> is not a claim of contextual topical relevance",
+    "No GSC link performance data connected for Spanish property"
+  ]
+}
