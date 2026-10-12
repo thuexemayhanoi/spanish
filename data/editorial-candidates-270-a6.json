@@ -2320,7 +2320,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "review_notes": "Monthly contract checklist overlaps existing ES-0005 contract guidance and planned ES-0022 monthly rental prices."
     },
     {
       "id": "ES-0099",
@@ -6691,8 +6692,9 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
-      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area.",
+      "review_notes": "Nguyễn Văn Cừ pickup checklist might duplicate ES-0232 Long Biên pickup guidance without unique visitor information."
     },
     {
       "id": "ES-0235",
@@ -7351,8 +7353,9 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
-      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area.",
+      "review_notes": "Gia Lâm station meeting-point guide overlaps ES-0236 station-to-rental logistics."
     },
     {
       "id": "ES-0255",
@@ -8835,7 +8838,7 @@
   ],
   "research_quality": {
     "status": "TOPIC_IDEATION_ONLY",
-    "holds_for_potential_duplicate_intent": 9,
+    "holds_for_potential_duplicate_intent": 12,
     "volumes_verified": 0,
     "serp_validated": 0,
     "source_validations_completed": 0,
@@ -8843,7 +8846,9 @@
     "notes": [
       "Ubersuggest free account reached its daily report limit; upgrading its plan would increase available daily reports, but no purchase requested.",
       "Google Search Console property not connected for Spanish subdomain.",
-      "300 titles are a planning ceiling, not an obligation to publish overlapping low-value articles."
+      "300 titles are a planning ceiling, not an obligation to publish overlapping low-value articles.",
+      "A6 review added 3 editorial holds (ES-0098, ES-0234, ES-0254) besides the original 9 duration-only variants.",
+      "110/270 topics use hubs currently not in the Content Factory allowlist; future factory upgrades require separate explicit approval."
     ]
   }
 }
