@@ -5,6 +5,13 @@ const run=(file,arg)=>execFileSync(process.execPath,[file,...arg],{cwd:tmp,encod
 const read=p=>fs.readFileSync(path.join(tmp,p),'utf8');
 try{
  fs.cpSync(root,tmp,{recursive:true,filter:s=>!s.split(path.sep).includes('.git')&&!s.split(path.sep).includes('node_modules')});
+ // Isolate the writer smoke fixture from production publication progress.
+ // Every invocation tests a fresh ES-0001 on a disposable local copy.
+ const isolated=JSON.parse(read('data/factory-state.json'));
+ isolated.enabled=false;isolated.blocked=false;isolated.published_ids=[];isolated.last_run=null;isolated.last_error=null;
+ fs.writeFileSync(path.join(tmp,'data/factory-state.json'),JSON.stringify(isolated,null,2)+'\n');
+ run('scripts/build.mjs',[]);
+
  run('scripts/build.mjs',['--check']);
  run('scripts/qa-factory.mjs',[]);
  const initial=JSON.parse(read('data/factory-state.json'));if(initial.published_ids.length!==0)throw Error('Smoke fixture requires zero published');
