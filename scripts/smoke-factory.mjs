@@ -10,6 +10,9 @@ try{
  const isolated=JSON.parse(read('data/factory-state.json'));
  isolated.enabled=false;isolated.blocked=false;isolated.published_ids=[];isolated.last_run=null;isolated.last_error=null;
  fs.writeFileSync(path.join(tmp,'data/factory-state.json'),JSON.stringify(isolated,null,2)+'\n');
+ // Discard inbox copies from production so the fixture tests exactly one synthetic queued article.
+ fs.rmSync(path.join(tmp,'_factory/inbox'),{recursive:true,force:true});
+ fs.mkdirSync(path.join(tmp,'_factory/inbox'),{recursive:true});
  run('scripts/build.mjs',[]);
 
  run('scripts/build.mjs',['--check']);
