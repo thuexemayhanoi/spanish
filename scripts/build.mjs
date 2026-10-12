@@ -24,6 +24,12 @@ function generate(c){
  function body(p){if(p.type==="home")return home();let h=top(p);if(p.type==="models")return h+`<section class="section"><div class="wrap"><div class="section-head"><h2>Compara por tipo de viaje.</h2><p>Conducir una moto semiautomática no es lo mismo que llevar un scooter automático.</p></div>${cards(groups)}</div></section>`;
  if(p.type==="prices")return h+`<section class="section"><div class="wrap"><h2>Tarifas por modelo.</h2>${prices()}<div class="prose" style="padding-top:45px"><h2>Antes de confirmar</h2><p>Un precio mensual puede publicarse como un intervalo, y para vehículos eléctricos o algunos periodos de 50 cc es necesario pedir una cotización individual.</p><p>La tarifa semanal no se calcula automáticamente multiplicando el precio diario por siete. Solicita siempre el total que corresponda a tus fechas.</p>${link("/guia-de-alquiler/documentacion-y-deposito/","Documentación y depósito ↗")}</div></div></section>`;
  if(p.type==="guide")return h+`<section class="section"><div class="wrap"><h2>Planifica antes de circular.</h2>${cards(steps)}<div class="prose" style="padding-top:50px"><h2>Seguridad y requisitos legales</h2><p>Verifica permiso, normas locales, casco, seguro y estado del vehículo antes de conducir. No asumas que una categoría de moto te exime de requisitos sin comprobar la legislación aplicable.</p><p>Al recibir la moto, revisa neumáticos, frenos, espejos y luces, y confirma las condiciones de devolución.</p></div></div></section>`;
+ if(p.type==="article"){
+  const sections=p.article.sections.map(s=>'<section><h2>'+E(s.heading)+'</h2>'+s.paragraphs.map(t=>'<p>'+E(t)+'</p>').join('')+'</section>').join('');
+  const faq=(p.article.faq||[]).map(t=>'<h3>'+E(t.question)+'</h3><p>'+E(t.answer)+'</p>').join('');
+  const related=(p.article.related||[]).filter(u=>u!==p.url&&c.pages.some(v=>v.url===u)).slice(0,8).map(u=>link(u,get(u)?.title||u)).join(' ');
+  return h+'<section class="section"><div class="wrap prose"><article>'+sections+(faq?'<section><h2>Preguntas relacionadas</h2>'+faq+'</section>':'')+'<div class="more"><h2>Lecturas relacionadas</h2>'+related+'</div></article></div></section>';
+ }
  if(p.type==="faq")return h+`<section class="section"><div class="wrap"><p class="eyebrow">20 PREGUNTAS Y RESPUESTAS</p>${faq(c.faqs)}</div></section>`;
  if(p.type==="contact")return h+`<section class="section"><div class="wrap split"><div><h2>Confirma antes de desplazarte.</h2><p>Indica fecha, duración, modelo preferido y consulta la entrega antes de reservar.</p></div><div class="box"><h3>Nguyễn Tú</h3><dl><dt>Dirección</dt><dd>${E(B.address)}</dd><dt>Teléfono / Zalo</dt><dd>${link("tel:"+B.tel,B.phone)}</dd><dt>Internacional</dt><dd>${link("tel:"+B.tel,B.international)}</dd><dt>Horario</dt><dd>${E(B.hours)}, todos los días</dd></dl><div class="actions"><a class="btn btn-blue" href="tel:${B.tel}">Llamar ↗</a><a class="btn btn-outline" href="${B.maps}" target="_blank" rel="noopener noreferrer">Google Maps ↗</a></div></div></div></section>`;
  return h+`<section class="section"><div class="wrap prose">${p.sections.map(([title,content])=>`<section><h2>${E(title)}</h2><p>${E(content)}</p></section>`).join("")}<div class="more">${link("/precios/","Precios ↗")}${link("/faq/","FAQ ↗")}${link("/contacto/","Contacto ↗")}</div></div></section>`;}
@@ -33,5 +39,43 @@ function generate(c){
  out["sitemap.xml"]=`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${c.pages.map(p=>`<url><loc>${abs(p.url)}</loc></url>`).join("")}</urlset>`;
  return out;
 }
-const files=generate(data);for(const [p,s] of Object.entries(files)){const dest=path.join(root,p);fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,s,'utf8');}
-console.log('Generated '+Object.keys(files).length+' site files.');
+
+const registry=JSON.parse(fs.readFileSync(path.join(root,'data/editorial-plan.json'),'utf8')).articles;
+const published=JSON.parse(fs.readFileSync(path.join(root,'data/factory-state.json'),'utf8')).published_ids;
+const accepted=[];
+for(const id of published){
+ const row=registry.find(p=>p.id===id);
+ if(!row)throw Error('Unplanned published article '+id);
+ const article=JSON.parse(fs.readFileSync(path.join(root,'content/articles',id+'.json'),'utf8'));
+ if(article.id!==row.id)throw Error('Bad article ID '+id);
+ const page={url:row.url,type:'article',title:article.title,desc:article.description,h1:article.h1,intro:article.intro,
+ label:'ARTÍCULO · '+row.primary_keyword,hub:row.hub,article};
+ if(data.pages.some(p=>p.url===page.url))throw Error('Duplicate canonical '+page.url);
+ data.pages.push(page);accepted.push(page);
+}
+const files=generate(data);
+const escapeHtml=x=>String(x).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+for(const page of accepted){
+ const filename=page.url.slice(1)+'index.html';
+ const schema={'@context':'https://schema.org','@type':'Article',headline:page.title,description:page.desc,inLanguage:'es',
+  mainEntityOfPage:data.site.base.slice(0,-1)+page.url,datePublished:page.article.published_at,
+  dateModified:page.article.published_at,author:{'@type':'Organization',name:data.business.name},
+  publisher:{'@type':'Organization',name:data.business.name}};
+ files[filename]=files[filename].replace('</head>','<script type="application/ld+json">'+JSON.stringify(schema).replace(/</g,'\\u003c')+'</script></head>');
+}
+for(const page of data.pages.filter(p=>p.type!=='article')){
+ const children=accepted.filter(x=>x.hub===page.url);
+ if(!children.length)continue;
+ const filename=page.url==='/'?'index.html':page.url.slice(1)+'index.html';
+ const links='<section class="section alt"><div class="wrap"><h2>Artículos de esta sección</h2><ul class="article-index">'+
+ children.map(x=>'<li><a href="'+escapeHtml(x.url)+'">'+escapeHtml(x.title)+'</a></li>').join('')+'</ul></div></section>';
+ files[filename]=files[filename].replace('<section class="callout">',links+'<section class="callout">');
+}
+const check=process.argv.includes('--check');let stale=0;
+for(const [p,s] of Object.entries(files)){
+ const dest=path.join(root,p);
+ if(check){if(!fs.existsSync(dest)||fs.readFileSync(dest,'utf8')!==s){stale++;console.error('STALE '+p)}}
+ else{fs.mkdirSync(path.dirname(dest),{recursive:true});fs.writeFileSync(dest,s,'utf8')}
+}
+if(check&&stale)process.exitCode=1;
+else console.log((check?'Verified ':'Generated ')+Object.keys(files).length+' HTML/SEO files; articles='+accepted.length);

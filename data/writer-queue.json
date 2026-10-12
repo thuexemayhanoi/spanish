@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "status": "PAUSED",
+  "target": 300,
+  "published": 0,
+  "remaining": 300,
+  "planned": 30,
+  "unplanned": 270,
+  "queue": []
+}
