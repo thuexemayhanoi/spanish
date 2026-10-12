@@ -1,0 +1,379 @@
+{
+  "business": {
+    "name": "Cho Thuê Xe Máy Nguyễn Tú",
+    "display": "NGUYỄN TÚ",
+    "address": "112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hanói, Vietnam",
+    "phone": "0942 467 674",
+    "international": "+84 942 467 674",
+    "tel": "+84942467674",
+    "hours": "09:00–21:00",
+    "maps": "https://maps.google.com/maps?cid=7448790013669858019"
+  },
+  "site": {
+    "base": "https://es.rentbikehanoi.com/",
+    "lang": "es",
+    "title": "Alquiler de motos en Hanói · Nguyễn Tú"
+  },
+  "nav": [
+    [
+      "Inicio",
+      "/"
+    ],
+    [
+      "Motos",
+      "/tipos-de-motos/"
+    ],
+    [
+      "Precios",
+      "/precios/"
+    ],
+    [
+      "Guías",
+      "/guia-de-alquiler/"
+    ],
+    [
+      "FAQ",
+      "/faq/"
+    ],
+    [
+      "Contacto",
+      "/contacto/"
+    ]
+  ],
+  "prices": [
+    [
+      "Honda Wave",
+      "150.000",
+      "700.000",
+      "900.000–1.200.000",
+      "2–3 millones"
+    ],
+    [
+      "Honda Vision",
+      "200.000",
+      "1.000.000",
+      "1.800.000–2.000.000",
+      "4–5 millones"
+    ],
+    [
+      "Honda Air Blade",
+      "200.000",
+      "1.000.000",
+      "1.500.000",
+      "3 millones"
+    ],
+    [
+      "Honda Click / Yamaha Mio",
+      "150.000",
+      "700.000",
+      "900.000–1.200.000",
+      "2 millones"
+    ],
+    [
+      "Scooter 50 cc",
+      "200.000",
+      "Consultar",
+      "Consultar",
+      "4 millones"
+    ],
+    [
+      "Moto o bicicleta eléctrica",
+      "Consultar",
+      "Consultar",
+      "Consultar",
+      "Según el modelo"
+    ]
+  ],
+  "faqs": [
+    [
+      "¿Dónde está Nguyễn Tú en Hanói?",
+      "La dirección publicada es 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hanói. Confirma antes las condiciones de entrega o recogida."
+    ],
+    [
+      "¿Cuál es el horario de atención?",
+      "El horario anunciado es de 09:00 a 21:00, todos los días."
+    ],
+    [
+      "¿Cuánto cuesta alquilar una Honda Wave por día?",
+      "La referencia diaria es 150.000 VND. Precio y disponibilidad deben confirmarse antes de reservar."
+    ],
+    [
+      "¿Qué precio tiene una Honda Vision?",
+      "Como orientación: 200.000 VND al día, 1.000.000 VND a la semana y 1.800.000–2.000.000 VND al mes."
+    ],
+    [
+      "¿Es obligatorio dejar un depósito?",
+      "Se requiere un depósito cuyo importe depende del modelo; las referencias publicadas para varias motos van de 2 a 5 millones de VND."
+    ],
+    [
+      "¿Cómo se devuelve el depósito?",
+      "Se devuelve según el contrato tras devolver la moto y cumplir las obligaciones acordadas."
+    ],
+    [
+      "¿Qué documentos son necesarios?",
+      "Los documentos y garantías se deben confirmar individualmente con el establecimiento y de acuerdo con la ley."
+    ],
+    [
+      "¿Ofrecéis alquiler semanal?",
+      "Existen tarifas semanales orientativas para varios modelos. No calcules el precio semanal multiplicando el diario por siete."
+    ],
+    [
+      "¿Hay alquiler de motos por mes?",
+      "Sí, hay referencias mensuales para determinados modelos. Consulta los rangos y condiciones del vehículo concreto."
+    ],
+    [
+      "¿Se alquilan scooters de 50 cc?",
+      "Sí. La referencia diaria es 200.000 VND y el depósito orientativo es de 4 millones de VND; semanas y meses se cotizan aparte."
+    ],
+    [
+      "¿Hay motos y bicicletas eléctricas?",
+      "Existen esas categorías, pero precios, depósitos y disponibilidad se confirman según el modelo."
+    ],
+    [
+      "¿Puedo elegir una moto automática?",
+      "Honda Vision, Air Blade, Click y Mio son modelos de referencia; consulta qué unidad está disponible para tus fechas."
+    ],
+    [
+      "¿Está incluida la entrega en el precio?",
+      "No se debe presuponer. La entrega, la recogida y cualquier cargo adicional deben acordarse antes del contrato."
+    ],
+    [
+      "¿Puedo conducir en Vietnam con mi permiso?",
+      "Depende del permiso, tipo de vehículo y normativa vigente. Comprueba los requisitos legales y el seguro antes de circular."
+    ],
+    [
+      "¿Puedo recoger la moto por la noche?",
+      "El horario anunciado termina a las 21:00. Cualquier excepción necesita confirmación individual."
+    ],
+    [
+      "¿Se puede alquilar sin fianza?",
+      "No es una condición general anunciada. Confirma el depósito y las garantías del modelo elegido."
+    ],
+    [
+      "¿Cómo llamo desde el extranjero?",
+      "El número internacional de contacto es +84 942 467 674."
+    ],
+    [
+      "¿Los precios de la tabla son definitivos?",
+      "No. Son orientativos; confirma importe total, depósito, duración, estado del vehículo y entrega antes de contratar."
+    ],
+    [
+      "¿Qué reviso antes de empezar a circular?",
+      "Comprueba frenos, neumáticos, luces, espejos, documentación, casco y requisitos de conducción legal."
+    ],
+    [
+      "¿Una moto de 50 cc no requiere permiso?",
+      "No lo des por supuesto: verifica las obligaciones legales aplicables al vehículo y a tu situación antes de conducir."
+    ]
+  ],
+  "pages": [
+    {
+      "url": "/",
+      "type": "home",
+      "title": "Alquiler de motos en Hanói | Scooters y motos 50 cc",
+      "desc": "Alquila motos en Hanói con Nguyễn Tú: Honda Wave, scooters y 50 cc. Consulta precios orientativos, depósitos y guías antes de reservar.",
+      "h1": "Hanói, a tu ritmo.",
+      "intro": "Explora Hanói con una moto adecuada para tu ruta. Modelos, precios orientativos y condiciones explicadas con claridad.",
+      "label": "ALQUILER DE MOTOS · HANÓI"
+    },
+    {
+      "url": "/sobre-nosotros/",
+      "type": "story",
+      "title": "Sobre nosotros | Alquiler de motos Nguyễn Tú en Hanói",
+      "desc": "Conoce el servicio de alquiler de motos Nguyễn Tú en Long Biên, Hanói: dirección, atención, modelos y condiciones de referencia.",
+      "h1": "Más claridad. Menos incertidumbre.",
+      "intro": "Información práctica sobre el servicio de alquiler de motos Nguyễn Tú en Hanói.",
+      "label": "NUESTRA HISTORIA",
+      "sections": [
+        [
+          "Alquilar con información clara",
+          "Cuando visitas una ciudad nueva, elegir vehículo, duración y presupuesto exige respuestas concretas. Este sitio en español presenta los modelos de referencia, los precios orientativos y las preguntas que conviene resolver antes de firmar un acuerdo."
+        ],
+        [
+          "Un servicio con dirección de referencia",
+          "La dirección publicada del establecimiento es 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hanói. El horario anunciado es de 09:00 a 21:00 todos los días. Debes confirmar dónde y cómo se realizará cada entrega o devolución."
+        ],
+        [
+          "Acuerdos verificables",
+          "No prometemos disponibilidad inmediata, entrega gratuita ni alquiler sin depósito como condiciones generales. Antes de contratar, confirma modelo, precio, plazo, depósito, estado del vehículo y gastos adicionales."
+        ]
+      ]
+    },
+    {
+      "url": "/tipos-de-motos/",
+      "type": "models",
+      "title": "Tipos de motos para alquilar en Hanói | Comparativa",
+      "desc": "Compara motos semiautomáticas, scooters y motos de 50 cc para alquilar en Hanói, con enlaces a precios y condiciones.",
+      "h1": "Una moto para cada manera de viajar.",
+      "intro": "Entiende las diferencias antes de decidir por una categoría de vehículo.",
+      "label": "HUB · TIPOS DE MOTOS"
+    },
+    {
+      "url": "/tipos-de-motos/scooters/",
+      "type": "story",
+      "title": "Scooters de alquiler en Hanói | Vision y Air Blade",
+      "desc": "Guía de scooters automáticos en Hanói: Honda Vision, Air Blade, Click y Mio. Precios orientativos y detalles que comprobar.",
+      "h1": "Conducir en modo automático.",
+      "intro": "Compara scooters por comodidad, duración del alquiler y condiciones reales.",
+      "label": "SILO · SCOOTERS",
+      "sections": [
+        [
+          "Modelos de referencia",
+          "Honda Vision y Air Blade son dos scooters con tarifas de referencia publicadas. Honda Click y Yamaha Mio también figuran entre las opciones de la categoría; el modelo disponible deberá confirmarse con Nguyễn Tú."
+        ],
+        [
+          "Coste, depósito y duración",
+          "Honda Vision y Air Blade parten de una referencia diaria de 200.000 VND, pero sus tarifas mensuales y depósitos no son iguales. Consulta la tabla de precios antes de acordar un periodo."
+        ],
+        [
+          "Una entrega bien preparada",
+          "Antes de circular, comprueba frenos, neumáticos, iluminación y espejos. La licencia, las normas locales y el seguro han de verificarse para el vehículo y la persona conductora."
+        ]
+      ]
+    },
+    {
+      "url": "/tipos-de-motos/motos-50cc/",
+      "type": "story",
+      "title": "Alquiler de motos 50 cc en Hanói | Precios y requisitos",
+      "desc": "Todo lo esencial sobre alquiler de scooters 50 cc en Hanói: tarifa diaria orientativa, depósito, documentación y seguridad.",
+      "h1": "50 cc. Cada detalle importa.",
+      "intro": "La cilindrada no sustituye la revisión de la normativa, las condiciones ni la ruta.",
+      "label": "SILO · 50 CC",
+      "sections": [
+        [
+          "Precio y depósito orientativos",
+          "Para scooters de 50 cc, la referencia diaria publicada es de 200.000 VND y el depósito orientativo es de 4 millones de VND. Para periodos semanales o mensuales es necesario pedir presupuesto."
+        ],
+        [
+          "Normas que debes comprobar",
+          "No presupongas que una moto de 50 cc puede conducirse sin permiso en cualquier circunstancia. Consulta la normativa vietnamita vigente, tu permiso y las obligaciones de seguro antes de salir."
+        ],
+        [
+          "Elige con criterio",
+          "Solicita información sobre el modelo, estado general, trayecto previsto y cualquier gasto de entrega. Acuerda la devolución y documenta el estado del vehículo al recibirlo."
+        ]
+      ]
+    },
+    {
+      "url": "/precios/",
+      "type": "prices",
+      "title": "Precios de alquiler de motos en Hanói | Día y mes",
+      "desc": "Precios orientativos para motos y scooters en Hanói por día, semana y mes, con depósitos por modelo y condiciones que confirmar.",
+      "h1": "Precios claros, antes de salir.",
+      "intro": "Compara tarifas y depósitos orientativos sin confundir referencias con una reserva confirmada.",
+      "label": "PILLAR · PRECIOS"
+    },
+    {
+      "url": "/guia-de-alquiler/",
+      "type": "guide",
+      "title": "Guía para alquilar una moto en Hanói | Paso a paso",
+      "desc": "Cómo alquilar una moto en Hanói: elegir vehículo, revisar precios, confirmar documentación, depósito y circular legalmente.",
+      "h1": "Una buena ruta empieza antes del motor.",
+      "intro": "Una guía para preparar preguntas útiles, revisar tu contrato y conducir con responsabilidad.",
+      "label": "HUB · GUÍA"
+    },
+    {
+      "url": "/guia-de-alquiler/documentacion-y-deposito/",
+      "type": "story",
+      "title": "Documentación y depósito para alquilar moto en Hanói",
+      "desc": "Qué saber sobre documentación, garantías, depósito de motos y devolución antes de contratar un alquiler en Hanói.",
+      "h1": "Que el acuerdo no tenga sorpresas.",
+      "intro": "Preguntas importantes sobre documentos, depósito y devolución de una moto alquilada.",
+      "label": "GUÍA · DOCUMENTOS Y DEPÓSITO",
+      "sections": [
+        [
+          "Depósito por modelo",
+          "Las referencias publicadas para varios modelos van de 2 a 5 millones de VND. El importe exacto y los términos de devolución deben constar en el acuerdo de alquiler."
+        ],
+        [
+          "Documentos y garantías",
+          "No asumas que entregar un pasaporte reemplaza automáticamente el depósito ni que existe un servicio universal sin fianza. Consulta las opciones legales y admisibles directamente con Nguyễn Tú."
+        ],
+        [
+          "Antes de firmar y devolver",
+          "Confirma tarifas, duración, posibles cargos de entrega y estado del vehículo. El depósito se devuelve conforme al contrato después de entregar la moto y cumplir las obligaciones pactadas."
+        ]
+      ]
+    },
+    {
+      "url": "/faq/",
+      "type": "faq",
+      "title": "FAQ | 20 preguntas sobre alquiler de motos en Hanói",
+      "desc": "20 preguntas y respuestas sobre alquiler de motos en Hanói: precios, depósitos, 50 cc, documentos, horarios y contacto.",
+      "h1": "Respuestas antes de arrancar.",
+      "intro": "Veinte respuestas claras sobre las dudas habituales antes de alquilar una moto.",
+      "label": "FAQ · 20 RESPUESTAS"
+    },
+    {
+      "url": "/contacto/",
+      "type": "contact",
+      "title": "Contacto | Alquiler de motos Nguyễn Tú en Hanói",
+      "desc": "Contacta con Nguyễn Tú en Hanói: 0942 467 674, horario 09:00–21:00 y dirección 112 Nguyễn Văn Cừ, Long Biên.",
+      "h1": "Hablemos de tu próxima ruta.",
+      "intro": "Consulta disponibilidad, condiciones, depósito y entrega directamente con el establecimiento.",
+      "label": "CONTACTO"
+    },
+    {
+      "url": "/politica-de-privacidad/",
+      "type": "story",
+      "title": "Política de privacidad | Nguyễn Tú Hanói",
+      "desc": "Información sobre privacidad, enlaces externos y funcionamiento de la versión estática del sitio de Nguyễn Tú.",
+      "h1": "Privacidad con claridad.",
+      "intro": "Cómo funciona esta versión informativa del sitio y qué ocurre al utilizar enlaces externos.",
+      "label": "INFORMACIÓN LEGAL",
+      "sections": [
+        [
+          "Datos facilitados mediante la página",
+          "Esta versión del sitio no dispone de formulario de registro, pago ni envío de consultas. Para contactar se usa el teléfono publicado; esas comunicaciones se producen fuera de la página."
+        ],
+        [
+          "Alojamiento y datos técnicos",
+          "El servicio de alojamiento puede tratar solicitudes técnicas necesarias para servir las páginas y proteger la infraestructura, conforme a sus propias condiciones. El código del sitio no integra analítica publicitaria ni píxeles de seguimiento."
+        ],
+        [
+          "Preferencia visual",
+          "Si utilizas el selector de tema claro u oscuro, se guarda tu preferencia localmente en el navegador para mostrar la misma apariencia en visitas posteriores. Ese dato no es enviado por el script a un servidor."
+        ],
+        [
+          "Servicios externos",
+          "El enlace a Google Maps abre un servicio ajeno con sus propias políticas. Las llamadas pueden estar sujetas a las condiciones del operador. Si en el futuro se añaden formularios, reservas o analítica, deberá revisarse esta política antes de ponerlos en marcha."
+        ],
+        [
+          "Contacto",
+          "Para consultas relacionadas con el establecimiento o comunicaciones efectuadas directamente con el negocio, puedes llamar al número facilitado en la página de contacto."
+        ]
+      ]
+    },
+    {
+      "url": "/terminos-y-condiciones/",
+      "type": "story",
+      "title": "Términos y condiciones | Nguyễn Tú Hanói",
+      "desc": "Condiciones de uso informativo del sitio, precios orientativos, depósitos, contratos y responsabilidades de conducción.",
+      "h1": "Acuerdos claros desde el principio.",
+      "intro": "Estas condiciones explican la función informativa del sitio y qué puntos se pactan antes de alquilar.",
+      "label": "INFORMACIÓN LEGAL",
+      "sections": [
+        [
+          "Carácter de la información",
+          "La información de la web es orientativa y no constituye una reserva confirmada ni una oferta contractual irrevocable. La disponibilidad, la tarifa final y las condiciones particulares deben acordarse directamente con el establecimiento."
+        ],
+        [
+          "Precios y pagos",
+          "Los importes publicados son precios de referencia. El acuerdo deberá especificar modelo, periodo, precio, depósito, estado de la moto y posibles costes de entrega o recogida antes de firmarse."
+        ],
+        [
+          "Depósito y devolución",
+          "El depósito depende de la moto y de las condiciones acordadas. Su devolución se realiza de acuerdo con el contrato tras entregar el vehículo y cumplir las obligaciones correspondientes."
+        ],
+        [
+          "Conducción y seguridad",
+          "La persona que conduce es responsable de verificar que dispone de los permisos legales y cumple la normativa aplicable, además de revisar las condiciones de seguridad del vehículo. La información del sitio no sustituye las fuentes oficiales ni el contrato individual."
+        ],
+        [
+          "Cambios y contacto",
+          "El contenido informativo puede actualizarse cuando cambien las condiciones anunciadas. Para consultas sobre un alquiler concreto, utiliza el contacto publicado."
+        ]
+      ]
+    }
+  ]
+}
