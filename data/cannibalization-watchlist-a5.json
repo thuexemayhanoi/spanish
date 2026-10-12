@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "repository": "thuexemayhanoi/spanish",
+  "source_commit": "33e7ce7b",
+  "scope": "A5 published content duplicate intent/cannibalization review",
+  "property": "https://es.rentbikehanoi.com/",
+  "gsc_connected": false,
+  "actual_cannibalization_confirmed": false,
+  "baseline": {
+    "published_urls": 17,
+    "published_articles": 5,
+    "reviewed_articles": 5,
+    "merge": 0,
+    "rewrite": 0,
+    "redirect": 0
+  },
+  "watchlist": [
+    {
+      "primary": "/guia-de-alquiler/",
+      "support": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "query": "cómo alquilar una moto en Hanói",
+      "risk": "MEDIUM_HYPOTHESIS",
+      "reason": "Hub title contiene Guía y Paso a paso; ES-0001 desarrolla procedimiento paso a paso",
+      "primary_intent": "Navegación por el cluster de guías",
+      "support_intent": "Secuencia práctica para alquilar",
+      "action": "KEEP_BOTH_AND_MONITOR_GSC"
+    },
+    {
+      "primary": "/precios/",
+      "support": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "query": "precio alquiler moto Hanói",
+      "risk": "LOW_HYPOTHESIS",
+      "reason": "ES-0001 comenta precios como paso, /precios/ posee tabla comercial",
+      "primary_intent": "Tarifas por vehículo y duración",
+      "support_intent": "Cómo alquilar, incluyendo costes",
+      "action": "KEEP"
+    },
+    {
+      "primary": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+      "support": "/guia-de-alquiler/errores-al-alquilar-moto/",
+      "query": "revisar una moto de alquiler",
+      "risk": "LOW_HYPOTHESIS",
+      "reason": "Artículo de errores menciona inspección, pero guía ES-0003 trata checklist",
+      "primary_intent": "Checklist inspección específica",
+      "support_intent": "Errores generales",
+      "action": "KEEP"
+    },
+    {
+      "primary": "/guia-de-alquiler/contrato-de-alquiler/",
+      "support": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "query": "contrato de alquiler de moto",
+      "risk": "LOW_HYPOTHESIS",
+      "reason": "Guía general hace referencia al contrato, ES-0005 analiza cláusulas",
+      "primary_intent": "Condiciones del contrato",
+      "support_intent": "Guía end-to-end",
+      "action": "KEEP"
+    },
+    {
+      "primary": "/guia-de-alquiler/entrega-y-recogida/",
+      "support": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "query": "entrega y recogida moto Hanói",
+      "risk": "LOW_HYPOTHESIS",
+      "reason": "La entrega es una sección de ES-0001; ES-0004 responde logística de entrega",
+      "primary_intent": "Recogida, horarios y entrega",
+      "support_intent": "Cómo alquilar",
+      "action": "KEEP"
+    }
+  ],
+  "article_actions": [
+    {
+      "id": "ES-0001",
+      "url": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+      "distinct_intent": "Procedimiento completo para alquilar",
+      "action": "KEEP",
+      "merge": false,
+      "redirect": false,
+      "rewrite": false
+    },
+    {
+      "id": "ES-0002",
+      "url": "/guia-de-alquiler/errores-al-alquilar-moto/",
+      "distinct_intent": "Siete errores y cómo evitarlos",
+      "action": "KEEP",
+      "merge": false,
+      "redirect": false,
+      "rewrite": false
+    },
+    {
+      "id": "ES-0003",
+      "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+      "distinct_intent": "Inspección del vehículo antes de circular",
+      "action": "KEEP",
+      "merge": false,
+      "redirect": false,
+      "rewrite": false
+    },
+    {
+      "id": "ES-0004",
+      "url": "/guia-de-alquiler/entrega-y-recogida/",
+      "distinct_intent": "Logística de entrega y recogida",
+      "action": "KEEP",
+      "merge": false,
+      "redirect": false,
+      "rewrite": false
+    },
+    {
+      "id": "ES-0005",
+      "url": "/guia-de-alquiler/contrato-de-alquiler/",
+      "distinct_intent": "Lectura del contrato",
+      "action": "KEEP",
+      "merge": false,
+      "redirect": false,
+      "rewrite": false
+    }
+  ],
+  "checks_required_before_any_future_merge": [
+    "GSC per-query URLs impressions over meaningful time window",
+    "Google SERP intent/primary source by region",
+    "User-conversion path and target URL ownership",
+    "Manual editorial comparison of full text"
+  ],
+  "decision": "No edit authorized or justified; ES-0001 and hub have overlapping wording but distinct potential navigation vs procedural intents.",
+  "status": "RESEARCH_DONE_NO_CONTENT_CHANGES"
+}
