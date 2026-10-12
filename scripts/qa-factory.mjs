@@ -1,9 +1,19 @@
 import fs from 'node:fs';import path from 'node:path';import {fileURLToPath} from 'node:url';
+import {validateTaxonomy,decorateTaxonomy} from './taxonomy.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=file=>fs.readFileSync(path.join(root,file),'utf8');
 const json=file=>JSON.parse(read(file));
 const cfg=json('data/factory-config.json'),plan=json('data/editorial-plan.json').articles,state=json('data/factory-state.json'),site=json('site/data.json');
-const pages=[...site.pages,...state.published_ids.map(id=>{const row=plan.find(r=>r.id===id);if(!row)throw Error('Published ID unknown: '+id);return row})];
+const taxonomy=json('site/taxonomy.json');
+validateTaxonomy(taxonomy,plan,state.published_ids,site.pages);
+const accepted=state.published_ids.map(id=>{
+ const row=plan.find(r=>r.id===id);if(!row)throw Error('Published ID unknown: '+id);
+ const article=json('content/articles/'+id+'.json');
+ return {...row,title:article.title,intro:article.intro};
+});
+const pages=site.pages.map(p=>({...p}));
+decorateTaxonomy(taxonomy,pages,accepted);
+pages.push(...accepted);
 const urls=new Set(pages.map(p=>p.url)),titles=new Set(),issues=[],sitemap=read('sitemap.xml');
 if(urls.size!==pages.length)issues.push('duplicate URLs');
 for(const page of pages){

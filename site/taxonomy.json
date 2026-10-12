@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "locale": "es",
+  "separate_archive_min_articles": 5,
+  "parents": [
+    {
+      "id": "tipos-de-motos",
+      "label": "Tipos de motos",
+      "nav_label": "Motos",
+      "url": "/tipos-de-motos/",
+      "planned_capacity": 65,
+      "description": "Información sobre categorías de motos y criterios de elección para desplazarse por Hanói.",
+      "children": [
+        {
+          "id": "scooters-automaticos",
+          "label": "Scooters automáticos",
+          "planned_capacity": 25,
+          "description": "Modelos de scooters, ergonomía y conducción automática."
+        },
+        {
+          "id": "motos-semiautomaticas",
+          "label": "Motos semiautomáticas",
+          "planned_capacity": 15,
+          "description": "Modelos con transmisión semiautomática y criterios de elección."
+        },
+        {
+          "id": "motos-50cc",
+          "label": "Motos de 50 cc",
+          "planned_capacity": 15,
+          "description": "Categoría de 50 cc: modelos, condiciones y requisitos que deben verificarse."
+        },
+        {
+          "id": "motos-electricas",
+          "label": "Motos eléctricas",
+          "planned_capacity": 10,
+          "description": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar."
+        }
+      ]
+    },
+    {
+      "id": "precios",
+      "label": "Precios y condiciones",
+      "nav_label": "Precios",
+      "url": "/precios/",
+      "planned_capacity": 60,
+      "description": "Tarifas de referencia, depósitos y condiciones de alquiler en Hanói.",
+      "children": [
+        {
+          "id": "alquiler-por-duracion",
+          "label": "Alquiler por duración",
+          "planned_capacity": 20,
+          "description": "Alquiler por día, semana o mes y condiciones de cada periodo."
+        },
+        {
+          "id": "depositos-y-pagos",
+          "label": "Depósitos y pagos",
+          "planned_capacity": 15,
+          "description": "Depósitos, presupuestos, pagos y devolución de garantías."
+        },
+        {
+          "id": "entrega-y-costes",
+          "label": "Entrega y costes adicionales",
+          "planned_capacity": 15,
+          "description": "Cotización de recogida, entrega y posibles cargos."
+        },
+        {
+          "id": "comparativas-de-precios",
+          "label": "Comparativas de precios",
+          "planned_capacity": 10,
+          "description": "Comparaciones de precios con referencias verificadas por modelo."
+        }
+      ]
+    },
+    {
+      "id": "guia-de-alquiler",
+      "label": "Guía de alquiler",
+      "nav_label": "Guías",
+      "url": "/guia-de-alquiler/",
+      "planned_capacity": 90,
+      "description": "Guías prácticas sobre preparación, documentación, seguridad y devolución.",
+      "children": [
+        {
+          "id": "proceso-y-tramites",
+          "label": "Proceso y trámites",
+          "planned_capacity": 25,
+          "description": "Pasos de alquiler, documentación, contratos y decisiones previas."
+        },
+        {
+          "id": "revision-y-seguridad",
+          "label": "Revisión y seguridad",
+          "planned_capacity": 25,
+          "description": "Inspección de la moto, equipamiento y prevención de riesgos."
+        },
+        {
+          "id": "conduccion-y-uso-diario",
+          "label": "Conducción y uso diario",
+          "planned_capacity": 20,
+          "description": "Movilidad cotidiana, circulación y uso responsable."
+        },
+        {
+          "id": "entrega-devolucion-incidencias",
+          "label": "Entrega, devolución e incidencias",
+          "planned_capacity": 20,
+          "description": "Logística, devolución, averías y comunicación de incidencias."
+        }
+      ]
+    },
+    {
+      "id": "zonas-de-hanoi",
+      "label": "Zonas de Hanói",
+      "nav_label": "Zonas",
+      "url": "/zonas-de-hanoi/",
+      "planned_capacity": 45,
+      "description": "Orientación útil por barrios y áreas de Hanói; sin prometer entregas ni sedes inexistentes.",
+      "children": [
+        {
+          "id": "casco-antiguo-hoan-kiem",
+          "label": "Casco Antiguo y Hoàn Kiếm",
+          "planned_capacity": 15,
+          "description": "Visitar la zona central y planificar desplazamientos con seguridad."
+        },
+        {
+          "id": "long-bien-gia-lam",
+          "label": "Long Biên y Gia Lâm",
+          "planned_capacity": 12,
+          "description": "Orientación local y rutas de referencia al este de Hanói."
+        },
+        {
+          "id": "tay-ho-ba-dinh",
+          "label": "Tây Hồ y Ba Đình",
+          "planned_capacity": 10,
+          "description": "Planificación de movilidad por áreas urbanas."
+        },
+        {
+          "id": "estaciones-y-puntos-de-interes",
+          "label": "Estaciones y puntos de interés",
+          "planned_capacity": 8,
+          "description": "Orientación sobre estaciones y puntos de llegada."
+        }
+      ]
+    },
+    {
+      "id": "rutas-y-movilidad",
+      "label": "Rutas y movilidad",
+      "nav_label": "Rutas",
+      "url": "/rutas-y-movilidad/",
+      "planned_capacity": 40,
+      "description": "Rutas, condiciones de circulación y alternativas de transporte para visitantes.",
+      "children": [
+        {
+          "id": "itinerarios-urbanos",
+          "label": "Itinerarios urbanos",
+          "planned_capacity": 15,
+          "description": "Ideas de recorridos urbanos sin inventar distancias ni horarios."
+        },
+        {
+          "id": "clima-y-temporadas",
+          "label": "Clima y temporadas",
+          "planned_capacity": 10,
+          "description": "Preparación del viaje según condiciones estacionales."
+        },
+        {
+          "id": "alternativas-de-transporte",
+          "label": "Alternativas de transporte",
+          "planned_capacity": 10,
+          "description": "Cuándo conviene utilizar otros medios de transporte."
+        },
+        {
+          "id": "viajes-fuera-hanoi",
+          "label": "Viajes fuera de Hanói",
+          "planned_capacity": 5,
+          "description": "Preparación de viajes de mayor alcance, requisitos y precauciones."
+        }
+      ]
+    }
+  ]
+}

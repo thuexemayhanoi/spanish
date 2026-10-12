@@ -8,6 +8,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {validateTaxonomy,decorateTaxonomy} from './taxonomy.mjs';
 
 const ROOT=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const read=file=>fs.readFileSync(path.join(ROOT,file),'utf8');
@@ -38,6 +39,8 @@ const pathFile=u=>u==='/'?'index.html':u.replace(/^\//,'')+'index.html';
 const localExists=f=>fs.existsSync(path.join(ROOT,f));
 const base=cfg.domain;
 const publishedIds=state.published_ids||[];
+const taxonomy=json('site/taxonomy.json');
+validateTaxonomy(taxonomy,plan.articles,publishedIds,site.pages);
 const catalog=site.pages.map(p=>({...p,role:'base'}));
 for(const id of publishedIds){
   const row=plan.articles.find(p=>p.id===id);
@@ -45,8 +48,9 @@ for(const id of publishedIds){
   const file='content/articles/'+id+'.json';
   if(!localExists(file)){record('Content SEO',id,'FAIL','Accepted article JSON missing',file);continue}
   const article=json(file);
-  catalog.push({url:row.url,title:article.title,role:'article',id,hub:row.hub});
+  catalog.push({url:row.url,title:article.title,intro:article.intro,role:'article',id,hub:row.hub,parent_id:row.parent_id,category_id:row.category_id});
 }
+decorateTaxonomy(taxonomy,catalog,catalog.filter(p=>p.role==='article'));
 record('Technical SEO','factory-isolation',state.enabled?'INFO':'PASS',
   state.enabled?'Content Factory enabled; SEO audit remains read-only':'Content Factory paused; audit will not alter writer state');
 record('Technical SEO','published-count','INFO',
