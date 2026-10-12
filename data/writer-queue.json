@@ -1,10 +1,47 @@
 {
   "schema_version": 1,
-  "status": "PAUSED",
+  "status": "READY",
   "target": 300,
-  "published": 0,
-  "remaining": 300,
+  "published": 3,
+  "remaining": 297,
   "planned": 30,
   "unplanned": 270,
-  "queue": []
+  "queue": [
+    {
+      "id": "ES-0004",
+      "hub": "/guia-de-alquiler/",
+      "slug": "entrega-y-recogida",
+      "url": "/guia-de-alquiler/entrega-y-recogida/",
+      "working_title": "Entrega y recogida de motos en Hanói: preguntas útiles",
+      "primary_keyword": "entrega y recogida de motos en hanói: preguntas útiles",
+      "intent": "Informacional",
+      "brief": "Confirmación del punto, horario y costes sin asumir entrega gratuita.",
+      "status": "PLANNED",
+      "draft_file": "_factory/inbox/ES-0004.json"
+    },
+    {
+      "id": "ES-0005",
+      "hub": "/guia-de-alquiler/",
+      "slug": "contrato-de-alquiler",
+      "url": "/guia-de-alquiler/contrato-de-alquiler/",
+      "working_title": "Qué revisar en el contrato de alquiler de una moto",
+      "primary_keyword": "qué revisar en el contrato de alquiler de una moto",
+      "intent": "Informacional",
+      "brief": "Cláusulas, importes, duración y devolución sin suponer políticas.",
+      "status": "PLANNED",
+      "draft_file": "_factory/inbox/ES-0005.json"
+    },
+    {
+      "id": "ES-0006",
+      "hub": "/guia-de-alquiler/",
+      "slug": "devolucion-del-deposito",
+      "url": "/guia-de-alquiler/devolucion-del-deposito/",
+      "working_title": "Devolución del depósito al alquilar una moto en Hanói",
+      "primary_keyword": "devolución del depósito al alquilar una moto en hanói",
+      "intent": "Informacional",
+      "brief": "Depósito según contrato, obligaciones y documentación.",
+      "status": "PLANNED",
+      "draft_file": "_factory/inbox/ES-0006.json"
+    }
+  ]
 }

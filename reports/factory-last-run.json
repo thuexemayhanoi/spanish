@@ -1,5 +1,10 @@
 {
-  "status": "NOT_STARTED",
-  "published": [],
-  "count": 0
+  "status": "READY",
+  "at": "2026-10-12T17:14:11.702Z",
+  "published": [
+    "ES-0001",
+    "ES-0002",
+    "ES-0003"
+  ],
+  "remaining": 297
 }
