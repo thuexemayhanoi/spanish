@@ -32,4 +32,6 @@ jobs:
           node --check scripts/qa-growth-a4-a6.mjs
           node scripts/qa-growth-a4-a6.mjs
           node scripts/qa-approved-links-a4.mjs
+          node --check scripts/qa-candidate-review-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
           node scripts/smoke-factory.mjs
