@@ -1,0 +1,72 @@
+name: Spanish Article Factory 300
+on:
+  push:
+    branches: [main]
+    paths:
+      - '_factory/inbox/**'
+      - 'data/editorial-plan.json'
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'Factory control; no paid AI API calls'
+        type: choice
+        required: true
+        default: status
+        options: [status, refresh-queue, process, pause, resume]
+permissions:
+  contents: write
+concurrency:
+  group: spanish-article-factory
+  cancel-in-progress: false
+jobs:
+  factory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Choose action
+        id: choose
+        env:
+          MODE: ${{ inputs.action }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then value="$MODE"; else value="process"; fi
+          echo "mode=$value" >> "$GITHUB_OUTPUT"
+      - name: Check source and generated pages
+        run: |
+          node --check scripts/build.mjs
+          node --check scripts/factory.mjs
+          node --check scripts/qa-factory.mjs
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+      - name: Run factory controller
+        env:
+          MODE: ${{ steps.choose.outputs.mode }}
+        run: |
+          if [ "$MODE" = "status" ]; then
+            node scripts/factory.mjs status
+          else
+            node scripts/factory.mjs "$MODE"
+            node scripts/build.mjs
+            node scripts/qa-factory.mjs
+            node scripts/build.mjs --check
+          fi
+      - name: Commit safely to main
+        if: steps.choose.outputs.mode != 'status'
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-factory-bot"
+          git config user.email "spanish-factory-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "factory(spanish): ${{ steps.choose.outputs.mode }} batch"
+          git fetch origin main
+          if [ "$(git rev-parse origin/main)" != "$(git rev-parse HEAD^)" ]; then echo "SAFE_STOP main advanced" >&2; exit 1; fi
+          git push origin HEAD:main
