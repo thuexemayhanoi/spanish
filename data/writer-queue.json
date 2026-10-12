@@ -2,35 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 3,
-  "remaining": 297,
+  "published": 5,
+  "remaining": 295,
   "planned": 30,
   "unplanned": 270,
   "queue": [
-    {
-      "id": "ES-0004",
-      "hub": "/guia-de-alquiler/",
-      "slug": "entrega-y-recogida",
-      "url": "/guia-de-alquiler/entrega-y-recogida/",
-      "working_title": "Entrega y recogida de motos en Hanói: preguntas útiles",
-      "primary_keyword": "entrega y recogida de motos en hanói: preguntas útiles",
-      "intent": "Informacional",
-      "brief": "Confirmación del punto, horario y costes sin asumir entrega gratuita.",
-      "status": "PLANNED",
-      "draft_file": "_factory/inbox/ES-0004.json"
-    },
-    {
-      "id": "ES-0005",
-      "hub": "/guia-de-alquiler/",
-      "slug": "contrato-de-alquiler",
-      "url": "/guia-de-alquiler/contrato-de-alquiler/",
-      "working_title": "Qué revisar en el contrato de alquiler de una moto",
-      "primary_keyword": "qué revisar en el contrato de alquiler de una moto",
-      "intent": "Informacional",
-      "brief": "Cláusulas, importes, duración y devolución sin suponer políticas.",
-      "status": "PLANNED",
-      "draft_file": "_factory/inbox/ES-0005.json"
-    },
     {
       "id": "ES-0006",
       "hub": "/guia-de-alquiler/",
@@ -42,6 +18,30 @@
       "brief": "Depósito según contrato, obligaciones y documentación.",
       "status": "PLANNED",
       "draft_file": "_factory/inbox/ES-0006.json"
+    },
+    {
+      "id": "ES-0007",
+      "hub": "/guia-de-alquiler/",
+      "slug": "documentacion-de-alquiler",
+      "url": "/guia-de-alquiler/documentacion-de-alquiler/",
+      "working_title": "Documentos para alquilar una moto en Vietnam",
+      "primary_keyword": "documentos para alquilar una moto en vietnam",
+      "intent": "Informacional",
+      "brief": "Qué documentos y garantías confirmar individualmente.",
+      "status": "PLANNED",
+      "draft_file": "_factory/inbox/ES-0007.json"
+    },
+    {
+      "id": "ES-0008",
+      "hub": "/guia-de-alquiler/",
+      "slug": "licencia-de-conducir-vietnam",
+      "url": "/guia-de-alquiler/licencia-de-conducir-vietnam/",
+      "working_title": "Licencia de conducir motos en Vietnam: qué comprobar",
+      "primary_keyword": "licencia de conducir motos en vietnam: qué comprobar",
+      "intent": "Informacional",
+      "brief": "Fuentes oficiales vigentes y requisitos que dependen del vehículo.",
+      "status": "PLANNED",
+      "draft_file": "_factory/inbox/ES-0008.json"
     }
   ]
 }
