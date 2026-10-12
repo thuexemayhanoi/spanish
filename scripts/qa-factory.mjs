@@ -13,6 +13,26 @@ for(const page of pages){
  if(!html.includes('lang="es"'))issues.push('wrong language '+filename);
  if((html.match(/<h1\b/g)||[]).length!==1)issues.push('H1 count '+filename);
  if(!html.includes('application/ld+json'))issues.push('missing schema '+filename);
+
+ if(!html.includes('<meta name="robots" content="index,follow">'))issues.push('indexability '+filename);
+ const jsonld=html.match(/<script type="application\/ld\+json">([^<]+)<\/script>/);
+ if(!jsonld)issues.push('missing JSON-LD '+filename);
+ else try{
+  const graph=JSON.parse(jsonld[1])['@graph']||[];
+  const business=graph.find(x=>x['@type']==='LocalBusiness');
+  if(!business||business.telephone!==site.business.tel||business.hasMap!==site.business.maps||
+    business.address?.streetAddress!=='112 Nguyễn Văn Cừ')issues.push('LocalBusiness/NAP '+filename);
+  const hours=site.business.hours.split('–');
+  const opening=business?.openingHoursSpecification?.[0];
+  if(opening?.opens!==hours[0]||opening?.closes!==hours[1]||
+    opening?.dayOfWeek?.length!==7)issues.push('LocalBusiness hours '+filename);
+  if(page.url!=='/'&&!graph.some(x=>x['@type']==='BreadcrumbList'))issues.push('breadcrumb schema '+filename);
+  if(page.url==='/faq/'){
+   const faq=graph.find(x=>x['@type']==='FAQPage');
+   if(faq?.mainEntity?.length!==site.faqs.length)issues.push('FAQ schema '+filename);
+  }
+ }catch(error){issues.push('JSON-LD invalid '+filename+': '+error.message)}
+
  if(!sitemap.includes('<loc>'+canonical+'</loc>'))issues.push('sitemap '+filename);
  const title=(html.match(/<title>([^<]+)<\/title>/)||[])[1]||'';
  if(titles.has(title.toLowerCase()))issues.push('duplicate title '+filename);titles.add(title.toLowerCase());
