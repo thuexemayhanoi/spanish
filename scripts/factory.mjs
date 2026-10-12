@@ -64,6 +64,7 @@ if(command==='refresh-queue'){console.log(JSON.stringify(queue(),null,2));proces
 if(command==='process'){
  if(!state.enabled||state.blocked){console.log('SAFE_STOP '+(!state.enabled?'PAUSED':'BLOCKED'));process.exit(0);}
  const selected=rows.filter(r=>!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).slice(0,cfg.batch_size);
+ if(!selected.length){console.log('NO_DRAFTS: no state changes or empty hourly commit');process.exit(0);}
  const checked=selected.map(r=>{const draft=get('_factory/inbox/'+r.id+'.json');const result=draftQA(r,draft);if(result.problems.length)throw Error(r.id+': '+result.problems.join('; '));return {r,draft,words:result.words};});
  for(const entry of checked){
   put('content/articles/'+entry.r.id+'.json',{...entry.draft,published_at:new Date().toISOString().slice(0,10),word_count:entry.words});
