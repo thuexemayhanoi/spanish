@@ -1,0 +1,71 @@
+name: Spanish SEO Audit & Monitoring
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'scripts/seo-audit.mjs'
+      - 'data/seo-monitor-config.json'
+      - 'site/**'
+      - 'data/editorial-plan.json'
+      - 'data/factory-state.json'
+      - 'content/articles/**'
+      - '**/index.html'
+      - 'sitemap.xml'
+      - 'robots.txt'
+      - '.github/workflows/seo-audit-monitor.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/seo-audit.mjs'
+      - 'data/seo-monitor-config.json'
+      - 'site/**'
+      - 'content/articles/**'
+      - 'sitemap.xml'
+      - 'robots.txt'
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Offline repository audit or full audit including live HTTP monitoring'
+        type: choice
+        required: true
+        default: full
+        options:
+          - offline
+          - full
+
+permissions:
+  contents: read
+
+concurrency:
+  group: spanish-seo-monitor-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  audit:
+    name: Independent SEO Audit
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate audit implementation
+        run: node --check scripts/seo-audit.mjs
+      - name: Run independent offline audit
+        run: node scripts/seo-audit.mjs --mode=offline --report=seo-offline-report.json
+      - name: Run live production monitoring
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.mode == 'full')
+        run: node scripts/seo-audit.mjs --mode=full --report=seo-live-report.json
+      - name: Upload persistent audit reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: spanish-seo-audit-${{ github.run_id }}
+          path: |
+            seo-offline-report.json
+            seo-live-report.json
+          if-no-files-found: warn
+          retention-days: 30
