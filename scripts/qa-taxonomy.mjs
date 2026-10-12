@@ -35,6 +35,25 @@ for(const parent of taxonomy.parents)for(const category of parent.children){
   if(!html.includes('id="categoria-'+category.id+'"'))errors.push('Missing parent category section '+category.id);
  }
 }
+// Regression simulation: an unpublished child must not generate an archive;
+// five accepted articles must generate one, without requiring an intermediate /categorias/ URL.
+const guide=taxonomy.parents.find(p=>p.id==='guia-de-alquiler');
+const category=guide.children.find(x=>x.id==='proceso-y-tramites');
+const virtual=Array.from({length:5},(_,i)=>({
+ url:'/guia-de-alquiler/simulacion-'+i+'/',title:'Artículo de prueba '+i,
+ intro:'Contenido de prueba para verificar el generador de categorías.',
+ parent_id:guide.id,category_id:category.id
+}));
+const simulatedPages=site.pages.map(p=>({...p}));
+decorateTaxonomy(taxonomy,simulatedPages,virtual);
+if(!simulatedPages.some(p=>p.url===archiveUrl(guide,category)))errors.push('Five-article archive threshold not reached in simulation');
+if(simulatedPages.some(p=>p.url==='/categorias/'||p.url==='/categorias/'+guide.id+'/'))errors.push('Intermediate archive routes must never be published');
+const zones=taxonomy.parents.find(p=>p.id==='zonas-de-hanoi');
+const zoneChild=zones.children[0];
+const futurePages=site.pages.map(p=>({...p}));
+decorateTaxonomy(taxonomy,futurePages,[{url:'/guia-de-alquiler/simulacion-zona/',title:'Contenido de prueba',
+ intro:'Tema local',parent_id:zones.id,category_id:zoneChild.id}]);
+if(!futurePages.some(p=>p.url===zones.url))errors.push('Future parent hub not generated after relevant content');
 if(state.published_ids.length===5){
  const established=['/','/sobre-nosotros/','/tipos-de-motos/','/tipos-de-motos/scooters/','/tipos-de-motos/motos-50cc/','/precios/','/guia-de-alquiler/','/guia-de-alquiler/documentacion-y-deposito/','/faq/','/contacto/','/politica-de-privacidad/','/terminos-y-condiciones/'];
  if(urls.size!==17||established.some(p=>!urls.has(p)))errors.push('17 existing URLs changed during taxonomy introduction');
