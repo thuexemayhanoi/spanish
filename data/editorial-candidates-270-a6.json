@@ -2014,7 +2014,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": true,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2024,7 +2024,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0090",
@@ -2046,7 +2047,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "MEDIUM_PRICE_VERIFICATION",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": true,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2056,7 +2057,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0091",
@@ -2078,7 +2080,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2088,7 +2090,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0092",
@@ -2110,7 +2113,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Relevant verifiable independent first-hand or authoritative supporting information"
@@ -2120,7 +2123,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0093",
@@ -2142,7 +2146,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "MEDIUM_PRICE_VERIFICATION",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": true,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2152,7 +2156,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0094",
@@ -2206,7 +2211,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2216,7 +2221,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0096",
@@ -2238,7 +2244,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2248,7 +2254,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0097",
@@ -2270,7 +2277,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2280,7 +2287,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0098",
@@ -2334,7 +2342,7 @@
       "internal_links_out_proposed": [
         "/precios/"
       ],
-      "cannibalization_risk": "REVIEW_SERP_INTENT",
+      "cannibalization_risk": "HIGH_OVERLAP_WITH_DURATION_PILLAR",
       "real_business_fact_required": false,
       "sources_required": [
         "Verified business offer/terms where pricing, delivery or models are discussed"
@@ -2344,7 +2352,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "HOLD_FOR_INTENT_REVIEW",
+      "validation_notes": "Date-only variations may share intent; prefer one comprehensive duration guide instead of thin near-duplicate pages."
     },
     {
       "id": "ES-0100",
@@ -6088,7 +6097,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0217",
@@ -6120,7 +6130,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0218",
@@ -6152,7 +6163,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0219",
@@ -6184,7 +6196,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0220",
@@ -6216,7 +6229,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0221",
@@ -6248,7 +6262,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0222",
@@ -6280,7 +6295,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0223",
@@ -6312,7 +6328,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0224",
@@ -6344,7 +6361,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0225",
@@ -6376,7 +6394,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0226",
@@ -6408,7 +6427,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0227",
@@ -6440,7 +6460,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0228",
@@ -6472,7 +6493,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0229",
@@ -6504,7 +6526,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0230",
@@ -6536,7 +6559,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0231",
@@ -6568,7 +6592,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0232",
@@ -6600,7 +6625,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0233",
@@ -6632,7 +6658,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0234",
@@ -6664,7 +6691,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0235",
@@ -6696,7 +6724,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0236",
@@ -6728,7 +6757,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0237",
@@ -6760,7 +6790,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0238",
@@ -6792,7 +6823,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0239",
@@ -6824,7 +6856,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0240",
@@ -6856,7 +6889,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0241",
@@ -6888,7 +6922,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0242",
@@ -6920,7 +6955,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0243",
@@ -6952,7 +6988,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0244",
@@ -6984,7 +7021,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0245",
@@ -7016,7 +7054,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0246",
@@ -7048,7 +7087,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0247",
@@ -7080,7 +7120,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0248",
@@ -7112,7 +7153,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0249",
@@ -7144,7 +7186,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0250",
@@ -7176,7 +7219,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0251",
@@ -7208,7 +7252,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0252",
@@ -7240,7 +7285,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0253",
@@ -7272,7 +7318,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0254",
@@ -7304,7 +7351,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0255",
@@ -7336,7 +7384,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0256",
@@ -7368,7 +7417,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0257",
@@ -7400,7 +7450,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0258",
@@ -7432,7 +7483,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0259",
@@ -7464,7 +7516,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0260",
@@ -7496,7 +7549,8 @@
       "gsc_impressions": null,
       "serp_validation": "PENDING",
       "evidence_level": "EDITORIAL_HYPOTHESIS",
-      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
+      "status": "CANDIDATE_ONLY_NOT_IN_FACTORY",
+      "validation_notes": "Verify unique geographic evidence and visitor value; never create doorway pages or pretend there is an office/service in the named area."
     },
     {
       "id": "ES-0261",
@@ -8778,5 +8832,18 @@
       "evidence_level": "EDITORIAL_HYPOTHESIS",
       "status": "CANDIDATE_ONLY_NOT_IN_FACTORY"
     }
-  ]
+  ],
+  "research_quality": {
+    "status": "TOPIC_IDEATION_ONLY",
+    "holds_for_potential_duplicate_intent": 9,
+    "volumes_verified": 0,
+    "serp_validated": 0,
+    "source_validations_completed": 0,
+    "approved_for_publication": 0,
+    "notes": [
+      "Ubersuggest free account reached its daily report limit; upgrading its plan would increase available daily reports, but no purchase requested.",
+      "Google Search Console property not connected for Spanish subdomain.",
+      "300 titles are a planning ceiling, not an obligation to publish overlapping low-value articles."
+    ]
+  }
 }
