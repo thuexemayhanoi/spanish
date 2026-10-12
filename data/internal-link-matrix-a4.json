@@ -4,7 +4,7 @@
   "source_commit": "33e7ce7b",
   "scope": "A4 full published-site internal-link matrix",
   "pages_crawled": 17,
-  "extraction": "Only links in <main id=content>, excludes sitewide header/footer",
+  "extraction": "Content links within <main id=content>; source graph refreshed with ten approved A4 links (existing header/footer excluded)",
   "graph": [
     {
       "url": "/",
@@ -440,6 +440,16 @@
         {
           "url": "/faq/",
           "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+          "anchor": "inspección de una moto antes de salir",
+          "action_id": "LK-01"
+        },
+        {
+          "url": "/guia-de-alquiler/contrato-de-alquiler/",
+          "anchor": "cláusulas esenciales del contrato",
+          "action_id": "LK-02"
         }
       ],
       "incoming": [
@@ -479,6 +489,16 @@
         {
           "url": "/faq/",
           "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+          "anchor": "lista para revisar una moto de alquiler",
+          "action_id": "LK-03"
+        },
+        {
+          "url": "/guia-de-alquiler/contrato-de-alquiler/",
+          "anchor": "cómo leer el contrato de alquiler",
+          "action_id": "LK-04"
         }
       ],
       "incoming": [
@@ -518,12 +538,26 @@
         {
           "url": "/contacto/",
           "anchor": "Contacto | Alquiler de motos Nguyễn Tú en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/entrega-y-recogida/",
+          "anchor": "condiciones de entrega de la moto",
+          "action_id": "LK-05"
+        },
+        {
+          "url": "/guia-de-alquiler/contrato-de-alquiler/",
+          "anchor": "revisión de daños y obligaciones contractuales",
+          "action_id": "LK-06"
         }
       ],
       "incoming": [
-        "/guia-de-alquiler/"
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/entrega-y-recogida/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
       ],
-      "content_in_degree": 1
+      "content_in_degree": 5
     },
     {
       "url": "/guia-de-alquiler/entrega-y-recogida/",
@@ -557,12 +591,24 @@
         {
           "url": "/faq/",
           "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+          "anchor": "verificaciones de neumáticos y frenos",
+          "action_id": "LK-07"
+        },
+        {
+          "url": "/guia-de-alquiler/contrato-de-alquiler/",
+          "anchor": "cláusulas de devolución y depósito",
+          "action_id": "LK-08"
         }
       ],
       "incoming": [
-        "/guia-de-alquiler/"
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/contrato-de-alquiler/"
       ],
-      "content_in_degree": 1
+      "content_in_degree": 3
     },
     {
       "url": "/guia-de-alquiler/contrato-de-alquiler/",
@@ -596,12 +642,26 @@
         {
           "url": "/faq/",
           "anchor": "FAQ | 20 preguntas sobre alquiler de motos en Hanói"
+        },
+        {
+          "url": "/guia-de-alquiler/revisar-una-moto-alquilada/",
+          "anchor": "inspección de la unidad alquilada",
+          "action_id": "LK-09"
+        },
+        {
+          "url": "/guia-de-alquiler/entrega-y-recogida/",
+          "anchor": "cómo coordinar la recogida y devolución",
+          "action_id": "LK-10"
         }
       ],
       "incoming": [
-        "/guia-de-alquiler/"
+        "/guia-de-alquiler/",
+        "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
+        "/guia-de-alquiler/errores-al-alquilar-moto/",
+        "/guia-de-alquiler/revisar-una-moto-alquilada/",
+        "/guia-de-alquiler/entrega-y-recogida/"
       ],
-      "content_in_degree": 1
+      "content_in_degree": 5
     }
   ],
   "recommendations": {
@@ -609,7 +669,7 @@
       {
         "id": "LK-01",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
         "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "section_h2": "Inspecciona la moto en el momento de recibirla",
@@ -621,7 +681,7 @@
       {
         "id": "LK-02",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/pasos-para-alquilar-una-moto/",
         "to": "/guia-de-alquiler/contrato-de-alquiler/",
         "section_h2": "Comprueba documentos y condiciones legales",
@@ -633,7 +693,7 @@
       {
         "id": "LK-03",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/errores-al-alquilar-moto/",
         "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "section_h2": "Error 4: ignorar la revisión física del vehículo",
@@ -645,7 +705,7 @@
       {
         "id": "LK-04",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/errores-al-alquilar-moto/",
         "to": "/guia-de-alquiler/contrato-de-alquiler/",
         "section_h2": "Error 3: aceptar condiciones sin comprenderlas",
@@ -657,7 +717,7 @@
       {
         "id": "LK-05",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "to": "/guia-de-alquiler/entrega-y-recogida/",
         "section_h2": "Prepara una inspección breve y repetible",
@@ -669,7 +729,7 @@
       {
         "id": "LK-06",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "to": "/guia-de-alquiler/contrato-de-alquiler/",
         "section_h2": "Revisa daños previos y accesorios incluidos",
@@ -681,7 +741,7 @@
       {
         "id": "LK-07",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/entrega-y-recogida/",
         "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "section_h2": "Qué revisar en la entrega presencial",
@@ -693,7 +753,7 @@
       {
         "id": "LK-08",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/entrega-y-recogida/",
         "to": "/guia-de-alquiler/contrato-de-alquiler/",
         "section_h2": "Organiza la devolución con la misma precisión",
@@ -705,7 +765,7 @@
       {
         "id": "LK-09",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/contrato-de-alquiler/",
         "to": "/guia-de-alquiler/revisar-una-moto-alquilada/",
         "section_h2": "Entiende las reglas sobre daños, mantenimiento e incidencias",
@@ -717,7 +777,7 @@
       {
         "id": "LK-10",
         "action": "ADD LINK",
-        "status": "PENDING_SEPARATE_APPROVAL",
+        "status": "IMPLEMENTED_VERIFIED",
         "from": "/guia-de-alquiler/contrato-de-alquiler/",
         "to": "/guia-de-alquiler/entrega-y-recogida/",
         "section_h2": "Confirma entrega, devolución e inspección final",
@@ -798,5 +858,26 @@
     "Header/footer links intentionally excluded from content graph",
     "Possible duplication from boilerplate CTA in <main> is not a claim of contextual topical relevance",
     "No GSC link performance data connected for Spanish property"
-  ]
+  ],
+  "implementation": {
+    "status": "TEN_LINKS_IMPLEMENTED",
+    "approved_ids": [
+      "LK-01",
+      "LK-02",
+      "LK-03",
+      "LK-04",
+      "LK-05",
+      "LK-06",
+      "LK-07",
+      "LK-08",
+      "LK-09",
+      "LK-10"
+    ],
+    "implementation_type": "shared_build_renderer",
+    "unchanged_actions": {
+      "change_anchor": 2,
+      "remove_link": 0
+    },
+    "published_articles": 5
+  }
 }

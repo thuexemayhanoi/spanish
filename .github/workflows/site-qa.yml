@@ -31,4 +31,5 @@ jobs:
           node scripts/qa-taxonomy.mjs
           node --check scripts/qa-growth-a4-a6.mjs
           node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-approved-links-a4.mjs
           node scripts/smoke-factory.mjs

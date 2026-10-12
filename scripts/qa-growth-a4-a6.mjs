@@ -60,7 +60,7 @@ for(const x of link.graph){
  assert(pages.has(x.url),'A4 graph includes unpublished URL '+x.url);
  for(const y of x.outgoing)if(y.url.startsWith('/'))assert(urlset.has(y.url),'A4 broken internal content URL '+y.url);
 }
-for(const x of link.recommendations.add_link)assert(urlset.has(x.from)&&urlset.has(x.to)&&x.status==='PENDING_SEPARATE_APPROVAL','A4 proposal target/action invalid '+x.id);
+for(const x of link.recommendations.add_link)assert(urlset.has(x.from)&&urlset.has(x.to)&&x.status==='IMPLEMENTED_VERIFIED','A4 proposal target/action invalid '+x.id);
 assert(cann.baseline.published_urls===17&&cann.baseline.published_articles===5,'A5 publication baseline mismatch');
 assert(cann.article_actions.length===5&&cann.article_actions.every(a=>a.action==='KEEP'&&!a.merge&&!a.redirect&&!a.rewrite),'A5 unexpectedly authorizes merge/edit');
 assert(cann.actual_cannibalization_confirmed===false,'A5 cannot assert confirmed cannibalization');
