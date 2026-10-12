@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "target_articles": 300,
+  "batch_size": 3,
+  "min_words": 1000,
+  "max_words": 5000,
+  "min_sections": 4,
+  "max_article_faq": 8,
+  "allowed_hubs": [
+    "/guia-de-alquiler/",
+    "/tipos-de-motos/scooters/",
+    "/tipos-de-motos/motos-50cc/",
+    "/precios/"
+  ],
+  "domain": "https://es.rentbikehanoi.com"
+}
