@@ -3,18 +3,18 @@
 **Repository:** `thuexemayhanoi/spanish`  
 **Website:** https://es.rentbikehanoi.com/  
 **Authorization:** A4 Internal Link Matrix, A5 Cannibalization Assessment, A6 Editorial Content Gap Candidate Research.  
-**Production safety:** All results are planning artifacts; existing URL, title, canonicals, 17-page sitemap, generator, 5 published posts, paused Content Factory, and existing 30-row Editorial Matrix remain unchanged.
+**Production safety:** A4 implemented ten approved contextual links in the shared generator and generated HTML; A5/A6 remain planning/review artifacts. Existing URL, title, canonicals, 17-page sitemap, five published posts, paused Content Factory, and existing 30-row Editorial Matrix remain unchanged.
 
 ## A4 — Content-level internal link graph
 
 - Inventory: **17 actual published HTML pages** (12 site foundation pages + five long-form posts).
 - Each of the five published articles receives **one distinct inbound link in page body**, from the guide hub; header/footer links deliberately excluded from that figure.
 - **5 KEEP LINK** — preserve hub → ES-0001..0005.
-- **10 ADD LINK** — two context-specific opportunities per published article; suggested source H2 and anchor supplied.
-- **2 CHANGE ANCHOR** — generic homepage model-card anchors may be refined if separately approved.
+- **10 ADD LINK IMPLEMENTED** — two contextual links added per published article, exact H2, approved anchor and URL; PR #8 / commit 021ab9e7, QA PASS, production HTTP 200.
+- **2 CHANGE ANCHOR NOT EXECUTED** — homepage model-card anchor changes remain unapproved and untouched.
 - **0 REMOVE LINK** — no clearly irrelevant or broken relationship established.
 - Full graph and action details: `data/internal-link-matrix-a4.json`.
-- **Approval gate:** A4 authorizes the **Matrix**, not HTML/link edits. These 12 proposed actions remain `PENDING_SEPARATE_APPROVAL`.
+- **Approval gate:** Owner approved and A4 completed exactly 10 contextual links. Only the two homepage anchor changes remain pending separate approval.
 
 ## A5 — Full published cannibalization review
 
@@ -29,10 +29,10 @@
 
 - Added **270 individual Spanish-language editorial candidates**, IDs ES-0031 through ES-0300, distributed across the existing 20 child-category capacities. Original 30 topic assignments are preserved.
 - Source of new proposals: editorial gap analysis of the business services, 30-brief plan, taxonomy, and existing five articles. This is *ideation*, **not independently verified search volume or SERP demand**.
-- **9 topics flagged `HOLD_FOR_INTENT_REVIEW`**: near-duplicate duration variants that might be better answered within an existing guide, rather than thin pages.
+- **12 topics flagged `HOLD_FOR_INTENT_REVIEW`**: original nine duration variants plus ES-0098 (monthly contract), ES-0234 (Nguyễn Văn Cừ pickup) and ES-0254 (Gia Lâm station); preliminary editorial overlap hypothesis, not proven SERP cannibalization.
 - All topics have topic title, keyword hypothesis, category, parent hub/primary URL, prospective URL, funnel/intent guess, proposed incoming/outgoing links, evidence requirements, cannibalization review flag, and **null** keyword volume/difficulty.
 - **0 candidates published, 0 candidates added to `data/editorial-plan.json` or writer queue.** Do not treat `target=300` as permission to publish low-value content.
-- New candidate data: `data/editorial-candidates-270-a6.json`.
+- Candidate data: `data/editorial-candidates-270-a6.json`. Per-ID screening of **270/270**, comprising **258 preliminary-screened / 12 HOLD**, is in `data/editorial-review-270-a6.json` and `docs/A6-EDITORIAL-REVIEW.md`. **110 candidates** require separately approved expansion of factory allowed hubs before queue promotion.
 
 ## Why numeric keyword metrics are absent
 
@@ -46,11 +46,11 @@
 | Priority | Action | Impact | Difficulty | Status |
 |---|---|---|---|---|
 | P0 | Keep indexed commercial pages stable: `/`, `/precios/`, `/tipos-de-motos/` | High | Low | KEEP |
-| P1 | Review ten A4 contextual link proposals; approve exact link subset before insertion | Medium | Low–Medium | WAIT APPROVAL |
+| P1 | Insert exactly ten approved A4 contextual links within five articles | Medium | Low–Medium | DONE / QA PASS / PUBLISHED |
 | P1 | Verify Google Search Console property and key query clusters for cannibalization + CTR | High for evidence | Medium | EXTERNAL AUTH REQUIRED |
 | P1 | Research keyword demand/competitors and SERP intent for high-conversion content candidates | High potential | Medium | BLOCKED ON QUOTA / RESEARCH |
-| P2 | Exclude/consolidate near-duplicate duration and local-area ideas, validate real sources | Prevents low-value SEO | Medium | HOLD 9 + MANUAL REVIEW |
+| P2 | Verify unique search intent and evidence for 12 HOLDs and remaining 258 candidates | Prevents low-value SEO | Medium | HOLD 12 + 258 PENDING SERP/SOURCES |
 | P3 | Publish new article batches only after separate user authorization and source QA | Variable | Medium–High | FACTORY PAUSED |
 | DEFER | Authority, local citations and backlinks | Longer term | Medium–High | OUTSIDE A4–A6 |
 
-**Final guard:** This phase is **MATRIX / RESEARCH / QA**, not a request to execute HTML link edits or publish 270 articles. The next user decision is whether to approve specific A4 link changes and/or candidate validation before queue promotion. Do not expand scope automatically.
+**Final guard:** The authorized A4 ten-link implementation and A6 preliminary 270-topic screening are complete. No additional article has been published; do not promote candidates, change the 30-row editorial plan, expand factory hubs or approve the two outstanding anchor changes without new authorization.
