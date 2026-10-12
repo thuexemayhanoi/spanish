@@ -14,7 +14,7 @@
 | SEO-03 | P0 | XML sitemap | **PASS** | HTTP 200, 12 distinct URLs using only `https://es.rentbikehanoi.com/`. Every expected site page covered. |
 | SEO-04 | P0 | Canonical and indexability signals | **PASS (technical)** | 12/12 HTML pages expose a self-referencing canonical, `<html lang="es">`, `index,follow`, and one H1. Technical crawlability does not prove Google indexing. |
 | SEO-05 | P0 | Google indexing / URL Inspection | **NOT VERIFIED** | The connected Search Console account did not list a property for `https://es.rentbikehanoi.com/` at audit time. Verify the URL-prefix property and submit `/sitemap.xml` before claiming index status. A public `site:` search returned no indexed results at the time; this alone is not authoritative. |
-| SEO-06 | P1 | Structured data | **IMPLEMENTED / AWAITING LIVE QA** | Updated shared generator and 12 HTML pages to use `LocalBusiness` from verified NAP, 09:00–21:00 daily and exact Maps URL. Added JSON-LD regression gate. No invented coordinates, ratings, reviews or rich-result eligibility. |
+| SEO-06 | P1 | Structured data | **PASS — LIVE VERIFIED 12/12** | Updated shared generator and 12 HTML pages to use `LocalBusiness` from verified NAP, 09:00–21:00 daily and exact Maps URL. Added JSON-LD regression gate. No invented coordinates, ratings, reviews or rich-result eligibility. |
 | SEO-07 | P1 | Core Web Vitals / Lighthouse mobile | **PENDING MEASUREMENT** | Google PageSpeed API responded HTTP 429 (quota exceeded). Browser interaction also timed out. No credible LCP/INP/CLS or performance score measured; retry PSI/Lighthouse when available. |
 | SEO-08 | P1 | Static asset footprint | **PASS (static inspection only)** | Primary CSS ~8,903 characters; JavaScript ~1,111 characters; HTML home ~10,252 characters. No external CDN/font asset references detected in those files. This is not a substitute for a mobile real-user or Lighthouse test. |
 | SEO-09 | P2 | Shared-source design / SEO | **PASS** | `site/data.json`, `assets/css/theme.css`, and `scripts/build.mjs` are the common sources. Keep central generation of canonical, sitemap, navigation and JSON-LD for all later articles. |
@@ -56,3 +56,10 @@
 - Rechecked connected Search Console integrations: the Spanish property is absent from both GSC SEO Content Planner and Windsor.ai Search Console; adding/verifying and submitting sitemap requires a connected, authorized property. No submission has been claimed.
 - Shared LocalBusiness schema introduced on all 12 existing HTML pages; new article generation inherits the same business entity. The new QA gate rejects business NAP/hours inconsistencies, missing breadcrumbs, malformed JSON-LD and incorrect FAQ question count.
 - PageSpeed API quota returned HTTP 429 in this audit, so mobile Core Web Vitals remain unverified.
+
+## Production verification after PR #2
+
+- GitHub PR #2, SHA `6eaddaf8a16ac65a9988a13d88a48b877e0a9e20`: GitHub Actions **Spanish Site Build QA** succeeded before merge.
+- Confirmed the published HTML for **all 12/12 public URL paths** returns HTTP 200 and contains valid `LocalBusiness` JSON-LD with the verified phone `+84942467674`, 09:00–21:00 opening hours every day, and Maps link. All 11 non-home pages also contain `BreadcrumbList`; FAQ page still has its 20 questions.
+- The connected GSC SEO Content Planner and Windsor.ai GSC connector accounts **do not expose** `es.rentbikehanoi.com`; **no sitemap submission, inspection or indexing confirmation was performed**.
+- Core Web Vitals mobile scores remain unmeasured following PageSpeed Insights HTTP 429. Request a real Lighthouse/mobile run when quota and an authenticated property become available.
