@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "domain": "https://es.rentbikehanoi.com",
+  "targetArticles": 300,
+  "requestTimeoutMs": 12000,
+  "maxLiveUrls": 12,
+  "titleMinChars": 30,
+  "titleMaxChars": 75,
+  "descriptionMinChars": 90,
+  "descriptionMaxChars": 180,
+  "intentSimilarityWarning": 0.83,
+  "maxIntentAlerts": 30,
+  "assetBudgetsBytes": {
+    "assets/css/theme.css": 60000,
+    "assets/js/app.js": 30000
+  }
+}
