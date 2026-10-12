@@ -11,6 +11,8 @@ for(const page of pages){
  const html=read(filename),canonical=cfg.domain+page.url;
  if(!html.includes('rel="canonical" href="'+canonical+'"'))issues.push('canonical '+filename);
  if(!html.includes('lang="es"'))issues.push('wrong language '+filename);
+ const gscTag='<meta name="google-site-verification" content="'+site.site.googleSiteVerification+'">';
+ if(!html.includes(gscTag)||(html.match(/<meta name="google-site-verification"/g)||[]).length!==1)issues.push('Google verification meta '+filename);
  if((html.match(/<h1\b/g)||[]).length!==1)issues.push('H1 count '+filename);
  if(!html.includes('application/ld+json'))issues.push('missing schema '+filename);
 
