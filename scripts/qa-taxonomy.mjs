@@ -21,6 +21,7 @@ for(const page of [...pages,...articles]){
  if((html.match(/class="nav-group"/g)||[]).length!==10)errors.push('Five menu groups missing in both navigations '+filename);
  for(const m of html.matchAll(/href="(\/[^"]*)"/g)){
   const target=m[1].split('#')[0].split('?')[0],fragment=m[1].includes('#')?m[1].split('#')[1]:null;
+  if(target.startsWith('/assets/'))continue;
   if(!urls.has(target))errors.push('Broken navigation target: '+filename+' -> '+m[1]);
   if(fragment?.startsWith('categoria-')&&page.url===target&&!html.includes('id="'+fragment+'"'))errors.push('Missing local category anchor '+filename);
  }
