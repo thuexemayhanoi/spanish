@@ -9,3 +9,7 @@ Execution 1: process planned drafts ES-0304, ES-0305 and ES-0306. Before advanci
 Execution 1 verified: ES-0304..ES-0306 published, state 294/300, last run 2026-10-13T18:49:03.222Z.
 
 Execution 2: process planned drafts ES-0307..ES-0309 (VND payments, expense breakdown, Nội Bài to Long Biên transfers). Continue only after Factory QA passes.
+
+Execution 2 verified: ES-0307..ES-0309 published; state 297/300; last run 2026-10-13T18:49:32.458Z.
+
+Execution 3: process planned drafts ES-0310..ES-0312 (rail stations, accessibility, overnight-flight fatigue). The twelve historical HOLD slots must remain unpublished. Goal exactly 300 unique published articles.
