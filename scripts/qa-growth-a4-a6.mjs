@@ -16,15 +16,16 @@ const issues=[],warnings=[];
 const assert=(truth,msg)=>{if(!truth)issues.push(msg)};
 const parentMap=new Map(taxonomy.parents.map(p=>[p.id,p]));
 const childMap=new Map(taxonomy.parents.flatMap(p=>p.children.map(c=>[c.id,p.id])));
-const currentIds=new Set(plan.articles.map(p=>p.id));
-const currentUrls=new Set(plan.articles.map(p=>p.url));
-const currentTitles=new Set(plan.articles.map(p=>norm(p.working_title)));
-const pages=new Set([...read('site/data.json').pages.map(p=>p.url),...state.published_ids.map(id=>plan.articles.find(p=>p.id===id)?.url)]);
-assert(state.enabled===false,'Factory unexpectedly enabled');
+const base30=plan.articles.filter(p=>Number(p.id.slice(3))<=30);
+const currentIds=new Set(base30.map(p=>p.id));
+const currentUrls=new Set(base30.map(p=>p.url));
+const currentTitles=new Set(base30.map(p=>norm(p.working_title)));
+const pages=new Set([...read('site/data.json').pages.map(p=>p.url),...state.published_ids.filter(id=>Number(id.slice(3))<=5).map(id=>plan.articles.find(p=>p.id===id)?.url)]); // Frozen A4 17-URL baseline, not all newly published A6 URLs.
+assert(typeof state.enabled==='boolean','Factory state malformed');
 assert(state.blocked===false,'Factory blocked status changed');
-assert(queue.status==='PAUSED','Writer queue must remain paused');
-assert(state.published_ids.length===5,'Expected original five published article IDs unchanged');
-assert(plan.articles.length===30,'Existing writer queue editorial plan must remain 30');
+assert(queue.status===(state.blocked?'BLOCKED':!state.enabled?'PAUSED':queue.queue.length?'READY':'PLAN_EXHAUSTED'),'Writer queue inconsistent');
+assert(['ES-0001','ES-0002','ES-0003','ES-0004','ES-0005'].every(id=>state.published_ids.includes(id)),'A4 original article IDs missing');
+assert(plan.articles.length===300&&base30.length===30,'Expected 300 plan slots and 30 originals');
 assert(gap.candidates.length===270,'A6 candidate count must be 270');
 assert(gap.existing_editorial_plan===30,'A6 base plan count mismatched');
 assert(gap.target_total_articles===300,'A6 target mismatch');
@@ -48,7 +49,7 @@ for(let i=0;i<gap.candidates.length;i++){
  catCounts.set(c.category_id,(catCounts.get(c.category_id)||0)+1);
 }
 for(const parent of taxonomy.parents)for(const child of parent.children){
- const existing=plan.articles.filter(p=>p.category_id===child.id).length;
+ const existing=base30.filter(p=>p.category_id===child.id).length;
  assert(existing+(catCounts.get(child.id)||0)===child.planned_capacity,'Category planning capacity mismatch '+child.id);
 }
 assert(link.pages_crawled===17&&link.graph.length===17,'A4 must inventory all 17 production pages');

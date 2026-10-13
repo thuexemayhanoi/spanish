@@ -4,8 +4,8 @@
   "target": 300,
   "published": 41,
   "remaining": 259,
-  "planned": 180,
-  "unplanned": 120,
+  "planned": 300,
+  "unplanned": 0,
   "queue": [
     {
       "id": "ES-0042",

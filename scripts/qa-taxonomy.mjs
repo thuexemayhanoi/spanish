@@ -54,6 +54,19 @@ const futurePages=site.pages.map(p=>({...p}));
 decorateTaxonomy(taxonomy,futurePages,[{url:'/guia-de-alquiler/simulacion-zona/',title:'Contenido de prueba',
  intro:'Tema local',parent_id:zones.id,category_id:zoneChild.id}]);
 if(!futurePages.some(p=>p.url===zones.url))errors.push('Future parent hub not generated after relevant content');
+// Simulate a first accepted article in each newly supported A6 hub.
+for(const id of ['tipos-de-motos','zonas-de-hanoi','rutas-y-movilidad']){
+ const parent=taxonomy.parents.find(p=>p.id===id);
+ if(!parent){errors.push('Future A6 parent missing '+id);continue}
+ const category=parent.children[0];
+ const simulated=site.pages.map(p=>({...p}));
+ const draft={url:parent.url+'simulacion-hub/',title:'Guía de prueba',intro:'Solo diagnóstico del sistema',parent_id:id,category_id:category.id};
+ decorateTaxonomy(taxonomy,simulated,[draft]);
+ if(!simulated.some(x=>x.url===parent.url))errors.push('First published post does not unlock parent '+id);
+ if(simulated.some(x=>x.url===archiveUrl(parent,category)))errors.push('Thin child archive created prematurely '+id);
+ const empty=site.pages.map(p=>({...p}));decorateTaxonomy(taxonomy,empty,[]);
+ if(!site.pages.some(x=>x.url===parent.url)&&empty.some(x=>x.url===parent.url))errors.push('Empty parent generated '+id);
+}
 if(state.published_ids.length===5){
  const established=['/','/sobre-nosotros/','/tipos-de-motos/','/tipos-de-motos/scooters/','/tipos-de-motos/motos-50cc/','/precios/','/guia-de-alquiler/','/guia-de-alquiler/documentacion-y-deposito/','/faq/','/contacto/','/politica-de-privacidad/','/terminos-y-condiciones/'];
  if(urls.size!==17||established.some(p=>!urls.has(p)))errors.push('17 existing URLs changed during taxonomy introduction');

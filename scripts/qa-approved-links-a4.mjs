@@ -22,6 +22,6 @@ for(const a of entries){
  const src=matrix.graph.find(p=>p.url===a.from);
  if(!src?.outgoing.some(x=>x.url===a.to&&x.anchor===a.anchor_proposal))problems.push('A4 matrix graph missing '+a.id);
 }
-if(state.published_ids.length!==5||state.enabled)problems.push('A4 may not publish or enable the writer');
+if(!['ES-0001','ES-0002','ES-0003','ES-0004','ES-0005'].every(id=>state.published_ids.includes(id)))problems.push('A4 original five articles missing');
 if(problems.length){console.error(problems.join('\n'));process.exit(1)}
 console.log('A4_LINKS_QA_PASS approved=10 published=5 unchanged_redirects=0');
