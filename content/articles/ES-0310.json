@@ -87,5 +87,7 @@
     "https://metrohanoi.vn/",
     "https://www.vietnamrailwaycorp.com/train-stations"
   ],
-  "status": "READY_FOR_QA"
+  "status": "READY_FOR_QA",
+  "published_at": "2026-10-13",
+  "word_count": 1091
 }

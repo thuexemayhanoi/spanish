@@ -1,74 +1,10 @@
 {
   "schema_version": 1,
-  "status": "READY",
+  "status": "TARGET_REACHED",
   "target": 300,
-  "published": 297,
-  "remaining": 3,
+  "published": 300,
+  "remaining": 0,
   "planned": 312,
   "unplanned": -12,
-  "queue": [
-    {
-      "id": "ES-0310",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas",
-      "url": "/zonas-de-hanoi/estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas/",
-      "working_title": "Estaciones de Hanói, Long Biên y Gia Lâm: evitar confusiones al llegar",
-      "primary_keyword": "estaciones de hanói, long biên y gia lâm: evitar confusiones al llegar",
-      "intent": "Informacional",
-      "brief": "Comparación para identificar estación escrita en billete, sin confundir puntos de encuentro con servicio de alquiler.",
-      "category_id": "estaciones-y-puntos-de-interes",
-      "parent_id": "zonas-de-hanoi",
-      "status": "PLANNED",
-      "replacement_for": "ES-0099",
-      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
-      "verification_gates": [
-        "VERIFY_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "DO_NOT_REMOVE_HISTORICAL_HOLD"
-      ],
-      "draft_file": "_factory/inbox/ES-0310.json"
-    },
-    {
-      "id": "ES-0311",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "movilidad-accesible-en-hanoi-para-visitas-sin-moto",
-      "url": "/rutas-y-movilidad/movilidad-accesible-en-hanoi-para-visitas-sin-moto/",
-      "working_title": "Movilidad accesible en Hanói: planificar visitas sin conducir moto",
-      "primary_keyword": "movilidad accesible en hanói: planificar visitas sin conducir moto",
-      "intent": "Informacional",
-      "brief": "Accesibilidad de desplazamientos y planificación por necesidades, no movilidad general con niños.",
-      "category_id": "alternativas-de-transporte",
-      "parent_id": "rutas-y-movilidad",
-      "status": "PLANNED",
-      "replacement_for": "ES-0234",
-      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
-      "verification_gates": [
-        "VERIFY_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "DO_NOT_REMOVE_HISTORICAL_HOLD"
-      ],
-      "draft_file": "_factory/inbox/ES-0311.json"
-    },
-    {
-      "id": "ES-0312",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado",
-      "url": "/rutas-y-movilidad/llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado/",
-      "working_title": "Llegar a Hanói tras un vuelo nocturno: por qué no conducir fatigado",
-      "primary_keyword": "llegar a hanói tras un vuelo nocturno: por qué no conducir fatigado",
-      "intent": "Informacional",
-      "brief": "Fatiga de viaje y elección de transporte de llegada, distinta de logística por llegada temprano.",
-      "category_id": "alternativas-de-transporte",
-      "parent_id": "rutas-y-movilidad",
-      "status": "PLANNED",
-      "replacement_for": "ES-0254",
-      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
-      "verification_gates": [
-        "VERIFY_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "DO_NOT_REMOVE_HISTORICAL_HOLD"
-      ],
-      "draft_file": "_factory/inbox/ES-0312.json"
-    }
-  ]
+  "queue": []
 }

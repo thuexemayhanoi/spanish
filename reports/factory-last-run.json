@@ -1,10 +1,10 @@
 {
-  "status": "READY",
-  "at": "2026-10-13T18:49:32.458Z",
+  "status": "TARGET_REACHED",
+  "at": "2026-10-13T18:50:06.115Z",
   "published": [
-    "ES-0307",
-    "ES-0308",
-    "ES-0309"
+    "ES-0310",
+    "ES-0311",
+    "ES-0312"
   ],
-  "remaining": 3
+  "remaining": 0
 }
