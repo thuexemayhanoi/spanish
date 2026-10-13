@@ -1,0 +1,158 @@
+{
+  "page": "/politica-de-privacidad/",
+  "sections": [
+    {
+      "heading": "Alcance de esta política y responsable del contenido informativo",
+      "paragraphs": [
+        "Esta política describe el funcionamiento visible de la versión en español de es.rentbikehanoi.com y los datos que pueden intervenir al navegar sus páginas informativas. La web presenta información sobre alquiler de motos en Hanói, modelos de referencia, tarifas orientativas y medios de contacto del negocio Nguyễn Tú. No es un portal con cuentas personales, carrito de compras o pagos integrados. Distinguir el contenido público del sitio de una conversación telefónica ayuda a comprender qué información se procesa durante la navegación y cuál se gestiona fuera de ella.",
+        "El establecimiento se identifica públicamente como Cho Thuê Xe Máy Nguyễn Tú, con dirección de referencia en 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, Hanói, Vietnam, y teléfono +84 942 467 674. Estos datos sirven para solicitar aclaraciones sobre la propia web o un contacto comercial. Esta explicación se refiere a la implementación actual; si se incorporan funciones que cambien la recogida o el uso de datos, la política deberá revisarse antes de presentarlas como disponibles."
+      ],
+      "links": [
+        {
+          "label": "Información del establecimiento",
+          "url": "/sobre-nosotros/"
+        },
+        {
+          "label": "Contacto",
+          "url": "/contacto/"
+        }
+      ]
+    },
+    {
+      "heading": "Información que facilita voluntariamente el visitante",
+      "paragraphs": [
+        "El sitio estático no ofrece actualmente un formulario de registro, un área privada de cliente ni un sistema propio de solicitud de reserva en línea. Por tanto, navegar por una página no exige introducir nombre, correo electrónico, pasaporte o datos de tarjeta en un campo de la web. Las páginas de contacto muestran un número de teléfono y un enlace a mapas, que permiten iniciar una comunicación mediante servicios externos. El hecho de disponer de un enlace no significa que la web registre por sí misma todas las conversaciones que se originen fuera de su dominio.",
+        "Si decides llamar o utilizar un canal de comunicación asociado al negocio, es posible que comuniques voluntariamente fechas de alquiler, modelo solicitado, teléfono, información de entrega u otros datos necesarios para responder. Evita compartir documentos sensibles por canales inseguros y pregunta cómo se utilizarán antes de enviarlos. Los datos intercambiados en una relación contractual deben tratarse conforme a las normas aplicables y a las condiciones comunicadas por quienes participen en ella; esta política web no constituye por sí sola un contrato de alquiler."
+      ],
+      "links": [
+        {
+          "label": "Contactar con el negocio",
+          "url": "/contacto/"
+        },
+        {
+          "label": "Condiciones de alquiler",
+          "url": "/terminos-y-condiciones/"
+        }
+      ]
+    },
+    {
+      "heading": "Datos técnicos necesarios para servir las páginas",
+      "paragraphs": [
+        "Cuando un navegador solicita una página a un servicio de alojamiento, la infraestructura puede recibir información técnica necesaria para establecer la conexión, entregar archivos y prevenir usos abusivos. Dependiendo del proveedor, esto puede incluir dirección de red, fecha y hora, ruta solicitada, tipo de navegador y registros operativos. La disponibilidad y los plazos de conservación de esos registros dependen de la plataforma de alojamiento y de sus propias reglas, no de una función de seguimiento comercial programada expresamente en este sitio.",
+        "Esta web se publica como archivos HTML, CSS y JavaScript estáticos mediante infraestructura de alojamiento. El código revisado no incorpora un formulario de pago ni una herramienta propia para crear perfiles de navegación de visitantes. Sin embargo, no debe confundirse la ausencia de un servicio analítico en el código visible con la imposibilidad absoluta de tratamiento técnico por parte del proveedor, el operador de internet o el navegador. Para conocer prácticas concretas del alojamiento deben consultarse sus condiciones oficiales vigentes."
+      ],
+      "links": [
+        {
+          "label": "Leer las condiciones",
+          "url": "/terminos-y-condiciones/"
+        },
+        {
+          "label": "Volver al inicio",
+          "url": "/"
+        }
+      ]
+    },
+    {
+      "heading": "Cookies y almacenamiento local de preferencias",
+      "paragraphs": [
+        "La interfaz ofrece una preferencia de apariencia clara u oscura. Para recordarla, el script del tema puede utilizar el almacenamiento local del navegador con una clave destinada a esa elección visual. Este valor sirve para mostrar la apariencia preferida en visitas posteriores y no necesita contener nombre, teléfono ni un identificador de reserva. El código de la preferencia no transmite por sí mismo ese valor a un servidor del establecimiento. Puedes cambiar el tema desde el control de la cabecera.",
+        "El almacenamiento local no es idéntico a una cookie enviada automáticamente con cada solicitud HTTP. Aun así, ambos mecanismos merecen una explicación comprensible para el visitante. Puedes borrar los datos locales desde las opciones de privacidad de tu navegador; hacerlo puede restablecer la apariencia predeterminada. Si en el futuro la web añade analítica, publicidad, preferencias avanzadas o servicios que almacenen información adicional, deberá informarse de forma específica sobre esos cambios y sus bases aplicables antes de activarlos."
+      ],
+      "links": [
+        {
+          "label": "Acceder al sitio",
+          "url": "/"
+        },
+        {
+          "label": "Sobre nosotros",
+          "url": "/sobre-nosotros/"
+        }
+      ]
+    },
+    {
+      "heading": "Enlaces a Google Maps y otros servicios externos",
+      "paragraphs": [
+        "El sitio incluye un enlace a Google Maps para ayudar a localizar la dirección de referencia del negocio. Al abrirlo, abandonas la web informativa y accedes a un servicio prestado por una entidad diferente. Ese servicio puede tratar datos de uso, ubicación o preferencias según su propia configuración y política. La apertura de un mapa externo no debe interpretarse como garantía de que habrá una moto disponible en ese punto ni de que exista un servicio de entrega confirmado para cualquier hora o zona.",
+        "Los enlaces de tipo telefónico también delegan la acción en el sistema operativo o la aplicación que utilices. Las condiciones del operador, la conectividad y el tratamiento de las comunicaciones pertenecen a esos servicios externos y al acuerdo que puedas mantener con ellos. Recomendamos revisar la dirección de destino antes de compartir información personal, cerrar sesiones cuando sea apropiado y no entregar documentos de identidad a interlocutores no verificados. La finalidad de ofrecer enlaces es facilitar la navegación, no sustituir sus políticas individuales."
+      ],
+      "links": [
+        {
+          "label": "Ubicación y mapa",
+          "url": "/contacto/"
+        },
+        {
+          "label": "Preguntas frecuentes",
+          "url": "/faq/"
+        }
+      ]
+    },
+    {
+      "heading": "Finalidades legítimas y límites de la información pública",
+      "paragraphs": [
+        "El contenido se organiza para informar sobre categorías de vehículos, referencias de precios y preguntas frecuentes de visitantes que preparan un alquiler en Hanói. Su presencia pública no implica que el visitante deba crear una cuenta o aceptar comunicaciones comerciales para leerlo. El objetivo editorial consiste en facilitar respuestas comprensibles y enlaces entre páginas relevantes. La disponibilidad concreta de un vehículo, una reserva o un presupuesto solo puede verificarse mediante los medios de contacto y el acuerdo particular correspondiente.",
+        "Si en una consulta directa proporcionas datos de contacto, es razonable esperar que se usen para responder a la solicitud y preparar, cuando proceda, el servicio elegido. No obstante, esta página no declara periodos de conservación específicos ni flujos técnicos que no hayan sido verificados con los sistemas de gestión del negocio. Para obtener una explicación individual sobre una comunicación o contrato, dirígete al número publicado y solicita detalles de su gestión. No infieras a partir del diseño del sitio que existe una base de datos de clientes accesible desde estas páginas."
+      ],
+      "links": [
+        {
+          "label": "Tarifas orientativas",
+          "url": "/precios/"
+        },
+        {
+          "label": "Información de contacto",
+          "url": "/contacto/"
+        }
+      ]
+    },
+    {
+      "heading": "Seguridad, documentos de identidad y pagos",
+      "paragraphs": [
+        "Nunca es necesario escribir contraseñas o datos bancarios en una página de este sitio para consultar sus artículos y tarifas. Si alguna persona solicita esos datos mediante un mensaje no solicitado, comprueba cuidadosamente la identidad del interlocutor y el canal de comunicación. Para posibles depósitos, entrega de documentación o pagos vinculados a un alquiler real, pregunta antes cuáles son los procedimientos admitidos y cómo se dejará constancia de las cantidades. Los procesos comerciales no deben confundirse con los enlaces de navegación de una web estática.",
+        "Un visitante puede necesitar verificar sus permisos de conducir o documentos durante un alquiler, pero esta política no autoriza ni recomienda publicar fotografías de pasaportes en comentarios inexistentes o compartir información confidencial con terceros desconocidos. Conserva copias de recibos y condiciones cuando sea pertinente para el acuerdo. El negocio debe explicar por separado cualquier tratamiento de documentación en su relación directa con el cliente. Esta recomendación pretende reducir exposición innecesaria de información sensible sin inventar un procedimiento universal de identificación."
+      ],
+      "links": [
+        {
+          "label": "Documentación y depósito",
+          "url": "/guia-de-alquiler/documentacion-y-deposito/"
+        },
+        {
+          "label": "Condiciones del sitio",
+          "url": "/terminos-y-condiciones/"
+        }
+      ]
+    },
+    {
+      "heading": "Consultas sobre privacidad, correcciones y cambios del sitio",
+      "paragraphs": [
+        "Para preguntas sobre esta información o sobre una comunicación realizada con el negocio, utiliza los datos publicados en la página de contacto y describe con precisión el asunto. Si solicitas acceso, rectificación u otra actuación relacionada con datos personales, indica el canal y el contexto en que se compartieron, evitando proporcionar detalles sensibles de forma innecesaria. La respuesta dependerá de la información efectivamente disponible y de la normativa que corresponda. Esta política no promete una función de autoservicio que no existe en la web.",
+        "Las actualizaciones del sitio pueden modificar textos, enlaces, funcionalidades o servicios integrados. Cuando cambien las prácticas de tratamiento de datos o se activen formularios, pagos o analítica, deberá revisarse la explicación antes de su publicación. Por esa razón conviene consultar periódicamente la versión actual de esta página si utilizas el sitio en diferentes momentos. No interpretamos un mero cambio de diseño o un artículo nuevo como consentimiento automático para prácticas diferentes. La transparencia requiere describir funciones reales, no funciones imaginarias."
+      ],
+      "links": [
+        {
+          "label": "Contacto",
+          "url": "/contacto/"
+        },
+        {
+          "label": "Información sobre el negocio",
+          "url": "/sobre-nosotros/"
+        }
+      ]
+    },
+    {
+      "heading": "Cómo navegar con más control y menos datos",
+      "paragraphs": [
+        "Puedes consultar las secciones principales desde la cabecera o el pie, sin registrarte. Si buscas el coste de una moto, abre la página de precios; si necesitas conocer responsabilidades antes de conducir, revisa la guía y las preguntas frecuentes. Para limitar datos compartidos, prepara preguntas precisas y comunica solo lo necesario para recibir una respuesta. Recuerda que los mapas, el teléfono y cualquier aplicación externa tienen su propia configuración de privacidad; utiliza sus controles cuando necesites gestionar permisos de ubicación o historial.",
+        "Esta página se centra en la privacidad de la navegación y de los enlaces existentes, no en condiciones económicas ni obligaciones contractuales del alquiler. Las condiciones generales informativas se explican en otro documento y cada reserva requiere una confirmación individual. Mantener separadas esas funciones ayuda a que cualquier visitante entienda qué puede obtener de la web sin entregar información y qué cuestiones exigen comunicación directa. La última decisión sobre el uso de un servicio externo siempre requiere revisar sus condiciones actuales."
+      ],
+      "links": [
+        {
+          "label": "Preguntas frecuentes",
+          "url": "/faq/"
+        },
+        {
+          "label": "Términos y condiciones",
+          "url": "/terminos-y-condiciones/"
+        }
+      ]
+    }
+  ]
+}

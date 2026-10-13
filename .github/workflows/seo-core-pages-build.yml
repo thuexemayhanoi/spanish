@@ -1,0 +1,62 @@
+name: Spanish Core Pages SEO Build
+on:
+  push:
+    branches: [seo/spanish-core-pages-20261014]
+    paths:
+      - 'site/pillars/**'
+      - 'scripts/build.mjs'
+      - 'scripts/qa-seo-core.mjs'
+      - 'assets/css/theme.css'
+      - '.github/workflows/seo-core-pages-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: spanish-core-seo-build
+  cancel-in-progress: false
+jobs:
+  core-pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check JS and generate all affected static pages
+        run: |
+          node --check scripts/build.mjs
+          node --check scripts/qa-seo-core.mjs
+          node scripts/build.mjs
+      - name: Validate entire site, SEO and editorial boundaries
+        run: |
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
+          node scripts/qa-approved-links-a4.mjs
+          node scripts/qa-theme.mjs
+          node scripts/qa-seo-core.mjs
+          node scripts/smoke-factory.mjs
+      - name: Commit generated HTML only to technical branch
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-seo-build-bot"
+          git config user.email "spanish-seo-build-bot@users.noreply.github.com"
+          git add -A -- '*.html' sitemap.xml robots.txt
+          if git diff --cached --quiet; then echo "No generated changes"; exit 0; fi
+          changed="$(git diff --cached --name-only)"
+          if echo "$changed" | grep -Ev '(^|/)index\.html$|^404\.html$|^sitemap\.xml$|^robots\.txt$'; then
+            echo "SAFE_STOP unexpected staged file" >&2
+            exit 1
+          fi
+          git commit -m "build(spanish): core SEO pages and consistent global footer"
+          git fetch origin seo/spanish-core-pages-20261014
+          if [ "$(git rev-parse origin/seo/spanish-core-pages-20261014)" != "$(git rev-parse HEAD^)" ]; then
+            echo "SAFE_STOP branch advanced during build" >&2
+            exit 1
+          fi
+          git push origin HEAD:seo/spanish-core-pages-20261014
