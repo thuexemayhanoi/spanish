@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 170,
-  "remaining": 130,
+  "published": 173,
+  "remaining": 127,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0181",
+      "id": "ES-0184",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-leer-la-senalizacion-vial-en-hanoi-siendo-visitante",
-      "url": "/guia-de-alquiler/como-leer-la-senalizacion-vial-en-hanoi-siendo-visitante/",
-      "working_title": "Cómo leer la señalización vial en Hanói siendo visitante",
-      "primary_keyword": "como leer la senalizacion vial en hanoi siendo visitante",
+      "slug": "aparcar-una-moto-alquilada-que-preguntar-sobre-vigilancia",
+      "url": "/guia-de-alquiler/aparcar-una-moto-alquilada-que-preguntar-sobre-vigilancia/",
+      "working_title": "Aparcar una moto alquilada: qué preguntar sobre vigilancia",
+      "primary_keyword": "aparcar una moto alquilada que preguntar sobre vigilancia",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0181.json"
+      "draft_file": "_factory/inbox/ES-0184.json"
     },
     {
-      "id": "ES-0182",
+      "id": "ES-0185",
       "hub": "/guia-de-alquiler/",
-      "slug": "intersecciones-concurridas-planificar-un-cruce-con-prudencia",
-      "url": "/guia-de-alquiler/intersecciones-concurridas-planificar-un-cruce-con-prudencia/",
-      "working_title": "Intersecciones concurridas: planificar un cruce con prudencia",
-      "primary_keyword": "intersecciones concurridas planificar un cruce con prudencia",
+      "slug": "como-proteger-tus-pertenencias-al-dejar-la-moto-aparcada",
+      "url": "/guia-de-alquiler/como-proteger-tus-pertenencias-al-dejar-la-moto-aparcada/",
+      "working_title": "Cómo proteger tus pertenencias al dejar la moto aparcada",
+      "primary_keyword": "como proteger tus pertenencias al dejar la moto aparcada",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0182.json"
+      "draft_file": "_factory/inbox/ES-0185.json"
     },
     {
-      "id": "ES-0183",
+      "id": "ES-0186",
       "hub": "/guia-de-alquiler/",
-      "slug": "circular-por-calles-estrechas-de-hanoi-limites-y-riesgos",
-      "url": "/guia-de-alquiler/circular-por-calles-estrechas-de-hanoi-limites-y-riesgos/",
-      "working_title": "Circular por calles estrechas de Hanói: límites y riesgos",
-      "primary_keyword": "circular por calles estrechas de hanoi limites y riesgos",
+      "slug": "conduccion-nocturna-en-hanoi-decisiones-previas",
+      "url": "/guia-de-alquiler/conduccion-nocturna-en-hanoi-decisiones-previas/",
+      "working_title": "Conducción nocturna en Hanói: decisiones previas",
+      "primary_keyword": "conduccion nocturna en hanoi decisiones previas",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0183.json"
+      "draft_file": "_factory/inbox/ES-0186.json"
     }
   ]
 }
