@@ -5,6 +5,8 @@
   "published": 300,
   "remaining": 0,
   "planned": 312,
-  "unplanned": -12,
+  "eligible_planned": 300,
+  "quarantined": 12,
+  "unplanned": 0,
   "queue": []
 }
