@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 68,
-  "remaining": 232,
+  "published": 71,
+  "remaining": 229,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0069",
+      "id": "ES-0072",
       "hub": "/tipos-de-motos/motos-50cc/",
-      "slug": "subidas-y-carga-en-motos-de-50-cc-limites-que-debes-verificar",
-      "url": "/tipos-de-motos/motos-50cc/subidas-y-carga-en-motos-de-50-cc-limites-que-debes-verificar/",
-      "working_title": "Subidas y carga en motos de 50 cc: límites que debes verificar",
-      "primary_keyword": "subidas y carga en motos de 50 cc limites que debes verificar",
-      "intent": "Informacional",
+      "slug": "contrato-para-alquilar-50-cc-clausulas-especificas-a-consultar",
+      "url": "/tipos-de-motos/motos-50cc/contrato-para-alquilar-50-cc-clausulas-especificas-a-consultar/",
+      "working_title": "Contrato para alquilar 50 cc: cláusulas específicas a consultar",
+      "primary_keyword": "contrato para alquilar 50 cc clausulas especificas a consultar",
+      "intent": "Comparativa",
       "brief": "Categoría de 50 cc: modelos, condiciones y requisitos que deben verificarse. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "motos-50cc",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0069.json"
+      "draft_file": "_factory/inbox/ES-0072.json"
     },
     {
-      "id": "ES-0070",
+      "id": "ES-0073",
       "hub": "/tipos-de-motos/motos-50cc/",
-      "slug": "motos-de-50-cc-en-ciudad-ventajas-y-limitaciones-reales",
-      "url": "/tipos-de-motos/motos-50cc/motos-de-50-cc-en-ciudad-ventajas-y-limitaciones-reales/",
-      "working_title": "Motos de 50 cc en ciudad: ventajas y limitaciones reales",
-      "primary_keyword": "motos de 50 cc en ciudad ventajas y limitaciones reales",
+      "slug": "scooter-50-cc-con-pasajero-requisitos-y-prudencia",
+      "url": "/tipos-de-motos/motos-50cc/scooter-50-cc-con-pasajero-requisitos-y-prudencia/",
+      "working_title": "Scooter 50 cc con pasajero: requisitos y prudencia",
+      "primary_keyword": "scooter 50 cc con pasajero requisitos y prudencia",
       "intent": "Informacional",
       "brief": "Categoría de 50 cc: modelos, condiciones y requisitos que deben verificarse. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "motos-50cc",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0070.json"
+      "draft_file": "_factory/inbox/ES-0073.json"
     },
     {
-      "id": "ES-0071",
+      "id": "ES-0074",
       "hub": "/tipos-de-motos/motos-50cc/",
-      "slug": "como-comprobar-el-estado-de-una-moto-de-50-cc-alquilada",
-      "url": "/tipos-de-motos/motos-50cc/como-comprobar-el-estado-de-una-moto-de-50-cc-alquilada/",
-      "working_title": "Cómo comprobar el estado de una moto de 50 cc alquilada",
-      "primary_keyword": "como comprobar el estado de una moto de 50 cc alquilada",
+      "slug": "motos-50-cc-automaticas-o-semiautomaticas-diferencias",
+      "url": "/tipos-de-motos/motos-50cc/motos-50-cc-automaticas-o-semiautomaticas-diferencias/",
+      "working_title": "Motos 50 cc automáticas o semiautomáticas: diferencias",
+      "primary_keyword": "motos 50 cc automaticas o semiautomaticas diferencias",
       "intent": "Informacional",
       "brief": "Categoría de 50 cc: modelos, condiciones y requisitos que deben verificarse. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "motos-50cc",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0071.json"
+      "draft_file": "_factory/inbox/ES-0074.json"
     }
   ]
 }
