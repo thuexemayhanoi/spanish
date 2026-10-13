@@ -2,19 +2,19 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 221,
-  "remaining": 79,
+  "published": 224,
+  "remaining": 76,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0232",
+      "id": "ES-0236",
       "hub": "/zonas-de-hanoi/",
-      "slug": "recoger-una-moto-en-long-bien-preparacion-y-orientacion",
-      "url": "/zonas-de-hanoi/recoger-una-moto-en-long-bien-preparacion-y-orientacion/",
-      "working_title": "Recoger una moto en Long Biên: preparación y orientación",
-      "primary_keyword": "recoger una moto en long bien preparacion y orientacion",
-      "intent": "Informacional",
+      "slug": "estacion-de-gia-lam-coordinar-transporte-hasta-el-alquiler",
+      "url": "/zonas-de-hanoi/estacion-de-gia-lam-coordinar-transporte-hasta-el-alquiler/",
+      "working_title": "Estación de Gia Lâm: coordinar transporte hasta el alquiler",
+      "primary_keyword": "estacion de gia lam coordinar transporte hasta el alquiler",
+      "intent": "Investigación comercial",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "long-bien-gia-lam",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0232.json"
+      "draft_file": "_factory/inbox/ES-0236.json"
     },
     {
-      "id": "ES-0233",
+      "id": "ES-0237",
       "hub": "/zonas-de-hanoi/",
-      "slug": "bo-e-y-long-bien-datos-que-verificar-antes-de-desplazarte",
-      "url": "/zonas-de-hanoi/bo-e-y-long-bien-datos-que-verificar-antes-de-desplazarte/",
-      "working_title": "Bồ Đề y Long Biên: datos que verificar antes de desplazarte",
-      "primary_keyword": "bo e y long bien datos que verificar antes de desplazarte",
+      "slug": "long-bien-en-moto-elegir-el-trayecto-segun-experiencia",
+      "url": "/zonas-de-hanoi/long-bien-en-moto-elegir-el-trayecto-segun-experiencia/",
+      "working_title": "Long Biên en moto: elegir el trayecto según experiencia",
+      "primary_keyword": "long bien en moto elegir el trayecto segun experiencia",
       "intent": "Informacional",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +49,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0233.json"
+      "draft_file": "_factory/inbox/ES-0237.json"
     },
     {
-      "id": "ES-0235",
+      "id": "ES-0238",
       "hub": "/zonas-de-hanoi/",
-      "slug": "moverse-entre-gia-lam-y-long-bien-planificar-el-recorrido",
-      "url": "/zonas-de-hanoi/moverse-entre-gia-lam-y-long-bien-planificar-el-recorrido/",
-      "working_title": "Moverse entre Gia Lâm y Long Biên: planificar el recorrido",
-      "primary_keyword": "moverse entre gia lam y long bien planificar el recorrido",
+      "slug": "como-planificar-el-regreso-a-long-bien-para-devolver-una-moto",
+      "url": "/zonas-de-hanoi/como-planificar-el-regreso-a-long-bien-para-devolver-una-moto/",
+      "working_title": "Cómo planificar el regreso a Long Biên para devolver una moto",
+      "primary_keyword": "como planificar el regreso a long bien para devolver una moto",
       "intent": "Informacional",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0235.json"
+      "draft_file": "_factory/inbox/ES-0238.json"
     }
   ]
 }
