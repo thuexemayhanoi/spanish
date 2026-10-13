@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 188,
-  "remaining": 112,
+  "published": 191,
+  "remaining": 109,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0199",
+      "id": "ES-0202",
       "hub": "/guia-de-alquiler/",
-      "slug": "retraso-al-devolver-una-moto-como-pedir-una-ampliacion",
-      "url": "/guia-de-alquiler/retraso-al-devolver-una-moto-como-pedir-una-ampliacion/",
-      "working_title": "Retraso al devolver una moto: cómo pedir una ampliación",
-      "primary_keyword": "retraso al devolver una moto como pedir una ampliacion",
-      "intent": "Informacional",
+      "slug": "como-comunicar-un-dano-nuevo-durante-el-alquiler",
+      "url": "/guia-de-alquiler/como-comunicar-un-dano-nuevo-durante-el-alquiler/",
+      "working_title": "Cómo comunicar un daño nuevo durante el alquiler",
+      "primary_keyword": "como comunicar un dano nuevo durante el alquiler",
+      "intent": "Comparativa",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0199.json"
+      "draft_file": "_factory/inbox/ES-0202.json"
     },
     {
-      "id": "ES-0200",
+      "id": "ES-0203",
       "hub": "/guia-de-alquiler/",
-      "slug": "moto-que-no-arranca-comprobaciones-seguras-y-contacto",
-      "url": "/guia-de-alquiler/moto-que-no-arranca-comprobaciones-seguras-y-contacto/",
-      "working_title": "Moto que no arranca: comprobaciones seguras y contacto",
-      "primary_keyword": "moto que no arranca comprobaciones seguras y contacto",
+      "slug": "procedimiento-prudente-si-desaparece-un-casco-prestado",
+      "url": "/guia-de-alquiler/procedimiento-prudente-si-desaparece-un-casco-prestado/",
+      "working_title": "Procedimiento prudente si desaparece un casco prestado",
+      "primary_keyword": "procedimiento prudente si desaparece un casco prestado",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0200.json"
+      "draft_file": "_factory/inbox/ES-0203.json"
     },
     {
-      "id": "ES-0201",
+      "id": "ES-0204",
       "hub": "/guia-de-alquiler/",
-      "slug": "que-hacer-tras-una-caida-sin-lesiones-aparentes-prioridades",
-      "url": "/guia-de-alquiler/que-hacer-tras-una-caida-sin-lesiones-aparentes-prioridades/",
-      "working_title": "Qué hacer tras una caída sin lesiones aparentes: prioridades",
-      "primary_keyword": "que hacer tras una caida sin lesiones aparentes prioridades",
+      "slug": "como-recuperar-objetos-olvidados-al-devolver-una-moto",
+      "url": "/guia-de-alquiler/como-recuperar-objetos-olvidados-al-devolver-una-moto/",
+      "working_title": "Cómo recuperar objetos olvidados al devolver una moto",
+      "primary_keyword": "como recuperar objetos olvidados al devolver una moto",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0201.json"
+      "draft_file": "_factory/inbox/ES-0204.json"
     }
   ]
 }
