@@ -131,7 +131,7 @@ const planIds=new Set(),planUrls=new Set(),planKeywords=new Map(),pairs=[];
 for(const r of plan.articles){
   if(planIds.has(r.id)||planUrls.has(r.url))record('Content SEO','matrix-duplicates','FAIL','Duplicate ID or URL '+r.id);
   planIds.add(r.id);planUrls.add(r.url);
-  if(!r.hub||!routes.has(r.hub))record('Architecture','orphan-matrix-hub','FAIL','Planned article hub missing '+r.hub,r.id);
+  if(!r.hub||(!routes.has(r.hub)&&!taxonomy.parents.some(parent=>parent.url===r.hub)))record('Architecture','orphan-matrix-hub','FAIL','No live or taxonomy-backed future hub '+r.hub,r.id);
   if(!r.primary_keyword||!r.intent||!r.brief)record('Content SEO','missing-brief','FAIL','Keyword, intent or brief missing',r.id);
   const keyword=normalization(r.primary_keyword);
   if(planKeywords.has(keyword))record('Content SEO','keyword-collision','FAIL','Exact keyword overlaps with '+planKeywords.get(keyword),r.id);
