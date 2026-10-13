@@ -2,39 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 111,
-  "remaining": 189,
+  "published": 113,
+  "remaining": 187,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0121",
-      "hub": "/precios/",
-      "slug": "recogida-en-una-estacion-coordinar-un-encuentro-sin-suposiciones",
-      "url": "/precios/recogida-en-una-estacion-coordinar-un-encuentro-sin-suposiciones/",
-      "working_title": "Recogida en una estación: coordinar un encuentro sin suposiciones",
-      "primary_keyword": "recogida en una estacion coordinar un encuentro sin suposiciones",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-y-costes",
-      "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0121.json"
-    },
-    {
-      "id": "ES-0122",
-      "hub": "/precios/",
-      "slug": "entrega-de-moto-en-long-bien-preguntas-logisticas",
-      "url": "/precios/entrega-de-moto-en-long-bien-preguntas-logisticas/",
-      "working_title": "Entrega de moto en Long Biên: preguntas logísticas",
-      "primary_keyword": "entrega de moto en long bien preguntas logisticas",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-y-costes",
-      "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0122.json"
-    },
     {
       "id": "ES-0124",
       "hub": "/precios/",
@@ -48,6 +20,34 @@
       "category_id": "entrega-y-costes",
       "parent_id": "precios",
       "draft_file": "_factory/inbox/ES-0124.json"
+    },
+    {
+      "id": "ES-0125",
+      "hub": "/precios/",
+      "slug": "coste-de-desplazamiento-del-vehiculo-pedir-cotizacion-separada",
+      "url": "/precios/coste-de-desplazamiento-del-vehiculo-pedir-cotizacion-separada/",
+      "working_title": "Coste de desplazamiento del vehículo: pedir cotización separada",
+      "primary_keyword": "coste de desplazamiento del vehiculo pedir cotizacion separada",
+      "intent": "Comparativa",
+      "brief": "Cotización de recogida, entrega y posibles cargos. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "entrega-y-costes",
+      "parent_id": "precios",
+      "draft_file": "_factory/inbox/ES-0125.json"
+    },
+    {
+      "id": "ES-0126",
+      "hub": "/precios/",
+      "slug": "diferencias-entre-recoger-en-tienda-y-solicitar-un-traslado",
+      "url": "/precios/diferencias-entre-recoger-en-tienda-y-solicitar-un-traslado/",
+      "working_title": "Diferencias entre recoger en tienda y solicitar un traslado",
+      "primary_keyword": "diferencias entre recoger en tienda y solicitar un traslado",
+      "intent": "Informacional",
+      "brief": "Cotización de recogida, entrega y posibles cargos. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "entrega-y-costes",
+      "parent_id": "precios",
+      "draft_file": "_factory/inbox/ES-0126.json"
     }
   ]
 }
