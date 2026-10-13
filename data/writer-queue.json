@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 250,
-  "remaining": 50,
+  "published": 253,
+  "remaining": 47,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0263",
+      "id": "ES-0266",
       "hub": "/rutas-y-movilidad/",
-      "slug": "itinerario-con-dos-barrios-evitar-recorridos-innecesarios",
-      "url": "/rutas-y-movilidad/itinerario-con-dos-barrios-evitar-recorridos-innecesarios/",
-      "working_title": "Itinerario con dos barrios: evitar recorridos innecesarios",
-      "primary_keyword": "itinerario con dos barrios evitar recorridos innecesarios",
+      "slug": "visitar-hanoi-con-moto-y-lluvia-prevista-plan-flexible",
+      "url": "/rutas-y-movilidad/visitar-hanoi-con-moto-y-lluvia-prevista-plan-flexible/",
+      "working_title": "Visitar Hanói con moto y lluvia prevista: plan flexible",
+      "primary_keyword": "visitar hanoi con moto y lluvia prevista plan flexible",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0263.json"
+      "draft_file": "_factory/inbox/ES-0266.json"
     },
     {
-      "id": "ES-0264",
+      "id": "ES-0267",
       "hub": "/rutas-y-movilidad/",
-      "slug": "ruta-por-el-centro-de-hanoi-cuando-conviene-caminar",
-      "url": "/rutas-y-movilidad/ruta-por-el-centro-de-hanoi-cuando-conviene-caminar/",
-      "working_title": "Ruta por el centro de Hanói: cuándo conviene caminar",
-      "primary_keyword": "ruta por el centro de hanoi cuando conviene caminar",
+      "slug": "como-planificar-una-ruta-al-atardecer-sin-conducir-de-noche",
+      "url": "/rutas-y-movilidad/como-planificar-una-ruta-al-atardecer-sin-conducir-de-noche/",
+      "working_title": "Cómo planificar una ruta al atardecer sin conducir de noche",
+      "primary_keyword": "como planificar una ruta al atardecer sin conducir de noche",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +49,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0264.json"
+      "draft_file": "_factory/inbox/ES-0267.json"
     },
     {
-      "id": "ES-0265",
+      "id": "ES-0268",
       "hub": "/rutas-y-movilidad/",
-      "slug": "planear-visitas-cercanas-sin-cambiar-de-aparcamiento",
-      "url": "/rutas-y-movilidad/planear-visitas-cercanas-sin-cambiar-de-aparcamiento/",
-      "working_title": "Planear visitas cercanas sin cambiar de aparcamiento",
-      "primary_keyword": "planear visitas cercanas sin cambiar de aparcamiento",
+      "slug": "itinerario-gastronomico-en-hanoi-valorar-aparcamiento",
+      "url": "/rutas-y-movilidad/itinerario-gastronomico-en-hanoi-valorar-aparcamiento/",
+      "working_title": "Itinerario gastronómico en Hanói: valorar aparcamiento",
+      "primary_keyword": "itinerario gastronomico en hanoi valorar aparcamiento",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -72,7 +72,7 @@
         "VERIFY_ACTUAL_ROUTE_CONDITIONS",
         "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0265.json"
+      "draft_file": "_factory/inbox/ES-0268.json"
     }
   ]
 }
