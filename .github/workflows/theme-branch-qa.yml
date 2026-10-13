@@ -8,6 +8,9 @@ on:
       - 'assets/css/**'
       - 'assets/js/**'
       - 'scripts/qa-theme.mjs'
+      - 'scripts/build.mjs'
+      - 'sitemap.xml'
+      - '**/*.html'
       - '.github/workflows/theme-branch-qa.yml'
   workflow_dispatch:
 permissions:
