@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 59,
-  "remaining": 241,
+  "published": 62,
+  "remaining": 238,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0060",
+      "id": "ES-0063",
       "hub": "/tipos-de-motos/",
-      "slug": "comprobar-embrague-y-transmision-preguntas-al-responsable",
-      "url": "/tipos-de-motos/comprobar-embrague-y-transmision-preguntas-al-responsable/",
-      "working_title": "Comprobar embrague y transmisión: preguntas al responsable",
-      "primary_keyword": "comprobar embrague y transmision preguntas al responsable",
+      "slug": "como-reconocer-controles-desconocidos-en-motos-de-marchas",
+      "url": "/tipos-de-motos/como-reconocer-controles-desconocidos-en-motos-de-marchas/",
+      "working_title": "Cómo reconocer controles desconocidos en motos de marchas",
+      "primary_keyword": "como reconocer controles desconocidos en motos de marchas",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0060.json"
+      "draft_file": "_factory/inbox/ES-0063.json"
     },
     {
-      "id": "ES-0061",
+      "id": "ES-0064",
       "hub": "/tipos-de-motos/",
-      "slug": "honda-wave-para-varios-dias-comodidad-y-postura",
-      "url": "/tipos-de-motos/honda-wave-para-varios-dias-comodidad-y-postura/",
-      "working_title": "Honda Wave para varios días: comodidad y postura",
-      "primary_keyword": "honda wave para varios dias comodidad y postura",
+      "slug": "moto-semiautomatica-y-pasajero-evaluacion-de-seguridad",
+      "url": "/tipos-de-motos/moto-semiautomatica-y-pasajero-evaluacion-de-seguridad/",
+      "working_title": "Moto semiautomática y pasajero: evaluación de seguridad",
+      "primary_keyword": "moto semiautomatica y pasajero evaluacion de seguridad",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,16 +49,16 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0061.json"
+      "draft_file": "_factory/inbox/ES-0064.json"
     },
     {
-      "id": "ES-0062",
+      "id": "ES-0065",
       "hub": "/tipos-de-motos/",
-      "slug": "comparacion-de-consumo-entre-modelos-que-datos-confirmar",
-      "url": "/tipos-de-motos/comparacion-de-consumo-entre-modelos-que-datos-confirmar/",
-      "working_title": "Comparación de consumo entre modelos: qué datos confirmar",
-      "primary_keyword": "comparacion de consumo entre modelos que datos confirmar",
-      "intent": "Informacional",
+      "slug": "checklist-de-entrega-para-una-moto-semiautomatica",
+      "url": "/tipos-de-motos/checklist-de-entrega-para-una-moto-semiautomatica/",
+      "working_title": "Checklist de entrega para una moto semiautomática",
+      "primary_keyword": "checklist de entrega para una moto semiautomatica",
+      "intent": "Investigación comercial",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "motos-semiautomaticas",
@@ -72,7 +72,7 @@
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER",
         "VERIFY_BUSINESS_FACTS"
       ],
-      "draft_file": "_factory/inbox/ES-0062.json"
+      "draft_file": "_factory/inbox/ES-0065.json"
     }
   ]
 }
