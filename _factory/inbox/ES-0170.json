@@ -1,0 +1,80 @@
+{
+  "id": "ES-0170",
+  "title": "Cómo revisar el claxon y los intermitentes en la entrega",
+  "description": "Prueba rápida del claxon y los intermitentes antes de aceptar una moto alquilada en Hanói: mandos, ritmo de destello, sincronía y qué pedir si algo falla.",
+  "h1": "Cómo revisar el claxon y los intermitentes en la entrega",
+  "intro": "El claxon y los intermitentes son los dos sistemas de comunicación de la moto con el tráfico, y en Hanói trabajan más que en ninguna ciudad europea: la bocina avista tu presencia en cruces sin semáforo y el intermitente negocia cada giro y cada cambio de carril. Aun así, son los últimos que se prueban en una entrega apresurada. Esta guía explica cómo comprobar ambos en menos de un minuto, qué señales delatan un mando o un relé tocados y qué pedir a la tienda cuando algo no funciona como debe.",
+  "sections": [
+    {
+      "heading": "Por qué estos dos mandos importan tanto en Hanói",
+      "paragraphs": [
+        "La bocina en Hanói no es un gesto de enfado, sino una herramienta de aviso constante: se toca suave antes de cruzar un paso ciego, antes de adelantar a un cyclo en calle estrecha, al acercarse a un cruce donde la prioridad se negocia con la mirada. Un claxon flojo o ronco pierde esa función, porque el tráfico local filtra por intensidad: una bocina clara a tiempo reordena la escena, una bocina apenas audible pasa desapercibida. Por eso su prueba forma parte de la revisión básica de la entrega.",
+        "Los intermitentes, por su parte, son la única señal formal que emite una moto en ciudad. En el tráfico hanóico, donde los adelantamientos por ambos lados son norma, avisar el giro con antelación reduce las sorpresas de quien viene detrás a más velocidad. Un intermitente que no funciona obliga a usar el brazo y a confiar en que el resto interprete el gesto, algo arriesgado con el estándar de conducción local, donde el brazo extendido es un idioma poco hablado.",
+        "Ambos sistemas son también baratos de reparar, y esa es la razón por la que no hay excusa para circular con ellos averiados: una bombilla de intermitente o un claxon flojo por conectores sucios se resuelven en minutos. El costo de pedirlo en la entrega es cero, y el beneficio se reparte en cada cruce de todos los días del alquiler. Formular la petición en el mostrador es la forma de resolverlo sin gestionar después una avería a distancia."
+      ]
+    },
+    {
+      "heading": "Cómo probar el claxon en treinta segundos",
+      "paragraphs": [
+        "La prueba es directa: pulsa el botón con el contacto puesto y escucha. Un claxon sano suena firme e inmediato, sin retardo y sin que la intensidad suba y baje con el ralentí del motor. Prueba también con el motor en marcha, porque si el sonido cambia mucho al acelerar, el problema suele estar en el conector o en la batería, y no en la bocina. Si el botón está en el mando izquierdo, prueba también a girar el manillar a ambos lados mientras lo pulsas: un sonido intermitente al girar delata un cable pisado en la columna de dirección.",
+        "El tacto del botón informa por sí solo: un pulsador que hay que buscar en un ángulo raro o que se traba a medias molestará en cada uso, y en Hanói se usa decenas de veces al día. Si el botón responde solo a veces, pide que revisen el mando antes de salir, porque esa avería menor empeora con la humedad y termina fallando en el peor momento. La prueba se completa con el claxon trasero: una palmada cerca de la bocina no debe hacerla callar, pero si suena distinta al pulsar mientras la moto vibra, el anclaje está flojo y puede soltarse con los baches.",
+        "El volumen también se evalúa con criterio local: un claxon excesivamente potente asusta a peatones y ciclos en calles estrechas y crea incomodidad, y uno demasiado débil se pierde bajo el ruido del tráfico. El punto medio es el objetivo, y la referencia la da la costumbre: la mayoría de motos de alquiler en Hanói lleva bocinas de tono medio que se oyen a una manzana sin atronar. Si la unidad se sale mucho de ese estándar en cualquier dirección, coméntalo y decide con la tienda."
+      ]
+    },
+    {
+      "heading": "Cómo probar los intermitentes: delante y detrás",
+      "paragraphs": [
+        "Con la moto en el caballete y el contacto puesto, activa el intermitente izquierdo y comprueba que las luces delantera y trasera destellan al mismo tiempo. Repite con el derecho. El ritmo debe ser constante, cercano a un destello por segundo, sin acelerarse ni ralentizarse. Un ritmo irregular suele indicar un relé tocado o una bombilla con consumo anormal, y un intermitente que destella muy rápido delata una bombilla fundida en el circuito correspondiente, aun cuando el otro extremo funcione.",
+        "Pide a alguien, o usa el reflejo de una vitrina, para confirmar que las luces traseras funcionan en ambos lados: es el fallo más frecuente y el menos visible desde la posición de conducción. Si estás solo, acércate la moto a una pared en la acera y observa el reflejo del destello en la pared detrás de ti. La prueba completa incluye también el piloto de freno pisando la palanca trasera y la maneta delantera, y la luz de posición trasera encendida con el contacto.",
+        "El retorno del mando también se revisa: tras un giro simulado a baja velocidad en la calle frente a la tienda, el intermitente debe anularse solo al enderezar el manillar, o al menos cancelar manualmente sin forzar el pulsador. Un mando que no cancela obliga a circular con un destello falso tras cada giro, algo peligroso en una ciudad donde la señal se interpreta en serio. Si la cancelación no funciona, coméntalo: a veces es solo la posición del pulsador, ajustada en segundos."
+      ]
+    },
+    {
+      "heading": "Qué pedir y cómo documentar el estado",
+      "paragraphs": [
+        "Si la prueba revela un fallo, la petición depende de la gravedad: un intermitente trasero fundido o un claxon flojo son reparaciones de minutos que cualquier tienda con taller resuelve en la entrega; si no hay tiempo o pieza, pide otra unidad del mismo modelo. Formular la petición con el síntoma exacto ayuda: «el intermitente derecho trasero no destella» o «la bocina suena débil con el motor parado». Cuanto más concreto el mensaje, más rápida la solución.",
+        "Documentar el estado evita discusiones posteriores: una foto del cuadro con los intermitentes funcionando, o una nota en el contrato si la tienda lo permite, registra que el sistema se entregó correcto. Si algún elemento queda pendiente de reparar con compromiso de la tienda, pide el compromiso por mensaje con fecha: la referencia escrita protege a ambas partes y simplifica cualquier gestión posterior durante el alquiler.",
+        "Al devolver la unidad, la prueba se repite en treinta segundos: bocina y cuatro intermitentes, delante y detrás. Que el sistema vuelva funcionando igual que en la recogida cierra la revisión final sin fisuras y acelera la devolución del contrato y de la garantía. Es la misma rutina de dos minutos que abre y cierra cada alquiler, y la repetición convierte la comprobación en un hábito que luego se aplica en cualquier moto, alquilada o propia."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cómo sé si un intermitente está fundido si solo veo el delantero?",
+      "answer": "Cuando uno de los dos extremos falla, el ritmo del destello cambia y suele acelerarse. Confirma siempre el trasero con un acompañante, con el reflejo en una vitrina o acercando la moto a una pared para ver el destello reflejado."
+    },
+    {
+      "question": "¿Es normal que la bocina suene distinta con el motor parado?",
+      "answer": "Un cambio leve de intensidad entre ralentí y contacto es habitual por el voltaje. Si el sonido desaparece, se corta al girar el manillar o cambia de forma brusca, hay un conector o un cable dañados y conviene que la tienda lo revise antes de salir."
+    },
+    {
+      "question": "¿Puedo circular con el intermitente trasero fundido unos días?",
+      "answer": "No es recomendable: la señal trasera es la que ve el tráfico que se acerca y su ausencia aumenta el riesgo en giros y cambios de carril. Es una reparación de minutos que conviene plantear en la entrega o avisar en cuanto se detecte durante el alquiler."
+    },
+    {
+      "question": "¿Qué hago si el intermitente no se cancela solo tras girar?",
+      "answer": "Coméntalo en la entrega, porque muchas veces es solo la posición del pulsador de cancelación y se ajusta en segundos. Circular con un destello encendido tras el giro comunica una maniobra que no vas a hacer y confunde al resto del tráfico."
+    },
+    {
+      "question": "¿Un claxon muy potente es mejor en Hanói?",
+      "answer": "No necesariamente: una bocina excesiva asusta a peatones y ciclistas en las calles estrechas del centro. El estándar local es un tono medio que se oiga a una manzana sin atronar, y ese equilibrio es el que conviene exigir en la unidad."
+    },
+    {
+      "question": "¿Cómo documento que bocina e intermitentes funcionaban en la entrega?",
+      "answer": "Con una foto del cuadro encendido con los intermitentes activos y, si la tienda lo permite, una nota en el contrato. Si algo queda pendiente de reparar con compromiso, pide ese compromiso por mensaje con fecha para tener referencia escrita."
+    }
+  ],
+  "related": [
+    "/guia-de-alquiler/como-comprobar-las-luces-de-una-moto-en-la-entrega/",
+    "/guia-de-alquiler/retrovisores-de-moto-ajuste-y-comprobaciones-basicas/",
+    "/guia-de-alquiler/revisar-una-moto-alquilada/",
+    "/guia-de-alquiler/entrega-y-recogida/",
+    "/precios/comunicacion-con-el-proveedor-el-dia-de-la-entrega/"
+  ],
+  "source_urls": [
+    "https://es.rentbikehanoi.com/",
+    "https://maps.google.com/maps?cid=7448790013669858019"
+  ],
+  "status": "READY_FOR_QA",
+  "word_count": 1098
+}
