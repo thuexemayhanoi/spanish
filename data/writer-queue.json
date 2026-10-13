@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 182,
-  "remaining": 118,
+  "published": 183,
+  "remaining": 117,
   "planned": 300,
   "unplanned": 0,
   "queue": [
@@ -36,18 +36,18 @@
       "draft_file": "_factory/inbox/ES-0194.json"
     },
     {
-      "id": "ES-0195",
+      "id": "ES-0196",
       "hub": "/guia-de-alquiler/",
-      "slug": "que-hacer-si-una-calle-de-tu-ruta-esta-cerrada",
-      "url": "/guia-de-alquiler/que-hacer-si-una-calle-de-tu-ruta-esta-cerrada/",
-      "working_title": "Qué hacer si una calle de tu ruta está cerrada",
-      "primary_keyword": "que hacer si una calle de tu ruta esta cerrada",
+      "slug": "como-valorar-tu-cansancio-antes-de-volver-al-alojamiento",
+      "url": "/guia-de-alquiler/como-valorar-tu-cansancio-antes-de-volver-al-alojamiento/",
+      "working_title": "Cómo valorar tu cansancio antes de volver al alojamiento",
+      "primary_keyword": "como valorar tu cansancio antes de volver al alojamiento",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0195.json"
+      "draft_file": "_factory/inbox/ES-0196.json"
     }
   ]
 }
