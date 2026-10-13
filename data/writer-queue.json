@@ -1,10 +1,74 @@
 {
   "schema_version": 1,
-  "status": "PLAN_EXHAUSTED",
+  "status": "READY",
   "target": 300,
-  "published": 288,
-  "remaining": 12,
-  "planned": 300,
-  "unplanned": 0,
-  "queue": []
+  "published": 291,
+  "remaining": 9,
+  "planned": 312,
+  "unplanned": -12,
+  "queue": [
+    {
+      "id": "ES-0304",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "calidad-del-aire-en-hanoi-y-alternativas-a-la-moto",
+      "url": "/rutas-y-movilidad/calidad-del-aire-en-hanoi-y-alternativas-a-la-moto/",
+      "working_title": "Calidad del aire en Hanói: cuándo cambiar la moto por otro transporte",
+      "primary_keyword": "calidad del aire en hanói: cuándo cambiar la moto por otro transporte",
+      "intent": "Informacional",
+      "brief": "Exposición ambiental y decisiones basadas en alertas de calidad del aire, no clima térmico.",
+      "category_id": "clima-y-temporadas",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0092",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ],
+      "draft_file": "_factory/inbox/ES-0304.json"
+    },
+    {
+      "id": "ES-0305",
+      "hub": "/tipos-de-motos/scooters/",
+      "slug": "scooters-para-personas-altas-en-hanoi-ergonomia",
+      "url": "/tipos-de-motos/scooters/scooters-para-personas-altas-en-hanoi-ergonomia/",
+      "working_title": "Scooters para personas altas en Hanói: comprobar postura y controles",
+      "primary_keyword": "scooters para personas altas en hanói: comprobar postura y controles",
+      "intent": "Informacional",
+      "brief": "Ergonomía para conductores altos, distinta de altura baja y dimensiones genéricas.",
+      "category_id": "scooters-automaticos",
+      "parent_id": "tipos-de-motos",
+      "status": "PLANNED",
+      "replacement_for": "ES-0093",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ],
+      "draft_file": "_factory/inbox/ES-0305.json"
+    },
+    {
+      "id": "ES-0306",
+      "hub": "/tipos-de-motos/",
+      "slug": "cargador-de-moto-electrica-alquilada-transporte-y-almacenamiento",
+      "url": "/tipos-de-motos/cargador-de-moto-electrica-alquilada-transporte-y-almacenamiento/",
+      "working_title": "Cargador de moto eléctrica alquilada: transporte y almacenamiento seguro",
+      "primary_keyword": "cargador de moto eléctrica alquilada: transporte y almacenamiento seguro",
+      "intent": "Informacional",
+      "brief": "Cuidado y transporte del cargador durante el alquiler, diferente de comprobar accesorios en la entrega.",
+      "category_id": "motos-electricas",
+      "parent_id": "tipos-de-motos",
+      "status": "PLANNED",
+      "replacement_for": "ES-0095",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ],
+      "draft_file": "_factory/inbox/ES-0306.json"
+    }
+  ]
 }

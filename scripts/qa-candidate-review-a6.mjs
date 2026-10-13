@@ -8,7 +8,7 @@ const cfg=read('data/factory-config.json'),errors=[],check=(p,m)=>{if(!p)errors.
 check(source.candidates.length===270&&review.reviews.length===270,'Expected 270 candidate+review records');
 check(review.summary.holds===12&&review.summary.prescreened===258,'Expected 12 HOLD and 258 pending validation');
 check(review.summary.unsupported_hub===110,'Expected 110 topics outside present factory hub allowlist');
-check(plan.articles.length===300&&['ES-0001','ES-0002','ES-0003','ES-0004','ES-0005'].every(id=>state.published_ids.includes(id)),'Expanded plan or original articles missing');
+check(plan.articles.length===312&&['ES-0001','ES-0002','ES-0003','ES-0004','ES-0005'].every(id=>state.published_ids.includes(id)),'Expanded plan or original articles missing');
 check(queue.queue.every(r=>r.status==='PLANNED'&&!review.reviews.some(v=>v.id===r.id&&v.decision==='HOLD_CONSOLIDATION_REVIEW')),'HOLD present in writer queue');
 check(cfg.allowed_hubs.length===7,'Expected 7 supported factory hubs');
 const allIds=new Set(plan.articles.map(x=>x.id)),seen=new Set();
@@ -27,6 +27,13 @@ for(const c of source.candidates){
  check(x.required_checks.includes('VERIFY_SEARCH_INTENT_AND_SERP'),'Missing SERP gate '+c.id);
 }
 check(source.candidates.filter(c=>c.status==='HOLD_FOR_INTENT_REVIEW').length===12,'Unexpected hold count');
+const replacements=plan.articles.filter(r=>r.replacement_for);
+check(replacements.length===12&&new Set(replacements.map(r=>r.replacement_for)).size===12,'Expected 12 distinct approved replacement records');
+for(const r of replacements){
+ check(r.status==='PLANNED'&&Number(r.id.slice(3))>300,'Replacement slot not independent '+r.id);
+ check(source.candidates.some(c=>c.id===r.replacement_for&&c.status==='HOLD_FOR_INTENT_REVIEW'),'Replacement lacks frozen HOLD provenance '+r.id);
+ check(!source.candidates.some(c=>c.proposed_url===r.url),'Replacement duplicates frozen A6 URL '+r.id);
+}
 check(review.safety.candidates_published===0&&review.safety.candidates_written_to_writer_queue===0,'Historical A6 snapshot mutated');
 for(const c of source.candidates.filter(x=>x.status==='HOLD_FOR_INTENT_REVIEW'))check(plan.articles.find(p=>p.id===c.id)?.status==='HOLD_FOR_INTENT_REVIEW','HOLD protection missing '+c.id);
 if(errors.length){console.error(errors.slice(0,60).join('\n'));process.exit(1)}
