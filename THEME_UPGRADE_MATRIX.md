@@ -27,10 +27,10 @@
 | P1-01 | P1 | Premium header/menu layout | Multi-column sections only for live taxonomy groups; no dead links or new phantom URLs | TODO |
 | P1-02 | P1 | Search | Static, bounded per-category/paginated index; progressive enhancement and a true no-JS fallback | TODO |
 | P1-03 | P1 | Article navigation | Progressive TOC, scroll progress, back-to-top via JS/CSS without generator HTML change; browser acceptance pending | IMPLEMENTED / CI PASS |
-| P1-04 | P1 | Premium mega footer | Reuse verified NAP/links, responsive columns, back-to-top; source enhanced in branch, manual iPhone verification pending | IMPLEMENTED IN BRANCH / QA PENDING |
+| P1-04 | P1 | Premium mega footer | Verified NAP/links, responsive columns and back-to-top; branch + PR QA passed; manual iPhone verification pending | IMPLEMENTED / CI PASS (NOT DEPLOYED) |
 | P1-05 | P1 | Homepage/editorial layout | Featured published articles and taxonomy clusters without changing existing text metadata | TODO |
 | P1-06 | P1 | Category archive experience | Intro, category grouping and pagination; threshold for empty/low-content archives retained | TODO |
-| P2-01 | P2 | Result and 404 pages | SEO noindex search results; 404 recovery, no fictitious links | TODO |
+| P2-01 | P2 | Result and 404 pages | 404 premium recovery on technical branch, stable across article count; search results still missing | 404 CI PASS / SEARCH TODO |
 | P2-02 | P2 | Article and pillar layouts | Reading measure, sidebar, credibility UI, author verified from existing site data | TODO |
 | P2-03 | P2 | Performance pass | CSS budgets, no layout shift, no render-blocking resources, iPhone CWV | TODO |
 | P2-04 | P2 | SEO/AEO/GEO QA | Preserve schema & local entity data; validate breadcrumb, internal links and Article metadata | TODO |
@@ -148,3 +148,24 @@ All are production baseline findings: code on the unmerged branch is **not a liv
 5. Manually preview 390px / 768px / 1024px / desktop, perform WCAG 2.2 AA contrast/keyboard and Lighthouse checks, and benchmark scale before claiming a 40k-ready system.
 
 **Status:** theme upgrades remain **unmerged and un-deployed**. P1.04 is implemented on branch but not accepted until CI and browser preview.
+
+
+### Batch acceptance — premium 404 and new CSS/JS (2026-10-14 ICT)
+
+- Footer style `db26aa9`: [Theme QA run #9](https://github.com/thuexemayhanoi/spanish/actions/runs/38451875593) PASS.
+- Global Back to Top `a00c079`: [Theme QA run #10](https://github.com/thuexemayhanoi/spanish/actions/runs/38451943610) PASS.
+- P1.04 regression assertions `f4928fb`: [Theme QA run #11](https://github.com/thuexemayhanoi/spanish/actions/runs/38452064830) PASS and [PR Site QA run #58](https://github.com/thuexemayhanoi/spanish/actions/runs/38452072909) PASS.
+- First generated-404 change `dfe98a1`: technical-branch QA passed but PR merge-ref QA found `STALE 404.html`, because menu counts differed between the 291-article theme branch and 300-article `main`. Treat these prior failed runs as real findings, not evidence of success.
+- P2 404 correction `4569fd11a92428e03929e0ff98ee76b0f645105d`: made the fallback navigation independent of article counts, kept `noindex,follow`, preserved one H1, reused existing site footer, and linked only to verified pages. The generator and generated `404.html` were committed together atomically. [Theme QA run #16](https://github.com/thuexemayhanoi/spanish/actions/runs/38453114892) **PASS** and [PR Site Build QA run #64](https://github.com/thuexemayhanoi/spanish/actions/runs/38453122386) **PASS**.
+- `scripts/qa-theme.mjs` protects the 404 navigation, H1, noindex, crawl-safe links, and shared footer.
+- 404 before/after source length **448 B → 3,803 B** (generated HTML); layout renders with shared CSS and mobile controls. **Branch preview screenshot is not verified**, so do not assert visual parity or WCAG conformance.
+- `main` remains unchanged. Existing article paths/structured data/nap/sitemap were not modified; `AGENTS.md` protects handoff and Writer separation.
+
+### Remaining approval gates / unresolved technical work
+
+- **Branch synchronization:** P0 branch was based on an earlier 291-article snapshot, whereas current main has 300. Both PR CI runs pass, but branch must still be safely reconciled before any merge. Never let the merge delete nine new articles or change Factory state.
+- **Search:** no true site search at `/?s=` or `/buscar/`. Requires sharded lazy search architecture and separately reviewed search route/metadata; not DONE.
+- **Misrouted homepage CTA:** “Motos semiautomáticas” currently points at `/precios/`. Internal-link change awaits SEO approval, so left untouched.
+- **Homepage featured, hub pagination, pillar/sidebar, mega-menu item curation, metadata/AgentMarkup CLI, Core Web Vitals, 40k article benchmark:** pending. No claims of real-world 40k scale or WCAG 2.2 AA certification.
+
+Rollback on this unmerged branch: revert `4569fd11` to undo the premium 404, `a00c079` for back-to-top and `db26aa9` for footer styling. Run the same branch and full PR tests; do not revert production `main`.
