@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 268,
-  "remaining": 32,
+  "published": 271,
+  "remaining": 29,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0281",
+      "id": "ES-0284",
       "hub": "/rutas-y-movilidad/",
-      "slug": "como-consultar-alertas-meteorologicas-oficiales-en-vietnam",
-      "url": "/rutas-y-movilidad/como-consultar-alertas-meteorologicas-oficiales-en-vietnam/",
-      "working_title": "Cómo consultar alertas meteorológicas oficiales en Vietnam",
-      "primary_keyword": "como consultar alertas meteorologicas oficiales en vietnam",
+      "slug": "visibilidad-por-niebla-o-bruma-cuando-evitar-conducir",
+      "url": "/rutas-y-movilidad/visibilidad-por-niebla-o-bruma-cuando-evitar-conducir/",
+      "working_title": "Visibilidad por niebla o bruma: cuándo evitar conducir",
+      "primary_keyword": "visibilidad por niebla o bruma cuando evitar conducir",
       "intent": "Informacional",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,37 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0281.json"
+      "draft_file": "_factory/inbox/ES-0284.json"
     },
     {
-      "id": "ES-0282",
+      "id": "ES-0285",
       "hub": "/rutas-y-movilidad/",
-      "slug": "tormenta-durante-el-alquiler-opciones-mas-seguras",
-      "url": "/rutas-y-movilidad/tormenta-durante-el-alquiler-opciones-mas-seguras/",
-      "working_title": "Tormenta durante el alquiler: opciones más seguras",
-      "primary_keyword": "tormenta durante el alquiler opciones mas seguras",
-      "intent": "Investigación comercial",
-      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "clima-y-temporadas",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0282.json"
-    },
-    {
-      "id": "ES-0283",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "lluvia-al-devolver-una-moto-coordinar-la-revision-final",
-      "url": "/rutas-y-movilidad/lluvia-al-devolver-una-moto-coordinar-la-revision-final/",
-      "working_title": "Lluvia al devolver una moto: coordinar la revisión final",
-      "primary_keyword": "lluvia al devolver una moto coordinar la revision final",
+      "slug": "planificar-dias-de-descanso-segun-el-clima-de-hanoi",
+      "url": "/rutas-y-movilidad/planificar-dias-de-descanso-segun-el-clima-de-hanoi/",
+      "working_title": "Planificar días de descanso según el clima de Hanói",
+      "primary_keyword": "planificar dias de descanso segun el clima de hanoi",
       "intent": "Informacional",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +49,29 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0283.json"
+      "draft_file": "_factory/inbox/ES-0285.json"
+    },
+    {
+      "id": "ES-0286",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "moto-alquilada-o-taxi-en-hanoi-como-decidir",
+      "url": "/rutas-y-movilidad/moto-alquilada-o-taxi-en-hanoi-como-decidir/",
+      "working_title": "Moto alquilada o taxi en Hanói: cómo decidir",
+      "primary_keyword": "moto alquilada o taxi en hanoi como decidir",
+      "intent": "Informacional",
+      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0286.json"
     }
   ]
 }
