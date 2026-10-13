@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 265,
-  "remaining": 35,
+  "published": 268,
+  "remaining": 32,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0278",
+      "id": "ES-0281",
       "hub": "/rutas-y-movilidad/",
-      "slug": "calor-intenso-y-conduccion-urbana-hidratacion-y-pausas",
-      "url": "/rutas-y-movilidad/calor-intenso-y-conduccion-urbana-hidratacion-y-pausas/",
-      "working_title": "Calor intenso y conducción urbana: hidratación y pausas",
-      "primary_keyword": "calor intenso y conduccion urbana hidratacion y pausas",
+      "slug": "como-consultar-alertas-meteorologicas-oficiales-en-vietnam",
+      "url": "/rutas-y-movilidad/como-consultar-alertas-meteorologicas-oficiales-en-vietnam/",
+      "working_title": "Cómo consultar alertas meteorológicas oficiales en Vietnam",
+      "primary_keyword": "como consultar alertas meteorologicas oficiales en vietnam",
       "intent": "Informacional",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,16 +27,16 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0278.json"
+      "draft_file": "_factory/inbox/ES-0281.json"
     },
     {
-      "id": "ES-0279",
+      "id": "ES-0282",
       "hub": "/rutas-y-movilidad/",
-      "slug": "frio-en-hanoi-preparar-ropa-para-circular-en-moto",
-      "url": "/rutas-y-movilidad/frio-en-hanoi-preparar-ropa-para-circular-en-moto/",
-      "working_title": "Frío en Hanói: preparar ropa para circular en moto",
-      "primary_keyword": "frio en hanoi preparar ropa para circular en moto",
-      "intent": "Informacional",
+      "slug": "tormenta-durante-el-alquiler-opciones-mas-seguras",
+      "url": "/rutas-y-movilidad/tormenta-durante-el-alquiler-opciones-mas-seguras/",
+      "working_title": "Tormenta durante el alquiler: opciones más seguras",
+      "primary_keyword": "tormenta durante el alquiler opciones mas seguras",
+      "intent": "Investigación comercial",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "clima-y-temporadas",
@@ -49,15 +49,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0279.json"
+      "draft_file": "_factory/inbox/ES-0282.json"
     },
     {
-      "id": "ES-0280",
+      "id": "ES-0283",
       "hub": "/rutas-y-movilidad/",
-      "slug": "cambios-bruscos-de-tiempo-adaptar-el-itinerario",
-      "url": "/rutas-y-movilidad/cambios-bruscos-de-tiempo-adaptar-el-itinerario/",
-      "working_title": "Cambios bruscos de tiempo: adaptar el itinerario",
-      "primary_keyword": "cambios bruscos de tiempo adaptar el itinerario",
+      "slug": "lluvia-al-devolver-una-moto-coordinar-la-revision-final",
+      "url": "/rutas-y-movilidad/lluvia-al-devolver-una-moto-coordinar-la-revision-final/",
+      "working_title": "Lluvia al devolver una moto: coordinar la revisión final",
+      "primary_keyword": "lluvia al devolver una moto coordinar la revision final",
       "intent": "Informacional",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0280.json"
+      "draft_file": "_factory/inbox/ES-0283.json"
     }
   ]
 }
