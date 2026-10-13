@@ -1,7 +1,7 @@
 name: Spanish Core Pages SEO Build
 on:
   push:
-    branches: [seo/spanish-core-pages-20261014]
+    branches: [seo/spanish-zones-routes-20261014]
     paths:
       - 'site/pillars/**'
       - 'scripts/build.mjs'
@@ -12,7 +12,7 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: spanish-core-seo-build
+  group: spanish-zones-routes-build
   cancel-in-progress: false
 jobs:
   core-pages:
@@ -53,10 +53,10 @@ jobs:
             echo "SAFE_STOP unexpected staged file" >&2
             exit 1
           fi
-          git commit -m "build(spanish): core SEO pages and consistent global footer"
-          git fetch origin seo/spanish-core-pages-20261014
-          if [ "$(git rev-parse origin/seo/spanish-core-pages-20261014)" != "$(git rev-parse HEAD^)" ]; then
+          git commit -m "build(spanish): extended geographic and mobility SEO hubs"
+          git fetch origin seo/spanish-zones-routes-20261014
+          if [ "$(git rev-parse origin/seo/spanish-zones-routes-20261014)" != "$(git rev-parse HEAD^)" ]; then
             echo "SAFE_STOP branch advanced during build" >&2
             exit 1
           fi
-          git push origin HEAD:seo/spanish-core-pages-20261014
+          git push origin HEAD:seo/spanish-zones-routes-20261014

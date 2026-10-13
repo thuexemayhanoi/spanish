@@ -12,13 +12,13 @@ const targets=[
 '/','/sobre-nosotros/','/tipos-de-motos/','/tipos-de-motos/scooters/',
 '/tipos-de-motos/motos-50cc/','/precios/','/guia-de-alquiler/',
 '/guia-de-alquiler/documentacion-y-deposito/','/faq/',
-'/politica-de-privacidad/','/terminos-y-condiciones/'
+'/politica-de-privacidad/','/terminos-y-condiciones/',
+'/zonas-de-hanoi/','/rutas-y-movilidad/'
 ];
 const fail=(m)=>{throw Error('CORE_SEO_QA_FAIL '+m)};
 if(state.published_ids.length!==300||new Set(state.published_ids).size!==300)fail('Article count / uniqueness changed');
 const allPages=new Set([...site.pages.map(x=>x.url),...taxonomy.parents.map(x=>x.url)]);
 const legal=['/politica-de-privacidad/','/terminos-y-condiciones/','/sobre-nosotros/'];
-const escapeReg=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
 for(const url of targets){
  const file=url==='/'?'index.html':url.slice(1)+'index.html';
  const html=read(file);
