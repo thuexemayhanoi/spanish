@@ -2,63 +2,19 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 233,
-  "remaining": 67,
+  "published": 236,
+  "remaining": 64,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0245",
+      "id": "ES-0248",
       "hub": "/zonas-de-hanoi/",
-      "slug": "rutas-urbanas-de-tay-ho-evitar-calles-desconocidas",
-      "url": "/zonas-de-hanoi/rutas-urbanas-de-tay-ho-evitar-calles-desconocidas/",
-      "working_title": "Rutas urbanas de Tây Hồ: evitar calles desconocidas",
-      "primary_keyword": "rutas urbanas de tay ho evitar calles desconocidas",
+      "slug": "ba-inh-restricciones-de-circulacion-que-conviene-consultar",
+      "url": "/zonas-de-hanoi/ba-inh-restricciones-de-circulacion-que-conviene-consultar/",
+      "working_title": "Ba Đình: restricciones de circulación que conviene consultar",
+      "primary_keyword": "ba inh restricciones de circulacion que conviene consultar",
       "intent": "Informacional",
-      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "tay-ho-ba-dinh",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
-      ],
-      "draft_file": "_factory/inbox/ES-0245.json"
-    },
-    {
-      "id": "ES-0246",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "tay-ho-en-dias-de-lluvia-opciones-de-movilidad",
-      "url": "/zonas-de-hanoi/tay-ho-en-dias-de-lluvia-opciones-de-movilidad/",
-      "working_title": "Tây Hồ en días de lluvia: opciones de movilidad",
-      "primary_keyword": "tay ho en dias de lluvia opciones de movilidad",
-      "intent": "Informacional",
-      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "tay-ho-ba-dinh",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
-      ],
-      "draft_file": "_factory/inbox/ES-0246.json"
-    },
-    {
-      "id": "ES-0247",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "alquiler-de-moto-y-alojamiento-en-tay-ho-logistica-de-recogida",
-      "url": "/zonas-de-hanoi/alquiler-de-moto-y-alojamiento-en-tay-ho-logistica-de-recogida/",
-      "working_title": "Alquiler de moto y alojamiento en Tây Hồ: logística de recogida",
-      "primary_keyword": "alquiler de moto y alojamiento en tay ho logistica de recogida",
-      "intent": "Investigación comercial",
       "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "tay-ho-ba-dinh",
@@ -70,9 +26,53 @@
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
-        "VERIFY_BUSINESS_FACTS"
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0247.json"
+      "draft_file": "_factory/inbox/ES-0248.json"
+    },
+    {
+      "id": "ES-0249",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "visitar-lugares-historicos-de-ba-inh-planificar-el-traslado",
+      "url": "/zonas-de-hanoi/visitar-lugares-historicos-de-ba-inh-planificar-el-traslado/",
+      "working_title": "Visitar lugares históricos de Ba Đình: planificar el traslado",
+      "primary_keyword": "visitar lugares historicos de ba inh planificar el traslado",
+      "intent": "Informacional",
+      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "tay-ho-ba-dinh",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+      ],
+      "draft_file": "_factory/inbox/ES-0249.json"
+    },
+    {
+      "id": "ES-0250",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "ba-inh-y-hoan-kiem-comparar-opciones-de-transporte",
+      "url": "/zonas-de-hanoi/ba-inh-y-hoan-kiem-comparar-opciones-de-transporte/",
+      "working_title": "Ba Đình y Hoàn Kiếm: comparar opciones de transporte",
+      "primary_keyword": "ba inh y hoan kiem comparar opciones de transporte",
+      "intent": "Informacional",
+      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "tay-ho-ba-dinh",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+      ],
+      "draft_file": "_factory/inbox/ES-0250.json"
     }
   ]
 }
