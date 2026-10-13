@@ -13,3 +13,5 @@ Execution 2: process planned drafts ES-0307..ES-0309 (VND payments, expense brea
 Execution 2 verified: ES-0307..ES-0309 published; state 297/300; last run 2026-10-13T18:49:32.458Z.
 
 Execution 3: process planned drafts ES-0310..ES-0312 (rail stations, accessibility, overnight-flight fatigue). The twelve historical HOLD slots must remain unpublished. Goal exactly 300 unique published articles.
+
+Final publication confirmed: all 12 replacement articles ES-0301..ES-0312 accepted and 300 unique published IDs; historical HOLDs preserved. Final terminal-state run: refresh queue fields and verify idempotent no-op; never publish article #301.
