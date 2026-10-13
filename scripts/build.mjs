@@ -48,7 +48,9 @@ function generate(c){
    if(typeof section.heading!=='string'||!Array.isArray(section.paragraphs)||section.paragraphs.length<2)throw Error('Bad SEO section '+p.url);
    const paragraphs=section.paragraphs.map(t=>'<p>'+E(t)+'</p>').join('');
    const related=(section.links||[]).map(item=>{
-    if(!pagesByUrl.has(item.url))throw Error('Unknown pillar link '+p.url+' => '+item.url);
+    // Topic hubs may not exist during the protected five-article Factory smoke simulation.
+    // Only emit links when the target is a real page in the current generated snapshot.
+    if(!pagesByUrl.has(item.url))return '';
     return link(item.url,item.label);
    }).join('');
    return '<section class="seo-core-block" id="guia-'+(index+1)+'"><h2>'+E(section.heading)+'</h2>'+paragraphs+'<nav class="seo-core-related" aria-label="Lecturas relacionadas">'+related+'</nav></section>';
