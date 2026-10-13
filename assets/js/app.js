@@ -150,6 +150,55 @@
   }
   initReader();
 
+  // P1.04 all-pages footer jump and lightweight sticky shadow
+  const header=document.querySelector('.header');
+  const footerBottom=document.querySelector('.footer .foot-bottom');
+  if(footerBottom&&!footerBottom.querySelector('.footer-back-to-top')){
+    const anchor=document.createElement('a');
+    anchor.className='footer-back-to-top';
+    anchor.href='#content';
+    anchor.textContent='↑ Volver arriba';
+    footerBottom.append(anchor);
+  }
+  if(!document.querySelector('.prose article')){
+    const jump=document.createElement('button');
+    jump.type='button';
+    jump.className='back-to-top';
+    jump.textContent='↑';
+    jump.title='Volver al inicio';
+    jump.setAttribute('aria-label','Volver al inicio');
+    jump.hidden=true;
+    document.body.append(jump);
+    jump.addEventListener('click',()=>{
+      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({top:0,behavior:reduced?'auto':'smooth'});
+    });
+    let scheduled=false;
+    const update=()=>{
+      scheduled=false;
+      jump.hidden=window.scrollY<560;
+      header?.classList.toggle('is-scrolled',window.scrollY>10);
+    };
+    const schedule=()=>{
+      if(scheduled)return;
+      scheduled=true;
+      window.requestAnimationFrame(update);
+    };
+    window.addEventListener('scroll',schedule,{passive:true});
+    window.addEventListener('resize',schedule,{passive:true});
+    update();
+  }else if(header){
+    let frame=false;
+    window.addEventListener('scroll',()=>{
+      if(frame)return;
+      frame=true;
+      window.requestAnimationFrame(()=>{
+        frame=false;
+        header.classList.toggle('is-scrolled',window.scrollY>10);
+      });
+    },{passive:true});
+  }
+
   document.addEventListener('click',event=>{
     const target=event.target;
     if(!(target instanceof Element))return;
