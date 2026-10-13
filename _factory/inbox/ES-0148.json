@@ -1,0 +1,88 @@
+{
+  "id": "ES-0148",
+  "title": "Qué datos personales son necesarios para una consulta inicial",
+  "description": "Qué datos personales hacen falta para una consulta inicial de alquiler de moto en Hanói, qué conviene reservar para la firma del contrato y qué precauciones tomar antes de enviarlos.",
+  "h1": "Qué datos personales son necesarios para una consulta inicial de alquiler",
+  "intro": "Una de las dudas más frecuentes antes de escribir a un proveedor de motos en Hanói es qué hay que contar de uno mismo para recibir una respuesta útil. La buena noticia es que muy poco: una consulta inicial funciona con datos de viaje, no con datos de identidad. Esta guía separa las tres capas de información de un alquiler: lo que se necesita para preguntar, lo que se necesita para reservar y lo que se necesita para firmar el contrato. Conocer esa frontera evita dos errores opuestos: enviar información personal innecesaria antes de tiempo y llegar al mostrador sin la documentación que ya sí es imprescindible.",
+  "sections": [
+    {
+      "heading": "Los datos que sí necesita una consulta inicial",
+      "paragraphs": [
+        "Una consulta inicial busca una respuesta concreta del proveedor, y para eso solo necesita datos del viaje: el modelo o tipo de moto que interesa, las fechas de recogida y devolución, la duración prevista y el punto aproximado donde se recogería el vehículo. Con esos cuatro elementos, el establecimiento puede responder si hay disponibilidad, cuál sería la tarifa orientativa del periodo y qué depósito maneja ese modelo. Sin alguno de esos datos, la respuesta llegará incompleta o llegará con más preguntas que respuestas.",
+        "Nótese lo que no aparece en esa lista: el nombre completo, el número de pasaporte, la dirección del hotel o la tarjeta de crédito. Ninguno de esos datos mejora la calidad de la respuesta sobre disponibilidad ni sobre tarifas. El proveedor no los necesita para contestar, y el viajero no gana nada por adelantárselos. La consulta inicial es una conversación sobre un servicio, no sobre una persona.",
+        "Si la consulta incluye alguna preferencia personal, conviene formularla como condición del servicio y no como dato íntimo: mejor una moto con asiento bajo que mido metro sesenta, mejor una moto con espacio para un casco y una mochila que mi equipaje pesa tanto. Las preferencias ayudan al proveedor a recomendar el modelo adecuado; los datos de identidad no ayudan a nada en esta fase."
+      ]
+    },
+    {
+      "heading": "Los datos que no conviene enviar todavía",
+      "paragraphs": [
+        "La regla de oro es sencilla: no se envía información personal antes de que exista una razón para ella. El número de pasaporte, las copias de documentos, los datos bancarios y la dirección exacta del alojamiento pertenecen a fases posteriores, cuando ya hay un acuerdo concreto y un trámite real que justificarlos. En la fase de consulta, enviarlos solo crea un registro innecesario de datos personales que después nadie puede borrar del chat de nadie.",
+        "Esta precaución no es desconfianza paranoide; es higiene digital básica. Cada dato personal que viaja por un canal de mensajería queda almacenado en esa conversación, en manos de personas que aún no tienen ninguna obligación contractual con el viajero. Si el alquiler no llega a cerrarse, esos datos quedan ahí sin motivo. La práctica prudente, ya tratada en el artículo sobre qué evitar al enviar datos personales para un depósito, es minimizar siempre la información al mínimo imprescindible para el paso que se está dando.",
+        "Hay una excepción aparente que no lo es: si el proveedor necesita verificar algo por adelantado, por ejemplo la edad mínima del conductor o el tipo de licencia, se puede responder con la información concreta que se pide, sin adjuntar documentos completos. Declarar que se conduce con licencia válida es distinto de enviar su copia. En la consulta inicial, la palabra basta; en el contrato, el documento."
+      ]
+    },
+    {
+      "heading": "Qué datos llegan después: reserva y contrato",
+      "paragraphs": [
+        "La segunda capa es la reserva. Aquí el proveedor ya necesita identificar al cliente: un nombre de contacto, un teléfono o un canal de mensajería y, según cómo se confirme la reserva, la fecha y hora de llegada. El propósito es operativo: poder avisar al viajero si algo cambia y mantener la unidad apartada a su nombre. Siguen sin hacer falta copias de documentos ni datos bancarios en la mayoría de los casos.",
+        "La tercera capa es el contrato, y aquí cambia todo. El día de la entrega, el establecimiento necesita la documentación real del conductor para formalizar el alquiler: la identificación personal y la licencia de conducir pertinente, junto con el depósito acordado. Es también el momento de las copias y de los recibos, y por eso conviene preguntar antes qué documentación exacta exige el establecimiento, para llegar con todo y no perder la franja de entrega en idas y vueltas al hotel.",
+        "El tránsito entre capas tiene una lógica que conviene respetar también en sentido inverso: si un proveedor pide en la primera consulta lo que solo corresponde a la tercera, por ejemplo copia del pasaporte antes de responder una disponibilidad, es razonable preguntar por qué lo necesita. Una respuesta clara y puntual puede justificarlo; una exigencia sin explicación es una señal tan válida como cualquier otra para seguir comparando con otros establecimientos."
+      ]
+    },
+    {
+      "heading": "Precauciones básicas con los datos personales",
+      "paragraphs": [
+        "La primera precaución ya está dicha: cada dato, en su momento. La segunda es el canal: conviene hacer la consulta y, más tarde, los trámites por el canal oficial del establecimiento, el que figura en su web o en su perfil, y no por contactos recibidos de terceros. La tercera es el registro: guardar las respuestas del proveedor en la misma conversación crea un historial que protege a ambas partes y facilita cualquier aclaración posterior.",
+        "La cuarta precaución es no mezclar datos con negociación. La conversación sobre tarifas y depósitos no necesita información personal, y la conversación sobre documentación no necesita discutir precios. Mantener los dos hilos separados evita que un dato enviado para una cosa acabe justificando otra. Y si en algún momento hay que enviar un documento, conviene comprobar que la copia es legible, completa y, si el canal lo permite, acotada al uso previsto.",
+        "Por último, la discreción también se aplica al viajero consigo mismo: no hace falta compartir el itinerario completo, el número de vuelo o el nombre del hotel para preguntar por una moto. El punto de recogida aproximado basta para cotizar la entrega, y los detalles finos se concretan cuando la reserva ya existe. Menos datos circulando significa menos datos que vigilar, y eso vale por igual en Hanói y en cualquier otra ciudad."
+      ]
+    },
+    {
+      "heading": "Un ejemplo de mensaje con la información justa",
+      "paragraphs": [
+        "Un mensaje modelo para una consulta inicial, con toda la información útil y ningún dato personal innecesario, sería: buenas tardes, llego a Hanói el tres de diciembre y me quedo cinco días. Busco un scooter automático tipo Honda Vision para moverme por la ciudad, recogida cerca del casco antiguo si es posible. ¿Qué disponibilidad tendríais esas fechas, cuál sería la tarifa del periodo y qué depósito pide ese modelo? En tres líneas hay todo lo que el proveedor necesita y nada que el viajero no deba enviar aún.",
+        "El equipo de Cho Thuê Xe Máy Nguyễn Tú responde este tipo de consultas por teléfono o Zalo al +84 942 467 674, de nueve de la mañana a nueve de la noche, todos los días, y la documentación completa del conductor solo se gestiona en la entrega, en el establecimiento del 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên. Preguntar con lo justo y formalizar con lo necesario es la secuencia correcta: primero el viaje, después la persona, y solo al final los documentos."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Necesito dar mi nombre para una consulta inicial?",
+      "answer": "Un nombre de pila o un alias de mensajería suele bastar para que el proveedor sepa a quién responde. El nombre completo y los datos de contacto fiables llegan con la reserva, cuando ya hay algo que apartar a nombre del cliente."
+    },
+    {
+      "question": "¿Puedo reservar sin enviar mi pasaporte por adelantado?",
+      "answer": "En la mayoría de los casos, sí: la reserva se confirma por mensaje o por teléfono y el pasaporte se presenta el día de la entrega para el contrato. Si un proveedor exige la copia antes de cualquier compromiso, conviene preguntar para qué la necesita y cómo la protege."
+    },
+    {
+      "question": "¿El proveedor guarda mis datos después del alquiler?",
+      "answer": "Las prácticas de conservación dependen de cada establecimiento y de sus obligaciones locales. Lo que puede hacer el viajero es minimizar lo que envía, usar los canales oficiales y preguntar, si le importa, cuánto se conservan los datos aportados en el contrato."
+    },
+    {
+      "question": "¿Es seguro enviar datos por Zalo o WhatsApp?",
+      "answer": "Son canales razonables para coordinar un alquiler, siempre que se use el contacto oficial del establecimiento y se envíe solo lo imprescindible en cada fase. La seguridad no depende solo del canal, sino también de lo que se decide poner en él."
+    },
+    {
+      "question": "¿Qué pasa si el proveedor me pide más datos de los necesarios?",
+      "answer": "Se puede preguntar el motivo concreto de la petición antes de enviar nada. Un establecimiento serio puede explicar por qué necesita cada dato y en qué fase; una exigencia sin explicación en la fase de consulta es razón suficiente para comparar otras opciones."
+    },
+    {
+      "question": "¿Debo decir mi hotel en la primera consulta?",
+      "answer": "No hace falta. Para cotizar la entrega basta con el punto aproximado de recogida, por ejemplo el casco antiguo o el distrito donde se aloja. El nombre y la dirección exacta del hotel se comparten al confirmar la reserva y coordinar el encuentro."
+    }
+  ],
+  "related": [
+    "/precios/que-evitar-al-enviar-datos-personales-para-un-deposito/",
+    "/guia-de-alquiler/documentacion-de-alquiler/",
+    "/guia-de-alquiler/documentacion-y-deposito/",
+    "/guia-de-alquiler/como-solicitar-disponibilidad-de-una-moto-sin-confirmar-una-reserva/",
+    "/guia-de-alquiler/contrato-de-alquiler/",
+    "/guia-de-alquiler/que-preguntas-enviar-por-whatsapp-antes-de-alquilar-una-moto/"
+  ],
+  "source_urls": [
+    "https://es.rentbikehanoi.com/",
+    "https://maps.google.com/maps?cid=7448790013669858019"
+  ],
+  "status": "READY_FOR_QA",
+  "word_count": 1167
+}

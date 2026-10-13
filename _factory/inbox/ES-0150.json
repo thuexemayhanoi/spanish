@@ -1,0 +1,87 @@
+{
+  "id": "ES-0150",
+  "title": "Cómo comparar dos propuestas de alquiler sin olvidar condiciones",
+  "description": "Cómo comparar dos propuestas de alquiler de moto en Hanói sin olvidar condiciones: matriz de comparación, partidas que pesan más que el precio y cómo cerrar la decisión por escrito.",
+  "h1": "Cómo comparar dos propuestas de alquiler sin olvidar condiciones",
+  "intro": "Comparar dos propuestas de alquiler de moto en Hanói suele reducirse, por costumbre, a comparar dos números: la tarifa diaria de cada proveedor. Esa comparación es la más rápida y la menos fiable, porque una propuesta es mucho más que su precio: es el modelo concreto, el depósito, el periodo, el punto de entrega y las condiciones que acompañan a cada partida. Esta guía explica cómo comparar dos propuestas completas con una matriz sencilla, qué condiciones pesan más de lo que parece y cómo cerrar la decisión para que la propuesta elegida quede documentada y no solo decidida.",
+  "sections": [
+    {
+      "heading": "Dos propuestas nunca son solo dos precios",
+      "paragraphs": [
+        "La tarifa diaria es la partida más visible de una propuesta y también la menos significativa por sí sola. Dos propuestas con el mismo precio por día pueden diferir en todo lo demás: una puede incluir un modelo reciente y la otra una unidad con años de uso; una puede pedir un depósito de dos millones de dong y la otra de cinco; una puede entregar en el propio hotel y la otra solo en tienda. Ninguna de esas diferencias aparece en el número que todo el mundo compara.",
+        "Comparar solo precios produce además un error de dirección: empuja hacia la propuesta más barata aunque sea la peor ajustada al viaje real. Un ahorro de 50.000 dong al día, unos dos euros, compensa mal un depósito mucho más alto, una moto incómoda para el trayecto previsto o una entrega con costes y condiciones desfavorables. El precio decide cuando todo lo demás es igual; rara vez todo lo demás es igual.",
+        "Por eso la comparación seria empieza igualando el terreno: las dos propuestas deben referirse al mismo modelo o a modelos equivalentes, al mismo periodo y al mismo punto de recogida, o las diferencias de contexto deben anotarse como condiciones y no como ruido. Solo cuando el contexto está igualado, los números dicen algo."
+      ]
+    },
+    {
+      "heading": "La matriz de condiciones: qué columnas incluir",
+      "paragraphs": [
+        "La herramienta es una tabla de dos columnas, una por propuesta, y filas fijas para cada condición. Las filas mínimas: modelo exacto y transmisión, estado aproximado de la unidad, tarifa del periodo completo previsto, importe del depósito y su forma de entrega, coste de entrega y recogida si no es en tienda, documentación exigida y equipamiento incluido, como el casco. Cada casilla se rellena con la respuesta literal del proveedor, sin interpretarla.",
+        "Con las referencias orientativas de Cho Thuê Xe Máy Nguyễn Tú como ejemplo, la fila de tarifas puede mostrar una Honda Wave en 150.000 dong diarios o 700.000 semanales frente a una Honda Vision en 200.000 diarios o 1.000.000 semanales; la fila de depósitos, dos a tres millones frente a cuatro a cinco millones. La matriz no decide por sí sola, pero vuelve visibles las cuatro o cinco cifras que de verdad mueven el presupuesto total del primer día.",
+        "Conviene añadir dos filas que casi nadie anota: la vigencia de la respuesta, es decir, la fecha en que se confirmó cada propuesta, y el canal por el que llegó. Las tarifas orientativas pueden cambiar entre la consulta y la firma, y una propuesta fresca comparada con otra antigua es una comparación trucada sin que nadie la haya querido trucar. Anotar la fecha de cada columna es el antídoto más simple."
+      ]
+    },
+    {
+      "heading": "Ponderar: cuándo el precio no es lo más importante",
+      "paragraphs": [
+        "La matriz muestra partidas; la ponderación decide cuáles importan. Para un viaje corto con presupuesto ajustado, el desembolso inicial, tarifa más depósito, suele ser el criterio dominante, porque es el dinero que hay que tener disponible el primer día. Para una estancia larga, la tarifa del tramo, semanal o mensual, gana peso, porque las diferencias se multiplican por los días. Para quien conduce por primera vez en Hanói, el modelo y su comodidad pueden pesar más que 50.000 dong diarios de diferencia.",
+        "Hay condiciones que funcionan como criterios eliminatorios más que como cifras: una propuesta sin recibo del depósito, una respuesta vaga sobre el modelo exacto o una negativa a reflejar por escrito lo conversado no se ponderan, se descartan o, como mínimo, obligan a preguntar más antes de seguir comparando. La matriz sirve también para esto: las casillas vacías y las respuestas evasivas quedan a la vista, y una casilla vacía es un dato.",
+        "La ponderación honesta acepta que la mejor propuesta no siempre es la más barata ni la más completa, sino la que mejor encaja con el plan real: fechas, ruta, experiencia de conducción y dinero disponible. Escribir antes de comparar cuál es el criterio principal del viaje, dos líneas bastan, evita que la tabla decida sola y que el número más pequeño arrastre la decisión por su cuenta."
+      ]
+    },
+    {
+      "heading": "Errores frecuentes al comparar propuestas apresuradamente",
+      "paragraphs": [
+        "El error más común es comparar la tarifa diaria de una propuesta con el total de la otra, o la tarifa con el depósito, cifras que dicen cosas distintas. El segundo es comparar propuestas de modelos distintos como si fueran equivalentes: una Honda Wave y una Honda Vision tienen tarifas y depósitos orientativos distintos, y una diferencia de precio entre ellas puede ser justo la diferencia entre lo que cada una ofrece. El tercero es olvidar las partidas de entrega y recogida, que cuando existen pueden alterar el total tanto como varios días de alquiler.",
+        "Otro error silencioso es la comparación con datos de memoria: la tarifa que se recuerda de una conversación de hace dos semanas contra la que llegó ayer por mensaje. Y el último, el más costoso: decidir sin cerrar por escrito la propuesta elegida, de modo que al llegar el día de la entrega la conversación empiece de nuevo. Todos estos errores tienen el mismo remedio: la matriz, la fecha en cada columna y un resumen final escrito de la propuesta elegida, confirmado con el proveedor antes de desplazarse a recoger la moto."
+      ]
+    },
+    {
+      "heading": "Cómo cerrar la comparación por escrito",
+      "paragraphs": [
+        "Cuando la matriz tiene todas las casillas y la ponderación señala una ganadora, el paso final es convertir la decisión en un acuerdo verificable: un mensaje al proveedor elegido resumiendo modelo, fechas, tarifa, depósito y punto de recogida tal como constan en la propuesta, y una respuesta que confirme ese resumen. Ese intercambio, guardado, es la versión escrita de la comparación cerrada, y es lo que se pone delante el día de la firma para comprobar que el contrato coincide con lo conversado.",
+        "El equipo de Cho Thuê Xe Máy Nguyễn Tú atiende por teléfono o Zalo al +84 942 467 674, de nueve de la mañana a nueve de la noche, todos los días, y firma sus contratos en el 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên. Comparar con matriz, decidir con criterio propio y cerrar por escrito antes de moverse es la secuencia que esta serie recomienda para que la propuesta elegida siga siendo la misma desde el mensaje hasta la entrega."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Basta la tarifa diaria para comparar dos propuestas?",
+      "answer": "No. La tarifa diaria es solo una fila de la matriz. El desembolso inicial real, tarifa del periodo más depósito, y las condiciones de entrega cambian el resultado de la comparación. Dos propuestas con la misma tarifa diaria pueden tener costes totales muy distintos."
+    },
+    {
+      "question": "¿Cómo comparo propuestas de modelos distintos?",
+      "answer": "Primero hay que decidir si los modelos son equivalentes para el viaje; si no lo son, la comparación de precios es secundaria. Si lo son, la matriz iguala las partidas una a una: tarifa, depósito, estado, entrega, y la diferencia de precio se lee junto con la diferencia de vehículo."
+    },
+    {
+      "question": "¿Qué hago si una propuesta no concreta el depósito?",
+      "answer": "Pedirlo por escrito antes de comparar. El depósito es una partida central del presupuesto del primer día, y una propuesta sin depósito claro está incompleta. Una casilla vacía en la matriz no se rellena con suposiciones, se rellena preguntando."
+    },
+    {
+      "question": "¿Debo descartar una propuesta solo por ser más cara?",
+      "answer": "No necesariamente. Si la diferencia de precio viene con un modelo mejor ajustado, un depósito más bajo o condiciones de entrega más claras, puede seguir siendo la mejor opción ponderada. El precio decide cuando el resto de partidas está igualado, no antes."
+    },
+    {
+      "question": "¿Vale una respuesta verbal para cerrar la comparación?",
+      "answer": "Como base de decisión es frágil, porque no deja referencia. Lo prudente es pedir que la propuesta elegida quede confirmada por algún medio escrito, aunque el contrato definitivo se firme en persona el día de la entrega."
+    },
+    {
+      "question": "¿Cuánto tiempo vale una propuesta confirmada?",
+      "answer": "Depende del proveedor y no conviene asumirlo. Las tarifas orientativas pueden cambiar y la disponibilidad no queda apartada por sí sola. Anotar la fecha de cada propuesta y preguntar cuánto se mantiene es parte natural del cierre por escrito."
+    }
+  ],
+  "related": [
+    "/precios/comparar-ofertas-con-deposito-distinto-ejemplo-de-metodo/",
+    "/precios/coste-total-de-alquiler-ejemplo-de-presupuesto-sin-cargos-ocultos/",
+    "/precios/presupuesto-por-tipo-de-transmision-que-pedir-al-establecimiento/",
+    "/guia-de-alquiler/como-identificar-el-modelo-exacto-incluido-en-una-cotizacion/",
+    "/precios/precio-orientativo-frente-a-precio-confirmado-diferencias/",
+    "/guia-de-alquiler/como-solicitar-disponibilidad-de-una-moto-sin-confirmar-una-reserva/"
+  ],
+  "source_urls": [
+    "https://es.rentbikehanoi.com/",
+    "https://maps.google.com/maps?cid=7448790013669858019"
+  ],
+  "status": "READY_FOR_QA",
+  "word_count": 1107
+}
