@@ -1,10 +1,53 @@
 {
   "schema_version": 1,
-  "status": "PAUSED",
+  "status": "READY",
   "target": 300,
-  "published": 5,
-  "remaining": 295,
+  "published": 8,
+  "remaining": 292,
   "planned": 30,
   "unplanned": 270,
-  "queue": []
+  "queue": [
+    {
+      "id": "ES-0009",
+      "hub": "/guia-de-alquiler/",
+      "slug": "seguro-para-motos-alquiladas",
+      "url": "/guia-de-alquiler/seguro-para-motos-alquiladas/",
+      "working_title": "Seguro de moto alquilada en Vietnam: qué preguntar",
+      "primary_keyword": "seguro de moto alquilada en vietnam: qué preguntar",
+      "intent": "Informacional",
+      "brief": "Coberturas, exclusiones y documentos que se deben verificar.",
+      "status": "PLANNED",
+      "category_id": "revision-y-seguridad",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0009.json"
+    },
+    {
+      "id": "ES-0010",
+      "hub": "/guia-de-alquiler/",
+      "slug": "seguridad-vial-hanoi",
+      "url": "/guia-de-alquiler/seguridad-vial-hanoi/",
+      "working_title": "Seguridad vial en Hanói para visitantes en moto",
+      "primary_keyword": "seguridad vial en hanói para visitantes en moto",
+      "intent": "Informacional",
+      "brief": "Conducción defensiva, casco y normas locales.",
+      "status": "PLANNED",
+      "category_id": "revision-y-seguridad",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0010.json"
+    },
+    {
+      "id": "ES-0011",
+      "hub": "/guia-de-alquiler/",
+      "slug": "alquiler-dia-semana-mes",
+      "url": "/guia-de-alquiler/alquiler-dia-semana-mes/",
+      "working_title": "Alquiler diario, semanal o mensual de motos: diferencias",
+      "primary_keyword": "alquiler diario, semanal o mensual de motos: diferencias",
+      "intent": "Informacional",
+      "brief": "Distinguir tarifas y depósitos según plazo.",
+      "status": "PLANNED",
+      "category_id": "proceso-y-tramites",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0011.json"
+    }
+  ]
 }
