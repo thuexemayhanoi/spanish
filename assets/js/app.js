@@ -78,6 +78,78 @@
       event.preventDefault();
     }
   });
+  // P1 editorial utilities: overlay only (no reflow or article/SEO mutations).
+  function initReader(){
+    const article=document.querySelector('.prose article');
+    if(!article)return;
+    const headings=[...article.querySelectorAll('section > h2')];
+    if(headings.length>=2){
+      const toc=document.createElement('aside');
+      toc.className='reader-toc';
+      const details=document.createElement('details');
+      const summary=document.createElement('summary');
+      summary.textContent='Contenido';
+      const nav=document.createElement('nav');
+      nav.setAttribute('aria-label','Índice del artículo');
+      const list=document.createElement('ol');
+      headings.forEach((heading,index)=>{
+        if(!heading.id)heading.id='seccion-'+(index+1);
+        const item=document.createElement('li');
+        const link=document.createElement('a');
+        link.href='#'+heading.id;
+        link.textContent=heading.textContent.trim();
+        item.append(link);list.append(item);
+        link.addEventListener('click',()=>{details.open=false});
+      });
+      nav.append(list);details.append(summary,nav);toc.append(details);
+      document.body.append(toc);
+      document.addEventListener('click',event=>{
+        if(details.open&&!toc.contains(event.target))details.open=false;
+      });
+      document.addEventListener('keydown',event=>{
+        if(details.open&&event.key==='Escape'){
+          details.open=false;summary.focus();event.preventDefault();
+        }
+      });
+    }
+    const progress=document.createElement('div');
+    progress.className='reading-progress';
+    progress.setAttribute('aria-hidden','true');
+    const track=document.createElement('span');
+    progress.append(track);
+    document.body.append(progress);
+    const back=document.createElement('button');
+    back.type='button';back.className='back-to-top';back.hidden=true;
+    back.setAttribute('aria-label','Volver al inicio');
+    back.title='Volver al inicio';
+    back.textContent='↑';
+    document.body.append(back);
+    back.addEventListener('click',()=>{
+      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({top:0,behavior:reduced?'instant':'smooth'});
+    });
+    let scheduled=false;
+    function update(){
+      scheduled=false;
+      const bounds=article.getBoundingClientRect();
+      const start=bounds.top+window.scrollY;
+      const finish=start+bounds.height;
+      const position=window.scrollY+window.innerHeight*.42;
+      const percent=Math.max(0,Math.min(1,(position-start)/Math.max(1,finish-start)));
+      track.style.transform='scaleX('+percent.toFixed(3)+')';
+      back.hidden=window.scrollY<550;
+    }
+    function schedule(){
+      if(scheduled)return;
+      scheduled=true;
+      requestAnimationFrame(update);
+    }
+    window.addEventListener('scroll',schedule,{passive:true});
+    window.addEventListener('resize',schedule,{passive:true});
+    update();
+  }
+  initReader();
+
   document.addEventListener('click',event=>{
     const target=event.target;
     if(!(target instanceof Element))return;
