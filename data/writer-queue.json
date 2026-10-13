@@ -2,33 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 283,
-  "remaining": 17,
+  "published": 284,
+  "remaining": 16,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0296",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "salir-de-hanoi-en-moto-que-comprobar-antes-de-planificar",
-      "url": "/rutas-y-movilidad/salir-de-hanoi-en-moto-que-comprobar-antes-de-planificar/",
-      "working_title": "Salir de Hanói en moto: qué comprobar antes de planificar",
-      "primary_keyword": "salir de hanoi en moto que comprobar antes de planificar",
-      "intent": "Informacional",
-      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "viajes-fuera-hanoi",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0296.json"
-    },
     {
       "id": "ES-0297",
       "hub": "/rutas-y-movilidad/",
@@ -72,6 +50,29 @@
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
       "draft_file": "_factory/inbox/ES-0298.json"
+    },
+    {
+      "id": "ES-0299",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "como-consultar-restricciones-para-devolver-una-moto-fuera-de-hanoi",
+      "url": "/rutas-y-movilidad/como-consultar-restricciones-para-devolver-una-moto-fuera-de-hanoi/",
+      "working_title": "Cómo consultar restricciones para devolver una moto fuera de Hanói",
+      "primary_keyword": "como consultar restricciones para devolver una moto fuera de hanoi",
+      "intent": "Informacional",
+      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "viajes-fuera-hanoi",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+      ],
+      "draft_file": "_factory/inbox/ES-0299.json"
     }
   ]
 }
