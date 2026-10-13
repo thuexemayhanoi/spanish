@@ -20,7 +20,7 @@ const base30=plan.articles.filter(p=>Number(p.id.slice(3))<=30);
 const currentIds=new Set(base30.map(p=>p.id));
 const currentUrls=new Set(base30.map(p=>p.url));
 const currentTitles=new Set(base30.map(p=>norm(p.working_title)));
-const pages=new Set([...read('site/data.json').pages.map(p=>p.url),...state.published_ids.map(id=>plan.articles.find(p=>p.id===id)?.url)]);
+const pages=new Set([...read('site/data.json').pages.map(p=>p.url),...state.published_ids.filter(id=>Number(id.slice(3))<=5).map(id=>plan.articles.find(p=>p.id===id)?.url)]); // Frozen A4 17-URL baseline, not all newly published A6 URLs.
 assert(typeof state.enabled==='boolean','Factory state malformed');
 assert(state.blocked===false,'Factory blocked status changed');
 assert(queue.status===(state.blocked?'BLOCKED':!state.enabled?'PAUSED':queue.queue.length?'READY':'PLAN_EXHAUSTED'),'Writer queue inconsistent');
