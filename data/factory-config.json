@@ -10,7 +10,10 @@
     "/guia-de-alquiler/",
     "/tipos-de-motos/scooters/",
     "/tipos-de-motos/motos-50cc/",
-    "/precios/"
+    "/precios/",
+    "/tipos-de-motos/",
+    "/zonas-de-hanoi/",
+    "/rutas-y-movilidad/"
   ],
   "domain": "https://es.rentbikehanoi.com"
 }

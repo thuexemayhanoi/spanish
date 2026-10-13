@@ -8,16 +8,20 @@ const get=file=>JSON.parse(fs.readFileSync(at(file),'utf8'));
 const put=(file,obj)=>{fs.mkdirSync(path.dirname(at(file)),{recursive:true});fs.writeFileSync(at(file),JSON.stringify(obj,null,2)+'\n');};
 const cfg=get('data/factory-config.json'),rows=get('data/editorial-plan.json').articles,state=get('data/factory-state.json');
 const published=new Set(state.published_ids);
+const sourceCandidates=get('data/editorial-candidates-270-a6.json').candidates;
+const holdIds=new Set(sourceCandidates.filter(x=>x.status==='HOLD_FOR_INTENT_REVIEW').map(x=>x.id));
+const eligible=r=>r.status==='PLANNED'&&!holdIds.has(r.id);
 const command=process.argv[2]||'status';
 const unique=arr=>new Set(arr).size===arr.length;
 const wordCount=s=>String(s).trim().split(/\s+/u).filter(Boolean).length;
 function verifyPlan(){
- if(rows.length>cfg.target_articles||!unique(rows.map(r=>r.id))||!unique(rows.map(r=>r.url))||!unique(rows.map(r=>r.working_title.toLocaleLowerCase('es'))))throw Error('Invalid or duplicate plan');
+ if(rows.length!==cfg.target_articles||!unique(rows.map(r=>r.id))||!unique(rows.map(r=>r.url))||!unique(rows.map(r=>r.working_title.toLocaleLowerCase('es'))))throw Error('Invalid or duplicate plan');
+ if(holdIds.size!==12||rows.some(r=>holdIds.has(r.id)&&r.status!=='HOLD_FOR_INTENT_REVIEW')||[...published].some(id=>holdIds.has(id)))throw Error('HOLD safety mismatch');
  for(const r of rows)if(!/^ES-\d{4}$/.test(r.id)||!cfg.allowed_hubs.includes(r.hub)||r.url!==r.hub+r.slug+'/'||!/^[a-z0-9-]+$/.test(r.slug))throw Error('Invalid route '+r.id);
  for(const id of published)if(!rows.some(r=>r.id===id))throw Error('Published ID missing from plan '+id);
 }
 function queue(){
- const next=rows.filter(r=>!published.has(r.id)).slice(0,cfg.batch_size);
+ const next=rows.filter(r=>eligible(r)&&!published.has(r.id)).slice(0,cfg.batch_size);
  const status=state.blocked?'BLOCKED':!state.enabled?'PAUSED':!next.length?(published.size>=cfg.target_articles?'TARGET_REACHED':'PLAN_EXHAUSTED'):'READY';
  const snapshot={schema_version:1,status,target:cfg.target_articles,published:published.size,remaining:cfg.target_articles-published.size,
  planned:rows.length,unplanned:cfg.target_articles-rows.length,
@@ -55,7 +59,7 @@ function draftQA(r,d){
  return {problems,words};
 }
 verifyPlan();
-if(command==='status'){console.log(JSON.stringify({enabled:state.enabled,blocked:state.blocked,published:published.size,planned:rows.length,remaining:cfg.target_articles-published.size,pending_drafts:rows.filter(r=>!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).length},null,2));process.exit(0);}
+if(command==='status'){console.log(JSON.stringify({enabled:state.enabled,blocked:state.blocked,published:published.size,planned:rows.length,remaining:cfg.target_articles-published.size,pending_drafts:rows.filter(r=>eligible(r)&&!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).length},null,2));process.exit(0);}
 if(command==='pause'||command==='resume'){
  state.enabled=command==='resume';state.last_run=new Date().toISOString();put('data/factory-state.json',state);
  console.log('FACTORY '+queue().status);process.exit(0);
@@ -63,7 +67,7 @@ if(command==='pause'||command==='resume'){
 if(command==='refresh-queue'){console.log(JSON.stringify(queue(),null,2));process.exit(0);}
 if(command==='process'){
  if(!state.enabled||state.blocked){console.log('SAFE_STOP '+(!state.enabled?'PAUSED':'BLOCKED'));process.exit(0);}
- const selected=rows.filter(r=>!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).slice(0,cfg.batch_size);
+ const selected=rows.filter(r=>eligible(r)&&!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).slice(0,cfg.batch_size);
  if(!selected.length){console.log('NO_DRAFTS: no state changes or empty hourly commit');process.exit(0);}
  const checked=selected.map(r=>{const draft=get('_factory/inbox/'+r.id+'.json');const result=draftQA(r,draft);if(result.problems.length)throw Error(r.id+': '+result.problems.join('; '));return {r,draft,words:result.words};});
  for(const entry of checked){
