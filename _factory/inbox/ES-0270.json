@@ -1,0 +1,85 @@
+{
+  "id": "ES-0270",
+  "title": "Cómo construir un recorrido urbano con mapa sin tiempos inventados",
+  "description": "Método para trazar un recorrido urbano en moto por Hanói sobre el mapa y sobre vías reales, sin inventar tiempos: márgenes, alternativas, aparcamientos y prueba previa del itinerario.",
+  "h1": "Cómo construir un recorrido urbano por Hanói con el mapa y sin tiempos inventados",
+  "intro": "La mayoría de los itinerarios que fracasan no lo hacen por elegir mal las visitas, sino por construirse sobre tiempos inventados: una duración copiada de una web, una estimación optimista entre parada y parada, un regreso calculado con el tráfico ideal de un domingo. Esta guía propone el orden inverso: primero el mapa, después las vías reales y solo al final las horas, asignadas con margen y comprobadas sobre el terreno.",
+  "sections": [
+    {
+      "heading": "El mapa antes que la lista de visitas",
+      "paragraphs": [
+        "Un recorrido urbano bien construido empieza por geografía y no por deseos. Antes de decidir horarios conviene situar en el mapa las visitas candidatas y observar cómo se agrupan: qué cae en el mismo barrio, qué queda de camino entre dos zonas y qué exige un desvío que rompe el día. La lista definitiva sale de ese mapa, no al revés.",
+        "Este orden evita el error más común del principiante: un itinerario bonito en el papel que en el mapa dibuja un zigzag imposible. Cuando las paradas se ven sobre la ciudad, salta a la vista qué combinaciones avanzan en línea y cuáles solo suman kilómetros, y el recorrido se reordena casi sin discutir.",
+        "El mapa también asigna los papeles del día: qué tramos son de moto, cuáles se recorren a pie dentro de una zona y dónde encajan los aparcamientos. Sin ese reparto previo, cada traslado del día se decide en caliente, con la moto ya en marcha y el reloj ya corriendo en contra."
+      ]
+    },
+    {
+      "heading": "Trazar sobre vías reales, no sobre líneas rectas",
+      "paragraphs": [
+        "El segundo paso es sustituir las líneas rectas del mapa mental por vías con nombre y sentido. Hanói tiene una red de puentes, avenidas y calles de sentido único que convierte los trayectos en recorridos con normas propias: la línea más corta entre dos puntos casi nunca existe como tal, y asumir que sí es la manera más rápida de perder el margen del día.",
+        "Las condiciones de las vías también cambian con el tiempo. El puente de Long Biên volvió a abrir a motos, bicicletas y peatones el 28 de mayo de 2026 después de periodos de restricción, y la prensa local ha informado de planes para limitar motos de gasolina en la avenida Ring Road 1 a partir de julio de 2026. Antes de cerrar el recorrido, verifica que las vías previstas siguen abiertas y con qué condiciones.",
+        "Para trazar con criterio conviene alternar vista satélite y vista de calle: la satélite muestra la escala real de los trayectos y las masas de edificación, y la vista de calle adelanta cómo es el cruce o la esquina donde nace cada calle. Cinco minutos de esta inspección valen más que cualquier estimación de minutos copiada de otra web."
+      ]
+    },
+    {
+      "heading": "Medir con criterio: márgenes en lugar de minutos",
+      "paragraphs": [
+        "Aquí está el corazón del método: en lugar de asignar una duración exacta a cada tramo, asigna franjas con margen. El trayecto del principio del día puede ir holgado; el de vuelta a la base conviene calcularlo con el peor escenario razonable, no con el mejor. La diferencia entre los dos es la diferencia entre un plan que se cumple y uno que se abandona.",
+        "La duración de las visitas sigue la misma lógica: los templos y los mercados se disfrutan sin reloj, pero los cierres existen. Conviene averiguar antes de salir qué visitas tienen horario de cierre y cuáles no, y ordenar el día de manera que las visitas con horario queden cubiertas por las franjas más fiables del itinerario.",
+        "Y una regla final: cualquier cifra de minutos copiada de otra web se trata como hipótesis, no como dato. La misma calle a primera hora y en la hora punta son dos calles distintas, y la única estimación que se puede defender es la que se comprueba sobre el terreno el primer día y se corrige para el segundo."
+      ]
+    },
+    {
+      "heading": "Anotar alternativas y puntos de apoyo",
+      "paragraphs": [
+        "Un recorrido construido con criterio lleva plan B incorporado. Por cada bloque del día conviene tener anotada una alternativa de visita en el mismo radio, por si la principal cierra o se llena, y una alternativa de trayecto para el caso de calle cortada o atasco, aunque sea tan simple como la paralela inmediata que se ve en el mapa.",
+        "Los puntos de apoyo hacen el recorrido manejable: aparcamientos candidatos en cada zona, referencias visibles para orientarse sin cobertura, opciones de comida dentro del radio previsto. El itinerario que lleva todo esto anotado se recorre con la cabeza en las visitas; el que no lo lleva, con la cabeza en la logística.",
+        "Los aparcamientos también entran en el plan B: si el candidato principal está lleno a la hora de llegada, el itinerario no se detiene a buscar hueco, sino que salta al segundo de la lista y sigue su curso. Este detalle, que cuesta un minuto en el mapa, es el que evita los rodeos de última hora alrededor de una manzana saturada.",
+        "También conviene marcar los límites del día sobre el propio mapa: la hora a partir de la cual no se empieza ninguna visita nueva y la ruta de regreso preferida. Estos dos límites, decididos en frío, evitan las decisiones peores, que son las que se toman con cansancio, hambre y la calle ya medio a oscura."
+      ]
+    },
+    {
+      "heading": "Probar el recorrido y ajustar",
+      "paragraphs": [
+        "El último paso del método es la prueba: el primer día se recorre el plan con lápiz en mano y se anota lo que falla, desde el tramo que tardó el doble hasta la parada que se quedó corta. Esa hoja de ajustes vale más que cualquier guía, porque corrige el itinerario con los datos reales de la calle y no con los inventados del papel.",
+        "Al día siguiente el recorrido corre afinado: franjas corregidas, alternativas donde hicieron falta y los puntos de apoyo ya reconocidos. La mayoría de los viajeros que repiten ciudad usan exactamente este ciclo de prueba y corrección, y es también la mejor forma de descubrir los sitios que ningún itinerario trae anotados.",
+        "Antes de probar el primer recorrido, puedes repasarlo con quien conoce la ciudad de verdad: en Cho Thuê Xe Máy Nguyễn Tú, base en el 112 de Nguyễn Văn Cừ (Long Biên), atienden de 9:00 a 21:00 y también por WhatsApp en el +84 942 467 674 para revisar dudas de documento, depósito o modelos antes de salir a probar el mapa."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Por qué no copiar los tiempos de otros itinerarios?",
+      "answer": "Porque los tiempos de una web reflejan condiciones que no se repiten: otro ritmo, otro tráfico, otra temporada. Trátalos como hipótesis y comprueba los tramos clave sobre el terreno el primer día; el margen real que ganes o pierdas es lo único que sirve para afinar el itinerario del día siguiente."
+    },
+    {
+      "question": "¿Qué margen conviene dejar entre paradas?",
+      "answer": "Depende del tramo: los trayectos dentro de una zona a pie apenas necesitan margen, y los desplazamientos en moto por avenidas densas conviene calcularlos con el peor escenario razonable. La regla general es holgura creciente según avanza el día y máxima en el trayecto de vuelta a la base."
+    },
+    {
+      "question": "¿Cómo compruebo que una vía sigue abierta a las motos?",
+      "answer": "Consultando la prensa local o fuentes actualizadas antes de cerrar el plan y verificando la señalización en el momento. El puente de Long Biên y las avenidas centrales han cambiado de condiciones en los últimos años, así que un itinerario del año pasado puede traer un tramo ya restringido."
+    },
+    {
+      "question": "¿Es mejor un recorrido con pocas paradas o con muchas?",
+      "answer": "Con pocas paradas bien agrupadas. Un recorrido cargado no solo cansa: convierte cada imprevisto en un retraso que se arrastra todo el día. Es mejor un plan con tres paradas sólidas y margen que uno con seis paradas encadenadas al minuto desde la primera hora de la mañana."
+    },
+    {
+      "question": "¿Vale la pena hacer un recorrido de prueba el primer día?",
+      "answer": "Sí, es la parte más rentable del método. El primer día confirma los tramos, los aparcamientos y las duraciones reales, y las notas tomadas corrigen el resto del itinerario con datos de la calle en lugar de estimaciones copiadas, que es justo lo que el método quiere evitar."
+    }
+  ],
+  "related": [
+    "/rutas-y-movilidad/preparar-una-ruta-urbana-de-medio-dia-en-hanoi/",
+    "/guia-de-alquiler/ruta-corta-en-hanoi/",
+    "/rutas-y-movilidad/itinerario-con-dos-barrios-evitar-recorridos-innecesarios/",
+    "/guia-de-alquiler/aparcamiento-de-motos/"
+  ],
+  "source_urls": [
+    "https://en.wikipedia.org/wiki/Long_Bien_Bridge",
+    "https://danviet.vn/tu-0h-ngay-28-5-cau-long-bien-khoi-phuc-luu-thong-xe-may-xe-tho-so-va-nguoi-di-bo-d1429836.html",
+    "https://vnexpress.net/cam-xe-may-xang-vano-vanh-dai-1-ha-noi-tu-thang-7-2026-la-qua-gap-4989667.html",
+    "https://en.wikipedia.org/wiki/Hoan_Kiem_Lake"
+  ],
+  "status": "READY_FOR_QA"
+}
