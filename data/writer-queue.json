@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 176,
-  "remaining": 124,
+  "published": 179,
+  "remaining": 121,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0187",
+      "id": "ES-0190",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-organizar-paradas-seguras-durante-un-trayecto-urbano",
-      "url": "/guia-de-alquiler/como-organizar-paradas-seguras-durante-un-trayecto-urbano/",
-      "working_title": "Cómo organizar paradas seguras durante un trayecto urbano",
-      "primary_keyword": "como organizar paradas seguras durante un trayecto urbano",
+      "slug": "circular-con-lluvia-reciente-superficies-que-requieren-atencion",
+      "url": "/guia-de-alquiler/circular-con-lluvia-reciente-superficies-que-requieren-atencion/",
+      "working_title": "Circular con lluvia reciente: superficies que requieren atención",
+      "primary_keyword": "circular con lluvia reciente superficies que requieren atencion",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0187.json"
+      "draft_file": "_factory/inbox/ES-0190.json"
     },
     {
-      "id": "ES-0188",
+      "id": "ES-0191",
       "hub": "/guia-de-alquiler/",
-      "slug": "motos-y-peatones-en-zonas-concurridas-consejos-de-convivencia",
-      "url": "/guia-de-alquiler/motos-y-peatones-en-zonas-concurridas-consejos-de-convivencia/",
-      "working_title": "Motos y peatones en zonas concurridas: consejos de convivencia",
-      "primary_keyword": "motos y peatones en zonas concurridas consejos de convivencia",
+      "slug": "que-hacer-si-te-equivocas-de-camino-conduciendo-por-hanoi",
+      "url": "/guia-de-alquiler/que-hacer-si-te-equivocas-de-camino-conduciendo-por-hanoi/",
+      "working_title": "Qué hacer si te equivocas de camino conduciendo por Hanói",
+      "primary_keyword": "que hacer si te equivocas de camino conduciendo por hanoi",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0188.json"
+      "draft_file": "_factory/inbox/ES-0191.json"
     },
     {
-      "id": "ES-0189",
+      "id": "ES-0192",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-usar-navegacion-sin-mirar-el-movil-mientras-conduces",
-      "url": "/guia-de-alquiler/como-usar-navegacion-sin-mirar-el-movil-mientras-conduces/",
-      "working_title": "Cómo usar navegación sin mirar el móvil mientras conduces",
-      "primary_keyword": "como usar navegacion sin mirar el movil mientras conduces",
+      "slug": "circular-cerca-de-autobuses-mantener-margen-de-seguridad",
+      "url": "/guia-de-alquiler/circular-cerca-de-autobuses-mantener-margen-de-seguridad/",
+      "working_title": "Circular cerca de autobuses: mantener margen de seguridad",
+      "primary_keyword": "circular cerca de autobuses mantener margen de seguridad",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0189.json"
+      "draft_file": "_factory/inbox/ES-0192.json"
     }
   ]
 }
