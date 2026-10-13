@@ -2,19 +2,19 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 224,
-  "remaining": 76,
+  "published": 227,
+  "remaining": 73,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0236",
+      "id": "ES-0239",
       "hub": "/zonas-de-hanoi/",
-      "slug": "estacion-de-gia-lam-coordinar-transporte-hasta-el-alquiler",
-      "url": "/zonas-de-hanoi/estacion-de-gia-lam-coordinar-transporte-hasta-el-alquiler/",
-      "working_title": "Estación de Gia Lâm: coordinar transporte hasta el alquiler",
-      "primary_keyword": "estacion de gia lam coordinar transporte hasta el alquiler",
-      "intent": "Investigación comercial",
+      "slug": "aparcar-en-long-bien-normas-locales-que-comprobar",
+      "url": "/zonas-de-hanoi/aparcar-en-long-bien-normas-locales-que-comprobar/",
+      "working_title": "Aparcar en Long Biên: normas locales que comprobar",
+      "primary_keyword": "aparcar en long bien normas locales que comprobar",
+      "intent": "Informacional",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "long-bien-gia-lam",
@@ -25,17 +25,18 @@
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0236.json"
+      "draft_file": "_factory/inbox/ES-0239.json"
     },
     {
-      "id": "ES-0237",
+      "id": "ES-0240",
       "hub": "/zonas-de-hanoi/",
-      "slug": "long-bien-en-moto-elegir-el-trayecto-segun-experiencia",
-      "url": "/zonas-de-hanoi/long-bien-en-moto-elegir-el-trayecto-segun-experiencia/",
-      "working_title": "Long Biên en moto: elegir el trayecto según experiencia",
-      "primary_keyword": "long bien en moto elegir el trayecto segun experiencia",
+      "slug": "viajar-con-maleta-hacia-long-bien-transporte-alternativo",
+      "url": "/zonas-de-hanoi/viajar-con-maleta-hacia-long-bien-transporte-alternativo/",
+      "working_title": "Viajar con maleta hacia Long Biên: transporte alternativo",
+      "primary_keyword": "viajar con maleta hacia long bien transporte alternativo",
       "intent": "Informacional",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +50,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0237.json"
+      "draft_file": "_factory/inbox/ES-0240.json"
     },
     {
-      "id": "ES-0238",
+      "id": "ES-0241",
       "hub": "/zonas-de-hanoi/",
-      "slug": "como-planificar-el-regreso-a-long-bien-para-devolver-una-moto",
-      "url": "/zonas-de-hanoi/como-planificar-el-regreso-a-long-bien-para-devolver-una-moto/",
-      "working_title": "Cómo planificar el regreso a Long Biên para devolver una moto",
-      "primary_keyword": "como planificar el regreso a long bien para devolver una moto",
+      "slug": "puentes-sobre-el-rio-rojo-consultar-normas-antes-de-circular",
+      "url": "/zonas-de-hanoi/puentes-sobre-el-rio-rojo-consultar-normas-antes-de-circular/",
+      "working_title": "Puentes sobre el río Rojo: consultar normas antes de circular",
+      "primary_keyword": "puentes sobre el rio rojo consultar normas antes de circular",
       "intent": "Informacional",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -69,9 +70,10 @@
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0238.json"
+      "draft_file": "_factory/inbox/ES-0241.json"
     }
   ]
 }
