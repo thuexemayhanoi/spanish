@@ -2,33 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 284,
-  "remaining": 16,
+  "published": 285,
+  "remaining": 15,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0297",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "rutas-interurbanas-desde-hanoi-experiencia-y-limites-del-vehiculo",
-      "url": "/rutas-y-movilidad/rutas-interurbanas-desde-hanoi-experiencia-y-limites-del-vehiculo/",
-      "working_title": "Rutas interurbanas desde Hanói: experiencia y límites del vehículo",
-      "primary_keyword": "rutas interurbanas desde hanoi experiencia y limites del vehiculo",
-      "intent": "Informacional",
-      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "viajes-fuera-hanoi",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0297.json"
-    },
     {
       "id": "ES-0298",
       "hub": "/rutas-y-movilidad/",
@@ -73,6 +51,28 @@
         "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
       "draft_file": "_factory/inbox/ES-0299.json"
+    },
+    {
+      "id": "ES-0300",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "alternativas-a-conducir-largas-distancias-desde-hanoi",
+      "url": "/rutas-y-movilidad/alternativas-a-conducir-largas-distancias-desde-hanoi/",
+      "working_title": "Alternativas a conducir largas distancias desde Hanói",
+      "primary_keyword": "alternativas a conducir largas distancias desde hanoi",
+      "intent": "Informacional",
+      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "viajes-fuera-hanoi",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0300.json"
     }
   ]
 }
