@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 158,
-  "remaining": 142,
+  "published": 159,
+  "remaining": 141,
   "planned": 300,
   "unplanned": 0,
   "queue": [
@@ -36,18 +36,18 @@
       "draft_file": "_factory/inbox/ES-0170.json"
     },
     {
-      "id": "ES-0171",
+      "id": "ES-0172",
       "hub": "/guia-de-alquiler/",
-      "slug": "equipaje-seguro-en-una-moto-distribucion-y-limites",
-      "url": "/guia-de-alquiler/equipaje-seguro-en-una-moto-distribucion-y-limites/",
-      "working_title": "Equipaje seguro en una moto: distribución y límites",
-      "primary_keyword": "equipaje seguro en una moto distribucion y limites",
+      "slug": "transporte-de-acompanante-en-moto-preguntas-de-seguridad",
+      "url": "/guia-de-alquiler/transporte-de-acompanante-en-moto-preguntas-de-seguridad/",
+      "working_title": "Transporte de acompañante en moto: preguntas de seguridad",
+      "primary_keyword": "transporte de acompanante en moto preguntas de seguridad",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0171.json"
+      "draft_file": "_factory/inbox/ES-0172.json"
     }
   ]
 }
