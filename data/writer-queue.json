@@ -2,55 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 242,
-  "remaining": 58,
+  "published": 244,
+  "remaining": 56,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0255",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "traslado-del-aeropuerto-al-centro-cuando-no-usar-una-moto",
-      "url": "/zonas-de-hanoi/traslado-del-aeropuerto-al-centro-cuando-no-usar-una-moto/",
-      "working_title": "Traslado del aeropuerto al centro: cuándo no usar una moto",
-      "primary_keyword": "traslado del aeropuerto al centro cuando no usar una moto",
-      "intent": "Informacional",
-      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "estaciones-y-puntos-de-interes",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
-      ],
-      "draft_file": "_factory/inbox/ES-0255.json"
-    },
-    {
-      "id": "ES-0256",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "puntos-de-encuentro-junto-a-estaciones-como-evitar-confusiones",
-      "url": "/zonas-de-hanoi/puntos-de-encuentro-junto-a-estaciones-como-evitar-confusiones/",
-      "working_title": "Puntos de encuentro junto a estaciones: cómo evitar confusiones",
-      "primary_keyword": "puntos de encuentro junto a estaciones como evitar confusiones",
-      "intent": "Informacional",
-      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "estaciones-y-puntos-de-interes",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
-      ],
-      "draft_file": "_factory/inbox/ES-0256.json"
-    },
     {
       "id": "ES-0257",
       "hub": "/zonas-de-hanoi/",
@@ -73,6 +29,50 @@
         "VERIFY_BUSINESS_FACTS"
       ],
       "draft_file": "_factory/inbox/ES-0257.json"
+    },
+    {
+      "id": "ES-0258",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "llegar-temprano-a-hanoi-que-hacer-antes-de-recoger-una-moto",
+      "url": "/zonas-de-hanoi/llegar-temprano-a-hanoi-que-hacer-antes-de-recoger-una-moto/",
+      "working_title": "Llegar temprano a Hanói: qué hacer antes de recoger una moto",
+      "primary_keyword": "llegar temprano a hanoi que hacer antes de recoger una moto",
+      "intent": "Informacional",
+      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "estaciones-y-puntos-de-interes",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+      ],
+      "draft_file": "_factory/inbox/ES-0258.json"
+    },
+    {
+      "id": "ES-0259",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "moverse-desde-la-estacion-hacia-long-bien-opciones",
+      "url": "/zonas-de-hanoi/moverse-desde-la-estacion-hacia-long-bien-opciones/",
+      "working_title": "Moverse desde la estación hacia Long Biên: opciones",
+      "primary_keyword": "moverse desde la estacion hacia long bien opciones",
+      "intent": "Informacional",
+      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "estaciones-y-puntos-de-interes",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+      ],
+      "draft_file": "_factory/inbox/ES-0259.json"
     }
   ]
 }
