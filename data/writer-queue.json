@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 56,
-  "remaining": 244,
+  "published": 59,
+  "remaining": 241,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0057",
+      "id": "ES-0060",
       "hub": "/tipos-de-motos/",
-      "slug": "como-elegir-una-moto-semiautomatica-si-llevas-poco-equipaje",
-      "url": "/tipos-de-motos/como-elegir-una-moto-semiautomatica-si-llevas-poco-equipaje/",
-      "working_title": "Cómo elegir una moto semiautomática si llevas poco equipaje",
-      "primary_keyword": "como elegir una moto semiautomatica si llevas poco equipaje",
+      "slug": "comprobar-embrague-y-transmision-preguntas-al-responsable",
+      "url": "/tipos-de-motos/comprobar-embrague-y-transmision-preguntas-al-responsable/",
+      "working_title": "Comprobar embrague y transmisión: preguntas al responsable",
+      "primary_keyword": "comprobar embrague y transmision preguntas al responsable",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0057.json"
+      "draft_file": "_factory/inbox/ES-0060.json"
     },
     {
-      "id": "ES-0058",
+      "id": "ES-0061",
       "hub": "/tipos-de-motos/",
-      "slug": "que-preguntar-sobre-cilindrada-de-una-moto-semiautomatica",
-      "url": "/tipos-de-motos/que-preguntar-sobre-cilindrada-de-una-moto-semiautomatica/",
-      "working_title": "Qué preguntar sobre cilindrada de una moto semiautomática",
-      "primary_keyword": "que preguntar sobre cilindrada de una moto semiautomatica",
+      "slug": "honda-wave-para-varios-dias-comodidad-y-postura",
+      "url": "/tipos-de-motos/honda-wave-para-varios-dias-comodidad-y-postura/",
+      "working_title": "Honda Wave para varios días: comodidad y postura",
+      "primary_keyword": "honda wave para varios dias comodidad y postura",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,16 +49,16 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0058.json"
+      "draft_file": "_factory/inbox/ES-0061.json"
     },
     {
-      "id": "ES-0059",
+      "id": "ES-0062",
       "hub": "/tipos-de-motos/",
-      "slug": "cuando-no-conviene-alquilar-una-moto-semiautomatica",
-      "url": "/tipos-de-motos/cuando-no-conviene-alquilar-una-moto-semiautomatica/",
-      "working_title": "Cuándo no conviene alquilar una moto semiautomática",
-      "primary_keyword": "cuando no conviene alquilar una moto semiautomatica",
-      "intent": "Investigación comercial",
+      "slug": "comparacion-de-consumo-entre-modelos-que-datos-confirmar",
+      "url": "/tipos-de-motos/comparacion-de-consumo-entre-modelos-que-datos-confirmar/",
+      "working_title": "Comparación de consumo entre modelos: qué datos confirmar",
+      "primary_keyword": "comparacion de consumo entre modelos que datos confirmar",
+      "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "motos-semiautomaticas",
@@ -69,9 +69,10 @@
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
+        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER",
+        "VERIFY_BUSINESS_FACTS"
       ],
-      "draft_file": "_factory/inbox/ES-0059.json"
+      "draft_file": "_factory/inbox/ES-0062.json"
     }
   ]
 }
