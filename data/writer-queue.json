@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 194,
-  "remaining": 106,
+  "published": 197,
+  "remaining": 103,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0205",
+      "id": "ES-0208",
       "hub": "/guia-de-alquiler/",
-      "slug": "que-fotografiar-en-la-devolucion-final-del-vehiculo",
-      "url": "/guia-de-alquiler/que-fotografiar-en-la-devolucion-final-del-vehiculo/",
-      "working_title": "Qué fotografiar en la devolución final del vehículo",
-      "primary_keyword": "que fotografiar en la devolucion final del vehiculo",
+      "slug": "cambio-de-punto-de-devolucion-que-confirmar",
+      "url": "/guia-de-alquiler/cambio-de-punto-de-devolucion-que-confirmar/",
+      "working_title": "Cambio de punto de devolución: qué confirmar",
+      "primary_keyword": "cambio de punto de devolucion que confirmar",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0205.json"
+      "draft_file": "_factory/inbox/ES-0208.json"
     },
     {
-      "id": "ES-0206",
+      "id": "ES-0209",
       "hub": "/guia-de-alquiler/",
-      "slug": "devolver-la-moto-fuera-de-horario-no-suponer-aceptacion",
-      "url": "/guia-de-alquiler/devolver-la-moto-fuera-de-horario-no-suponer-aceptacion/",
-      "working_title": "Devolver la moto fuera de horario: no suponer aceptación",
-      "primary_keyword": "devolver la moto fuera de horario no suponer aceptacion",
+      "slug": "averia-durante-una-ruta-informacion-util-para-el-propietario",
+      "url": "/guia-de-alquiler/averia-durante-una-ruta-informacion-util-para-el-propietario/",
+      "working_title": "Avería durante una ruta: información útil para el propietario",
+      "primary_keyword": "averia durante una ruta informacion util para el propietario",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0206.json"
+      "draft_file": "_factory/inbox/ES-0209.json"
     },
     {
-      "id": "ES-0207",
+      "id": "ES-0210",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-gestionar-un-desacuerdo-sobre-un-aranazo",
-      "url": "/guia-de-alquiler/como-gestionar-un-desacuerdo-sobre-un-aranazo/",
-      "working_title": "Cómo gestionar un desacuerdo sobre un arañazo",
-      "primary_keyword": "como gestionar un desacuerdo sobre un aranazo",
+      "slug": "que-hacer-si-la-moto-se-queda-sin-combustible",
+      "url": "/guia-de-alquiler/que-hacer-si-la-moto-se-queda-sin-combustible/",
+      "working_title": "Qué hacer si la moto se queda sin combustible",
+      "primary_keyword": "que hacer si la moto se queda sin combustible",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0207.json"
+      "draft_file": "_factory/inbox/ES-0210.json"
     }
   ]
 }
