@@ -2,39 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 183,
-  "remaining": 117,
+  "published": 185,
+  "remaining": 115,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0193",
-      "hub": "/guia-de-alquiler/",
-      "slug": "trafico-en-hora-punta-como-decidir-si-conviene-conducir",
-      "url": "/guia-de-alquiler/trafico-en-hora-punta-como-decidir-si-conviene-conducir/",
-      "working_title": "Tráfico en hora punta: cómo decidir si conviene conducir",
-      "primary_keyword": "trafico en hora punta como decidir si conviene conducir",
-      "intent": "Informacional",
-      "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "conduccion-y-uso-diario",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0193.json"
-    },
-    {
-      "id": "ES-0194",
-      "hub": "/guia-de-alquiler/",
-      "slug": "como-planificar-el-combustible-en-desplazamientos-diarios",
-      "url": "/guia-de-alquiler/como-planificar-el-combustible-en-desplazamientos-diarios/",
-      "working_title": "Cómo planificar el combustible en desplazamientos diarios",
-      "primary_keyword": "como planificar el combustible en desplazamientos diarios",
-      "intent": "Informacional",
-      "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "conduccion-y-uso-diario",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0194.json"
-    },
     {
       "id": "ES-0196",
       "hub": "/guia-de-alquiler/",
@@ -48,6 +20,34 @@
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
       "draft_file": "_factory/inbox/ES-0196.json"
+    },
+    {
+      "id": "ES-0197",
+      "hub": "/guia-de-alquiler/",
+      "slug": "moto-alquilada-y-compras-como-transportar-objetos-de-forma-segura",
+      "url": "/guia-de-alquiler/moto-alquilada-y-compras-como-transportar-objetos-de-forma-segura/",
+      "working_title": "Moto alquilada y compras: cómo transportar objetos de forma segura",
+      "primary_keyword": "moto alquilada y compras como transportar objetos de forma segura",
+      "intent": "Informacional",
+      "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "conduccion-y-uso-diario",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0197.json"
+    },
+    {
+      "id": "ES-0198",
+      "hub": "/guia-de-alquiler/",
+      "slug": "que-hacer-si-pierdes-la-llave-de-una-moto-alquilada",
+      "url": "/guia-de-alquiler/que-hacer-si-pierdes-la-llave-de-una-moto-alquilada/",
+      "working_title": "Qué hacer si pierdes la llave de una moto alquilada",
+      "primary_keyword": "que hacer si pierdes la llave de una moto alquilada",
+      "intent": "Informacional",
+      "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "entrega-devolucion-incidencias",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0198.json"
     }
   ]
 }
