@@ -1,0 +1,84 @@
+{
+  "id": "ES-0211",
+  "title": "Moto eléctrica descargada: opciones que consultar con el negocio",
+  "description": "Un vehículo eléctrico de alquiler se queda sin batería a mitad de ruta: qué opciones consultar con el negocio, cómo cargar con seguridad y cómo documentar el episodio.",
+  "h1": "Batería agotada en ruta: opciones que conviene consultar antes",
+  "intro": "Los vehículos eléctricos de alquiler tienen una virtud silenciosa y un inconveniente evidente: no hacen ruido, pero tampoco se rellenan en dos minutos. Cuando la carga se agota a mitad de ruta, la solución rara vez es tan rápida como repostar una moto de gasolina, y las opciones reales dependen del modelo, del cargador y del acuerdo con el negocio. Esta guía explica qué conviene consultar antes de salir, qué hacer cuando la carga cae y cómo documentar el episodio para que ni tu ruta ni el contrato salgan dañados.",
+  "sections": [
+    {
+      "heading": "Por qué una batería descargada no se gestiona como una avería cualquiera",
+      "paragraphs": [
+        "Con una moto de gasolina, quedarse sin combustible es un trámite: empujas hasta la estación, llenas y sigues. Con un vehículo eléctrico, el vacío llega con aviso pero el llenado llega con reloj: cargar una batería lleva su tiempo, requiere un enchufe adecuado y a veces obliga a replantear la jornada. Por eso la descarga en ruta se gestiona mejor como una cuestión de planificación que como una emergencia mecánica.",
+        "La segunda diferencia es la información. El tablero de un vehículo eléctrico suele mostrar el nivel de carga, pero la traducción de ese porcentaje a kilómetros reales depende del modelo, del terreno, del peso y del estilo de conducción. Por eso, más que la aguja, lo que orienta es lo que te contó el responsable el primer día sobre la autonomía real de esa unidad concreta.",
+        "Y la tercera es logística: la red de puntos de carga disponible para un vehículo de alquiler depende de dónde estés y de qué admita la moto. Antes de asumir que cualquier enchufe sirve, conviene haber preguntado al negocio qué solución prefiere para su vehículo. Su respuesta es parte del cuidado del material que alquilas."
+      ]
+    },
+    {
+      "heading": "Qué consultar antes de salir con un vehículo eléctrico",
+      "paragraphs": [
+        "La conversación importante ocurre en la entrega, no en el arcén. En ese momento conviene preguntar cuatro cosas: qué autonomía real suele rendir la batería en uso urbano, cómo se comporta el indicador cuando queda poca carga, qué cargador incluye el alquiler y dónde se puede usar, y si la batería es extraíble o el vehículo debe enchufarse completo. Cuatro respuestas, un minuto cada una, y la ruta entera cambia de color.",
+        "Añade dos preguntas prácticas: cuánto tarda una carga completa con el cargador entregado y si hay que devolver el vehículo con la batería en un nivel determinado. La segunda evita sorpresas en la liquidación del depósito, porque un nivel de devolución distinto del acordado puede contar como condición incumplida, y eso se comprueba en un minuto de conversación, no en una discusión de última hora.",
+        "Y si el alquiler es de varios días, pregunta cómo se gestiona la carga diaria: si el alojamiento admite cargar en una toma normal, si conviene llevar el cargador siempre encima o si el negocio prefiere que la carga se haga en un punto concreto. Los precios y condiciones de las motos y bicicletas eléctricas se confirman según el modelo, así que cada respuesta tuya vale para tu unidad concreta y para nadie más."
+      ]
+    },
+    {
+      "heading": "Qué hacer cuando la carga cae en plena ruta",
+      "paragraphs": [
+        "Lo primero es lo de siempre: apartar el vehículo con seguridad, encendiendo la intermitencia si aún hay energía y buscando un hueco fuera de la calzada. Un vehículo eléctrico silencioso puede quedarse sin propulsionarse de forma súbita, y la tentación de estirarlo un poco más es mayor precisamente porque no hace ruido. En cuanto el tablero avisa de reserva, decide ya dónde vas a detenerte, no dónde te gustaría.",
+        "Después, llama o escribe al negocio con la ubicación y el nivel de carga restante. Las opciones que puede ofrecerte dependen del modelo y del acuerdo: indicarte un punto de carga cercano, organizar la recogida o el traslado del vehículo, o resolverlo de otra forma acordada contigo. Lo que no conviene es improvisar soluciones caseras sin contar con el responsable: adaptadores improvisados y enchufes ajenos sin permiso son la vía corta hacia daños que luego se liquidan del depósito.",
+        "Gestiona también la expectativa de tiempo. Salvo que el modelo permita sustituir la batería al momento, cargar toma un rato, y conviene avisar a quienes te esperan o reorganizar el resto del plan con realismo. Una descarga bien comunicada suele costar una hora de agenda; una descarga improvisada puede costar el día entero y parte del ánimo."
+      ]
+    },
+    {
+      "heading": "Cargar en sitios que no conoces: precauciones razonables",
+      "paragraphs": [
+        "Si vas a cargar fuera de casa, usa el cargador entregado con el alquiler y una toma que sepas que admite ese consumo. Pide permiso antes de enchufar en cualquier establecimiento; en la mayoría de sitios lo conceden con una consumición o una propina, y el permiso explícito convierte un favor en un acuerdo. Lo contrario, el enchufe prestado sin preguntar, es la versión eléctrica del combustible sin pagar.",
+        "Evita dejar el vehículo cargando desatendido durante horas en un lugar sin vigilancia. La batería es la parte más valiosa del vehículo, y una carga larga en la calle combina tres riesgos: el robo del cargador o de la batería si es extraíble, el daño del material por lluvia o calor, y la conversación incómoda con el responsable si algo ocurre mientras nadie miraba.",
+        "Y si el modelo tiene batería extraíble, cuida de dónde entra y de dónde sale: cargarla en la habitación del hotel es a menudo la opción más práctica, pero pregunta si el cargador entregado admite ese uso y con qué precauciones. Las baterías se tratan con respeto: nada de envolverlas en ropa, dejarlas sobre camas al sol o taparlas mientras trabajan."
+      ]
+    },
+    {
+      "heading": "Cómo documentar el episodio y cerrarlo bien",
+      "paragraphs": [
+        "Como en cualquier incidencia, el hilo de mensajes es tu expediente: hora en que detectaste la carga baja, ubicación, nivel que marcaba el tablero, qué te indicó el negocio y cómo se resolvió. Dos fotos del tablero y una del vehículo en el punto de carga cierran el relato con la misma neutralidad que las fotos del primer día de alquiler.",
+        "El episodio se cierra como se abrió: con un mensaje corto que confirme que el vehículo quedó cargando o cargado, dónde y hasta cuándo, y que la ruta se reanudó o se interrumpió. Ese cierre en una línea evita reconstrucciones de memoria en la devolución, y si la batería o el cargador muestran después algún comportamiento raro, el historial demuestra que avisaste cuando tocaba.",
+        "En la devolución, el estado de la batería y del cargador se revisa como cualquier otra parte del vehículo: nivel acordado, cargador completo y funcionamiento correcto. Si durante el alquiler hubo una descarga con episodios, menciónalo en el cierre; la transparencia de un minuto pesa menos que la duda descubierta por el responsable al revisar."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Qué autonomía tiene una moto eléctrica de alquiler?",
+      "answer": "Depende del modelo, del terreno y del uso, y las cifras que valen son las que te dé el responsable para la unidad concreta. Pregunta en la entrega por la autonomía real en uso urbano y por cómo se comporta el indicador con poca carga."
+    },
+    {
+      "question": "¿Qué hago si el vehículo se queda sin batería en la ruta?",
+      "answer": "Apártalo a un lugar seguro, avisa al negocio con tu ubicación y el nivel de carga restante, y sigue sus indicaciones. Las soluciones posibles dependen del modelo y del acuerdo: punto de carga cercano, recogida del vehículo u otra gestión acordada con el responsable."
+    },
+    {
+      "question": "¿Puedo cargar la batería en cualquier enchufe?",
+      "answer": "Usa el cargador entregado con el alquiler y pide permiso antes de usar tomas ajenas. Los adaptadores improvisados y los enchufes de potencia desconocida pueden dañar la batería, y ese daño es el tipo de incidencia que luego se liquida del depósito."
+    },
+    {
+      "question": "¿Debo devolver el vehículo con la batería cargada?",
+      "answer": "Es una condición que se acuerda en la entrega: pregunta qué nivel se espera en la devolución y cuánto tarda una carga con el cargador entregado. Saberlo el primer día te permite organizar la última carga sin prisas ni sobrecostes."
+    },
+    {
+      "question": "¿La batería es extraíble en todos los modelos?",
+      "answer": "No en todos: algunos vehículos permiten retirar la batería y cargarla en otro sitio, y otros deben enchufarse completos. Pregunta qué tipo entregan contigo y qué uso admite el cargador, porque las precauciones prácticas cambian según la respuesta."
+    },
+    {
+      "question": "¿Una descarga en ruta afecta al depósito?",
+      "answer": "El episodio en sí no tiene por qué afectar si se gestiona con aviso, permiso y cuidado del material. El depósito se liquida según el contrato tras revisar el estado del vehículo, su equipamiento y el nivel de batería acordado en la devolución."
+    }
+  ],
+  "related": [
+    "/guia-de-alquiler/averia-moto-alquilada/",
+    "/guia-de-alquiler/que-hacer-si-la-moto-se-queda-sin-combustible/",
+    "/guia-de-alquiler/ruta-corta-en-hanoi/",
+    "/guia-de-alquiler/averia-durante-una-ruta-informacion-util-para-el-propietario/",
+    "/faq/"
+  ],
+  "source_urls": [],
+  "status": "READY_FOR_QA"
+}
