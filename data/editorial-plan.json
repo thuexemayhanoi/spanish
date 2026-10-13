@@ -4900,6 +4900,246 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ]
+    },
+    {
+      "id": "ES-0301",
+      "hub": "/guia-de-alquiler/",
+      "slug": "pasaporte-perdido-durante-un-alquiler-en-hanoi",
+      "url": "/guia-de-alquiler/pasaporte-perdido-durante-un-alquiler-en-hanoi/",
+      "working_title": "Qué hacer si pierdes el pasaporte durante un alquiler en Hanói",
+      "primary_keyword": "qué hacer si pierdes el pasaporte durante un alquiler en hanói",
+      "intent": "Informacional",
+      "brief": "Trámites consulares, denuncia y contacto con el arrendador: gestión documental de emergencia, no procedimiento de reserva.",
+      "category_id": "proceso-y-tramites",
+      "parent_id": "guia-de-alquiler",
+      "status": "PLANNED",
+      "replacement_for": "ES-0089",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0302",
+      "hub": "/guia-de-alquiler/",
+      "slug": "higiene-del-casco-de-alquiler-y-cuidado-del-interior",
+      "url": "/guia-de-alquiler/higiene-del-casco-de-alquiler-y-cuidado-del-interior/",
+      "working_title": "Higiene del casco de alquiler: cómo revisar el interior y cuidarlo",
+      "primary_keyword": "higiene del casco de alquiler: cómo revisar el interior y cuidarlo",
+      "intent": "Informacional",
+      "brief": "Higiene y cuidado del forro del casco compartido; distinta de talla e integridad mecánica.",
+      "category_id": "revision-y-seguridad",
+      "parent_id": "guia-de-alquiler",
+      "status": "PLANNED",
+      "replacement_for": "ES-0090",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0303",
+      "hub": "/guia-de-alquiler/",
+      "slug": "mapas-sin-conexion-en-hanoi-antes-de-conducir",
+      "url": "/guia-de-alquiler/mapas-sin-conexion-en-hanoi-antes-de-conducir/",
+      "working_title": "Mapas sin conexión en Hanói: preparar navegación sin cobertura móvil",
+      "primary_keyword": "mapas sin conexión en hanói: preparar navegación sin cobertura móvil",
+      "intent": "Informacional",
+      "brief": "Preparación offline y contingencias, no uso del teléfono mientras se conduce.",
+      "category_id": "conduccion-y-uso-diario",
+      "parent_id": "guia-de-alquiler",
+      "status": "PLANNED",
+      "replacement_for": "ES-0091",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0304",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "calidad-del-aire-en-hanoi-y-alternativas-a-la-moto",
+      "url": "/rutas-y-movilidad/calidad-del-aire-en-hanoi-y-alternativas-a-la-moto/",
+      "working_title": "Calidad del aire en Hanói: cuándo cambiar la moto por otro transporte",
+      "primary_keyword": "calidad del aire en hanói: cuándo cambiar la moto por otro transporte",
+      "intent": "Informacional",
+      "brief": "Exposición ambiental y decisiones basadas en alertas de calidad del aire, no clima térmico.",
+      "category_id": "clima-y-temporadas",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0092",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0305",
+      "hub": "/tipos-de-motos/scooters/",
+      "slug": "scooters-para-personas-altas-en-hanoi-ergonomia",
+      "url": "/tipos-de-motos/scooters/scooters-para-personas-altas-en-hanoi-ergonomia/",
+      "working_title": "Scooters para personas altas en Hanói: comprobar postura y controles",
+      "primary_keyword": "scooters para personas altas en hanói: comprobar postura y controles",
+      "intent": "Informacional",
+      "brief": "Ergonomía para conductores altos, distinta de altura baja y dimensiones genéricas.",
+      "category_id": "scooters-automaticos",
+      "parent_id": "tipos-de-motos",
+      "status": "PLANNED",
+      "replacement_for": "ES-0093",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0306",
+      "hub": "/tipos-de-motos/",
+      "slug": "cargador-de-moto-electrica-alquilada-transporte-y-almacenamiento",
+      "url": "/tipos-de-motos/cargador-de-moto-electrica-alquilada-transporte-y-almacenamiento/",
+      "working_title": "Cargador de moto eléctrica alquilada: transporte y almacenamiento seguro",
+      "primary_keyword": "cargador de moto eléctrica alquilada: transporte y almacenamiento seguro",
+      "intent": "Informacional",
+      "brief": "Cuidado y transporte del cargador durante el alquiler, diferente de comprobar accesorios en la entrega.",
+      "category_id": "motos-electricas",
+      "parent_id": "tipos-de-motos",
+      "status": "PLANNED",
+      "replacement_for": "ES-0095",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0307",
+      "hub": "/precios/",
+      "slug": "pagar-alquiler-de-moto-en-vnd-cambio-y-recibos",
+      "url": "/precios/pagar-alquiler-de-moto-en-vnd-cambio-y-recibos/",
+      "working_title": "Pagar el alquiler de moto en dong vietnamita: cambio y recibos",
+      "primary_keyword": "pagar el alquiler de moto en dong vietnamita: cambio y recibos",
+      "intent": "Informacional",
+      "brief": "Comprensión de moneda VND, cambio y diferencias entre importe convertido y recibido; no tasas inventadas.",
+      "category_id": "depositos-y-pagos",
+      "parent_id": "precios",
+      "status": "PLANNED",
+      "replacement_for": "ES-0096",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0308",
+      "hub": "/precios/",
+      "slug": "hoja-de-gastos-de-alquiler-de-moto-precio-fianza-y-extras",
+      "url": "/precios/hoja-de-gastos-de-alquiler-de-moto-precio-fianza-y-extras/",
+      "working_title": "Hoja de gastos para alquiler de moto: separar precio, fianza y extras",
+      "primary_keyword": "hoja de gastos para alquiler de moto: separar precio, fianza y extras",
+      "intent": "Informacional",
+      "brief": "Herramienta de control por categorías presupuestarias con ejemplos sin importes inventados, distinta de comparar ofertas.",
+      "category_id": "comparativas-de-precios",
+      "parent_id": "precios",
+      "status": "PLANNED",
+      "replacement_for": "ES-0097",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0309",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "del-aeropuerto-noi-bai-a-long-bien-sin-conducir",
+      "url": "/zonas-de-hanoi/del-aeropuerto-noi-bai-a-long-bien-sin-conducir/",
+      "working_title": "Del aeropuerto Nội Bài a Long Biên sin conducir una moto",
+      "primary_keyword": "del aeropuerto nội bài a long biên sin conducir una moto",
+      "intent": "Informacional",
+      "brief": "Traslado aeroportuario hasta Long Biên con equipaje; sin inventar líneas de autobús ni prometer recogida.",
+      "category_id": "long-bien-gia-lam",
+      "parent_id": "zonas-de-hanoi",
+      "status": "PLANNED",
+      "replacement_for": "ES-0098",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0310",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas",
+      "url": "/zonas-de-hanoi/estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas/",
+      "working_title": "Estaciones de Hanói, Long Biên y Gia Lâm: evitar confusiones al llegar",
+      "primary_keyword": "estaciones de hanói, long biên y gia lâm: evitar confusiones al llegar",
+      "intent": "Informacional",
+      "brief": "Comparación para identificar estación escrita en billete, sin confundir puntos de encuentro con servicio de alquiler.",
+      "category_id": "estaciones-y-puntos-de-interes",
+      "parent_id": "zonas-de-hanoi",
+      "status": "PLANNED",
+      "replacement_for": "ES-0099",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0311",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "movilidad-accesible-en-hanoi-para-visitas-sin-moto",
+      "url": "/rutas-y-movilidad/movilidad-accesible-en-hanoi-para-visitas-sin-moto/",
+      "working_title": "Movilidad accesible en Hanói: planificar visitas sin conducir moto",
+      "primary_keyword": "movilidad accesible en hanói: planificar visitas sin conducir moto",
+      "intent": "Informacional",
+      "brief": "Accesibilidad de desplazamientos y planificación por necesidades, no movilidad general con niños.",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0234",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
+    },
+    {
+      "id": "ES-0312",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado",
+      "url": "/rutas-y-movilidad/llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado/",
+      "working_title": "Llegar a Hanói tras un vuelo nocturno: por qué no conducir fatigado",
+      "primary_keyword": "llegar a hanói tras un vuelo nocturno: por qué no conducir fatigado",
+      "intent": "Informacional",
+      "brief": "Fatiga de viaje y elección de transporte de llegada, distinta de logística por llegada temprano.",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0254",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ]
     }
   ]
 }
