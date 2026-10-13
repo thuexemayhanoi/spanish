@@ -164,3 +164,79 @@ body{font-family:var(--font-body);overflow-wrap:break-word}
 .footer .foot-grid{grid-template-columns:minmax(0,1.4fr) repeat(3,minmax(0,1fr));gap:clamp(16px,2.4vw,40px)}
 @media(max-width:960px){.footer .foot-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:520px){.footer .foot-grid{grid-template-columns:minmax(0,1fr)}.seo-core-block{padding:17px 0 24px}.seo-core-longform{padding:54px 0}}
+
+
+/* Responsive reading gutter fix — screenshot QA 2026-10-14. */
+:root{
+  /* Shared horizontal rhythm: comfortable reading on iPhone, tablet and desktop. */
+  --reading-gutter:clamp(20px,5vw,48px);
+}
+/* All page templates use wrap. This overrides the older 17px mobile gutter. */
+.wrap{
+  width:min(1200px,calc(100% - var(--reading-gutter) - var(--reading-gutter)));
+  max-width:calc(100% - var(--reading-gutter) - var(--reading-gutter));
+  margin-inline:auto;
+}
+/* Important: .prose used to override .wrap to 100vw on narrow phones.
+   Keep editorial text inside the same viewport-safe container as the header. */
+.wrap.prose{
+  width:min(760px,calc(100% - var(--reading-gutter) - var(--reading-gutter)));
+  max-width:calc(100% - var(--reading-gutter) - var(--reading-gutter));
+  margin-inline:auto;
+}
+.seo-core-longform .wrap.prose{
+  width:min(860px,calc(100% - var(--reading-gutter) - var(--reading-gutter)));
+  max-width:calc(100% - var(--reading-gutter) - var(--reading-gutter));
+  margin-inline:auto;
+}
+/* Guard intrinsic/grid overflow without clipping actual content or hiding bugs. */
+main,.hero-grid>* ,.split>* ,.cards>* ,.taxonomy-grid>* ,.foot-grid>*{
+  min-width:0;
+}
+.prose :is(img,svg,video,iframe),.art svg{
+  max-width:100%;
+  height:auto;
+}
+.seo-core-block,.seo-core-longform .section-head,.prose article{
+  min-width:0;
+  max-width:100%;
+}
+.seo-core-block p,.prose p,.article-index a,.taxonomy-article-list a{
+  overflow-wrap:break-word;
+}
+.seo-core-related{max-width:100%}
+.seo-core-related a{max-width:100%;white-space:normal;overflow-wrap:anywhere}
+.table-scroll{max-width:100%;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+/* Keep the floating controls inside screen edges, including iOS safe areas. */
+.reader-toc,.back-to-top{
+  right:max(16px,env(safe-area-inset-right,0px));
+}
+@media(min-width:1440px){
+  .reader-toc,.back-to-top{right:max(20px,calc((100vw - 1360px)/2))}
+}
+@media(max-width:760px){
+  .seo-core-longform{padding-block:clamp(42px,7vw,60px)}
+  .seo-core-longform .wrap.prose{width:calc(100% - var(--reading-gutter) - var(--reading-gutter))}
+  .seo-core-block{padding-block:20px 24px;margin:0}
+  .seo-core-block h2{font-size:clamp(1.4rem,5.7vw,1.95rem);line-height:1.27;letter-spacing:-.025em}
+  .seo-core-block p,.prose p{font-size:clamp(1rem,3.8vw,1.065rem);line-height:1.77}
+  .prose article{width:100%}
+  .faq details{min-width:0;padding-inline:16px}
+  .faq summary{overflow-wrap:anywhere}
+  .crumb{overflow-wrap:anywhere}
+  .logo{min-width:0;gap:9px}
+  .logo>span:last-child{min-width:0}
+  .top{gap:10px}
+  .tools{flex-shrink:0}
+  .art svg{width:100%}
+}
+@media(max-width:360px){
+  :root{--reading-gutter:20px}
+  .logo{font-size:.76rem}
+  .logo small{font-size:.57rem;letter-spacing:.08em}
+  .mark{width:34px;height:34px;flex:0 0 34px}
+  .top{gap:7px}
+  .tools{gap:6px}
+  .tool{min-width:44px}
+  .seo-core-related{gap:8px}
+}
