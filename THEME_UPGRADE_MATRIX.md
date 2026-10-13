@@ -23,7 +23,7 @@
 | P0-02 | P0 | Keyboard / touch navigation safety | Escape, exclusive open, outside click, focus and aria-expanded implemented; manual keyboard + SR testing pending | IMPLEMENTED / QA PASS |
 | P0-03 | P0 | Shared accessible design tokens | Blue Titanium, new spacing/shadow/link/focus tokens, 44px targets, 390px footer spacing; full contrast sweep pending | IMPLEMENTED / QA PASS |
 | P0-04 | P0 | Content + SEO immutability guard | Branch diff limited to CSS/JS, read-only QA, docs and output-neutral build lookup refactor; --check confirms generated HTML unchanged | QA PASS |
-| P0-05 | P0 | Browser/CI regression | Branch Action PASS, production baseline desktop/mobile visual audit; branch preview and Lighthouse/manual accessibility still pending | PARTIAL / CI PASS |
+| P0-05 | P0 | Browser/CI regression | Branch Action and GitHub PR #12 Site Build QA both PASS; production desktop/mobile baseline checked; branch preview/Lighthouse/manual accessibility pending | PARTIAL / CI PASS |
 | P1-01 | P1 | Premium header/menu layout | Multi-column sections only for live taxonomy groups; no dead links or new phantom URLs | TODO |
 | P1-02 | P1 | Search | Static, bounded per-category/paginated index; progressive enhancement and a true no-JS fallback | TODO |
 | P1-03 | P1 | Article navigation | Progressive TOC, scroll progress, back-to-top via JS/CSS without generator HTML change; browser acceptance pending | IMPLEMENTED / CI PASS |
@@ -90,3 +90,11 @@ Another authorized AI session changed `main` after the baseline by creating 12 r
 ### Rollback (technical branch only)
 
 Revert individual P0/P1 commits in reverse dependency order with `git revert <sha>` on this branch, re-run read-only QA, or close the unmerged draft PR. Production is unchanged by this work.
+
+### Draft PR acceptance checkpoint
+
+- Draft PR (not merge-approved): https://github.com/thuexemayhanoi/spanish/pull/12
+- Entire pull-request Site Build QA passed: https://github.com/thuexemayhanoi/spanish/actions/runs/38449525594
+- Branch-specific full QA passed after safe main refresh: https://github.com/thuexemayhanoi/spanish/actions/runs/38449316592
+- `main` untouched by theme modifications; production remains on existing Pages deployment.
+- **Gate**: do not merge without user approval and manual browser preview of the branch.
