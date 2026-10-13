@@ -2,45 +2,44 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 259,
-  "remaining": 41,
+  "published": 262,
+  "remaining": 38,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0272",
+      "id": "ES-0275",
       "hub": "/rutas-y-movilidad/",
-      "slug": "planificar-un-circuito-con-recogida-y-devolucion-el-mismo-dia",
-      "url": "/rutas-y-movilidad/planificar-un-circuito-con-recogida-y-devolucion-el-mismo-dia/",
-      "working_title": "Planificar un circuito con recogida y devolución el mismo día",
-      "primary_keyword": "planificar un circuito con recogida y devolucion el mismo dia",
+      "slug": "ruta-en-moto-con-acompanante-como-adaptar-el-plan",
+      "url": "/rutas-y-movilidad/ruta-en-moto-con-acompanante-como-adaptar-el-plan/",
+      "working_title": "Ruta en moto con acompañante: cómo adaptar el plan",
+      "primary_keyword": "ruta en moto con acompanante como adaptar el plan",
+      "intent": "Informacional",
+      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "itinerarios-urbanos",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0275.json"
+    },
+    {
+      "id": "ES-0276",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "que-comprobar-del-pronostico-antes-de-alquilar-una-moto",
+      "url": "/rutas-y-movilidad/que-comprobar-del-pronostico-antes-de-alquilar-una-moto/",
+      "working_title": "Qué comprobar del pronóstico antes de alquilar una moto",
+      "primary_keyword": "que comprobar del pronostico antes de alquilar una moto",
       "intent": "Investigación comercial",
-      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "itinerarios-urbanos",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS",
-        "VERIFY_BUSINESS_FACTS"
-      ],
-      "draft_file": "_factory/inbox/ES-0272.json"
-    },
-    {
-      "id": "ES-0273",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "como-repartir-una-visita-urbana-en-dos-jornadas",
-      "url": "/rutas-y-movilidad/como-repartir-una-visita-urbana-en-dos-jornadas/",
-      "working_title": "Cómo repartir una visita urbana en dos jornadas",
-      "primary_keyword": "como repartir una visita urbana en dos jornadas",
-      "intent": "Informacional",
-      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "itinerarios-urbanos",
+      "category_id": "clima-y-temporadas",
       "parent_id": "rutas-y-movilidad",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
@@ -50,19 +49,19 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0273.json"
+      "draft_file": "_factory/inbox/ES-0276.json"
     },
     {
-      "id": "ES-0274",
+      "id": "ES-0277",
       "hub": "/rutas-y-movilidad/",
-      "slug": "itinerarios-cortos-y-cansancio-escoger-menos-paradas",
-      "url": "/rutas-y-movilidad/itinerarios-cortos-y-cansancio-escoger-menos-paradas/",
-      "working_title": "Itinerarios cortos y cansancio: escoger menos paradas",
-      "primary_keyword": "itinerarios cortos y cansancio escoger menos paradas",
+      "slug": "temporada-de-lluvias-en-hanoi-decisiones-para-conductores",
+      "url": "/rutas-y-movilidad/temporada-de-lluvias-en-hanoi-decisiones-para-conductores/",
+      "working_title": "Temporada de lluvias en Hanói: decisiones para conductores",
+      "primary_keyword": "temporada de lluvias en hanoi decisiones para conductores",
       "intent": "Informacional",
-      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "itinerarios-urbanos",
+      "category_id": "clima-y-temporadas",
       "parent_id": "rutas-y-movilidad",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
@@ -72,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0274.json"
+      "draft_file": "_factory/inbox/ES-0277.json"
     }
   ]
 }
