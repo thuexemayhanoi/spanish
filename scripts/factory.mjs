@@ -15,8 +15,10 @@ const command=process.argv[2]||'status';
 const unique=arr=>new Set(arr).size===arr.length;
 const wordCount=s=>String(s).trim().split(/\s+/u).filter(Boolean).length;
 function verifyPlan(){
- if(rows.length!==cfg.target_articles||!unique(rows.map(r=>r.id))||!unique(rows.map(r=>r.url))||!unique(rows.map(r=>r.working_title.toLocaleLowerCase('es'))))throw Error('Invalid or duplicate plan');
+ if(rows.length!==cfg.target_articles+holdIds.size||!unique(rows.map(r=>r.id))||!unique(rows.map(r=>r.url))||!unique(rows.map(r=>r.working_title.toLocaleLowerCase('es'))))throw Error('Invalid or duplicate plan');
  if(holdIds.size!==12||rows.some(r=>holdIds.has(r.id)&&r.status!=='HOLD_FOR_INTENT_REVIEW')||[...published].some(id=>holdIds.has(id)))throw Error('HOLD safety mismatch');
+ const replacements=rows.filter(r=>r.replacement_for);
+ if(replacements.length!==12||!unique(replacements.map(r=>r.replacement_for))||replacements.some(r=>!holdIds.has(r.replacement_for)||r.status!=='PLANNED'||Number(r.id.slice(3))<=300))throw Error('Invalid protected replacement mapping');
  for(const r of rows)if(!/^ES-\d{4}$/.test(r.id)||!cfg.allowed_hubs.includes(r.hub)||r.url!==r.hub+r.slug+'/'||!/^[a-z0-9-]+$/.test(r.slug))throw Error('Invalid route '+r.id);
  for(const id of published)if(!rows.some(r=>r.id===id))throw Error('Published ID missing from plan '+id);
 }
