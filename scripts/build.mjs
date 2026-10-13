@@ -8,7 +8,8 @@ const data=JSON.parse(fs.readFileSync(path.join(root,'site/data.json'),'utf8'));
 const bike="<svg viewBox=\"0 0 620 430\" xmlns=\"http://www.w3.org/2000/svg\" role=\"img\" aria-label=\"Ilustración de una moto urbana color titanio azul\"><defs><linearGradient id=\"b\" x2=\"1\" y2=\"1\"><stop stop-color=\"#d9f6ff\"/><stop offset=\".6\" stop-color=\"#75beeb\"/><stop offset=\"1\" stop-color=\"#265e85\"/></linearGradient></defs><ellipse cx=\"305\" cy=\"384\" rx=\"240\" ry=\"18\" fill=\"#02101e\" opacity=\".4\"/><circle cx=\"147\" cy=\"321\" r=\"80\" fill=\"#111b27\" stroke=\"#adc9dc\" stroke-width=\"9\"/><circle cx=\"147\" cy=\"321\" r=\"49\" fill=\"#273e55\" stroke=\"#79b2d1\" stroke-width=\"12\"/><circle cx=\"147\" cy=\"321\" r=\"17\" fill=\"#c9e8f7\"/><circle cx=\"477\" cy=\"321\" r=\"80\" fill=\"#111b27\" stroke=\"#adc9dc\" stroke-width=\"9\"/><circle cx=\"477\" cy=\"321\" r=\"49\" fill=\"#273e55\" stroke=\"#79b2d1\" stroke-width=\"12\"/><circle cx=\"477\" cy=\"321\" r=\"17\" fill=\"#c9e8f7\"/><path d=\"m147 318 61-94 136 14 133 82\" fill=\"none\" stroke=\"#c3eafc\" stroke-width=\"17\" stroke-linecap=\"round\"/><path d=\"M203 205q40-31 130-27l56 19 65 85-69 8-45-34-79 20-40 51-94-11z\" fill=\"url(#b)\" stroke=\"#dff6ff\" stroke-width=\"5\"/><path d=\"M206 201q35-29 145-23l11 22-133 24z\" fill=\"#101c2a\"/><path d=\"m341 180 49-63 25 8-9 29 46 80-36 5z\" fill=\"url(#b)\" stroke=\"#e6faff\" stroke-width=\"4\"/><path d=\"m404 123 35-32 45 0\" stroke=\"#d4ecfa\" stroke-width=\"9\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"m472 91 10-10\" stroke=\"#0b1825\" stroke-width=\"13\" stroke-linecap=\"round\"/><path d=\"m377 131-47-24-21-1\" stroke=\"#d2e9f5\" stroke-width=\"9\" stroke-linecap=\"round\" fill=\"none\"/><path d=\"M423 228q26-8 39-2l25 40-53 12z\" fill=\"#b1e7ff\" stroke=\"#e3faff\" stroke-width=\"4\"/><circle cx=\"453\" cy=\"232\" r=\"12\" fill=\"#fff\"/><path d=\"m279 274 100 9\" stroke=\"#144061\" stroke-width=\"9\" stroke-linecap=\"round\"/></svg>";
 function generate(c){
  const out={}, base=c.site.base, B=c.business, E=s=>String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;"), abs=url=>base.slice(0,-1)+url, link=(url,label)=>`<a href="${E(url)}">${E(label)}</a>`;
- const get=url=>c.pages.find(x=>x.url===url);
+ const pagesByUrl=new Map(c.pages.map(page=>[page.url,page]));
+ const get=url=>pagesByUrl.get(url);
  const nav=p=>taxonomyMenu(c.taxonomy,c.pages,c.liveCategories,p);
  const layoutHead=p=>`<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="${E(p.desc)}"><meta name="theme-color" content="#101820"><meta name="google-site-verification" content="${E(c.site.googleSiteVerification)}"><meta name="robots" content="index,follow"><link rel="canonical" href="${abs(p.url)}"><link rel="icon" type="image/svg+xml" href="/assets/favicon.svg"><link rel="stylesheet" href="/assets/css/theme.css"><meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:title" content="${E(p.title)}"><meta property="og:description" content="${E(p.desc)}"><meta property="og:url" content="${abs(p.url)}"><meta name="twitter:card" content="summary"><title>${E(p.title)}</title>${schema(p)}</head><body>`;
  function schema(p){const graph=[{"@type":"LocalBusiness","@id":base+"#organization",name:B.name,telephone:B.tel,url:base,hasMap:B.maps,openingHoursSpecification:[{"@type":"OpeningHoursSpecification",dayOfWeek:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],opens:B.hours.split("–")[0],closes:B.hours.split("–")[1]}],address:{"@type":"PostalAddress",streetAddress:"112 Nguyễn Văn Cừ",addressLocality:"Bồ Đề, Long Biên, Hanói",addressCountry:"VN"}},{"@type":"WebSite","@id":base+"#website",url:base,name:c.site.title,inLanguage:"es",publisher:{"@id":base+"#organization"}},{"@type":"WebPage","@id":abs(p.url)+"#webpage",url:abs(p.url),name:p.title,description:p.desc,inLanguage:"es",isPartOf:{"@id":base+"#website"}}];if(p.url!=="/"){const li=[{"@type":"ListItem",position:1,name:"Inicio",item:base}];if(p.type==="taxonomy-archive"){const parent=c.taxonomy.parents.find(x=>x.id===p.parent_id);if(!parent)throw Error("Archive parent not found");li.push({"@type":"ListItem",position:2,name:parent.label,item:abs(parent.url)},{"@type":"ListItem",position:3,name:p.h1,item:abs(p.url)});}else{let u="/";p.url.split("/").filter(Boolean).forEach((part,i)=>{u+=part+"/";li.push({"@type":"ListItem",position:i+2,name:get(u)?.h1||part,item:abs(u)})});}graph.push({"@type":"BreadcrumbList",itemListElement:li})}if(p.type==="faq"){graph.push({"@type":"FAQPage",mainEntity:c.faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))})}return `<script type="application/ld+json">${JSON.stringify({"@context":"https://schema.org","@graph":graph}).replace(/</g,"\\u003c")}</script>`;}
@@ -29,7 +30,7 @@ function generate(c){
  if(p.type==="article"){
   const sections=p.article.sections.map(s=>'<section><h2>'+E(s.heading)+'</h2>'+s.paragraphs.map(t=>'<p>'+E(t)+'</p>').join('')+'</section>').join('');
   const faq=(p.article.faq||[]).map(t=>'<h3>'+E(t.question)+'</h3><p>'+E(t.answer)+'</p>').join('');
-  const related=(p.article.related||[]).filter(u=>u!==p.url&&c.pages.some(v=>v.url===u)).slice(0,8).map(u=>link(u,get(u)?.title||u)).join(' ');
+  const related=(p.article.related||[]).filter(u=>u!==p.url&&pagesByUrl.has(u)).slice(0,8).map(u=>link(u,get(u)?.title||u)).join(' ');
   return h+articleCategoryTrail(p,c.taxonomy,c.pages)+'<section class="section"><div class="wrap prose"><article>'+sections+(faq?'<section><h2>Preguntas relacionadas</h2>'+faq+'</section>':'')+'<div class="more"><h2>Lecturas relacionadas</h2>'+related+'</div></article></div></section>';
  }
  if(p.type==="faq")return h+`<section class="section"><div class="wrap"><p class="eyebrow">20 PREGUNTAS Y RESPUESTAS</p>${faq(c.faqs)}</div></section>`;
@@ -48,14 +49,17 @@ const taxonomy=JSON.parse(fs.readFileSync(path.join(root,'site/taxonomy.json'),'
 validateTaxonomy(taxonomy,registry,published,data.pages);
 const approvedLinks=JSON.parse(fs.readFileSync(path.join(root,'data/internal-link-matrix-a4.json'),'utf8')).recommendations.add_link;
 const accepted=[];
+const registryById=new Map(registry.map(row=>[row.id,row]));
+const usedUrls=new Set(data.pages.map(page=>page.url));
 for(const id of published){
- const row=registry.find(p=>p.id===id);
+ const row=registryById.get(id);
  if(!row)throw Error('Unplanned published article '+id);
  const article=JSON.parse(fs.readFileSync(path.join(root,'content/articles',id+'.json'),'utf8'));
  if(article.id!==row.id)throw Error('Bad article ID '+id);
  const page={url:row.url,type:'article',title:article.title,desc:article.description,h1:article.h1,intro:article.intro,
  label:'ARTÍCULO · '+row.primary_keyword,hub:row.hub,parent_id:row.parent_id,category_id:row.category_id,article};
- if(data.pages.some(p=>p.url===page.url))throw Error('Duplicate canonical '+page.url);
+ if(usedUrls.has(page.url))throw Error('Duplicate canonical '+page.url);
+ usedUrls.add(page.url);
  data.pages.push(page);accepted.push(page);
 }
 data.taxonomy=taxonomy;
