@@ -27,7 +27,7 @@
 | P1-01 | P1 | Premium header/menu layout | Multi-column sections only for live taxonomy groups; no dead links or new phantom URLs | TODO |
 | P1-02 | P1 | Search | Static, bounded per-category/paginated index; progressive enhancement and a true no-JS fallback | TODO |
 | P1-03 | P1 | Article navigation | Progressive TOC, scroll progress, back-to-top via JS/CSS without generator HTML change; browser acceptance pending | IMPLEMENTED / CI PASS |
-| P1-04 | P1 | Premium mega footer | Reuse verified NAP, About, Privacy, Terms and published hub links; mobile column stacking/back to top | TODO |
+| P1-04 | P1 | Premium mega footer | Reuse verified NAP/links, responsive columns, back-to-top; source enhanced in branch, manual iPhone verification pending | IMPLEMENTED IN BRANCH / QA PENDING |
 | P1-05 | P1 | Homepage/editorial layout | Featured published articles and taxonomy clusters without changing existing text metadata | TODO |
 | P1-06 | P1 | Category archive experience | Intro, category grouping and pagination; threshold for empty/low-content archives retained | TODO |
 | P2-01 | P2 | Result and 404 pages | SEO noindex search results; 404 recovery, no fictitious links | TODO |
@@ -98,3 +98,53 @@ Revert individual P0/P1 commits in reverse dependency order with `git revert <sh
 - Branch-specific full QA passed after safe main refresh: https://github.com/thuexemayhanoi/spanish/actions/runs/38449316592
 - `main` untouched by theme modifications; production remains on existing Pages deployment.
 - **Gate**: do not merge without user approval and manual browser preview of the branch.
+
+
+## Checkpoint — additional theme batch (2026-10-14 ICT)
+
+### Refreshed state and parallel-work safety
+
+- Verified current production `main` at `67bde7ce26396353f855c7573085bbaed3b3968d`: **300 published articles**, Factory `TARGET_REACHED`. Production may advance; re-fetch before proposing a merge.
+- Existing Draft PR #12 and this branch were opened before the final article runs, when the branch held **291** articles. It is **behind `main`**; do not merge without safe reconciliation and a complete post-rebase QA. In particular do not overwrite the nine most recent published articles.
+- `AGENTS.md` absent in original main; created theme-scoped file on this branch to preserve operational boundaries, not editorial content.
+- No WordPress/API migration, Writer trigger, NAP change, existing URL change, generated HTML regeneration, sitemap change, or production deployment was performed in this checkpoint.
+
+### AgentMarkup audit (source inspection, not package installation)
+
+- Custom Node `scripts/build.mjs` owns final generated HTML. The suggested AgentMarkup adapter is `@agentmarkup/cli` **post-build**, not Vite/Astro/Next, because no `package.json` or framework build layer exists.
+- Existing HTML has meaningful Spanish text, `lang="es"`, canonical tags, Google verification meta, HTML breadcrumbs, structured data including LocalBusiness and Article, sitemap and `robots.txt`; preserve them.
+- `llms.txt` and `_headers` are absent; markdown mirrors are optional because the final HTML is substantive. No AgentMarkup packages installed, no `agentmarkup check` executed, no AI user-agent audit run.
+- Introducing `llms.txt`, a discovery `<link>`, Content-Signal, new AI-crawler policies or markdown mirrors changes the site's SEO/machine-readable surface; **separate explicit approval required**. Do not emit an A2A Agent Card without an actual agent service.
+
+### Browser Use production-only visual audit
+
+Read-only at 1512px desktop / 390px mobile; production baseline had no observed horizontal overflow, a functioning mobile menu and valid breadcrumb landmarks.
+
+| Priority | Observation | Evidence / guard |
+|---|---|---|
+| P2 | Site search absent; `/?s=vision` shows normal homepage; `/buscar/?s=vision` is 404 | Design a static bounded/sharded search index first; do not create a new public route without SEO/URL review |
+| P2 | Card labeled “Motos semiautomáticas” points to `/precios/` rather than a matching vehicle hub | Internal-link destination change requires SEO approval |
+| P3 | Live 404 has no header/footer/search recovery (only home link) | Generator change would require complete HTML regeneration and validation |
+| P3 | Footer fragments appear concatenated on mobile | New footer spacing styles and jump link committed; markup-level text separation still needs generated build |
+| P3 | Mixed taxonomy archive and silo URL families | Preserve URLs; assess SEO separately rather than redirect/rename |
+
+All are production baseline findings: code on the unmerged branch is **not a live fix**.
+
+### New branch commits and scope
+
+| Commit | Feature | Files | Verification |
+|---|---|---|---|
+| `db26aa9e097007af12f5adb8ff9f2d88c47785fb` | P1.04 premium footer typography, mobile grid, focus contrast | `assets/css/theme.css` | CI pending |
+| `a00c079f5a552b996e539758670a0ed73bea9218` | Non-article Back to Top, footer jump link, lightweight sticky shadow | `assets/js/app.js` | CI pending |
+| `f4928fbcd098b9fe554ef97c1a464a70402234cf` | Automated source regression assertions for P1.04 | `scripts/qa-theme.mjs` | CI pending |
+| `29596c1b0a0bdb8181dec5fe7c7ff841e74ecdb9` | Safe contributor/agent guard and rollback contract | `AGENTS.md` | Documentation only |
+
+### Next guarded batches
+
+1. Verify branch-specific and Draft PR Actions QA after these commits. If CI fails, fix on this branch, never on `main`.
+2. Sync **from current `main` into the technical branch only** after diff review (no Writer, no production deploy) and preserve all 300 accepted articles and A6 safeguards.
+3. Design P1 search with lazy bounded shards and test keyboard/no-JS behavior. Do not load tens of thousands of full articles client-side.
+4. Implement header/footer/404 generator markup in a separate batch with complete regeneration of all derived HTML and careful canonical/title/schema diff.
+5. Manually preview 390px / 768px / 1024px / desktop, perform WCAG 2.2 AA contrast/keyboard and Lighthouse checks, and benchmark scale before claiming a 40k-ready system.
+
+**Status:** theme upgrades remain **unmerged and un-deployed**. P1.04 is implemented on branch but not accepted until CI and browser preview.
