@@ -5,7 +5,7 @@ import {addApprovedContextualLinks} from './seo-links-a4.mjs';
 import {validateTaxonomy,decorateTaxonomy,taxonomyMenu,parentCategorySection,categoryArchiveBody,articleCategoryTrail} from './taxonomy.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const data=JSON.parse(fs.readFileSync(path.join(root,'site/data.json'),'utf8'));
-const pillarFiles=['home','about','models','scooters','50cc','pricing','guide','deposit','faq','privacy','terms'];
+const pillarFiles=['home','about','models','scooters','50cc','pricing','guide','deposit','faq','privacy','terms','zones','mobility'];
 const pillars=new Map(pillarFiles.map(name=>{
  const p=JSON.parse(fs.readFileSync(path.join(root,'site/pillars',name+'.json'),'utf8'));
  if(!p.page||!Array.isArray(p.sections)||p.sections.length<6)throw Error('Malformed pillar: '+name);
