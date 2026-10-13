@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 262,
-  "remaining": 38,
+  "published": 263,
+  "remaining": 37,
   "planned": 300,
   "unplanned": 0,
   "queue": [
@@ -52,12 +52,12 @@
       "draft_file": "_factory/inbox/ES-0276.json"
     },
     {
-      "id": "ES-0277",
+      "id": "ES-0278",
       "hub": "/rutas-y-movilidad/",
-      "slug": "temporada-de-lluvias-en-hanoi-decisiones-para-conductores",
-      "url": "/rutas-y-movilidad/temporada-de-lluvias-en-hanoi-decisiones-para-conductores/",
-      "working_title": "Temporada de lluvias en Hanói: decisiones para conductores",
-      "primary_keyword": "temporada de lluvias en hanoi decisiones para conductores",
+      "slug": "calor-intenso-y-conduccion-urbana-hidratacion-y-pausas",
+      "url": "/rutas-y-movilidad/calor-intenso-y-conduccion-urbana-hidratacion-y-pausas/",
+      "working_title": "Calor intenso y conducción urbana: hidratación y pausas",
+      "primary_keyword": "calor intenso y conduccion urbana hidratacion y pausas",
       "intent": "Informacional",
       "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0277.json"
+      "draft_file": "_factory/inbox/ES-0278.json"
     }
   ]
 }
