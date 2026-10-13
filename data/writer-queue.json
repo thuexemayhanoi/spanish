@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 253,
-  "remaining": 47,
+  "published": 256,
+  "remaining": 44,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0266",
+      "id": "ES-0269",
       "hub": "/rutas-y-movilidad/",
-      "slug": "visitar-hanoi-con-moto-y-lluvia-prevista-plan-flexible",
-      "url": "/rutas-y-movilidad/visitar-hanoi-con-moto-y-lluvia-prevista-plan-flexible/",
-      "working_title": "Visitar Hanói con moto y lluvia prevista: plan flexible",
-      "primary_keyword": "visitar hanoi con moto y lluvia prevista plan flexible",
+      "slug": "ruta-cultural-urbana-combinar-moto-y-transporte-publico",
+      "url": "/rutas-y-movilidad/ruta-cultural-urbana-combinar-moto-y-transporte-publico/",
+      "working_title": "Ruta cultural urbana: combinar moto y transporte público",
+      "primary_keyword": "ruta cultural urbana combinar moto y transporte publico",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0266.json"
+      "draft_file": "_factory/inbox/ES-0269.json"
     },
     {
-      "id": "ES-0267",
+      "id": "ES-0270",
       "hub": "/rutas-y-movilidad/",
-      "slug": "como-planificar-una-ruta-al-atardecer-sin-conducir-de-noche",
-      "url": "/rutas-y-movilidad/como-planificar-una-ruta-al-atardecer-sin-conducir-de-noche/",
-      "working_title": "Cómo planificar una ruta al atardecer sin conducir de noche",
-      "primary_keyword": "como planificar una ruta al atardecer sin conducir de noche",
+      "slug": "como-construir-un-recorrido-urbano-con-mapa-sin-tiempos-inventados",
+      "url": "/rutas-y-movilidad/como-construir-un-recorrido-urbano-con-mapa-sin-tiempos-inventados/",
+      "working_title": "Cómo construir un recorrido urbano con mapa sin tiempos inventados",
+      "primary_keyword": "como construir un recorrido urbano con mapa sin tiempos inventados",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +49,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0267.json"
+      "draft_file": "_factory/inbox/ES-0270.json"
     },
     {
-      "id": "ES-0268",
+      "id": "ES-0271",
       "hub": "/rutas-y-movilidad/",
-      "slug": "itinerario-gastronomico-en-hanoi-valorar-aparcamiento",
-      "url": "/rutas-y-movilidad/itinerario-gastronomico-en-hanoi-valorar-aparcamiento/",
-      "working_title": "Itinerario gastronómico en Hanói: valorar aparcamiento",
-      "primary_keyword": "itinerario gastronomico en hanoi valorar aparcamiento",
+      "slug": "paradas-fotograficas-en-hanoi-donde-comprobar-permisos",
+      "url": "/rutas-y-movilidad/paradas-fotograficas-en-hanoi-donde-comprobar-permisos/",
+      "working_title": "Paradas fotográficas en Hanói: dónde comprobar permisos",
+      "primary_keyword": "paradas fotograficas en hanoi donde comprobar permisos",
       "intent": "Informacional",
       "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -69,10 +69,9 @@
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS",
-        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0268.json"
+      "draft_file": "_factory/inbox/ES-0271.json"
     }
   ]
 }
