@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 164,
-  "remaining": 136,
+  "published": 167,
+  "remaining": 133,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0175",
+      "id": "ES-0178",
       "hub": "/guia-de-alquiler/",
-      "slug": "conducir-con-visibilidad-reducida-cuando-detenerse",
-      "url": "/guia-de-alquiler/conducir-con-visibilidad-reducida-cuando-detenerse/",
-      "working_title": "Conducir con visibilidad reducida: cuándo detenerse",
-      "primary_keyword": "conducir con visibilidad reducida cuando detenerse",
+      "slug": "senales-de-cansancio-al-conducir-moto-cuando-hacer-una-pausa",
+      "url": "/guia-de-alquiler/senales-de-cansancio-al-conducir-moto-cuando-hacer-una-pausa/",
+      "working_title": "Señales de cansancio al conducir moto: cuándo hacer una pausa",
+      "primary_keyword": "senales de cansancio al conducir moto cuando hacer una pausa",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0175.json"
+      "draft_file": "_factory/inbox/ES-0178.json"
     },
     {
-      "id": "ES-0176",
+      "id": "ES-0179",
       "hub": "/guia-de-alquiler/",
-      "slug": "moto-alquilada-con-luces-defectuosas-como-actuar",
-      "url": "/guia-de-alquiler/moto-alquilada-con-luces-defectuosas-como-actuar/",
-      "working_title": "Moto alquilada con luces defectuosas: cómo actuar",
-      "primary_keyword": "moto alquilada con luces defectuosas como actuar",
+      "slug": "como-reducir-distracciones-con-el-movil-al-conducir",
+      "url": "/guia-de-alquiler/como-reducir-distracciones-con-el-movil-al-conducir/",
+      "working_title": "Cómo reducir distracciones con el móvil al conducir",
+      "primary_keyword": "como reducir distracciones con el movil al conducir",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0176.json"
+      "draft_file": "_factory/inbox/ES-0179.json"
     },
     {
-      "id": "ES-0177",
+      "id": "ES-0180",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-preparar-un-botiquin-basico-para-un-viaje-urbano",
-      "url": "/guia-de-alquiler/como-preparar-un-botiquin-basico-para-un-viaje-urbano/",
-      "working_title": "Cómo preparar un botiquín básico para un viaje urbano",
-      "primary_keyword": "como preparar un botiquin basico para un viaje urbano",
+      "slug": "inspeccion-final-de-una-moto-comparar-registros-iniciales",
+      "url": "/guia-de-alquiler/inspeccion-final-de-una-moto-comparar-registros-iniciales/",
+      "working_title": "Inspección final de una moto: comparar registros iniciales",
+      "primary_keyword": "inspeccion final de una moto comparar registros iniciales",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0177.json"
+      "draft_file": "_factory/inbox/ES-0180.json"
     }
   ]
 }
