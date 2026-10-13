@@ -2,25 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 119,
-  "remaining": 181,
+  "published": 120,
+  "remaining": 180,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0130",
-      "hub": "/precios/",
-      "slug": "entrega-de-moto-con-equipaje-como-organizar-la-inspeccion",
-      "url": "/precios/entrega-de-moto-con-equipaje-como-organizar-la-inspeccion/",
-      "working_title": "Entrega de moto con equipaje: cómo organizar la inspección",
-      "primary_keyword": "entrega de moto con equipaje como organizar la inspeccion",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-y-costes",
-      "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0130.json"
-    },
     {
       "id": "ES-0131",
       "hub": "/precios/",
@@ -48,6 +34,20 @@
       "category_id": "entrega-y-costes",
       "parent_id": "precios",
       "draft_file": "_factory/inbox/ES-0132.json"
+    },
+    {
+      "id": "ES-0133",
+      "hub": "/precios/",
+      "slug": "como-evitar-costes-mal-entendidos-en-entrega-y-recogida",
+      "url": "/precios/como-evitar-costes-mal-entendidos-en-entrega-y-recogida/",
+      "working_title": "Cómo evitar costes mal entendidos en entrega y recogida",
+      "primary_keyword": "como evitar costes mal entendidos en entrega y recogida",
+      "intent": "Comparativa",
+      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "entrega-y-costes",
+      "parent_id": "precios",
+      "draft_file": "_factory/inbox/ES-0133.json"
     }
   ]
 }
