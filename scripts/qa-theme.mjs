@@ -34,7 +34,9 @@ assert(/name="robots" content="noindex,follow"/.test(notFound),'404 must remain 
 assert((notFound.match(/<h1\b/g)||[]).length===1,'404 must keep one H1');
 assert(notFound.includes('<main id="content">')&&notFound.includes('<footer class="footer">'),'Premium 404 shell not generated');
 assert(notFound.includes('href="/guia-de-alquiler/"')&&notFound.includes('href="/precios/"'),'404 recovery targets missing');
-assert((notFound.match(/class="nav-group"/g)||[]).length===10,'404 desktop/mobile taxonomy nav missing');
+assert(notFound.includes('<nav class="nav" aria-label="Navegación principal">'),'404 navigation landmark missing');
+assert(notFound.includes('id="mobile-nav"')&&notFound.includes('aria-expanded="false"'),'404 mobile navigation missing');
+assert(notFound.includes('href="/tipos-de-motos/"')&&notFound.includes('href="/contacto/"'),'404 recovery links missing');
 assert(!notFound.includes('rel="canonical"'),'404 must not introduce a canonical tag');
 
 assert(state.published_ids.length===new Set(state.published_ids).size,'Duplicate published article IDs');
