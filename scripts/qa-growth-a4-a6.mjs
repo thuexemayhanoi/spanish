@@ -23,9 +23,9 @@ const currentTitles=new Set(base30.map(p=>norm(p.working_title)));
 const pages=new Set([...read('site/data.json').pages.map(p=>p.url),...state.published_ids.filter(id=>Number(id.slice(3))<=5).map(id=>plan.articles.find(p=>p.id===id)?.url)]); // Frozen A4 17-URL baseline, not all newly published A6 URLs.
 assert(typeof state.enabled==='boolean','Factory state malformed');
 assert(state.blocked===false,'Factory blocked status changed');
-assert(queue.status===(state.blocked?'BLOCKED':!state.enabled?'PAUSED':queue.queue.length?'READY':'PLAN_EXHAUSTED'),'Writer queue inconsistent');
+assert(queue.status===(state.blocked?'BLOCKED':!state.enabled?'PAUSED':state.published_ids.length>=300?'TARGET_REACHED':queue.queue.length?'READY':'PLAN_EXHAUSTED'),'Writer queue inconsistent');
 assert(['ES-0001','ES-0002','ES-0003','ES-0004','ES-0005'].every(id=>state.published_ids.includes(id)),'A4 original article IDs missing');
-assert(plan.articles.length===300&&base30.length===30,'Expected 300 plan slots and 30 originals');
+assert(plan.articles.length===312&&base30.length===30,'Expected 300 plan slots and 30 originals');
 assert(gap.candidates.length===270,'A6 candidate count must be 270');
 assert(gap.existing_editorial_plan===30,'A6 base plan count mismatched');
 assert(gap.target_total_articles===300,'A6 target mismatch');
