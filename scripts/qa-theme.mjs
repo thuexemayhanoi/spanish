@@ -31,7 +31,7 @@ assert((main.match(/class="nav-group"/g)||[]).length===10,'5 taxonomy groups not
 assert(main.includes('<main id="content">'),'Skip-link target missing');
 assert(main.includes('<footer class="footer">'),'Shared footer missing');
 assert(/name="robots" content="noindex,follow"/.test(notFound),'404 must remain noindex');
-assert((notFound.match(/<h1\\b/g)||[]).length===1,'404 must keep one H1');
+assert((notFound.match(/<h1\b/g)||[]).length===1,'404 must keep one H1');
 assert(notFound.includes('<main id="content">')&&notFound.includes('<footer class="footer">'),'Premium 404 shell not generated');
 assert(notFound.includes('href="/guia-de-alquiler/"')&&notFound.includes('href="/precios/"'),'404 recovery targets missing');
 assert((notFound.match(/class="nav-group"/g)||[]).length===10,'404 desktop/mobile taxonomy nav missing');
