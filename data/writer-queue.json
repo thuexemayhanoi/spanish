@@ -2,41 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 244,
-  "remaining": 56,
+  "published": 247,
+  "remaining": 53,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0257",
+      "id": "ES-0260",
       "hub": "/zonas-de-hanoi/",
-      "slug": "conexion-tren-y-moto-alquilada-prever-la-hora-de-entrega",
-      "url": "/zonas-de-hanoi/conexion-tren-y-moto-alquilada-prever-la-hora-de-entrega/",
-      "working_title": "Conexión tren y moto alquilada: prever la hora de entrega",
-      "primary_keyword": "conexion tren y moto alquilada prever la hora de entrega",
-      "intent": "Investigación comercial",
-      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "estaciones-y-puntos-de-interes",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
-        "VERIFY_BUSINESS_FACTS"
-      ],
-      "draft_file": "_factory/inbox/ES-0257.json"
-    },
-    {
-      "id": "ES-0258",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "llegar-temprano-a-hanoi-que-hacer-antes-de-recoger-una-moto",
-      "url": "/zonas-de-hanoi/llegar-temprano-a-hanoi-que-hacer-antes-de-recoger-una-moto/",
-      "working_title": "Llegar temprano a Hanói: qué hacer antes de recoger una moto",
-      "primary_keyword": "llegar temprano a hanoi que hacer antes de recoger una moto",
+      "slug": "viajar-en-grupo-desde-una-estacion-coordinar-vehiculos",
+      "url": "/zonas-de-hanoi/viajar-en-grupo-desde-una-estacion-coordinar-vehiculos/",
+      "working_title": "Viajar en grupo desde una estación: coordinar vehículos",
+      "primary_keyword": "viajar en grupo desde una estacion coordinar vehiculos",
       "intent": "Informacional",
       "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -50,29 +27,51 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0258.json"
+      "draft_file": "_factory/inbox/ES-0260.json"
     },
     {
-      "id": "ES-0259",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "moverse-desde-la-estacion-hacia-long-bien-opciones",
-      "url": "/zonas-de-hanoi/moverse-desde-la-estacion-hacia-long-bien-opciones/",
-      "working_title": "Moverse desde la estación hacia Long Biên: opciones",
-      "primary_keyword": "moverse desde la estacion hacia long bien opciones",
+      "id": "ES-0261",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "preparar-una-ruta-urbana-de-medio-dia-en-hanoi",
+      "url": "/rutas-y-movilidad/preparar-una-ruta-urbana-de-medio-dia-en-hanoi/",
+      "working_title": "Preparar una ruta urbana de medio día en Hanói",
+      "primary_keyword": "preparar una ruta urbana de medio dia en hanoi",
       "intent": "Informacional",
-      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "estaciones-y-puntos-de-interes",
-      "parent_id": "zonas-de-hanoi",
+      "category_id": "itinerarios-urbanos",
+      "parent_id": "rutas-y-movilidad",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
         "VERIFY_SEARCH_INTENT_AND_SERP",
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0259.json"
+      "draft_file": "_factory/inbox/ES-0261.json"
+    },
+    {
+      "id": "ES-0262",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "como-elegir-paradas-para-una-visita-en-moto-por-la-ciudad",
+      "url": "/rutas-y-movilidad/como-elegir-paradas-para-una-visita-en-moto-por-la-ciudad/",
+      "working_title": "Cómo elegir paradas para una visita en moto por la ciudad",
+      "primary_keyword": "como elegir paradas para una visita en moto por la ciudad",
+      "intent": "Informacional",
+      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "itinerarios-urbanos",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0262.json"
     }
   ]
 }
