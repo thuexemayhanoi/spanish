@@ -2,33 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 274,
-  "remaining": 26,
+  "published": 275,
+  "remaining": 25,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0287",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "transporte-publico-frente-a-scooter-para-visitas-urbanas",
-      "url": "/rutas-y-movilidad/transporte-publico-frente-a-scooter-para-visitas-urbanas/",
-      "working_title": "Transporte público frente a scooter para visitas urbanas",
-      "primary_keyword": "transporte publico frente a scooter para visitas urbanas",
-      "intent": "Informacional",
-      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "alternativas-de-transporte",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0287.json"
-    },
     {
       "id": "ES-0288",
       "hub": "/rutas-y-movilidad/",
@@ -72,6 +50,28 @@
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
       "draft_file": "_factory/inbox/ES-0289.json"
+    },
+    {
+      "id": "ES-0290",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "moverse-con-ninos-en-hanoi-valorar-alternativas-seguras",
+      "url": "/rutas-y-movilidad/moverse-con-ninos-en-hanoi-valorar-alternativas-seguras/",
+      "working_title": "Moverse con niños en Hanói: valorar alternativas seguras",
+      "primary_keyword": "moverse con ninos en hanoi valorar alternativas seguras",
+      "intent": "Informacional",
+      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0290.json"
     }
   ]
 }
