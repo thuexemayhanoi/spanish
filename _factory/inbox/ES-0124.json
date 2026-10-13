@@ -1,0 +1,94 @@
+{
+  "id": "ES-0124",
+  "title": "Cómo compartir un punto de encuentro para recibir la moto",
+  "description": "Formas prácticas de compartir un punto de encuentro en Hanoi para recibir una moto de alquiler: marcador de mapa, foto de la fachada, referentes visibles y mensaje de confirmación.",
+  "h1": "Cómo compartir un punto de encuentro para recibir la moto",
+  "intro": "Coordinar dónde se recibirá una moto de alquiler parece trivial hasta que llega el día y nadie encuentra a nadie. En Hanoi ese fallo es habitual: calles sin rótulos visibles, números que no siguen un orden evidente y hoteles con entrada por un pasillo lateral hacen que «frente al hotel» signifique cosas distintas para cada persona. La solución no es llegar antes, sino compartir mejor el punto. Esta guía repasa las formas concretas de comunicar un punto de encuentro para recibir la moto: qué datos incluir, qué herramientas usar, cómo confirmar la víspera y qué errores de comunicación conviene evitar. Es la pieza práctica de una serie que ya explicó cómo pactar el punto según el distrito; aquí el foco está en el mensaje mismo.",
+  "sections": [
+    {
+      "heading": "Por qué el mensaje del punto decide la entrega",
+      "paragraphs": [
+        "Un punto de encuentro compartido a medias genera el escenario más común de las entregas fallidas: dos personas dando vueltas a la misma manzana, llamadas que no se entienden por el ruido y un vehículo esperando en una esquina que no es la acordada, aunque ambas partes la llamen igual. En el casco antiguo de Hanoi el problema se multiplica porque muchas calles cambian de nombre a mitad de recorrido y los establecimientos comparten fachadas. La calidad del mensaje es, literalmente, la calidad del encuentro.",
+        "Un buen mensaje de punto de encuentro tiene tres componentes: un lugar nombrado sin ambigüedad, una forma de reconocer el lugar sin depender de datos móviles y una hora con franja, no un momento exacto. «A las 14:00, más o menos entre las 14:00 y las 14:30, en la puerta principal del hotel X, en la calle Y, frente al templo Z» es un mensaje completo. «En el hotel a las 14» es un deseo.",
+        "Esta serie ya cubrió cómo pactar el punto según el distrito, desde Hoàn Kiếm hasta una estación de tren. Esta guía se centra en el canal: cómo transmitir ese punto para que la otra parte lo entienda igual que tú."
+      ]
+    },
+    {
+      "heading": "El marcador de mapa: el dato que vale por diez mensajes",
+      "paragraphs": [
+        "La forma más fiable de compartir un punto en Hanoi es un marcador de mapa enviado por el chat que uses para coordinar, sea Zalo, WhatsApp o cualquier otra aplicación. Las aplicaciones de mapas permiten soltar un pin manualmente en el lugar exacto y compartirlo como enlace o captura. El pin colocado a mano es mejor que la búsqueda del nombre del hotel, porque a veces el registro del negocio en el mapa está desplazado a la puerta de al lado, un error pequeño que en una calle estrecha son cien metros de diferencia.",
+        "Dos recomendaciones prácticas al enviar el marcador. Primera, verifica el pin en el mapa antes de enviarlo: abre el enlace tú mismo y comprueba que apunta al lugar que quieres decir, no al centro de la manzana. Segunda, manda una captura además del enlace, con el nombre de la calle visible, porque la captura se puede mirar sin conexión y sirve de respaldo si el enlace no abre en el móvil de quien entrega el vehículo.",
+        "Si quien entrega la moto es quien comparte el punto, pide que haga lo mismo: un pin colocado a mano y una captura. Los negocios que entregan con frecuencia suelen tener ya sus puntos guardados, y pedir el marcador en lugar de aceptar una descripción verbal elimina de raíz la mitad de los retrasos."
+      ]
+    },
+    {
+      "heading": "Foto de la fachada y referentes visibles",
+      "paragraphs": [
+        "El segundo nivel de precisión es visual: una foto del lugar donde te encontrarás. Si el punto es tu hotel, una foto de la puerta principal tomada desde la calle, con tu posición aproximada si quieres; si es una esquina o una plaza, una foto que muestre el referente pactado, el cartel del comercio, la parada o el templo. Una foto de fachada es inequívoca de un modo que ninguna descripción consigue: no hay dos puertas iguales en la misma calle.",
+        "Completa la foto con un referente visible en texto: «la puerta con el toldo verde, a la derecha del mini-market». Los colores, los letreros y los negocios vecinos son referentes que funcionan aunque la numeración de la calle no coincida con lo que dice el mapa. En Hanoi esa combinación de foto más referente textual es la fórmula estándar entre quienes se encuentran a diario, y funciona igual de bien para una entrega de moto.",
+        "Un matiz útil: si has reservado por la vía de un hotel o alojamiento, la recepción también puede ayudar a describir el acceso, sobre todo si la entrada está en una calle lateral o en un pasaje. Preguntar en recepción el nombre exacto que usan los taxistas locales da una pista de cómo se conoce realmente ese punto, que a veces no es el nombre que aparece en las aplicaciones."
+      ]
+    },
+    {
+      "heading": "Qué información acompañar junto al punto",
+      "paragraphs": [
+        "El punto de encuentro no viaja solo: conviene acompañarlo de los datos que hacen la entrega operativa. La lista mínima es: tu nombre tal como aparece en tu documento, el número de teléfono que tendrás encendido en Vietnam, la hora con franja, el modelo reservado si ya lo has acordado y cualquier particularidad del lugar, como una entrada peatonal donde no se puede detener una moto. Estos datos en el mismo mensaje evitan preguntas de última hora en cadena.",
+        "Añade también una nota sobre ti o sobre quién entregará, si es posible: quién preguntará por quién. «Yo llevaré mochila amarilla» parece un detalle menor, pero en una esquina concurrida distingue al cliente correcto entre diez. En sentido inverso, preguntar quién entrega el vehículo y con qué rasgo reconocible, o si llega en el propio vehículo alquilado, cierra el círculo del reconocimiento.",
+        "La víspera, reconfirma en un solo mensaje: punto (enlace y captura), franja horaria y teléfono. Esta confirmación es la que una entrega fallida echa en falta: un mensaje que reúna todo lo acordado, fechado, al que ambas partes puedan volver mientras esperan. La regla de esta serie sobre entregas sigue en pie: lo que no está confirmado por escrito, no está acordado."
+      ]
+    },
+    {
+      "heading": "Errores de comunicación que arruinan un encuentro",
+      "paragraphs": [
+        "El primer error clásico es describir el punto por algo que solo tú conoces: «frente a mi cafetería favorita» no es un punto, es un recuerdo. El segundo es el nombre del negocio sin la calle: en Hanoi hay cadenas y comercios con nombres repetidos, y un nombre sin calle puede mandar a quien entrega el vehículo a otro distrito. El tercero es la hora exacta sin franja: un tráfico imprevisto convierte las 15:00 en las 15:20, y sin franja pactada, las 15:20 ya parecen un incumplimiento.",
+        "El cuarto error es confiar solo en un canal. Si el plan es llamarse al llegar, y la llamada no entra por cobertura o por ruido, no hay plan. Conviene pactar la llamada y además el mensaje como respaldo, y aclarar quién llama a quién. El quinto error es cambiar el punto el mismo día sin confirmación explícita del cambio: un «mejor en la otra esquina» a medias dicha deja dos puntos vivos en la conversación y dos personas esperando en sitios distintos.",
+        "El sexto, y el más evitable, es no mirar el mapa del punto hasta llegar. Revisar el marcador antes de salir del alojamiento, o al bajar del taxi, orienta en diez segundos qué lado de la calle es y hacia dónde caminar. Toda la serie de errores anteriores se reduce con la misma costumbre: mirar el punto en el mapa antes de que el reloj apremie."
+      ]
+    },
+    {
+      "heading": "Del punto de encuentro a la entrega completa",
+      "paragraphs": [
+        "Encontrarse es solo el principio: en el punto pactado empieza la revisión del vehículo y el cierre del acuerdo. La lista de comprobaciones es la misma que esta serie detalló para cualquier entrega: frenos, luces, espejos, neumáticos, equipamiento y fotos con marca de tiempo de los daños previos, el protocolo que protege la garantía. Compartir bien el punto asegura llegar a tiempo a esa revisión; hacerla bien asegura terminar el alquiler sin discrepancias.",
+        "En el mismo encuentro se cierra lo administrativo: importes acordados, recibo de lo pagado y condiciones de devolución. Si la entrega se hace fuera del local, pregunta expresamente si existe algún cargo por el desplazamiento y pide que conste, la misma exigencia de desglose que esta serie recomendó para alquiler y depósito. Y acuerda también el punto de devolución del vehículo, que a veces coincide con el de entrega y a veces no.",
+        "Para resolver dudas sobre el punto de encuentro, enviar un marcador o confirmar la franja de entrega de tu moto, puedes consultarlo con Cho Thuê Xe Máy Nguyễn Tú, en el 112 Nguyễn Văn Cừ, distrito de Long Biên: por teléfono o Zalo, al +84 942 467 674, de 9:00 a 21:00, puedes acordar por mensaje el punto exacto y todo lo demás antes del día de la entrega."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Cuál es la mejor forma de compartir un punto de encuentro en Hanoi?",
+      "answer": "Un marcador de mapa colocado a mano en el lugar exacto, acompañado de una captura con el nombre de la calle visible y una foto de la fachada o del referente pactado. El pin manual es más fiable que el nombre del negocio, que puede aparecer desplazado en el mapa."
+    },
+    {
+      "question": "¿Basta con decir el nombre de mi hotel?",
+      "answer": "No del todo. Conviene añadir la calle, un referente visible y el marcador de mapa, porque en Hanoi hay negocios con nombres repetidos y algunos registros del mapa apuntan a la puerta de al lado. La foto de la puerta elimina casi toda la ambigüedad."
+    },
+    {
+      "question": "¿Qué datos debo enviar junto al punto?",
+      "answer": "Nombre tal como aparece en tu documento, teléfono que funcione en Vietnam, franja horaria de la entrega, modelo reservado si está acordado y cualquier particularidad del acceso, como una entrada donde no se puede detener una moto."
+    },
+    {
+      "question": "¿Por qué es mejor dar una franja horaria y no una hora exacta?",
+      "answer": "Porque el tráfico de Hanoi es imprevisible y una entrega real puede retrasarse quince minutos sin que nadie falte al acuerdo. Una franja pactada, por ejemplo entre las 14:00 y las 14:30, evita que un retraso pequeño parezca un incumplimiento."
+    },
+    {
+      "question": "¿Cómo confirmo el punto la víspera?",
+      "answer": "Con un solo mensaje que reúna todo: enlace del marcador, captura, franja horaria y teléfono. Ese mensaje fechado es la referencia a la que ambas partes pueden volver mientras esperan, y cierra los malentendidos de última hora."
+    },
+    {
+      "question": "¿Qué hago si cambiamos de punto el mismo día?",
+      "answer": "Confirma el cambio de forma explícita y por escrito, con un nuevo marcador, y descarta el punto anterior en el mismo mensaje. Un cambio a medias dicho deja dos puntos vivos y dos personas esperando en sitios distintos."
+    }
+  ],
+  "related": [
+    "/precios/entrega-de-alquiler-en-hoan-kiem-como-pactar-el-punto/",
+    "/precios/recogida-en-una-estacion-coordinar-un-encuentro-sin-suposiciones/",
+    "/guia-de-alquiler/entrega-y-recogida/",
+    "/precios/recibir-una-moto-en-un-hotel-de-hanoi-que-confirmar/",
+    "/precios/como-documentar-danos-previos-para-proteger-la-garantia/",
+    "/precios/como-pedir-un-desglose-de-deposito-y-alquiler-en-hanoi/"
+  ],
+  "source_urls": [],
+  "status": "READY_FOR_QA",
+  "word_count": 1429
+}
