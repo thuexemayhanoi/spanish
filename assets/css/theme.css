@@ -27,3 +27,78 @@
 @media(max-width:1120px){.nav{display:none}.mobile-trigger{display:block}.mobile-nav{display:grid;padding-bottom:17px;border-top:1px solid var(--line)}.mobile-nav a{padding:12px 4px;border-bottom:1px solid var(--line)}}
 @media(max-width:1120px){.mobile-nav .nav-group{width:100%;border-bottom:1px solid var(--line)}.mobile-nav .nav-group summary{padding:12px 4px}.mobile-nav .nav-panel{position:static;box-shadow:none;max-width:none;min-width:0;padding:7px 9px 13px;margin-bottom:10px}.mobile-nav .nav-panel>a{border-bottom:0}.mobile-nav .taxonomy-unavailable{border-bottom:0}}
 @media(max-width:760px){.taxonomy-grid{grid-template-columns:1fr}.taxonomy-category{padding:20px}.article-category-trail{width:min(760px,calc(100% - 34px));margin:20px auto -35px}}
+
+/* P0 premium shell — 2026-10-14; progressive enhancement, no canonical/content changes. */
+:root{
+  --font-body:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --space-1:.25rem;--space-2:.5rem;--space-3:.75rem;--space-4:1rem;
+  --space-6:1.5rem;--space-8:2rem;--space-12:3rem;--space-16:4rem;
+  --radius-sm:10px;--radius-md:16px;--radius-lg:24px;
+  --shadow-1:0 8px 28px rgba(9,29,47,.08);
+  --shadow-2:0 20px 60px rgba(9,29,47,.14);
+  --link:#155c8b;--focus-ring:#146fa5;
+  color-scheme:light;
+}
+[data-theme="dark"]{
+  --shadow-1:0 8px 28px rgba(0,0,0,.24);
+  --shadow-2:0 20px 60px rgba(0,0,0,.40);
+  --link:#a1ddff;--focus-ring:#b4e7ff;
+  color-scheme:dark;
+}
+html{scroll-padding-top:6.5rem}
+body{font-family:var(--font-body);overflow-wrap:break-word}
+:where(a,button,summary,input,[tabindex]):focus-visible{outline:3px solid var(--focus-ring);outline-offset:3px}
+:where(button,a,summary){touch-action:manipulation}
+:where(.nav-panel a,.mobile-nav a,.mobile-nav summary,.tool){min-height:44px}
+.prose a,.taxonomy-article-list a{color:var(--link)}
+.prose a:hover,.taxonomy-article-list a:hover{text-decoration-thickness:2px}
+.header{isolation:isolate}
+.header .top{min-width:0}
+.nav{align-items:center;gap:clamp(8px,1.2vw,18px)}
+.nav-group summary{display:flex;align-items:center;min-height:44px;user-select:none}
+.nav-panel{
+  width:min(475px,calc(100vw - 32px));max-width:none;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  padding:14px;gap:4px;border-radius:var(--radius-md);
+  box-shadow:var(--shadow-2);
+}
+.nav-panel-heading,.nav-panel>.taxonomy-all{grid-column:1 / -1}
+.nav-panel-heading{padding:8px 12px}
+.nav-panel>a{display:flex;align-items:center;white-space:normal;line-height:1.4}
+.nav-group[open]>summary{color:var(--link)}
+.nav-panel>a:focus-visible{background:var(--soft)}
+.nav-panel a[aria-current="page"]{font-weight:850}
+.mobile-nav{overscroll-behavior:contain}
+.mobile-nav[hidden]{display:none!important}
+.card{box-shadow:var(--shadow-1);min-width:0}
+.card:hover{box-shadow:var(--shadow-2)}
+.taxonomy-category,.box{box-shadow:var(--shadow-1)}
+.prose{font-size:1rem}
+.prose p{max-width:74ch}
+.prose article :is(h2,h3){scroll-margin-top:7rem}
+.footer a:hover{color:#fff;text-decoration:underline}
+.foot-grid>div{min-width:0}
+@media(min-width:1121px){
+  .nav-group:nth-last-of-type(-n+2) .nav-panel{left:auto;right:0}
+}
+@media(max-width:1120px){
+  .mobile-nav{max-height:calc(100dvh - 70px);overflow-y:auto;overflow-x:hidden}
+  .mobile-nav .nav-group summary{min-height:48px;display:flex;align-items:center;justify-content:space-between}
+  .mobile-nav .nav-panel{width:100%;grid-template-columns:1fr;max-width:none;gap:0}
+  .mobile-nav .nav-panel-heading,.mobile-nav .nav-panel>.taxonomy-all{grid-column:auto}
+  .mobile-nav .nav-panel>a,.mobile-nav .taxonomy-unavailable{min-height:44px;align-items:center}
+  .mobile-nav a{min-height:44px;display:flex;align-items:center}
+}
+@media(max-width:760px){
+  .foot-grid{column-gap:20px}
+  .header{backdrop-filter:blur(12px)}
+  .nav-panel>a{font-size:.87rem!important}
+  .prose p{line-height:1.78}
+}
+@media(max-width:390px){
+  .foot-grid{grid-template-columns:1fr}
+  .foot-grid>div:first-child{grid-column:auto}
+}
+@media(prefers-reduced-motion:reduce){
+  .card:hover,.btn:hover{transform:none}
+}
