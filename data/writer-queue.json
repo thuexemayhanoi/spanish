@@ -2,56 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 281,
-  "remaining": 19,
+  "published": 283,
+  "remaining": 17,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0294",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "transporte-para-visitantes-sin-permiso-de-moto-valido",
-      "url": "/rutas-y-movilidad/transporte-para-visitantes-sin-permiso-de-moto-valido/",
-      "working_title": "Transporte para visitantes sin permiso de moto válido",
-      "primary_keyword": "transporte para visitantes sin permiso de moto valido",
-      "intent": "Informacional",
-      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "alternativas-de-transporte",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS",
-        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
-      ],
-      "draft_file": "_factory/inbox/ES-0294.json"
-    },
-    {
-      "id": "ES-0295",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "como-decidir-transporte-durante-tormentas-en-hanoi",
-      "url": "/rutas-y-movilidad/como-decidir-transporte-durante-tormentas-en-hanoi/",
-      "working_title": "Cómo decidir transporte durante tormentas en Hanói",
-      "primary_keyword": "como decidir transporte durante tormentas en hanoi",
-      "intent": "Informacional",
-      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "alternativas-de-transporte",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0295.json"
-    },
     {
       "id": "ES-0296",
       "hub": "/rutas-y-movilidad/",
@@ -73,6 +28,50 @@
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
       "draft_file": "_factory/inbox/ES-0296.json"
+    },
+    {
+      "id": "ES-0297",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "rutas-interurbanas-desde-hanoi-experiencia-y-limites-del-vehiculo",
+      "url": "/rutas-y-movilidad/rutas-interurbanas-desde-hanoi-experiencia-y-limites-del-vehiculo/",
+      "working_title": "Rutas interurbanas desde Hanói: experiencia y límites del vehículo",
+      "primary_keyword": "rutas interurbanas desde hanoi experiencia y limites del vehiculo",
+      "intent": "Informacional",
+      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "viajes-fuera-hanoi",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0297.json"
+    },
+    {
+      "id": "ES-0298",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "alquiler-de-moto-y-carreteras-rurales-preparacion-responsable",
+      "url": "/rutas-y-movilidad/alquiler-de-moto-y-carreteras-rurales-preparacion-responsable/",
+      "working_title": "Alquiler de moto y carreteras rurales: preparación responsable",
+      "primary_keyword": "alquiler de moto y carreteras rurales preparacion responsable",
+      "intent": "Investigación comercial",
+      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "viajes-fuera-hanoi",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0298.json"
     }
   ]
 }
