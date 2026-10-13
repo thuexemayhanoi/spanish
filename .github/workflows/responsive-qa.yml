@@ -1,0 +1,33 @@
+name: Spanish Responsive Reading QA
+on:
+  push:
+    branches: [fix/spanish-responsive-reading-20261014]
+    paths:
+      - 'assets/css/theme.css'
+      - 'scripts/qa-responsive.mjs'
+      - '.github/workflows/responsive-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  responsive-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check responsive regression and unchanged SEO output
+        run: |
+          node --check scripts/qa-responsive.mjs
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
+          node scripts/qa-approved-links-a4.mjs
+          node scripts/qa-theme.mjs
+          node scripts/qa-seo-core.mjs
+          node scripts/qa-responsive.mjs
+          node scripts/smoke-factory.mjs
