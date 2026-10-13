@@ -2,19 +2,19 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 278,
-  "remaining": 22,
+  "published": 281,
+  "remaining": 19,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0291",
+      "id": "ES-0294",
       "hub": "/rutas-y-movilidad/",
-      "slug": "moto-de-alquiler-y-viajes-de-trabajo-opciones-de-transporte",
-      "url": "/rutas-y-movilidad/moto-de-alquiler-y-viajes-de-trabajo-opciones-de-transporte/",
-      "working_title": "Moto de alquiler y viajes de trabajo: opciones de transporte",
-      "primary_keyword": "moto de alquiler y viajes de trabajo opciones de transporte",
-      "intent": "Investigación comercial",
+      "slug": "transporte-para-visitantes-sin-permiso-de-moto-valido",
+      "url": "/rutas-y-movilidad/transporte-para-visitantes-sin-permiso-de-moto-valido/",
+      "working_title": "Transporte para visitantes sin permiso de moto válido",
+      "primary_keyword": "transporte para visitantes sin permiso de moto valido",
+      "intent": "Informacional",
       "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "alternativas-de-transporte",
@@ -25,17 +25,18 @@
         "VERIFY_UNIQUE_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0291.json"
+      "draft_file": "_factory/inbox/ES-0294.json"
     },
     {
-      "id": "ES-0292",
+      "id": "ES-0295",
       "hub": "/rutas-y-movilidad/",
-      "slug": "viajar-con-maletas-por-que-un-scooter-puede-no-convenir",
-      "url": "/rutas-y-movilidad/viajar-con-maletas-por-que-un-scooter-puede-no-convenir/",
-      "working_title": "Viajar con maletas: por qué un scooter puede no convenir",
-      "primary_keyword": "viajar con maletas por que un scooter puede no convenir",
+      "slug": "como-decidir-transporte-durante-tormentas-en-hanoi",
+      "url": "/rutas-y-movilidad/como-decidir-transporte-durante-tormentas-en-hanoi/",
+      "working_title": "Cómo decidir transporte durante tormentas en Hanói",
+      "primary_keyword": "como decidir transporte durante tormentas en hanoi",
       "intent": "Informacional",
       "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,19 +50,19 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0292.json"
+      "draft_file": "_factory/inbox/ES-0295.json"
     },
     {
-      "id": "ES-0293",
+      "id": "ES-0296",
       "hub": "/rutas-y-movilidad/",
-      "slug": "como-combinar-autobus-y-visitas-a-pie-en-hanoi",
-      "url": "/rutas-y-movilidad/como-combinar-autobus-y-visitas-a-pie-en-hanoi/",
-      "working_title": "Cómo combinar autobús y visitas a pie en Hanói",
-      "primary_keyword": "como combinar autobus y visitas a pie en hanoi",
+      "slug": "salir-de-hanoi-en-moto-que-comprobar-antes-de-planificar",
+      "url": "/rutas-y-movilidad/salir-de-hanoi-en-moto-que-comprobar-antes-de-planificar/",
+      "working_title": "Salir de Hanói en moto: qué comprobar antes de planificar",
+      "primary_keyword": "salir de hanoi en moto que comprobar antes de planificar",
       "intent": "Informacional",
-      "brief": "Cuándo conviene utilizar otros medios de transporte. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "alternativas-de-transporte",
+      "category_id": "viajes-fuera-hanoi",
       "parent_id": "rutas-y-movilidad",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
@@ -71,7 +72,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
-      "draft_file": "_factory/inbox/ES-0293.json"
+      "draft_file": "_factory/inbox/ES-0296.json"
     }
   ]
 }
