@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 161,
-  "remaining": 139,
+  "published": 164,
+  "remaining": 136,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0172",
+      "id": "ES-0175",
       "hub": "/guia-de-alquiler/",
-      "slug": "transporte-de-acompanante-en-moto-preguntas-de-seguridad",
-      "url": "/guia-de-alquiler/transporte-de-acompanante-en-moto-preguntas-de-seguridad/",
-      "working_title": "Transporte de acompañante en moto: preguntas de seguridad",
-      "primary_keyword": "transporte de acompanante en moto preguntas de seguridad",
+      "slug": "conducir-con-visibilidad-reducida-cuando-detenerse",
+      "url": "/guia-de-alquiler/conducir-con-visibilidad-reducida-cuando-detenerse/",
+      "working_title": "Conducir con visibilidad reducida: cuándo detenerse",
+      "primary_keyword": "conducir con visibilidad reducida cuando detenerse",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0172.json"
+      "draft_file": "_factory/inbox/ES-0175.json"
     },
     {
-      "id": "ES-0173",
+      "id": "ES-0176",
       "hub": "/guia-de-alquiler/",
-      "slug": "que-hacer-si-notas-una-vibracion-anormal-durante-el-viaje",
-      "url": "/guia-de-alquiler/que-hacer-si-notas-una-vibracion-anormal-durante-el-viaje/",
-      "working_title": "Qué hacer si notas una vibración anormal durante el viaje",
-      "primary_keyword": "que hacer si notas una vibracion anormal durante el viaje",
+      "slug": "moto-alquilada-con-luces-defectuosas-como-actuar",
+      "url": "/guia-de-alquiler/moto-alquilada-con-luces-defectuosas-como-actuar/",
+      "working_title": "Moto alquilada con luces defectuosas: cómo actuar",
+      "primary_keyword": "moto alquilada con luces defectuosas como actuar",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0173.json"
+      "draft_file": "_factory/inbox/ES-0176.json"
     },
     {
-      "id": "ES-0174",
+      "id": "ES-0177",
       "hub": "/guia-de-alquiler/",
-      "slug": "asiento-y-postura-evitar-incomodidad-en-trayectos-urbanos",
-      "url": "/guia-de-alquiler/asiento-y-postura-evitar-incomodidad-en-trayectos-urbanos/",
-      "working_title": "Asiento y postura: evitar incomodidad en trayectos urbanos",
-      "primary_keyword": "asiento y postura evitar incomodidad en trayectos urbanos",
+      "slug": "como-preparar-un-botiquin-basico-para-un-viaje-urbano",
+      "url": "/guia-de-alquiler/como-preparar-un-botiquin-basico-para-un-viaje-urbano/",
+      "working_title": "Cómo preparar un botiquín básico para un viaje urbano",
+      "primary_keyword": "como preparar un botiquin basico para un viaje urbano",
       "intent": "Informacional",
       "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0174.json"
+      "draft_file": "_factory/inbox/ES-0177.json"
     }
   ]
 }
