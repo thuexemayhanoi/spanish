@@ -1,33 +1,10 @@
 {
   "schema_version": 1,
-  "status": "READY",
+  "status": "PLAN_EXHAUSTED",
   "target": 300,
-  "published": 287,
-  "remaining": 13,
+  "published": 288,
+  "remaining": 12,
   "planned": 300,
   "unplanned": 0,
-  "queue": [
-    {
-      "id": "ES-0300",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "alternativas-a-conducir-largas-distancias-desde-hanoi",
-      "url": "/rutas-y-movilidad/alternativas-a-conducir-largas-distancias-desde-hanoi/",
-      "working_title": "Alternativas a conducir largas distancias desde Hanói",
-      "primary_keyword": "alternativas a conducir largas distancias desde hanoi",
-      "intent": "Informacional",
-      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "viajes-fuera-hanoi",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0300.json"
-    }
-  ]
+  "queue": []
 }

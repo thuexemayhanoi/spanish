@@ -1,8 +1,8 @@
 {
-  "status": "READY",
-  "at": "2026-10-13T18:06:05.258Z",
+  "status": "PLAN_EXHAUSTED",
+  "at": "2026-10-13T18:07:18.157Z",
   "published": [
-    "ES-0299"
+    "ES-0300"
   ],
-  "remaining": 13
+  "remaining": 12
 }
