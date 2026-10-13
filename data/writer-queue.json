@@ -2,39 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 120,
-  "remaining": 180,
+  "published": 122,
+  "remaining": 178,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0131",
-      "hub": "/precios/",
-      "slug": "recogida-en-lugar-distinto-al-inicial-condiciones-posibles",
-      "url": "/precios/recogida-en-lugar-distinto-al-inicial-condiciones-posibles/",
-      "working_title": "Recogida en lugar distinto al inicial: condiciones posibles",
-      "primary_keyword": "recogida en lugar distinto al inicial condiciones posibles",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-y-costes",
-      "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0131.json"
-    },
-    {
-      "id": "ES-0132",
-      "hub": "/precios/",
-      "slug": "entrega-durante-lluvia-fuerte-cuando-reorganizar-el-encuentro",
-      "url": "/precios/entrega-durante-lluvia-fuerte-cuando-reorganizar-el-encuentro/",
-      "working_title": "Entrega durante lluvia fuerte: cuándo reorganizar el encuentro",
-      "primary_keyword": "entrega durante lluvia fuerte cuando reorganizar el encuentro",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-y-costes",
-      "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0132.json"
-    },
     {
       "id": "ES-0133",
       "hub": "/precios/",
@@ -48,6 +20,34 @@
       "category_id": "entrega-y-costes",
       "parent_id": "precios",
       "draft_file": "_factory/inbox/ES-0133.json"
+    },
+    {
+      "id": "ES-0134",
+      "hub": "/precios/",
+      "slug": "comunicacion-con-el-proveedor-el-dia-de-la-entrega",
+      "url": "/precios/comunicacion-con-el-proveedor-el-dia-de-la-entrega/",
+      "working_title": "Comunicación con el proveedor el día de la entrega",
+      "primary_keyword": "comunicacion con el proveedor el dia de la entrega",
+      "intent": "Comparativa",
+      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "entrega-y-costes",
+      "parent_id": "precios",
+      "draft_file": "_factory/inbox/ES-0134.json"
+    },
+    {
+      "id": "ES-0135",
+      "hub": "/precios/",
+      "slug": "comparar-el-coste-de-scooter-y-moto-semiautomatica-en-hanoi",
+      "url": "/precios/comparar-el-coste-de-scooter-y-moto-semiautomatica-en-hanoi/",
+      "working_title": "Comparar el coste de scooter y moto semiautomática en Hanói",
+      "primary_keyword": "comparar el coste de scooter y moto semiautomatica en hanoi",
+      "intent": "Comparativa",
+      "brief": "Comparaciones de precios con referencias verificadas por modelo. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "comparativas-de-precios",
+      "parent_id": "precios",
+      "draft_file": "_factory/inbox/ES-0135.json"
     }
   ]
 }
