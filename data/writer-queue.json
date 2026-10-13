@@ -2,19 +2,19 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 227,
-  "remaining": 73,
+  "published": 230,
+  "remaining": 70,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0239",
+      "id": "ES-0242",
       "hub": "/zonas-de-hanoi/",
-      "slug": "aparcar-en-long-bien-normas-locales-que-comprobar",
-      "url": "/zonas-de-hanoi/aparcar-en-long-bien-normas-locales-que-comprobar/",
-      "working_title": "Aparcar en Long Biên: normas locales que comprobar",
-      "primary_keyword": "aparcar en long bien normas locales que comprobar",
-      "intent": "Informacional",
+      "slug": "long-bien-y-gia-lam-diferencias-para-organizar-la-recogida",
+      "url": "/zonas-de-hanoi/long-bien-y-gia-lam-diferencias-para-organizar-la-recogida/",
+      "working_title": "Long Biên y Gia Lâm: diferencias para organizar la recogida",
+      "primary_keyword": "long bien y gia lam diferencias para organizar la recogida",
+      "intent": "Investigación comercial",
       "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "long-bien-gia-lam",
@@ -26,21 +26,44 @@
         "VERIFY_CREDIBLE_SOURCES",
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
-        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+        "VERIFY_BUSINESS_FACTS"
       ],
-      "draft_file": "_factory/inbox/ES-0239.json"
+      "draft_file": "_factory/inbox/ES-0242.json"
     },
     {
-      "id": "ES-0240",
+      "id": "ES-0243",
       "hub": "/zonas-de-hanoi/",
-      "slug": "viajar-con-maleta-hacia-long-bien-transporte-alternativo",
-      "url": "/zonas-de-hanoi/viajar-con-maleta-hacia-long-bien-transporte-alternativo/",
-      "working_title": "Viajar con maleta hacia Long Biên: transporte alternativo",
-      "primary_keyword": "viajar con maleta hacia long bien transporte alternativo",
+      "slug": "como-moverse-por-tay-ho-sin-improvisar-aparcamiento",
+      "url": "/zonas-de-hanoi/como-moverse-por-tay-ho-sin-improvisar-aparcamiento/",
+      "working_title": "Cómo moverse por Tây Hồ sin improvisar aparcamiento",
+      "primary_keyword": "como moverse por tay ho sin improvisar aparcamiento",
       "intent": "Informacional",
-      "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "long-bien-gia-lam",
+      "category_id": "tay-ho-ba-dinh",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+      ],
+      "draft_file": "_factory/inbox/ES-0243.json"
+    },
+    {
+      "id": "ES-0244",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "lago-del-oeste-que-comprobar-antes-de-ir-en-moto",
+      "url": "/zonas-de-hanoi/lago-del-oeste-que-comprobar-antes-de-ir-en-moto/",
+      "working_title": "Lago del Oeste: qué comprobar antes de ir en moto",
+      "primary_keyword": "lago del oeste que comprobar antes de ir en moto",
+      "intent": "Informacional",
+      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "tay-ho-ba-dinh",
       "parent_id": "zonas-de-hanoi",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
@@ -50,30 +73,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0240.json"
-    },
-    {
-      "id": "ES-0241",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "puentes-sobre-el-rio-rojo-consultar-normas-antes-de-circular",
-      "url": "/zonas-de-hanoi/puentes-sobre-el-rio-rojo-consultar-normas-antes-de-circular/",
-      "working_title": "Puentes sobre el río Rojo: consultar normas antes de circular",
-      "primary_keyword": "puentes sobre el rio rojo consultar normas antes de circular",
-      "intent": "Informacional",
-      "brief": "Orientación local y rutas de referencia al este de Hanói. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "long-bien-gia-lam",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
-        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
-      ],
-      "draft_file": "_factory/inbox/ES-0241.json"
+      "draft_file": "_factory/inbox/ES-0244.json"
     }
   ]
 }
