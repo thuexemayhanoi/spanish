@@ -102,3 +102,6 @@ body{font-family:var(--font-body);overflow-wrap:break-word}
 @media(prefers-reduced-motion:reduce){
   .card:hover,.btn:hover{transform:none}
 }
+
+/* Visual audit: keep the two footer meta fragments separated on narrow iPhones. */
+@media(max-width:760px){.foot-bottom{display:grid;grid-template-columns:1fr;gap:10px}.foot-bottom>span{display:block;line-height:1.55}}
