@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 236,
-  "remaining": 64,
+  "published": 239,
+  "remaining": 61,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0248",
+      "id": "ES-0251",
       "hub": "/zonas-de-hanoi/",
-      "slug": "ba-inh-restricciones-de-circulacion-que-conviene-consultar",
-      "url": "/zonas-de-hanoi/ba-inh-restricciones-de-circulacion-que-conviene-consultar/",
-      "working_title": "Ba Đình: restricciones de circulación que conviene consultar",
-      "primary_keyword": "ba inh restricciones de circulacion que conviene consultar",
+      "slug": "aparcamiento-en-ba-inh-como-buscar-informacion-actual",
+      "url": "/zonas-de-hanoi/aparcamiento-en-ba-inh-como-buscar-informacion-actual/",
+      "working_title": "Aparcamiento en Ba Đình: cómo buscar información actual",
+      "primary_keyword": "aparcamiento en ba inh como buscar informacion actual",
       "intent": "Informacional",
       "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -28,15 +28,15 @@
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
         "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0248.json"
+      "draft_file": "_factory/inbox/ES-0251.json"
     },
     {
-      "id": "ES-0249",
+      "id": "ES-0252",
       "hub": "/zonas-de-hanoi/",
-      "slug": "visitar-lugares-historicos-de-ba-inh-planificar-el-traslado",
-      "url": "/zonas-de-hanoi/visitar-lugares-historicos-de-ba-inh-planificar-el-traslado/",
-      "working_title": "Visitar lugares históricos de Ba Đình: planificar el traslado",
-      "primary_keyword": "visitar lugares historicos de ba inh planificar el traslado",
+      "slug": "como-organizar-una-jornada-entre-tay-ho-y-ba-inh",
+      "url": "/zonas-de-hanoi/como-organizar-una-jornada-entre-tay-ho-y-ba-inh/",
+      "working_title": "Cómo organizar una jornada entre Tây Hồ y Ba Đình",
+      "primary_keyword": "como organizar una jornada entre tay ho y ba inh",
       "intent": "Informacional",
       "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -50,19 +50,19 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0249.json"
+      "draft_file": "_factory/inbox/ES-0252.json"
     },
     {
-      "id": "ES-0250",
+      "id": "ES-0253",
       "hub": "/zonas-de-hanoi/",
-      "slug": "ba-inh-y-hoan-kiem-comparar-opciones-de-transporte",
-      "url": "/zonas-de-hanoi/ba-inh-y-hoan-kiem-comparar-opciones-de-transporte/",
-      "working_title": "Ba Đình y Hoàn Kiếm: comparar opciones de transporte",
-      "primary_keyword": "ba inh y hoan kiem comparar opciones de transporte",
+      "slug": "llegar-a-la-estacion-de-hanoi-con-equipaje-alternativas",
+      "url": "/zonas-de-hanoi/llegar-a-la-estacion-de-hanoi-con-equipaje-alternativas/",
+      "working_title": "Llegar a la estación de Hanói con equipaje: alternativas",
+      "primary_keyword": "llegar a la estacion de hanoi con equipaje alternativas",
       "intent": "Informacional",
-      "brief": "Planificación de movilidad por áreas urbanas. Comprobar valor único y fuentes reales; no inventar datos.",
+      "brief": "Orientación sobre estaciones y puntos de llegada. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
-      "category_id": "tay-ho-ba-dinh",
+      "category_id": "estaciones-y-puntos-de-interes",
       "parent_id": "zonas-de-hanoi",
       "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
       "verification_gates": [
@@ -72,7 +72,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0250.json"
+      "draft_file": "_factory/inbox/ES-0253.json"
     }
   ]
 }
