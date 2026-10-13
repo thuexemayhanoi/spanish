@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 197,
-  "remaining": 103,
+  "published": 200,
+  "remaining": 100,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0208",
+      "id": "ES-0211",
       "hub": "/guia-de-alquiler/",
-      "slug": "cambio-de-punto-de-devolucion-que-confirmar",
-      "url": "/guia-de-alquiler/cambio-de-punto-de-devolucion-que-confirmar/",
-      "working_title": "Cambio de punto de devolución: qué confirmar",
-      "primary_keyword": "cambio de punto de devolucion que confirmar",
+      "slug": "moto-electrica-descargada-opciones-que-consultar",
+      "url": "/guia-de-alquiler/moto-electrica-descargada-opciones-que-consultar/",
+      "working_title": "Moto eléctrica descargada: opciones que consultar",
+      "primary_keyword": "moto electrica descargada opciones que consultar",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0208.json"
+      "draft_file": "_factory/inbox/ES-0211.json"
     },
     {
-      "id": "ES-0209",
+      "id": "ES-0212",
       "hub": "/guia-de-alquiler/",
-      "slug": "averia-durante-una-ruta-informacion-util-para-el-propietario",
-      "url": "/guia-de-alquiler/averia-durante-una-ruta-informacion-util-para-el-propietario/",
-      "working_title": "Avería durante una ruta: información útil para el propietario",
-      "primary_keyword": "averia durante una ruta informacion util para el propietario",
+      "slug": "como-comunicar-una-incidencia-de-aparcamiento",
+      "url": "/guia-de-alquiler/como-comunicar-una-incidencia-de-aparcamiento/",
+      "working_title": "Cómo comunicar una incidencia de aparcamiento",
+      "primary_keyword": "como comunicar una incidencia de aparcamiento",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0209.json"
+      "draft_file": "_factory/inbox/ES-0212.json"
     },
     {
-      "id": "ES-0210",
+      "id": "ES-0213",
       "hub": "/guia-de-alquiler/",
-      "slug": "que-hacer-si-la-moto-se-queda-sin-combustible",
-      "url": "/guia-de-alquiler/que-hacer-si-la-moto-se-queda-sin-combustible/",
-      "working_title": "Qué hacer si la moto se queda sin combustible",
-      "primary_keyword": "que hacer si la moto se queda sin combustible",
+      "slug": "cuando-detener-un-recorrido-por-un-fallo-mecanico",
+      "url": "/guia-de-alquiler/cuando-detener-un-recorrido-por-un-fallo-mecanico/",
+      "working_title": "Cuándo detener un recorrido por un fallo mecánico",
+      "primary_keyword": "cuando detener un recorrido por un fallo mecanico",
       "intent": "Informacional",
       "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-devolucion-incidencias",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0210.json"
+      "draft_file": "_factory/inbox/ES-0213.json"
     }
   ]
 }
