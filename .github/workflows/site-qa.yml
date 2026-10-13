@@ -1,5 +1,6 @@
 name: Spanish Site Build QA
 on:
+  workflow_dispatch:
   pull_request:
     branches: [main]
   push:
@@ -9,6 +10,9 @@ on:
       - 'site/**'
       - 'data/**'
       - 'content/articles/**'
+      - '**/*.html'
+      - 'sitemap.xml'
+      - 'robots.txt'
       - '.github/workflows/site-qa.yml'
 permissions:
   contents: read
