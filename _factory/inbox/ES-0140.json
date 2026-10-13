@@ -18,7 +18,8 @@
       "paragraphs": [
         "Al cotizar un scooter, empieza por el modelo concreto: Vision, Air Blade, Click y Mio tienen tarifas de referencia distintas aunque compartan transmisión. Pide la tarifa de tu periodo completo, no solo la diaria, porque las referencias semanales y mensuales publicadas muestran importes propios que la calculadora no adivina.",
         "Sigue con el equipamiento que da valor real al alquiler: espacio bajo el asiento para el casco o la mochila, estado de los frenos y de los neumáticos, y si el segundo casco va incluido cuando viajas con pasajero. La serie ya explicó qué accesorios confirmar al solicitar un scooter urbano, y cada accesorio que no se confirma es una línea abierta en el presupuesto.",
-        "Cierra con el depósito del modelo, que con las referencias publicadas va de 2 a 5 millones de VND dentro de la misma categoría de scooters. Pide la cifra exacta de la unidad cotizada, la forma de pago y el plazo de devolución, y separa ese importe de la tarifa en tu presupuesto mental: son dos números que juegan en ligas distintas."
+        "Cierra con el depósito del modelo, que con las referencias publicadas va de 2 a 5 millones de VND dentro de la misma categoría de scooters. Pide la cifra exacta de la unidad cotizada, la forma de pago y el plazo de devolución, y separa ese importe de la tarifa en tu presupuesto mental: son dos números que juegan en ligas distintas.",
+        "No olvides preguntar por los límites de uso de la unidad al cotizar: si el scooter puede salir de la ciudad según el contrato, si admite pasajero y qué recorrido previsto conviene describir al responsable. La serie sobre scooters automáticos para varios días resume los límites de uso de comodidad y de contrato, y describir tu plan real al pedir la cotización permite que las condiciones lleguen ajustadas a lo que vas a hacer con la moto, no a un caso genérico de folleto."
       ]
     },
     {
@@ -34,7 +35,8 @@
       "paragraphs": [
         "Pide las dos cotizaciones en un mismo mensaje, con las mismas fechas y las mismas horas, tal como recomendó el artículo de esta serie sobre pedir dos presupuestos. Igualar todo salvo la transmisión convierte la diferencia de precio en información útil: lo que cambia entre las dos cifras es la transmisión y su entorno, no tu calendario.",
         "Pide que cada cotización se desglose en las mismas líneas: tarifa del periodo, depósito, accesorios confirmados y posibles cargos de entrega. Con esa estructura, comparar es alinear columnas. Sin ella, comparar es intuir. La guía sobre el desglose de depósito y alquiler incluye el formato de mensaje que sirve de plantilla para ambas.",
-        "Y confirma la disponibilidad de una unidad de cada tipo para tu periodo. Un presupuesto de una transmisión sin disponibilidad confirmada no es una opción: es una fotografía de algo que quizá no puedas alquilar. La disponibilidad de un modelo concreto siempre se consulta, nunca se presume."
+        "Y confirma la disponibilidad de una unidad de cada tipo para tu periodo. Un presupuesto de una transmisión sin disponibilidad confirmada no es una opción: es una fotografía de algo que quizá no puedas alquilar. La disponibilidad de un modelo concreto siempre se consulta, nunca se presume.",
+        "Si una de las dos cotizaciones llega sin alguna de las líneas, pídela antes de comparar nada: un presupuesto incompleto no es una cotización más barata, es una cotización con huecos que se cerrarán de otra forma el día de la entrega. El objetivo de la solicitud doble no es conseguir dos números cualesquiera, sino dos presupuestos equivalentes donde la única diferencia visible sea la transmisión y todo lo demás, de las fechas al punto de entrega, esté igualado por escrito."
       ]
     },
     {
@@ -84,6 +86,6 @@
     "https://es.rentbikehanoi.com/precios/",
     "https://es.rentbikehanoi.com/tipos-de-motos/"
   ],
-  "word_count": 1319,
+  "word_count": 1104,
   "status": "READY_FOR_QA"
 }

@@ -18,7 +18,8 @@
       "paragraphs": [
         "Una solicitud de grupo bien planteada cabe en un mensaje. Modelos solicitados, fechas y horas de entrega y devolución, duración, quién conduce cada unidad y en qué punto queréis recibir las motos. Añade una línea sobre la experiencia de cada conductor: si una persona nunca ha manejado una semiautomática, es mejor saberlo al pedir la cotización que en la puerta de la tienda.",
         "Indica también si las dos unidades deben ser iguales o si aceptáis modelos distintos. Con las referencias publicadas se ve el efecto: dos Click o dos Mio parten de 150.000 VND diarios por unidad, dos Vision de 200.000 VND, y una mezcla de Wave y Vision reparte tarifas y depósitos distintos. Elegir antes de pedir permite recibir una cotización concreta en lugar de una lista de casos.",
-        "Y pregunta por la disponibilidad de las dos unidades para el periodo completo, no de una. La disponibilidad de un modelo concreto se consulta, nunca se presume: que una moto esté libre no significa que haya dos de ese modelo, y descubrirlo el día de la entrega obliga a decidir con prisa y sin comparar."
+        "Y pregunta por la disponibilidad de las dos unidades para el periodo completo, no de una. La disponibilidad de un modelo concreto se consulta, nunca se presume: que una moto esté libre no significa que haya dos de ese modelo, y descubrirlo el día de la entrega obliga a decidir con prisa y sin comparar.",
+        "Si el grupo llega en momentos distintos, díselo también en la solicitud: dos entregas separadas por varias horas pueden exigir dos desplazamientos o dos esperas, y eso se refleja en la logística y quizá en los cargos. Un mensaje con la hora prevista de cada conductor permite que el presupuesto contemple la operación tal como va a ocurrir en realidad, y no una versión idealizada en la que ambos aparecen a la vez en la misma puerta."
       ]
     },
     {
@@ -84,6 +85,6 @@
     "https://es.rentbikehanoi.com/precios/",
     "https://es.rentbikehanoi.com/guia-de-alquiler/documentacion-y-deposito/"
   ],
-  "word_count": 1409,
+  "word_count": 1103,
   "status": "READY_FOR_QA"
 }

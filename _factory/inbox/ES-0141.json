@@ -10,7 +10,8 @@
       "paragraphs": [
         "Un precio orientativo es una referencia publicada para que compares opciones antes de contactar con nadie. Las tablas de tarifas de Cho Thuê Xe Máy Nguyễn Tú muestran referencias por modelo: la Honda Wave parte de 150.000 VND al día, la Vision de 200.000 VND y una semana de Wave se sitúa en 700.000 VND. Son puntos de partida, no compromisos.",
         "Su función es doble: permitirte armar un presupuesto de viaje antes de reservar y permitirte filtrar modelos sin gastar mensajes. Por eso conviven rangos («900.000 a 1.200.000 VND al mes») y notas del tipo «consultar»: el orientativo describe el terreno, no cierra el trato.",
-        "Lo que un precio orientativo no hace es reservar nada. Una referencia no bloquea una unidad, no garantiza un modelo y no obliga al establecimiento a mantenerte la cifra si tus condiciones cambian. Tratar la tabla como contrato es la primera causa de discusiones que empiezan con «pero en la web ponía»."
+        "Lo que un precio orientativo no hace es reservar nada. Una referencia no bloquea una unidad, no garantiza un modelo y no obliga al establecimiento a mantenerte la cifra si tus condiciones cambian. Tratar la tabla como contrato es la primera causa de discusiones que empiezan con «pero en la web ponía».",
+        "Conviene también saber dónde no aplica la distinción: la tabla orienta categorías enteras y sirve para comparar entre modelos, pero nunca cubre los detalles de tu caso, como la unidad concreta disponible, su estado o el punto de entrega pactado. El orientativo responde a la pregunta de cuánto cuesta aproximadamente alquilar en Hanói; el confirmado responde a cuánto cuesta tu alquiler. Son dos preguntas distintas y conviene no usarlas como si fueran la misma."
       ]
     },
     {
@@ -26,7 +27,8 @@
       "paragraphs": [
         "El camino tiene cuatro pasos. Primero, eliges modelos candidatos con la tabla orientativa: dos o tres unidades que encajen con tu presupuesto. Segundo, consultas la disponibilidad para tus fechas, que es lo primero que decide si una referencia es una opción real o una foto de algo inexistente.",
         "Tercero, pides el desglose del precio para tus condiciones: tarifa del periodo, depósito, accesorios y posibles cargos de entrega o recogida. La guía de esta serie sobre cómo pedir un desglose de depósito y alquiler marca el formato, y el artículo sobre el coste total con ejemplo de presupuesto muestra cómo queda cada línea.",
-        "Cuarto, cierras por escrito: mandas un resumen con las cifras y pides la confirmación. En ese momento la referencia muere y nace el precio confirmado, con el alcance que tuvo la conversación: mismas fechas, mismo modelo, mismas condiciones. Cambiar una de las tres, y toca repetir el paso cuatro."
+        "Cuarto, cierras por escrito: mandas un resumen con las cifras y pides la confirmación. En ese momento la referencia muere y nace el precio confirmado, con el alcance que tuvo la conversación: mismas fechas, mismo modelo, mismas condiciones. Cambiar una de las tres, y toca repetir el paso cuatro.",
+        "Un detalle práctico cierra el proceso: la moneda y el canal. Pide que el importe confirmado se exprese en dong y que la conversión a euros, si la necesitas para tu contabilidad, la hagas tú por tu cuenta. La cifra que viaja en los mensajes, el contrato y el recibo debe ser siempre la misma, y mezclar divisas dentro de la conversación con el establecimiento es la forma más simple de acabar con dos precios confirmados distintos para un mismo alquiler."
       ]
     },
     {
@@ -42,7 +44,8 @@
       "paragraphs": [
         "En la fase de planificación, usa el orientativo sin pedir permiso: arma tu presupuesto con la tabla, compara categorías y decide qué modelos tienen sentido para tu bolsillo. Es exactamente para eso para lo que se publican las referencias, y ningún establecimiento serio espera que reserves sin haberlas mirado.",
         "En la fase de decisión, cambia de cifra: pide el confirmado para tus fechas y compáralo con el presupuesto que armaste. Si las dos cifras se parecen, decides con confianza; si se separan, sabes exactamente qué condición movió el número, porque el desglose lo muestra línea por línea.",
-        "Y en la fase de contrato, lleva el confirmado contigo: es la cifra que debe cuadrar con el recibo y con el depósito que dejes. Para convertir tus referencias en un precio confirmado, llama o escribe por Zalo al +84 942 467 674, de 09:00 a 21:00: Cho Thuê Xe Máy Nguyễn Tú atiende en 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, y puede darte la tarifa y el depósito de tu modelo para tus fechas."
+        "Y en la fase de contrato, lleva el confirmado contigo: es la cifra que debe cuadrar con el recibo y con el depósito que dejes. Para convertir tus referencias en un precio confirmado, llama o escribe por Zalo al +84 942 467 674, de 09:00 a 21:00: Cho Thuê Xe Máy Nguyễn Tú atiende en 112 Nguyễn Văn Cừ, Bồ Đề, Long Biên, y puede darte la tarifa y el depósito de tu modelo para tus fechas.",
+        "Esta distinción también protege tus reclamaciones: si algo sale mal durante el alquiler, la referencia orienta la conversación, pero el confirmado sostiene el argumento. Por eso conviene guardar la confirmación hasta recuperar el depósito, igual que los recibos del pago; el conjunto forma el expediente completo de tu contrato y es lo que convierte una discrepancia en un trámite resuelto en dos mensajes en lugar de en una discusión sin pruebas."
       ]
     }
   ],
@@ -84,6 +87,6 @@
     "https://es.rentbikehanoi.com/precios/",
     "https://es.rentbikehanoi.com/terminos-y-condiciones/"
   ],
-  "word_count": 1280,
+  "word_count": 1120,
   "status": "READY_FOR_QA"
 }
