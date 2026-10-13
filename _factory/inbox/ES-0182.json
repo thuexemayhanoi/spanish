@@ -40,24 +40,24 @@
   ],
   "faq": [
     {
-      "q": "¿Es obligatorio detenerse en los cruces sin semáforo?",
-      "a": "No hay una regla general que obligue a parar en todos los cruces sin semáforo: depende de la señalización existente en cada caso. La pauta segura para un visitante es reducir hasta velocidad de control y ceder el paso ante cualquier duda, aunque la prioridad legal parezca tuya."
+      "question": "¿Es obligatorio detenerse en los cruces sin semáforo?",
+      "answer": "No hay una regla general que obligue a parar en todos los cruces sin semáforo: depende de la señalización existente en cada caso. La pauta segura para un visitante es reducir hasta velocidad de control y ceder el paso ante cualquier duda, aunque la prioridad legal parezca tuya."
     },
     {
-      "q": "¿Cómo cruzo una intersección grande con muchas motos?",
-      "a": "Elige tu trayectoria antes de llegar, entra a velocidad moderada y constante y no cambies de dirección dentro del cruce. El resto del tráfico calcula tu posición según tu ritmo, así que ser predecible es más importante que ser rápido."
+      "question": "¿Cómo cruzo una intersección grande con muchas motos?",
+      "answer": "Elige tu trayectoria antes de llegar, entra a velocidad moderada y constante y no cambies de dirección dentro del cruce. El resto del tráfico calcula tu posición según tu ritmo, así que ser predecible es más importante que ser rápido."
     },
     {
-      "q": "¿Qué hago si el semáforo se pone en rojo cuando ya estoy cruzando?",
-      "a": "Termina la maniobra con normalidad y despeja el cruce. Quedarse detenido en medio de la intersección es la peor opción, porque te convierte en un obstáculo inesperado para los flujos que arrancan desde las otras vías."
+      "question": "¿Qué hago si el semáforo se pone en rojo cuando ya estoy cruzando?",
+      "answer": "Termina la maniobra con normalidad y despeja el cruce. Quedarse detenido en medio de la intersección es la peor opción, porque te convierte en un obstáculo inesperado para los flujos que arrancan desde las otras vías."
     },
     {
-      "q": "¿Sirve de algo tocar el claxon antes de cruzar?",
-      "a": "Sí, como aviso de presencia. En Hanói el claxon no es un reproche sino una forma de decir que llegas, y muchos conductores lo usan al aproximarse a un cruce con visibilidad reducida. Úsalo con moderación y sin insistencia."
+      "question": "¿Sirve de algo tocar el claxon antes de cruzar?",
+      "answer": "Sí, como aviso de presencia. En Hanói el claxon no es un reproche sino una forma de decir que llegas, y muchos conductores lo usan al aproximarse a un cruce con visibilidad reducida. Úsalo con moderación y sin insistencia."
     },
     {
-      "q": "¿Qué distancia conviene dejar con buses y camiones?",
-      "a": "La máxima posible dentro del flujo real. Los ángulos muertos de un autobús cubren varios metros a su costado y su conductor no siempre ve una moto pegada al lateral. No discutas huecos con vehículos grandes: déjalo pasar y retoma tu ritmo después."
+      "question": "¿Qué distancia conviene dejar con buses y camiones?",
+      "answer": "La máxima posible dentro del flujo real. Los ángulos muertos de un autobús cubren varios metros a su costado y su conductor no siempre ve una moto pegada al lateral. No discutas huecos con vehículos grandes: déjalo pasar y retoma tu ritmo después."
     }
   ],
   "related": [

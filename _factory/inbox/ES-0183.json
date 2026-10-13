@@ -40,28 +40,28 @@
   ],
   "faq": [
     {
-      "q": "¿Se puede circular en moto por las calles del casco antiguo?",
-      "a": "Sí, la mayoría son vías abiertas al tráfico de motos, aunque muchas funcionan en un solo sentido y con intensidad peatonal muy alta. Se puede circular, pero conviene hacerlo a velocidad mínima y con disposición constante a detenerse."
+      "question": "¿Se puede circular en moto por las calles del casco antiguo?",
+      "answer": "Sí, la mayoría son vías abiertas al tráfico de motos, aunque muchas funcionan en un solo sentido y con intensidad peatonal muy alta. Se puede circular, pero conviene hacerlo a velocidad mínima y con disposición constante a detenerse."
     },
     {
-      "q": "¿A qué velocidad debo circular por un callejón estrecho?",
-      "a": "Como referencia práctica, al ritmo del peatón más lento del tramo, normalmente entre cinco y diez kilómetros por hora. En estas calles la velocidad correcta no la marca ninguna señal, sino la densidad de gente que hay a tu alrededor."
+      "question": "¿A qué velocidad debo circular por un callejón estrecho?",
+      "answer": "Como referencia práctica, al ritmo del peatón más lento del tramo, normalmente entre cinco y diez kilómetros por hora. En estas calles la velocidad correcta no la marca ninguna señal, sino la densidad de gente que hay a tu alrededor."
     },
     {
-      "q": "¿Qué hago si un peatón cruza de repente delante de mí?",
-      "a": "Reduce y deja que pase: en estas calles el peatón tiene la prioridad de facto y todos los conductores locales se la ceden sin dudar. Frena con suavidad y reparte la frenación entre las dos ruedas, porque el suelo suele ser irregular."
+      "question": "¿Qué hago si un peatón cruza de repente delante de mí?",
+      "answer": "Reduce y deja que pase: en estas calles el peatón tiene la prioridad de facto y todos los conductores locales se la ceden sin dudar. Frena con suavidad y reparte la frenación entre las dos ruedas, porque el suelo suele ser irregular."
     },
     {
-      "q": "¿Dónde dejo la moto si quiero seguir a pie?",
-      "a": "En un aparcamiento de motos supervisado, abundantes alrededor del casco antiguo y reconocibles por las filas de scooters y la persona que entrega tickets en la entrada. En la entrega del vehículo puedes preguntar por las zonas recomendadas."
+      "question": "¿Dónde dejo la moto si quiero seguir a pie?",
+      "answer": "En un aparcamiento de motos supervisado, abundantes alrededor del casco antiguo y reconocibles por las filas de scooters y la persona que entrega tickets en la entrada. En la entrega del vehículo puedes preguntar por las zonas recomendadas."
     },
     {
-      "q": "¿Es mejor una scooter automática para estas calles?",
-      "a": "En general sí, porque simplifica el control a velocidad mínima: solo gas y frenos, sin punto de fricción que gestionar. Cualquier moto sirve con buena técnica, pero la automática perdona más en tramos con paradas constantes cada pocos metros."
+      "question": "¿Es mejor una scooter automática para estas calles?",
+      "answer": "En general sí, porque simplifica el control a velocidad mínima: solo gas y frenos, sin punto de fricción que gestionar. Cualquier moto sirve con buena técnica, pero la automática perdona más en tramos con paradas constantes cada pocos metros."
     },
     {
-      "q": "¿Las motos circulan en sentido contrario por estos callejones?",
-      "a": "Puede ocurrir, sobre todo en calles sin señalización clara, donde algunos conductores eligen el atajo en dirección prohibida. Ante ello, reduce hasta casi detenerte, mantiene tu línea y deja hueco para que el otro pase con margen."
+      "question": "¿Las motos circulan en sentido contrario por estos callejones?",
+      "answer": "Puede ocurrir, sobre todo en calles sin señalización clara, donde algunos conductores eligen el atajo en dirección prohibida. Ante ello, reduce hasta casi detenerte, mantiene tu línea y deja hueco para que el otro pase con margen."
     }
   ],
   "related": [

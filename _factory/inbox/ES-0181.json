@@ -40,28 +40,28 @@
   ],
   "faq": [
     {
-      "q": "¿Las señales de tráfico de Vietnam se parecen a las de España?",
-      "a": "Sí. Vietnam usa el mismo sistema internacional de formas y colores: círculos rojos para prohibiciones, círculos azules para obligaciones y triángulos para advertencias. El pictograma es reconocible, aunque el texto complementario suele estar en vietnamita."
+      "question": "¿Las señales de tráfico de Vietnam se parecen a las de España?",
+      "answer": "Sí. Vietnam usa el mismo sistema internacional de formas y colores: círculos rojos para prohibiciones, círculos azules para obligaciones y triángulos para advertencias. El pictograma es reconocible, aunque el texto complementario suele estar en vietnamita."
     },
     {
-      "q": "¿Qué hago si llego a un cruce sin ninguna señal?",
-      "a": "Reduce la velocidad casi hasta detenerte, observa el flujo desde ambos lados y cruza solo cuando tengas un hueco amplio. Como visitante, ceder siempre es la pauta más segura y la que esperan los conductores locales."
+      "question": "¿Qué hago si llego a un cruce sin ninguna señal?",
+      "answer": "Reduce la velocidad casi hasta detenerte, observa el flujo desde ambos lados y cruza solo cuando tengas un hueco amplio. Como visitante, ceder siempre es la pauta más segura y la que esperan los conductores locales."
     },
     {
-      "q": "¿Los semáforos funcionan igual que en Europa?",
-      "a": "Sí, con colores idénticos y, en muchos cruces grandes, un contador numérico que indica los segundos restantes. Un detalle útil: cuando tu semáforo se pone verde, espera un instante antes de arrancar, porque suele haber motos terminando de cruzar."
+      "question": "¿Los semáforos funcionan igual que en Europa?",
+      "answer": "Sí, con colores idénticos y, en muchos cruces grandes, un contador numérico que indica los segundos restantes. Un detalle útil: cuando tu semáforo se pone verde, espera un instante antes de arrancar, porque suele haber motos terminando de cruzar."
     },
     {
-      "q": "¿Hay muchas calles de sentido único en el casco antiguo?",
-      "a": "Sí, buena parte de las calles del casco antiguo funciona en un solo sentido. Antes de entrar, comprueba la dirección del tráfico dominante y, si te equivocas, corrige el rumbo en la próxima esquina sin dar la vuelta en mitad de la calle."
+      "question": "¿Hay muchas calles de sentido único en el casco antiguo?",
+      "answer": "Sí, buena parte de las calles del casco antiguo funciona en un solo sentido. Antes de entrar, comprueba la dirección del tráfico dominante y, si te equivocas, corrige el rumbo en la próxima esquina sin dar la vuelta en mitad de la calle."
     },
     {
-      "q": "¿Conviene usar Google Maps mientras conduzco por Hanói?",
-      "a": "Es útil para conocer la ruta antes de salir, pero no mientras conduces. Configura la navegación por audio antes de arrancar y, si necesitas mirar la pantalla, detente en un lugar seguro apartado de la calzada."
+      "question": "¿Conviene usar Google Maps mientras conduzco por Hanói?",
+      "answer": "Es útil para conocer la ruta antes de salir, pero no mientras conduces. Configura la navegación por audio antes de arrancar y, si necesitas mirar la pantalla, detente en un lugar seguro apartado de la calzada."
     },
     {
-      "q": "¿Dónde puedo resolver dudas sobre rutas antes de circular?",
-      "a": "La empresa de alquiler atiende llamadas y mensajes de Zalo o WhatsApp en el +84 942 467 674, todos los días de 09:00 a 21:00. Antes de la entrega puedes preguntar por rutas recomendadas y por las zonas más complicadas para los primeros trayectos."
+      "question": "¿Dónde puedo resolver dudas sobre rutas antes de circular?",
+      "answer": "La empresa de alquiler atiende llamadas y mensajes de Zalo o WhatsApp en el +84 942 467 674, todos los días de 09:00 a 21:00. Antes de la entrega puedes preguntar por rutas recomendadas y por las zonas más complicadas para los primeros trayectos."
     }
   ],
   "related": [
