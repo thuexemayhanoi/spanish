@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 53,
-  "remaining": 247,
+  "published": 56,
+  "remaining": 244,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0054",
+      "id": "ES-0057",
       "hub": "/tipos-de-motos/",
-      "slug": "como-valorar-el-manejo-de-una-honda-wave-en-calles-urbanas",
-      "url": "/tipos-de-motos/como-valorar-el-manejo-de-una-honda-wave-en-calles-urbanas/",
-      "working_title": "Cómo valorar el manejo de una Honda Wave en calles urbanas",
-      "primary_keyword": "como valorar el manejo de una honda wave en calles urbanas",
+      "slug": "como-elegir-una-moto-semiautomatica-si-llevas-poco-equipaje",
+      "url": "/tipos-de-motos/como-elegir-una-moto-semiautomatica-si-llevas-poco-equipaje/",
+      "working_title": "Cómo elegir una moto semiautomática si llevas poco equipaje",
+      "primary_keyword": "como elegir una moto semiautomatica si llevas poco equipaje",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0054.json"
+      "draft_file": "_factory/inbox/ES-0057.json"
     },
     {
-      "id": "ES-0055",
+      "id": "ES-0058",
       "hub": "/tipos-de-motos/",
-      "slug": "frenada-en-motos-semiautomaticas-controles-a-identificar",
-      "url": "/tipos-de-motos/frenada-en-motos-semiautomaticas-controles-a-identificar/",
-      "working_title": "Frenada en motos semiautomáticas: controles a identificar",
-      "primary_keyword": "frenada en motos semiautomaticas controles a identificar",
+      "slug": "que-preguntar-sobre-cilindrada-de-una-moto-semiautomatica",
+      "url": "/tipos-de-motos/que-preguntar-sobre-cilindrada-de-una-moto-semiautomatica/",
+      "working_title": "Qué preguntar sobre cilindrada de una moto semiautomática",
+      "primary_keyword": "que preguntar sobre cilindrada de una moto semiautomatica",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,16 +49,16 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0055.json"
+      "draft_file": "_factory/inbox/ES-0058.json"
     },
     {
-      "id": "ES-0056",
+      "id": "ES-0059",
       "hub": "/tipos-de-motos/",
-      "slug": "moto-de-marchas-y-pendientes-precauciones-para-visitantes",
-      "url": "/tipos-de-motos/moto-de-marchas-y-pendientes-precauciones-para-visitantes/",
-      "working_title": "Moto de marchas y pendientes: precauciones para visitantes",
-      "primary_keyword": "moto de marchas y pendientes precauciones para visitantes",
-      "intent": "Informacional",
+      "slug": "cuando-no-conviene-alquilar-una-moto-semiautomatica",
+      "url": "/tipos-de-motos/cuando-no-conviene-alquilar-una-moto-semiautomatica/",
+      "working_title": "Cuándo no conviene alquilar una moto semiautomática",
+      "primary_keyword": "cuando no conviene alquilar una moto semiautomatica",
+      "intent": "Investigación comercial",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
       "category_id": "motos-semiautomaticas",
@@ -71,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0056.json"
+      "draft_file": "_factory/inbox/ES-0059.json"
     }
   ]
 }
