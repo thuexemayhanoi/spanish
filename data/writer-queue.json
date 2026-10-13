@@ -2,40 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 80,
-  "remaining": 220,
+  "published": 83,
+  "remaining": 217,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0081",
+      "id": "ES-0084",
       "hub": "/tipos-de-motos/",
-      "slug": "carga-de-moto-electrica-durante-un-alquiler-que-acordar",
-      "url": "/tipos-de-motos/carga-de-moto-electrica-durante-un-alquiler-que-acordar/",
-      "working_title": "Carga de moto eléctrica durante un alquiler: qué acordar",
-      "primary_keyword": "carga de moto electrica durante un alquiler que acordar",
-      "intent": "Investigación comercial",
-      "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "motos-electricas",
-      "parent_id": "tipos-de-motos",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
-      ],
-      "draft_file": "_factory/inbox/ES-0081.json"
-    },
-    {
-      "id": "ES-0082",
-      "hub": "/tipos-de-motos/",
-      "slug": "moto-electrica-o-de-gasolina-para-moverse-por-hanoi",
-      "url": "/tipos-de-motos/moto-electrica-o-de-gasolina-para-moverse-por-hanoi/",
-      "working_title": "Moto eléctrica o de gasolina para moverse por Hanói",
-      "primary_keyword": "moto electrica o de gasolina para moverse por hanoi",
+      "slug": "accesorios-de-carga-que-revisar-antes-de-recibir-la-moto",
+      "url": "/tipos-de-motos/accesorios-de-carga-que-revisar-antes-de-recibir-la-moto/",
+      "working_title": "Accesorios de carga: qué revisar antes de recibir la moto",
+      "primary_keyword": "accesorios de carga que revisar antes de recibir la moto",
       "intent": "Informacional",
       "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0082.json"
+      "draft_file": "_factory/inbox/ES-0084.json"
     },
     {
-      "id": "ES-0083",
+      "id": "ES-0085",
       "hub": "/tipos-de-motos/",
-      "slug": "que-hacer-si-una-moto-electrica-se-queda-sin-bateria",
-      "url": "/tipos-de-motos/que-hacer-si-una-moto-electrica-se-queda-sin-bateria/",
-      "working_title": "Qué hacer si una moto eléctrica se queda sin batería",
-      "primary_keyword": "que hacer si una moto electrica se queda sin bateria",
+      "slug": "lluvia-y-motos-electricas-recomendaciones-de-seguridad",
+      "url": "/tipos-de-motos/lluvia-y-motos-electricas-recomendaciones-de-seguridad/",
+      "working_title": "Lluvia y motos eléctricas: recomendaciones de seguridad",
+      "primary_keyword": "lluvia y motos electricas recomendaciones de seguridad",
       "intent": "Informacional",
       "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +49,29 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0083.json"
+      "draft_file": "_factory/inbox/ES-0085.json"
+    },
+    {
+      "id": "ES-0086",
+      "hub": "/tipos-de-motos/",
+      "slug": "devolucion-de-moto-electrica-bateria-y-condiciones-contractuales",
+      "url": "/tipos-de-motos/devolucion-de-moto-electrica-bateria-y-condiciones-contractuales/",
+      "working_title": "Devolución de moto eléctrica: batería y condiciones contractuales",
+      "primary_keyword": "devolucion de moto electrica bateria y condiciones contractuales",
+      "intent": "Informacional",
+      "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "motos-electricas",
+      "parent_id": "tipos-de-motos",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
+      ],
+      "draft_file": "_factory/inbox/ES-0086.json"
     }
   ]
 }
