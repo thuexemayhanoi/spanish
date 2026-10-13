@@ -25,8 +25,10 @@ function verifyPlan(){
 function queue(){
  const next=rows.filter(r=>eligible(r)&&!published.has(r.id)).slice(0,cfg.batch_size);
  const status=state.blocked?'BLOCKED':!state.enabled?'PAUSED':!next.length?(published.size>=cfg.target_articles?'TARGET_REACHED':'PLAN_EXHAUSTED'):'READY';
+ const eligiblePlanned=rows.filter(eligible).length;
  const snapshot={schema_version:1,status,target:cfg.target_articles,published:published.size,remaining:cfg.target_articles-published.size,
- planned:rows.length,unplanned:cfg.target_articles-rows.length,
+ planned:rows.length,eligible_planned:eligiblePlanned,quarantined:holdIds.size,
+ unplanned:Math.max(0,cfg.target_articles-eligiblePlanned),
  queue:status==='READY'?next.map(r=>({...r,draft_file:'_factory/inbox/'+r.id+'.json'})):[]};
  put('data/writer-queue.json',snapshot);return snapshot;
 }
@@ -70,7 +72,7 @@ if(command==='refresh-queue'){console.log(JSON.stringify(queue(),null,2));proces
 if(command==='process'){
  if(!state.enabled||state.blocked){console.log('SAFE_STOP '+(!state.enabled?'PAUSED':'BLOCKED'));process.exit(0);}
  const selected=rows.filter(r=>eligible(r)&&!published.has(r.id)&&fs.existsSync(at('_factory/inbox/'+r.id+'.json'))).slice(0,cfg.batch_size);
- if(!selected.length){console.log('NO_DRAFTS: no state changes or empty hourly commit');process.exit(0);}
+ if(!selected.length){const q=queue();console.log('NO_DRAFTS: queue='+q.status+', no article changes or empty hourly commit');process.exit(0);}
  const checked=selected.map(r=>{const draft=get('_factory/inbox/'+r.id+'.json');const result=draftQA(r,draft);if(result.problems.length)throw Error(r.id+': '+result.problems.join('; '));return {r,draft,words:result.words};});
  for(const entry of checked){
   put('content/articles/'+entry.r.id+'.json',{...entry.draft,published_at:new Date().toISOString().slice(0,10),word_count:entry.words});
