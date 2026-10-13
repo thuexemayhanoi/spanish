@@ -2,33 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 285,
-  "remaining": 15,
+  "published": 286,
+  "remaining": 14,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0298",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "alquiler-de-moto-y-carreteras-rurales-preparacion-responsable",
-      "url": "/rutas-y-movilidad/alquiler-de-moto-y-carreteras-rurales-preparacion-responsable/",
-      "working_title": "Alquiler de moto y carreteras rurales: preparación responsable",
-      "primary_keyword": "alquiler de moto y carreteras rurales preparacion responsable",
-      "intent": "Investigación comercial",
-      "brief": "Preparación de viajes de mayor alcance, requisitos y precauciones. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "viajes-fuera-hanoi",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0298.json"
-    },
     {
       "id": "ES-0299",
       "hub": "/rutas-y-movilidad/",
