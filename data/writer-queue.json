@@ -2,40 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 50,
-  "remaining": 250,
+  "published": 53,
+  "remaining": 247,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0051",
+      "id": "ES-0054",
       "hub": "/tipos-de-motos/",
-      "slug": "honda-wave-de-alquiler-en-hanoi-que-verificar-antes-de-contratar",
-      "url": "/tipos-de-motos/honda-wave-de-alquiler-en-hanoi-que-verificar-antes-de-contratar/",
-      "working_title": "Honda Wave de alquiler en Hanói: qué verificar antes de contratar",
-      "primary_keyword": "honda wave de alquiler en hanoi que verificar antes de contratar",
-      "intent": "Investigación comercial",
-      "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "motos-semiautomaticas",
-      "parent_id": "tipos-de-motos",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
-      ],
-      "draft_file": "_factory/inbox/ES-0051.json"
-    },
-    {
-      "id": "ES-0052",
-      "hub": "/tipos-de-motos/",
-      "slug": "como-funciona-el-cambio-de-marchas-semiautomatico-en-una-moto",
-      "url": "/tipos-de-motos/como-funciona-el-cambio-de-marchas-semiautomatico-en-una-moto/",
-      "working_title": "Cómo funciona el cambio de marchas semiautomático en una moto",
-      "primary_keyword": "como funciona el cambio de marchas semiautomatico en una moto",
+      "slug": "como-valorar-el-manejo-de-una-honda-wave-en-calles-urbanas",
+      "url": "/tipos-de-motos/como-valorar-el-manejo-de-una-honda-wave-en-calles-urbanas/",
+      "working_title": "Cómo valorar el manejo de una Honda Wave en calles urbanas",
+      "primary_keyword": "como valorar el manejo de una honda wave en calles urbanas",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0052.json"
+      "draft_file": "_factory/inbox/ES-0054.json"
     },
     {
-      "id": "ES-0053",
+      "id": "ES-0055",
       "hub": "/tipos-de-motos/",
-      "slug": "moto-semiautomatica-o-scooter-cuando-elegir-cada-transmision",
-      "url": "/tipos-de-motos/moto-semiautomatica-o-scooter-cuando-elegir-cada-transmision/",
-      "working_title": "Moto semiautomática o scooter: cuándo elegir cada transmisión",
-      "primary_keyword": "moto semiautomatica o scooter cuando elegir cada transmision",
+      "slug": "frenada-en-motos-semiautomaticas-controles-a-identificar",
+      "url": "/tipos-de-motos/frenada-en-motos-semiautomaticas-controles-a-identificar/",
+      "working_title": "Frenada en motos semiautomáticas: controles a identificar",
+      "primary_keyword": "frenada en motos semiautomaticas controles a identificar",
       "intent": "Informacional",
       "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +49,29 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0053.json"
+      "draft_file": "_factory/inbox/ES-0055.json"
+    },
+    {
+      "id": "ES-0056",
+      "hub": "/tipos-de-motos/",
+      "slug": "moto-de-marchas-y-pendientes-precauciones-para-visitantes",
+      "url": "/tipos-de-motos/moto-de-marchas-y-pendientes-precauciones-para-visitantes/",
+      "working_title": "Moto de marchas y pendientes: precauciones para visitantes",
+      "primary_keyword": "moto de marchas y pendientes precauciones para visitantes",
+      "intent": "Informacional",
+      "brief": "Modelos con transmisión semiautomática y criterios de elección. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "motos-semiautomaticas",
+      "parent_id": "tipos-de-motos",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
+      ],
+      "draft_file": "_factory/inbox/ES-0056.json"
     }
   ]
 }
