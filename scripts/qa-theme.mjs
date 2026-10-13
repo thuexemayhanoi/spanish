@@ -18,6 +18,12 @@ assert(js.includes("event.key!=='Escape'"),'Escape keyboard control missing');
 assert(js.includes("menuButton.setAttribute('aria-expanded'"),'Mobile ARIA state missing');
 assert(css.includes('prefers-reduced-motion'),'Reduced motion regression');
 assert(css.includes('focus-visible'),'Visible keyboard focus regression');
+assert(css.includes('/* P1.04 Premium footer')&&css.includes('.footer-back-to-top'),'Premium footer token/style missing');
+assert(js.includes('P1.04 all-pages footer jump'),'Shared footer/back-to-top control missing');
+assert(js.includes("anchor.href='#content'"),'Footer back-to-top is not a same-page link');
+assert(js.includes("if(!document.querySelector('.prose article'))"),'Prevent duplicate article back-to-top control');
+assert(js.includes("header?.classList.toggle('is-scrolled'"),'Scroll shadow enhancement missing');
+
 assert(/<nav class="nav" aria-label="Navegación principal">/.test(main),'Desktop navigation missing');
 assert(/id="mobile-nav"[^>]*hidden/.test(main),'Collapsed mobile navigation missing');
 assert(/id="menu-toggle"[^>]*aria-expanded="false"/.test(main),'Mobile control initial state wrong');
