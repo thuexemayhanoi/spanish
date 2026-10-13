@@ -2,8 +2,8 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 110,
-  "remaining": 190,
+  "published": 111,
+  "remaining": 189,
   "planned": 300,
   "unplanned": 0,
   "queue": [
@@ -36,18 +36,18 @@
       "draft_file": "_factory/inbox/ES-0122.json"
     },
     {
-      "id": "ES-0123",
+      "id": "ES-0124",
       "hub": "/precios/",
-      "slug": "entrega-de-alquiler-en-hoan-kiem-como-pactar-el-punto",
-      "url": "/precios/entrega-de-alquiler-en-hoan-kiem-como-pactar-el-punto/",
-      "working_title": "Entrega de alquiler en Hoàn Kiếm: cómo pactar el punto",
-      "primary_keyword": "entrega de alquiler en hoan kiem como pactar el punto",
-      "intent": "Comparativa",
-      "brief": "Cotización de recogida, entrega y posibles cargos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
+      "slug": "como-compartir-un-punto-de-encuentro-para-recibir-la-moto",
+      "url": "/precios/como-compartir-un-punto-de-encuentro-para-recibir-la-moto/",
+      "working_title": "Cómo compartir un punto de encuentro para recibir la moto",
+      "primary_keyword": "como compartir un punto de encuentro para recibir la moto",
+      "intent": "Informacional",
+      "brief": "Cotización de recogida, entrega y posibles cargos. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "entrega-y-costes",
       "parent_id": "precios",
-      "draft_file": "_factory/inbox/ES-0123.json"
+      "draft_file": "_factory/inbox/ES-0124.json"
     }
   ]
 }
