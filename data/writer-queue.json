@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 173,
-  "remaining": 127,
+  "published": 176,
+  "remaining": 124,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0184",
+      "id": "ES-0187",
       "hub": "/guia-de-alquiler/",
-      "slug": "aparcar-una-moto-alquilada-que-preguntar-sobre-vigilancia",
-      "url": "/guia-de-alquiler/aparcar-una-moto-alquilada-que-preguntar-sobre-vigilancia/",
-      "working_title": "Aparcar una moto alquilada: qué preguntar sobre vigilancia",
-      "primary_keyword": "aparcar una moto alquilada que preguntar sobre vigilancia",
+      "slug": "como-organizar-paradas-seguras-durante-un-trayecto-urbano",
+      "url": "/guia-de-alquiler/como-organizar-paradas-seguras-durante-un-trayecto-urbano/",
+      "working_title": "Cómo organizar paradas seguras durante un trayecto urbano",
+      "primary_keyword": "como organizar paradas seguras durante un trayecto urbano",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0184.json"
+      "draft_file": "_factory/inbox/ES-0187.json"
     },
     {
-      "id": "ES-0185",
+      "id": "ES-0188",
       "hub": "/guia-de-alquiler/",
-      "slug": "como-proteger-tus-pertenencias-al-dejar-la-moto-aparcada",
-      "url": "/guia-de-alquiler/como-proteger-tus-pertenencias-al-dejar-la-moto-aparcada/",
-      "working_title": "Cómo proteger tus pertenencias al dejar la moto aparcada",
-      "primary_keyword": "como proteger tus pertenencias al dejar la moto aparcada",
+      "slug": "motos-y-peatones-en-zonas-concurridas-consejos-de-convivencia",
+      "url": "/guia-de-alquiler/motos-y-peatones-en-zonas-concurridas-consejos-de-convivencia/",
+      "working_title": "Motos y peatones en zonas concurridas: consejos de convivencia",
+      "primary_keyword": "motos y peatones en zonas concurridas consejos de convivencia",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0185.json"
+      "draft_file": "_factory/inbox/ES-0188.json"
     },
     {
-      "id": "ES-0186",
+      "id": "ES-0189",
       "hub": "/guia-de-alquiler/",
-      "slug": "conduccion-nocturna-en-hanoi-decisiones-previas",
-      "url": "/guia-de-alquiler/conduccion-nocturna-en-hanoi-decisiones-previas/",
-      "working_title": "Conducción nocturna en Hanói: decisiones previas",
-      "primary_keyword": "conduccion nocturna en hanoi decisiones previas",
+      "slug": "como-usar-navegacion-sin-mirar-el-movil-mientras-conduces",
+      "url": "/guia-de-alquiler/como-usar-navegacion-sin-mirar-el-movil-mientras-conduces/",
+      "working_title": "Cómo usar navegación sin mirar el móvil mientras conduces",
+      "primary_keyword": "como usar navegacion sin mirar el movil mientras conduces",
       "intent": "Informacional",
       "brief": "Movilidad cotidiana, circulación y uso responsable. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "conduccion-y-uso-diario",
       "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0186.json"
+      "draft_file": "_factory/inbox/ES-0189.json"
     }
   ]
 }
