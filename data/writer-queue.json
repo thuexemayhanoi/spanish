@@ -2,18 +2,41 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 212,
-  "remaining": 88,
+  "published": 215,
+  "remaining": 85,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0223",
+      "id": "ES-0226",
       "hub": "/zonas-de-hanoi/",
-      "slug": "visitar-mercados-del-centro-sin-complicar-el-aparcamiento",
-      "url": "/zonas-de-hanoi/visitar-mercados-del-centro-sin-complicar-el-aparcamiento/",
-      "working_title": "Visitar mercados del centro sin complicar el aparcamiento",
-      "primary_keyword": "visitar mercados del centro sin complicar el aparcamiento",
+      "slug": "alquiler-de-moto-cerca-del-centro-preguntas-sobre-la-entrega",
+      "url": "/zonas-de-hanoi/alquiler-de-moto-cerca-del-centro-preguntas-sobre-la-entrega/",
+      "working_title": "Alquiler de moto cerca del centro: preguntas sobre la entrega",
+      "primary_keyword": "alquiler de moto cerca del centro preguntas sobre la entrega",
+      "intent": "Investigación comercial",
+      "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "casco-antiguo-hoan-kiem",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_BUSINESS_FACTS"
+      ],
+      "draft_file": "_factory/inbox/ES-0226.json"
+    },
+    {
+      "id": "ES-0227",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "recibir-una-moto-en-el-casco-antiguo-acordar-un-lugar-seguro",
+      "url": "/zonas-de-hanoi/recibir-una-moto-en-el-casco-antiguo-acordar-un-lugar-seguro/",
+      "working_title": "Recibir una moto en el Casco Antiguo: acordar un lugar seguro",
+      "primary_keyword": "recibir una moto en el casco antiguo acordar un lugar seguro",
       "intent": "Informacional",
       "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -28,15 +51,15 @@
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
         "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
       ],
-      "draft_file": "_factory/inbox/ES-0223.json"
+      "draft_file": "_factory/inbox/ES-0227.json"
     },
     {
-      "id": "ES-0224",
+      "id": "ES-0228",
       "hub": "/zonas-de-hanoi/",
-      "slug": "donde-comprobar-informacion-oficial-sobre-cortes-de-calles",
-      "url": "/zonas-de-hanoi/donde-comprobar-informacion-oficial-sobre-cortes-de-calles/",
-      "working_title": "Dónde comprobar información oficial sobre cortes de calles",
-      "primary_keyword": "donde comprobar informacion oficial sobre cortes de calles",
+      "slug": "ruta-urbana-desde-hoan-kiem-criterios-para-principiantes",
+      "url": "/zonas-de-hanoi/ruta-urbana-desde-hoan-kiem-criterios-para-principiantes/",
+      "working_title": "Ruta urbana desde Hoàn Kiếm: criterios para principiantes",
+      "primary_keyword": "ruta urbana desde hoan kiem criterios para principiantes",
       "intent": "Informacional",
       "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -50,29 +73,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0224.json"
-    },
-    {
-      "id": "ES-0225",
-      "hub": "/zonas-de-hanoi/",
-      "slug": "como-organizar-una-visita-al-lago-sin-depender-de-la-moto",
-      "url": "/zonas-de-hanoi/como-organizar-una-visita-al-lago-sin-depender-de-la-moto/",
-      "working_title": "Cómo organizar una visita al lago sin depender de la moto",
-      "primary_keyword": "como organizar una visita al lago sin depender de la moto",
-      "intent": "Informacional",
-      "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "casco-antiguo-hoan-kiem",
-      "parent_id": "zonas-de-hanoi",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
-      ],
-      "draft_file": "_factory/inbox/ES-0225.json"
+      "draft_file": "_factory/inbox/ES-0228.json"
     }
   ]
 }
