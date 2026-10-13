@@ -2,18 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 77,
-  "remaining": 223,
+  "published": 80,
+  "remaining": 220,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0078",
+      "id": "ES-0081",
       "hub": "/tipos-de-motos/",
-      "slug": "alquilar-una-moto-electrica-en-hanoi-preguntas-imprescindibles",
-      "url": "/tipos-de-motos/alquilar-una-moto-electrica-en-hanoi-preguntas-imprescindibles/",
-      "working_title": "Alquilar una moto eléctrica en Hanói: preguntas imprescindibles",
-      "primary_keyword": "alquilar una moto electrica en hanoi preguntas imprescindibles",
+      "slug": "carga-de-moto-electrica-durante-un-alquiler-que-acordar",
+      "url": "/tipos-de-motos/carga-de-moto-electrica-durante-un-alquiler-que-acordar/",
+      "working_title": "Carga de moto eléctrica durante un alquiler: qué acordar",
+      "primary_keyword": "carga de moto electrica durante un alquiler que acordar",
       "intent": "Investigación comercial",
       "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -27,15 +27,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0078.json"
+      "draft_file": "_factory/inbox/ES-0081.json"
     },
     {
-      "id": "ES-0079",
+      "id": "ES-0082",
       "hub": "/tipos-de-motos/",
-      "slug": "como-comprobar-el-nivel-de-bateria-de-una-moto-electrica",
-      "url": "/tipos-de-motos/como-comprobar-el-nivel-de-bateria-de-una-moto-electrica/",
-      "working_title": "Cómo comprobar el nivel de batería de una moto eléctrica",
-      "primary_keyword": "como comprobar el nivel de bateria de una moto electrica",
+      "slug": "moto-electrica-o-de-gasolina-para-moverse-por-hanoi",
+      "url": "/tipos-de-motos/moto-electrica-o-de-gasolina-para-moverse-por-hanoi/",
+      "working_title": "Moto eléctrica o de gasolina para moverse por Hanói",
+      "primary_keyword": "moto electrica o de gasolina para moverse por hanoi",
       "intent": "Informacional",
       "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -49,15 +49,15 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0079.json"
+      "draft_file": "_factory/inbox/ES-0082.json"
     },
     {
-      "id": "ES-0080",
+      "id": "ES-0083",
       "hub": "/tipos-de-motos/",
-      "slug": "autonomia-electrica-real-datos-que-pedir-al-proveedor",
-      "url": "/tipos-de-motos/autonomia-electrica-real-datos-que-pedir-al-proveedor/",
-      "working_title": "Autonomía eléctrica real: datos que pedir al proveedor",
-      "primary_keyword": "autonomia electrica real datos que pedir al proveedor",
+      "slug": "que-hacer-si-una-moto-electrica-se-queda-sin-bateria",
+      "url": "/tipos-de-motos/que-hacer-si-una-moto-electrica-se-queda-sin-bateria/",
+      "working_title": "Qué hacer si una moto eléctrica se queda sin batería",
+      "primary_keyword": "que hacer si una moto electrica se queda sin bateria",
       "intent": "Informacional",
       "brief": "Opciones eléctricas, carga y preguntas que conviene hacer antes de alquilar. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -71,7 +71,7 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_ACTUAL_VEHICLE_SPECS_AND_SERVICE_OFFER"
       ],
-      "draft_file": "_factory/inbox/ES-0080.json"
+      "draft_file": "_factory/inbox/ES-0083.json"
     }
   ]
 }
