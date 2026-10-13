@@ -2,73 +2,73 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 294,
-  "remaining": 6,
+  "published": 297,
+  "remaining": 3,
   "planned": 312,
   "unplanned": -12,
   "queue": [
     {
-      "id": "ES-0307",
-      "hub": "/precios/",
-      "slug": "pagar-alquiler-de-moto-en-vnd-cambio-y-recibos",
-      "url": "/precios/pagar-alquiler-de-moto-en-vnd-cambio-y-recibos/",
-      "working_title": "Pagar el alquiler de moto en dong vietnamita: cambio y recibos",
-      "primary_keyword": "pagar el alquiler de moto en dong vietnamita: cambio y recibos",
-      "intent": "Informacional",
-      "brief": "Comprensión de moneda VND, cambio y diferencias entre importe convertido y recibido; no tasas inventadas.",
-      "category_id": "depositos-y-pagos",
-      "parent_id": "precios",
-      "status": "PLANNED",
-      "replacement_for": "ES-0096",
-      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
-      "verification_gates": [
-        "VERIFY_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "DO_NOT_REMOVE_HISTORICAL_HOLD"
-      ],
-      "draft_file": "_factory/inbox/ES-0307.json"
-    },
-    {
-      "id": "ES-0308",
-      "hub": "/precios/",
-      "slug": "hoja-de-gastos-de-alquiler-de-moto-precio-fianza-y-extras",
-      "url": "/precios/hoja-de-gastos-de-alquiler-de-moto-precio-fianza-y-extras/",
-      "working_title": "Hoja de gastos para alquiler de moto: separar precio, fianza y extras",
-      "primary_keyword": "hoja de gastos para alquiler de moto: separar precio, fianza y extras",
-      "intent": "Informacional",
-      "brief": "Herramienta de control por categorías presupuestarias con ejemplos sin importes inventados, distinta de comparar ofertas.",
-      "category_id": "comparativas-de-precios",
-      "parent_id": "precios",
-      "status": "PLANNED",
-      "replacement_for": "ES-0097",
-      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
-      "verification_gates": [
-        "VERIFY_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "DO_NOT_REMOVE_HISTORICAL_HOLD"
-      ],
-      "draft_file": "_factory/inbox/ES-0308.json"
-    },
-    {
-      "id": "ES-0309",
+      "id": "ES-0310",
       "hub": "/zonas-de-hanoi/",
-      "slug": "del-aeropuerto-noi-bai-a-long-bien-sin-conducir",
-      "url": "/zonas-de-hanoi/del-aeropuerto-noi-bai-a-long-bien-sin-conducir/",
-      "working_title": "Del aeropuerto Nội Bài a Long Biên sin conducir una moto",
-      "primary_keyword": "del aeropuerto nội bài a long biên sin conducir una moto",
+      "slug": "estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas",
+      "url": "/zonas-de-hanoi/estaciones-de-hanoi-long-bien-y-gia-lam-como-distinguirlas/",
+      "working_title": "Estaciones de Hanói, Long Biên y Gia Lâm: evitar confusiones al llegar",
+      "primary_keyword": "estaciones de hanói, long biên y gia lâm: evitar confusiones al llegar",
       "intent": "Informacional",
-      "brief": "Traslado aeroportuario hasta Long Biên con equipaje; sin inventar líneas de autobús ni prometer recogida.",
-      "category_id": "long-bien-gia-lam",
+      "brief": "Comparación para identificar estación escrita en billete, sin confundir puntos de encuentro con servicio de alquiler.",
+      "category_id": "estaciones-y-puntos-de-interes",
       "parent_id": "zonas-de-hanoi",
       "status": "PLANNED",
-      "replacement_for": "ES-0098",
+      "replacement_for": "ES-0099",
       "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
       "verification_gates": [
         "VERIFY_USER_VALUE",
         "VERIFY_CREDIBLE_SOURCES",
         "DO_NOT_REMOVE_HISTORICAL_HOLD"
       ],
-      "draft_file": "_factory/inbox/ES-0309.json"
+      "draft_file": "_factory/inbox/ES-0310.json"
+    },
+    {
+      "id": "ES-0311",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "movilidad-accesible-en-hanoi-para-visitas-sin-moto",
+      "url": "/rutas-y-movilidad/movilidad-accesible-en-hanoi-para-visitas-sin-moto/",
+      "working_title": "Movilidad accesible en Hanói: planificar visitas sin conducir moto",
+      "primary_keyword": "movilidad accesible en hanói: planificar visitas sin conducir moto",
+      "intent": "Informacional",
+      "brief": "Accesibilidad de desplazamientos y planificación por necesidades, no movilidad general con niños.",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0234",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ],
+      "draft_file": "_factory/inbox/ES-0311.json"
+    },
+    {
+      "id": "ES-0312",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado",
+      "url": "/rutas-y-movilidad/llegada-a-hanoi-tras-vuelo-nocturno-sin-conducir-fatigado/",
+      "working_title": "Llegar a Hanói tras un vuelo nocturno: por qué no conducir fatigado",
+      "primary_keyword": "llegar a hanói tras un vuelo nocturno: por qué no conducir fatigado",
+      "intent": "Informacional",
+      "brief": "Fatiga de viaje y elección de transporte de llegada, distinta de logística por llegada temprano.",
+      "category_id": "alternativas-de-transporte",
+      "parent_id": "rutas-y-movilidad",
+      "status": "PLANNED",
+      "replacement_for": "ES-0254",
+      "editorial_evidence": "MANUAL_INTENT_DISTINCTION_SERP_VOLUME_UNVERIFIED",
+      "verification_gates": [
+        "VERIFY_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "DO_NOT_REMOVE_HISTORICAL_HOLD"
+      ],
+      "draft_file": "_factory/inbox/ES-0312.json"
     }
   ]
 }
