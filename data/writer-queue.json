@@ -2,55 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 263,
-  "remaining": 37,
+  "published": 265,
+  "remaining": 35,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0275",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "ruta-en-moto-con-acompanante-como-adaptar-el-plan",
-      "url": "/rutas-y-movilidad/ruta-en-moto-con-acompanante-como-adaptar-el-plan/",
-      "working_title": "Ruta en moto con acompañante: cómo adaptar el plan",
-      "primary_keyword": "ruta en moto con acompanante como adaptar el plan",
-      "intent": "Informacional",
-      "brief": "Ideas de recorridos urbanos sin inventar distancias ni horarios. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "itinerarios-urbanos",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0275.json"
-    },
-    {
-      "id": "ES-0276",
-      "hub": "/rutas-y-movilidad/",
-      "slug": "que-comprobar-del-pronostico-antes-de-alquilar-una-moto",
-      "url": "/rutas-y-movilidad/que-comprobar-del-pronostico-antes-de-alquilar-una-moto/",
-      "working_title": "Qué comprobar del pronóstico antes de alquilar una moto",
-      "primary_keyword": "que comprobar del pronostico antes de alquilar una moto",
-      "intent": "Investigación comercial",
-      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
-      "status": "PLANNED",
-      "category_id": "clima-y-temporadas",
-      "parent_id": "rutas-y-movilidad",
-      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
-      "verification_gates": [
-        "VERIFY_SEARCH_INTENT_AND_SERP",
-        "VERIFY_UNIQUE_USER_VALUE",
-        "VERIFY_CREDIBLE_SOURCES",
-        "APPROVE_NEW_HUB_BEFORE_QUEUE",
-        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
-      ],
-      "draft_file": "_factory/inbox/ES-0276.json"
-    },
     {
       "id": "ES-0278",
       "hub": "/rutas-y-movilidad/",
@@ -72,6 +28,50 @@
         "VERIFY_ACTUAL_ROUTE_CONDITIONS"
       ],
       "draft_file": "_factory/inbox/ES-0278.json"
+    },
+    {
+      "id": "ES-0279",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "frio-en-hanoi-preparar-ropa-para-circular-en-moto",
+      "url": "/rutas-y-movilidad/frio-en-hanoi-preparar-ropa-para-circular-en-moto/",
+      "working_title": "Frío en Hanói: preparar ropa para circular en moto",
+      "primary_keyword": "frio en hanoi preparar ropa para circular en moto",
+      "intent": "Informacional",
+      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "clima-y-temporadas",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0279.json"
+    },
+    {
+      "id": "ES-0280",
+      "hub": "/rutas-y-movilidad/",
+      "slug": "cambios-bruscos-de-tiempo-adaptar-el-itinerario",
+      "url": "/rutas-y-movilidad/cambios-bruscos-de-tiempo-adaptar-el-itinerario/",
+      "working_title": "Cambios bruscos de tiempo: adaptar el itinerario",
+      "primary_keyword": "cambios bruscos de tiempo adaptar el itinerario",
+      "intent": "Informacional",
+      "brief": "Preparación del viaje según condiciones estacionales. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "clima-y-temporadas",
+      "parent_id": "rutas-y-movilidad",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_ACTUAL_ROUTE_CONDITIONS"
+      ],
+      "draft_file": "_factory/inbox/ES-0280.json"
     }
   ]
 }
