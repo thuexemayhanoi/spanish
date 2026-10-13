@@ -2,52 +2,52 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 32,
-  "remaining": 268,
+  "published": 35,
+  "remaining": 265,
   "planned": 180,
   "unplanned": 120,
   "queue": [
     {
-      "id": "ES-0033",
+      "id": "ES-0036",
       "hub": "/tipos-de-motos/scooters/",
-      "slug": "scooters-para-conductores-de-baja-estatura-criterios-de-eleccion",
-      "url": "/tipos-de-motos/scooters/scooters-para-conductores-de-baja-estatura-criterios-de-eleccion/",
-      "working_title": "Scooters para conductores de baja estatura: criterios de elección",
-      "primary_keyword": "scooters para conductores de baja estatura criterios de eleccion",
+      "slug": "como-comprobar-el-espacio-bajo-el-asiento-de-un-scooter",
+      "url": "/tipos-de-motos/scooters/como-comprobar-el-espacio-bajo-el-asiento-de-un-scooter/",
+      "working_title": "Cómo comprobar el espacio bajo el asiento de un scooter",
+      "primary_keyword": "como comprobar el espacio bajo el asiento de un scooter",
       "intent": "Informacional",
       "brief": "Modelos de scooters, ergonomía y conducción automática. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "scooters-automaticos",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0033.json"
+      "draft_file": "_factory/inbox/ES-0036.json"
     },
     {
-      "id": "ES-0034",
+      "id": "ES-0037",
       "hub": "/tipos-de-motos/scooters/",
-      "slug": "peso-de-un-scooter-de-alquiler-como-valorar-su-maniobrabilidad",
-      "url": "/tipos-de-motos/scooters/peso-de-un-scooter-de-alquiler-como-valorar-su-maniobrabilidad/",
-      "working_title": "Peso de un scooter de alquiler: cómo valorar su maniobrabilidad",
-      "primary_keyword": "peso de un scooter de alquiler como valorar su maniobrabilidad",
+      "slug": "scooter-con-pasajero-que-evaluar-antes-de-alquilar",
+      "url": "/tipos-de-motos/scooters/scooter-con-pasajero-que-evaluar-antes-de-alquilar/",
+      "working_title": "Scooter con pasajero: qué evaluar antes de alquilar",
+      "primary_keyword": "scooter con pasajero que evaluar antes de alquilar",
       "intent": "Comparativa",
       "brief": "Modelos de scooters, ergonomía y conducción automática. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "scooters-automaticos",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0034.json"
+      "draft_file": "_factory/inbox/ES-0037.json"
     },
     {
-      "id": "ES-0035",
+      "id": "ES-0038",
       "hub": "/tipos-de-motos/scooters/",
-      "slug": "cuando-conviene-elegir-un-scooter-automatico-en-hanoi",
-      "url": "/tipos-de-motos/scooters/cuando-conviene-elegir-un-scooter-automatico-en-hanoi/",
-      "working_title": "Cuándo conviene elegir un scooter automático en Hanói",
-      "primary_keyword": "cuando conviene elegir un scooter automatico en hanoi",
+      "slug": "scooter-y-equipaje-de-mano-limites-practicos-y-seguridad",
+      "url": "/tipos-de-motos/scooters/scooter-y-equipaje-de-mano-limites-practicos-y-seguridad/",
+      "working_title": "Scooter y equipaje de mano: límites prácticos y seguridad",
+      "primary_keyword": "scooter y equipaje de mano limites practicos y seguridad",
       "intent": "Informacional",
       "brief": "Modelos de scooters, ergonomía y conducción automática. No inventar hechos.",
       "status": "PLANNED",
       "category_id": "scooters-automaticos",
       "parent_id": "tipos-de-motos",
-      "draft_file": "_factory/inbox/ES-0035.json"
+      "draft_file": "_factory/inbox/ES-0038.json"
     }
   ]
 }
