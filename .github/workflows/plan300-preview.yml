@@ -1,0 +1,52 @@
+name: Spanish 300 Editorial Preview (temporary)
+on:
+  push:
+    branches: [feat/spanish-expand-300-safe-holds]
+    paths: [data/**, scripts/**, .github/workflows/plan300-preview.yml]
+permissions:
+  contents: write
+concurrency:
+  group: spanish-plan300-preview
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate current static content
+        run: |
+          node --check scripts/build.mjs
+          node --check scripts/factory.mjs
+          node scripts/build.mjs
+          node scripts/build.mjs --check
+      - name: Commit only deterministic generated files to preview
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-300-preview"
+          git config user.email "spanish-300-preview@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Already current"; else
+            git commit -m "build(spanish): regenerate HTML for 300-plan integrity and ES-0041 repair"
+            git fetch origin feat/spanish-expand-300-safe-holds
+            if [ "$(git rev-parse origin/feat/spanish-expand-300-safe-holds)" != "$(git rev-parse HEAD^)" ]; then echo "SAFE_STOP branch advanced"; exit 1; fi
+            git push origin HEAD:feat/spanish-expand-300-safe-holds
+          fi
+      - name: Diagnose all QA gates on a fresh build
+        run: |
+          node scripts/qa-factory.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-approved-links-a4.mjs
+          node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
+          node scripts/smoke-factory.mjs
+          node scripts/seo-audit.mjs --mode=offline --report=plan300-audit.json || {
+            node -e "const r=require('./plan300-audit.json');console.log(JSON.stringify(r.issues?.slice(0,24),null,2))"
+            exit 1
+          }
