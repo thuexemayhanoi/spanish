@@ -2,39 +2,11 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 159,
-  "remaining": 141,
+  "published": 161,
+  "remaining": 139,
   "planned": 300,
   "unplanned": 0,
   "queue": [
-    {
-      "id": "ES-0169",
-      "hub": "/guia-de-alquiler/",
-      "slug": "elementos-reflectantes-al-circular-de-noche-en-moto",
-      "url": "/guia-de-alquiler/elementos-reflectantes-al-circular-de-noche-en-moto/",
-      "working_title": "Elementos reflectantes al circular de noche en moto",
-      "primary_keyword": "elementos reflectantes al circular de noche en moto",
-      "intent": "Informacional",
-      "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "revision-y-seguridad",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0169.json"
-    },
-    {
-      "id": "ES-0170",
-      "hub": "/guia-de-alquiler/",
-      "slug": "como-revisar-el-claxon-y-los-intermitentes-en-la-entrega",
-      "url": "/guia-de-alquiler/como-revisar-el-claxon-y-los-intermitentes-en-la-entrega/",
-      "working_title": "Cómo revisar el claxon y los intermitentes en la entrega",
-      "primary_keyword": "como revisar el claxon y los intermitentes en la entrega",
-      "intent": "Comparativa",
-      "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No afirmar disponibilidad, precios ni servicios sin verificar con la empresa. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "revision-y-seguridad",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0170.json"
-    },
     {
       "id": "ES-0172",
       "hub": "/guia-de-alquiler/",
@@ -48,6 +20,34 @@
       "category_id": "revision-y-seguridad",
       "parent_id": "guia-de-alquiler",
       "draft_file": "_factory/inbox/ES-0172.json"
+    },
+    {
+      "id": "ES-0173",
+      "hub": "/guia-de-alquiler/",
+      "slug": "que-hacer-si-notas-una-vibracion-anormal-durante-el-viaje",
+      "url": "/guia-de-alquiler/que-hacer-si-notas-una-vibracion-anormal-durante-el-viaje/",
+      "working_title": "Qué hacer si notas una vibración anormal durante el viaje",
+      "primary_keyword": "que hacer si notas una vibracion anormal durante el viaje",
+      "intent": "Informacional",
+      "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "revision-y-seguridad",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0173.json"
+    },
+    {
+      "id": "ES-0174",
+      "hub": "/guia-de-alquiler/",
+      "slug": "asiento-y-postura-evitar-incomodidad-en-trayectos-urbanos",
+      "url": "/guia-de-alquiler/asiento-y-postura-evitar-incomodidad-en-trayectos-urbanos/",
+      "working_title": "Asiento y postura: evitar incomodidad en trayectos urbanos",
+      "primary_keyword": "asiento y postura evitar incomodidad en trayectos urbanos",
+      "intent": "Informacional",
+      "brief": "Inspección de la moto, equipamiento y prevención de riesgos. No inventar hechos.",
+      "status": "PLANNED",
+      "category_id": "revision-y-seguridad",
+      "parent_id": "guia-de-alquiler",
+      "draft_file": "_factory/inbox/ES-0174.json"
     }
   ]
 }
