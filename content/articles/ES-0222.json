@@ -84,5 +84,7 @@
     "https://e.vnexpress.net/news/news/traffic/hanoi-to-trial-weekend-gasoline-motorbike-ban-in-core-zone-5066554.html",
     "https://www.vietnam.vn/en/11-tuyen-pho-co-ha-noi-se-cam-xe-may-tu-6h-den-24h-vao-2-ngay-cuoi-tuan"
   ],
-  "status": "READY_FOR_QA"
+  "status": "READY_FOR_QA",
+  "published_at": "2026-10-13",
+  "word_count": 1146
 }
