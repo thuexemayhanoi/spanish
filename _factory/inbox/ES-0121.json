@@ -1,0 +1,94 @@
+{
+  "id": "ES-0121",
+  "title": "Recogida en una estación: coordinar un encuentro sin suposiciones",
+  "description": "Cómo coordinar la recogida de una moto de alquiler en una estación de Hanoi: qué información enviar, qué punto pactar y qué cargos confirmar antes de llegar.",
+  "h1": "Recogida en una estación: coordinar un encuentro sin suposiciones",
+  "intro": "Llegar a Hanoi en tren y salir de la estación con la moto ya reservada suena a plan perfecto, pero solo funciona si el encuentro se ha coordinado con precisión. Una estación es un espacio abierto, con varias salidas, mucho movimiento y nombres que no siempre coinciden con los que usan las aplicaciones de mapas. Esta guía explica cómo pactar una recogida en una estación de Hanoi sin dar nada por hecho: qué datos enviar al propietario, cómo describir un punto de encuentro inequívoco, qué preguntar sobre horarios y posibles cargos, y qué hacer si el tren llega tarde. La idea es sencilla: cada supuesto que no se verifica en el momento de reservar se convierte en un problema en el andén.",
+  "sections": [
+    {
+      "heading": "Qué implica una recogida en una estación de Hanoi",
+      "paragraphs": [
+        "Hanoi tiene dos estaciones de tren relevantes para un viajero: la estación central de Lê Duẩn, conocida como Ga Hà Nội, y la estación de Long Biên, más pequeña y pegada al puente homónimo, muy cerca del distrito de Long Biên. Ambas funcionan de forma distinta: la central concentra trenes de larga distancia y tiene varias puertas y vestíbulos, mientras que la de Long Biên es más modesta y más fácil de recorrer a pie. Antes de reservar conviene indicar al propietario de la moto a cuál de las dos llegarás, con qué número de tren y a qué hora prevista, porque un punto de encuentro útil en una estación resulta inútil en la otra.",
+        "Una recogida en estación no es un servicio estandarizado: cada negocio de alquiler la organiza a su manera, y algunos la ofrecen solo en ciertos horarios o con condiciones propias. Por eso esta guía evita suponer que existe un protocolo común. La actitud correcta es tratar la recogida como un acuerdo concreto que se negocia por escrito antes del viaje: lugar exacto, hora aproximada, forma de identificar al portador del vehículo y qué ocurre si algo cambia.",
+        "Esta serie ya explicó la lógica general de la entrega y la recogida del vehículo en la guía de alquiler, y también los puntos que conviene confirmar cuando la moto se recibe en un hotel de Hanoi. La recogida en una estación comparte con esas situaciones la misma regla de oro: la información que no está escrita en el acuerdo no cuenta."
+      ]
+    },
+    {
+      "heading": "Qué información enviar antes de viajar",
+      "paragraphs": [
+        "La coordinación empieza por un mensaje claro con cinco datos: número de tren y estación de origen, hora prevista de llegada según el horario oficial, la salida o puerta por la que prevés salir, un número de teléfono que funcione en Vietnam (o la intención de activar el roaming) y el nombre escrito tal cual aparece en tu documento de identidad, porque el contrato de alquiler lo pedirá. Enviar una captura del billete de tren ayuda a evitar malentendidos de horario, sobre todo cuando hay cambios de andén o retrasos de última hora.",
+        "Merece la pena preguntar también cómo os reconoceréis. En una estación concurrida no basta con «estaré junto a la salida»: hay que pactar un referente visible, como una puerta numerada, una parada de taxi señalada o la fachada de un comercio concreto. Si el propietario envía una foto del punto o un mapa con un marcador, guárdala en el móvil con conexión, porque la cobertura de datos dentro del vestíbulo puede ser irregular justo cuando más la necesitas.",
+        "Por último, pregunta qué pasa con el equipaje. Llegar con una maleta grande condiciona el tipo de moto que puedes conducir con seguridad y puede obligar a dejar parte del equipaje en depósito, una opción que algunos negocios ofrecen y otros no. Es mejor saberlo antes de reservar que descubrirlo con la maleta en la mano."
+      ]
+    },
+    {
+      "heading": "Cómo pactar un punto de encuentro inequívoco",
+      "paragraphs": [
+        "Un buen punto de encuentro cumple tres condiciones: es identificable sin mapa, está a poca distancia de la salida real del tren y permite pararse sin bloquear el paso. Las estaciones vietnamitas suelen tener zonas amplias frente a la entrada principal, con paradas de taxi y mototaxis aglomeradas; esa aglomeración es incómoda para revisar el vehículo, pero es un referente que todo el mundo en la ciudad conoce. Si te citan en un sitio más tranquilo, pide confirmar que está a menos de unos minutos a pie de la puerta, porque con equipaje cualquier distancia extra se hace pesada.",
+        "Nombra el punto con precisión en el chat o llamada de coordinación: «puerta principal de la estación de Ga Hà Nội, junto al cartel de taxis» es un punto; «la entrada» no lo es. Si el propietario propone un local o una esquina cercana, pide el nombre del establecimiento visible, no solo el nombre de la calle, porque en Hanoi una misma calle cambia de rótulos cada pocos metros. Repetir el punto en el mensaje de confirmación, la víspera, cierra la operación.",
+        "Un truco práctico: guarda el punto en un mapa offline antes de subir al tren. Las aplicaciones de mapas permiten descargar la zona de Hanoi y marcar el punto de encuentro, de modo que si el móvil tarda en coger cobertura al llegar, el marcador sigue ahí. También conviene pactar un plan B explícito: si en diez minutos no os habéis encontrado, ¿llamada, mensaje o quedáis en otro punto? Ese plan B, acordado por escrito, evita la improvisación con reloj en mano."
+      ]
+    },
+    {
+      "heading": "Horarios, cargos y condiciones que conviene confirmar",
+      "paragraphs": [
+        "El horario de llegada del tren determina si la recogida es viable. Los negocios de alquiler tienen horario de apertura propio, y un tren que llega a última hora de la tarde o por la noche puede caer fuera de ese horario. Pregunta hasta qué hora se puede entregar el vehículo y qué ocurre si el tren se retrasa: algunos propietarios pueden esperar, otros no, y no hay forma de saberlo sin preguntar. Igual que esta serie recomendó confirmar horarios en festivos y fechas señaladas, en una recogida en estación la pregunta de horario es la primera de la lista.",
+        "La segunda pregunta es la de los posibles cargos. Entregar o recoger el vehículo fuera del local habitual puede llevar un coste, o no: depende de cada negocio y de la distancia. No des por hecho que la recogida está incluida en el precio del alquiler; pide un desglose por escrito con el importe del alquiler, la garantía o depósito y cualquier cargo de desplazamiento, en la misma línea que recomendó la guía de esta serie sobre el desglose de depósito y alquiler. Si el desglose que recibes no menciona cargos de recogida, pregunta expresamente si existen.",
+        "La tercera pregunta es la forma de pago en la estación. Llegar con el importe exacto en dong vietnamitas evita buscar de cajeros a pie de tren; los recibos deben reflejar lo pagado, tal como explicó el artículo de esta serie sobre la información que deberían mostrar los recibos en VND. Confirma además si la garantía se paga en efectivo o por otro medio, porque en mitad de una estación no hay forma de resolver incidencias bancarias con calma."
+      ]
+    },
+    {
+      "heading": "Qué hacer si el tren se retrasa",
+      "paragraphs": [
+        "Los retrasos son la situación más habitual en una recogida en estación, y también la más fácil de resolver si hay un protocolo acordado. Antes de salir de origen, avisa al propietario en cuanto sepas que el tren va tarde, con la nueva hora estimada; muchas veces la información de retraso llega antes de subir al tren que al llegar al destino. Un aviso temprano permite al otro lado reorganizar el día sin perder el acuerdo.",
+        "Si el retraso es grande, pregunta si prefieren cambiar la entrega a otra hora o moverla a otro día, y qué efectos tiene ese cambio en el precio o en la reserva del modelo. Cambiar planes con antelación casi siempre es gratis o barato; hacerlo en el andén, con el vehículo esperando, rara vez sale gratis. Deja claro también que avisarás apenas el tren llegue, para que el portador del vehículo no se quede esperando sin noticias.",
+        "Un detalle que evita malentendidos: acuerda en el mensaje quién paga el tiempo extra de espera, si es que existe algún cargo. Puede que no haya ninguno; pero si la conversación nunca tocó el tema, cada parte puede suponer una cosa distinta. La regla de esta serie se aplica igual aquí: lo que no está hablado y confirmado, no existe."
+      ]
+    },
+    {
+      "heading": "Revisión del vehículo y cierre de la operación en la estación",
+      "paragraphs": [
+        "Recibir la moto en una estación no cambia el protocolo de revisión que esta serie describió para proteger la garantía: fotografías del vehículo con marca de tiempo, estado de neumáticos, frenos, luces y espejos, nivel de combustible si aplica y cualquier rayazo o golpe previo. Documentar daños previos es la mejor protección frente a discrepancias en la devolución del depósito, y en una estación la prisa no es una excusa válida: diez minutos de fotos ahorran discusiones de días.",
+        "Además del estado del vehículo, en la entrega se firman o se registran los datos del contrato: identidad, fechas de inicio y fin, importes y condiciones de devolución. Pide una copia, aunque sea una foto del documento firmado, y comprueba que los importes coinciden con el desglose que ya habíais acordado. Si algo no coincide, es el momento de preguntar, no el día de la devolución.",
+        "Antes de despediros, confirma en qué punto y a qué hora se devolverá el vehículo, porque la devolución tiene sus propias condiciones de horario y de lugar. Cualquier duda sobre el contrato, los cargos, la documentación o los puntos de encuentro alternativos, puedes consultarlo con Cho Thuê Xe Máy Nguyễn Tú, en el 112 Nguyễn Văn Cừ, distrito de Long Biên: por teléfono o Zalo, al +84 942 467 674, de 9:00 a 21:00, puedes preguntar cómo organizar la recogida y qué condiciones aplican a tu caso concreto antes de subir al tren."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "¿Se puede recoger una moto de alquiler en la estación de tren de Hanoi?",
+      "answer": "Depende del negocio de alquiler. Algunos aceptan llevar el vehículo a la estación y otros prefieren que el cliente pase por el local. Es una condición que hay que preguntar y acordar por escrito antes de reservar, junto con el punto exacto y los posibles cargos."
+    },
+    {
+      "question": "¿Qué información debo enviar para coordinar la recogida?",
+      "answer": "Número de tren, estación de llegada, hora prevista, puerta o salida prevista, un teléfono que funcione en Vietnam y el nombre tal como aparece en tu documento. Una captura del billete ayuda a confirmar horarios sin malentendidos."
+    },
+    {
+      "question": "¿La recogida en estación tiene un coste adicional?",
+      "answer": "No hay una respuesta única: algunos negocios pueden aplicar un cargo por desplazarse y otros no. Pide siempre un desglose por escrito con alquiler, garantía y cualquier cargo de entrega o recogida, y pregunta expresamente si existe ese cargo."
+    },
+    {
+      "question": "¿Qué pasa si mi tren llega tarde?",
+      "answer": "Avisa al propietario en cuanto conozcas el retraso, con la nueva hora estimada, y acuerda si la entrega se mantiene, se retrasa o se cambia de día. Haber pactado un plan B por escrito evita decisiones apresuradas en el andén."
+    },
+    {
+      "question": "¿Cómo nos reconocemos en la estación si no nos conocemos?",
+      "answer": "Pacta un referente visible y concreto: una puerta numerada, un cartel o la fachada de un comercio frente a la salida. Intercambiar una foto del punto y del vehículo, o del portador, elimina casi toda la confusión."
+    },
+    {
+      "question": "¿Puedo pagar el alquiler y la garantía en la estación?",
+      "answer": "En muchos casos sí, pero confirma antes la forma de pago aceptada y lleva el importe en dong vietnamitas si se paga en efectivo. Exige un recibo que refleje lo pagado, tal como conviene hacer con cualquier pago del alquiler."
+    }
+  ],
+  "related": [
+    "/guia-de-alquiler/entrega-y-recogida/",
+    "/precios/recibir-una-moto-en-un-hotel-de-hanoi-que-confirmar/",
+    "/precios/como-pedir-un-desglose-de-deposito-y-alquiler-en-hanoi/",
+    "/precios/alquilar-una-moto-por-un-dia-en-hanoi-que-debe-incluir-el-acuerdo/",
+    "/precios/como-documentar-danos-previos-para-proteger-la-garantia/",
+    "/precios/alquiler-de-moto-en-dias-festivos-confirmar-horarios/"
+  ],
+  "source_urls": [],
+  "status": "READY_FOR_QA",
+  "word_count": 1593
+}
