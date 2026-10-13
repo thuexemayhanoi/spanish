@@ -2,46 +2,18 @@
   "schema_version": 1,
   "status": "READY",
   "target": 300,
-  "published": 203,
-  "remaining": 97,
+  "published": 206,
+  "remaining": 94,
   "planned": 300,
   "unplanned": 0,
   "queue": [
     {
-      "id": "ES-0214",
-      "hub": "/guia-de-alquiler/",
-      "slug": "devolucion-de-moto-con-lluvia-organizar-revision-segura",
-      "url": "/guia-de-alquiler/devolucion-de-moto-con-lluvia-organizar-revision-segura/",
-      "working_title": "Devolución de moto con lluvia: organizar revisión segura",
-      "primary_keyword": "devolucion de moto con lluvia organizar revision segura",
-      "intent": "Informacional",
-      "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-devolucion-incidencias",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0214.json"
-    },
-    {
-      "id": "ES-0215",
-      "hub": "/guia-de-alquiler/",
-      "slug": "que-comprobante-solicitar-al-cerrar-un-alquiler",
-      "url": "/guia-de-alquiler/que-comprobante-solicitar-al-cerrar-un-alquiler/",
-      "working_title": "Qué comprobante solicitar al cerrar un alquiler",
-      "primary_keyword": "que comprobante solicitar al cerrar un alquiler",
-      "intent": "Comparativa",
-      "brief": "Logística, devolución, averías y comunicación de incidencias. No inventar hechos.",
-      "status": "PLANNED",
-      "category_id": "entrega-devolucion-incidencias",
-      "parent_id": "guia-de-alquiler",
-      "draft_file": "_factory/inbox/ES-0215.json"
-    },
-    {
-      "id": "ES-0216",
+      "id": "ES-0217",
       "hub": "/zonas-de-hanoi/",
-      "slug": "como-planificar-la-movilidad-por-el-casco-antiguo-de-hanoi",
-      "url": "/zonas-de-hanoi/como-planificar-la-movilidad-por-el-casco-antiguo-de-hanoi/",
-      "working_title": "Cómo planificar la movilidad por el Casco Antiguo de Hanói",
-      "primary_keyword": "como planificar la movilidad por el casco antiguo de hanoi",
+      "slug": "casco-antiguo-en-moto-como-valorar-si-conviene-conducir",
+      "url": "/zonas-de-hanoi/casco-antiguo-en-moto-como-valorar-si-conviene-conducir/",
+      "working_title": "Casco Antiguo en moto: cómo valorar si conviene conducir",
+      "primary_keyword": "casco antiguo en moto como valorar si conviene conducir",
       "intent": "Informacional",
       "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
       "status": "PLANNED",
@@ -55,7 +27,53 @@
         "APPROVE_NEW_HUB_BEFORE_QUEUE",
         "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA"
       ],
-      "draft_file": "_factory/inbox/ES-0216.json"
+      "draft_file": "_factory/inbox/ES-0217.json"
+    },
+    {
+      "id": "ES-0218",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "aparcamiento-cerca-del-lago-hoan-kiem-que-comprobar",
+      "url": "/zonas-de-hanoi/aparcamiento-cerca-del-lago-hoan-kiem-que-comprobar/",
+      "working_title": "Aparcamiento cerca del lago Hoàn Kiếm: qué comprobar",
+      "primary_keyword": "aparcamiento cerca del lago hoan kiem que comprobar",
+      "intent": "Informacional",
+      "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "casco-antiguo-hoan-kiem",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+      ],
+      "draft_file": "_factory/inbox/ES-0218.json"
+    },
+    {
+      "id": "ES-0219",
+      "hub": "/zonas-de-hanoi/",
+      "slug": "calles-peatonales-en-hoan-kiem-consultar-restricciones-actuales",
+      "url": "/zonas-de-hanoi/calles-peatonales-en-hoan-kiem-consultar-restricciones-actuales/",
+      "working_title": "Calles peatonales en Hoàn Kiếm: consultar restricciones actuales",
+      "primary_keyword": "calles peatonales en hoan kiem consultar restricciones actuales",
+      "intent": "Informacional",
+      "brief": "Visitar la zona central y planificar desplazamientos con seguridad. Comprobar valor único y fuentes reales; no inventar datos.",
+      "status": "PLANNED",
+      "category_id": "casco-antiguo-hoan-kiem",
+      "parent_id": "zonas-de-hanoi",
+      "editorial_evidence": "PRESCREEN_ONLY_SERP_PENDING",
+      "verification_gates": [
+        "VERIFY_SEARCH_INTENT_AND_SERP",
+        "VERIFY_UNIQUE_USER_VALUE",
+        "VERIFY_CREDIBLE_SOURCES",
+        "APPROVE_NEW_HUB_BEFORE_QUEUE",
+        "VERIFY_FIRSTHAND_PLACE_INFORMATION_AND_NO_IMPLIED_SERVICE_AREA",
+        "VERIFY_CURRENT_OFFICIAL_GUIDANCE"
+      ],
+      "draft_file": "_factory/inbox/ES-0219.json"
     }
   ]
 }
