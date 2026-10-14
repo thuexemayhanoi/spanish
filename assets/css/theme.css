@@ -240,3 +240,26 @@ main,.hero-grid>* ,.split>* ,.cards>* ,.taxonomy-grid>* ,.foot-grid>*{
   .tool{min-width:44px}
   .seo-core-related{gap:8px}
 }
+
+
+/* Utility navigation and footer parity — single source of truth in site/data.json */
+.nav .utility-nav-group .utility-panel{width:min(310px,calc(100vw - 32px));max-width:310px;min-width:0;grid-template-columns:minmax(0,1fr)}
+.utility-panel>a{min-width:0;overflow-wrap:anywhere}
+.nav .utility-nav-group:last-of-type .utility-panel{left:auto;right:0}
+.footer-nav-group{min-width:0}
+.footer-nav-group>a{font-weight:750}
+.footer-nav-child{padding-left:14px;margin-left:5px;border-left:2px solid rgba(189,222,243,.34)}
+.footer-nav-child>a{font-size:.88rem;line-height:1.5}
+.footer-topics{gap:16px}
+.footer-topic-group{min-width:0;display:grid;gap:2px}
+.footer-topic-group>strong{color:#eff7ff;font-size:.9rem;line-height:1.4;margin:6px 0}
+.footer-topic-group>a{font-size:.86rem;line-height:1.5;min-height:36px}
+@media(max-width:1120px){
+ .mobile-nav .utility-nav-group .utility-panel{width:100%;max-width:100%;grid-template-columns:1fr}
+ .mobile-nav .utility-nav-group:last-of-type .utility-panel{left:auto;right:auto}
+}
+@media(max-width:520px){
+ .foot-grid{gap:22px}
+ .footer-nav-child{padding-left:12px}
+ .footer-topic-group>a{min-height:40px}
+}
