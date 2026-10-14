@@ -21,13 +21,18 @@ assert(css.includes('focus-visible'),'Visible keyboard focus regression');
 assert(css.includes('/* P1.04 Premium footer')&&css.includes('.footer-back-to-top'),'Premium footer token/style missing');
 assert(js.includes('P1.04 all-pages footer jump'),'Shared footer/back-to-top control missing');
 assert(js.includes("anchor.href='#content'"),'Footer back-to-top is not a same-page link');
-assert(js.includes("if(!document.querySelector('.prose article'))"),'Prevent duplicate article back-to-top control');
-assert(js.includes("header?.classList.toggle('is-scrolled'"),'Scroll shadow enhancement missing');
+assert(!js.includes("className='back-to-top'")&&css.includes('.back-to-top{display:none!important}'),'Floating duplicate back-to-top must be disabled');
+assert(js.includes("header.classList.toggle('is-scrolled'"),'Scroll shadow enhancement missing');
 
 assert(/<nav class="nav" aria-label="Navegación principal">/.test(main),'Desktop navigation missing');
 assert(/id="mobile-nav"[^>]*hidden/.test(main),'Collapsed mobile navigation missing');
 assert(/id="menu-toggle"[^>]*aria-expanded="false"/.test(main),'Mobile control initial state wrong');
 assert((main.match(/class="nav-group"/g)||[]).length===10,'5 taxonomy groups not rendered twice');
+assert(!main.includes('utility-nav-group'),'Utility links must not be dropdowns');
+for(const url of ['/sobre-nosotros/','/contacto/','/politica-de-privacidad/','/terminos-y-condiciones/']){
+ assert(main.includes('class="nav-direct" href="'+url+'"'),'Independent header utility link missing '+url);
+}
+assert(css.includes('Utility navigation: independent About'),'Responsive utility-link layout missing');
 assert(main.includes('<main id="content">'),'Skip-link target missing');
 assert(main.includes('<footer class="footer">'),'Shared footer missing');
 assert(/name="robots" content="noindex,follow"/.test(notFound),'404 must remain noindex');

@@ -21,13 +21,10 @@ function generate(c){
  function schema(p){const graph=[{"@type":"LocalBusiness","@id":base+"#organization",name:B.name,telephone:B.tel,url:base,hasMap:B.maps,openingHoursSpecification:[{"@type":"OpeningHoursSpecification",dayOfWeek:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],opens:B.hours.split("–")[0],closes:B.hours.split("–")[1]}],address:{"@type":"PostalAddress",streetAddress:"112 Nguyễn Văn Cừ",addressLocality:"Bồ Đề, Long Biên, Hanói",addressCountry:"VN"}},{"@type":"WebSite","@id":base+"#website",url:base,name:c.site.title,inLanguage:"es",publisher:{"@id":base+"#organization"}},{"@type":"WebPage","@id":abs(p.url)+"#webpage",url:abs(p.url),name:p.title,description:p.desc,inLanguage:"es",isPartOf:{"@id":base+"#website"}}];if(p.url!=="/"){const li=[{"@type":"ListItem",position:1,name:"Inicio",item:base}];if(p.type==="taxonomy-archive"){const parent=c.taxonomy.parents.find(x=>x.id===p.parent_id);if(!parent)throw Error("Archive parent not found");li.push({"@type":"ListItem",position:2,name:parent.label,item:abs(parent.url)},{"@type":"ListItem",position:3,name:p.h1,item:abs(p.url)});}else{let u="/";p.url.split("/").filter(Boolean).forEach((part,i)=>{u+=part+"/";li.push({"@type":"ListItem",position:i+2,name:get(u)?.h1||part,item:abs(u)})});}graph.push({"@type":"BreadcrumbList",itemListElement:li})}if(p.type==="faq"){graph.push({"@type":"FAQPage",mainEntity:c.faqs.map(([q,a])=>({"@type":"Question",name:q,acceptedAnswer:{"@type":"Answer",text:a}}))})}return `<script type="application/ld+json">${JSON.stringify({"@context":"https://schema.org","@graph":graph}).replace(/</g,"\\u003c")}</script>`;}
  const header=p=>`<a class="skip" href="#content">Saltar al contenido</a><header class="header"><div class="wrap top"><a class="logo" href="/"><span class="mark">N</span><span>NGUYỄN TÚ<small>MOTO RENTAL · HANÓI</small></span></a><nav class="nav" aria-label="Navegación principal">${nav(p)}</nav><div class="tools"><button id="theme-toggle" class="tool" type="button" aria-label="Cambiar tema">◐</button><button id="menu-toggle" class="tool mobile-trigger" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Abrir menú">☰</button></div></div><nav id="mobile-nav" class="wrap mobile-nav" aria-label="Menú móvil" hidden>${nav(p)}</nav></header>`;
  const footerNav=[
-   ['Inicio','/'],...c.taxonomy.parents.filter(parent=>pagesByUrl.has(parent.url)).map(parent=>[parent.nav_label,parent.url]),
-   ['FAQ','/faq/'],['Contacto','/contacto/']
- ].map(([label,url])=>{
-   const extras=(c.navExtras||{})[url]||[];
-   return '<div class="footer-nav-group">'+link(url,label)+
-     extras.map(([name,href])=>'<div class="footer-nav-child">'+link(href,name)+'</div>').join('')+'</div>';
- }).join('');
+  ['Inicio','/'],...(c.navExtras?.['/']||[]),
+  ...c.taxonomy.parents.filter(parent=>pagesByUrl.has(parent.url)).map(parent=>[parent.nav_label,parent.url]),
+  ['FAQ','/faq/'],['Contacto','/contacto/'],...(c.navExtras?.['/contacto/']||[])
+ ].map(([label,url])=>'<div class="footer-nav-group">'+link(url,label)+'</div>').join('');
  const footerTopics=c.taxonomy.parents.map(parent=>{
    const entries=parent.children.map(child=>{
      const archive=archiveUrl(parent,child);
