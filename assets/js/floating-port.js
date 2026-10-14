@@ -11,7 +11,10 @@
    document.head.appendChild(script);
  }
  load("/assets/js/business-config.js",function(){
-   load("/assets/js/assistant.js");
+   load("/assets/js/assistant.js",function(){
+     var panel=document.getElementById("chat-panel");
+     if(panel&&!panel.hidden)panel.dispatchEvent(new CustomEvent("chat:open"));
+   });
  });
   var qc = document.getElementById("quick-contact");
   /* Upgrade legacy published Quick Contact Email links without editing each HTML page.

@@ -338,7 +338,7 @@
   var originalReply = Engine.prototype.reply;
   Engine.prototype.reply = function(raw){
     var t=norm(raw||"");
-    var isSpanish=/\b(hola|buenas|cuanto|cuesta|precio|precios|tarifa|tarifas|alquiler|alquilar|moto|motos|scooter|deposito|fianza|contacto|direccion|ubicacion|horario|abierto|abren|disponib|entrega|licencia|permiso|documentos|donde|mapa|mes|mensual|semana|semanal|dias|diario|ruta|rutas|comprar|venta|electrica)\b/.test(t);
+    var isSpanish=/\b(hola|buenas|cuanto|cuesta|precio|precios|tarifa|tarifas|alquiler|alquilar|moto|motos|scooter|deposito|fianza|contacto|direccion|ubicacion|horario|abierto|abren|disponib\w*|entrega|licencia|permiso|documentos|donde|mapa|mes|mensual|semana|semanal|dias|diario|ruta|rutas|comprar|venta|electrica)\b/.test(t);
     if(!isSpanish)return originalReply.call(this,raw);
     this.state.lang="es";
     var m=detectModel(t);
@@ -359,7 +359,7 @@
       intent="delivery";answer="Las condiciones de entrega y recogida deben confirmarse para la ubicación y el horario solicitados. "+contact+". "+this.a("/guia-de-alquiler/entrega-y-recogida/","Ver guía de entrega");
     }else if(/\b(licencia|permiso|conducir|legal|documentos|pasaporte)\b/.test(t)){
       intent="docs";answer="Verifica los requisitos legales y de documentación vigentes antes de conducir. "+this.a("/guia-de-alquiler/licencia-de-conducir-vietnam/","Guía de permisos")+". No ofrecemos asesoramiento jurídico.";
-    }else if(/\b(disponib|disponible|reservar|reserva|stock)\b/.test(t)){
+    }else if(/\b(disponib\w*|disponible|reservar|reserva|stock)\b/.test(t)){
       intent="avail";answer="No puedo consultar la disponibilidad de motos en tiempo real. Confirma el modelo y las fechas llamando al "+contact+".";
     }else if(/\b(deposito|fianza|caucion)\b/.test(t)){
       intent="deposit";var dep=this.state.model?({wave:"2–3 millones",mio:"2 millones",click:"2 millones",vision:"4–5 millones",airblade:"3 millones",cc50:"4 millones",electric:"según el modelo"}[this.state.model]):"entre 2 y 5 millones de VND para motos convencionales";answer="El depósito orientativo es "+dep+". El importe exacto y la devolución se confirman según el modelo y el contrato. "+this.a("/precios/","Ver condiciones");
