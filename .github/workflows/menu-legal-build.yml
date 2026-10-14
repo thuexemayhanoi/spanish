@@ -1,0 +1,64 @@
+name: Spanish Menu & Legal Build
+on:
+  push:
+    branches: [feat/spanish-menu-legal-20261014]
+    paths:
+      - 'site/data.json'
+      - 'scripts/build.mjs'
+      - 'scripts/taxonomy.mjs'
+      - 'scripts/qa-menu-legal.mjs'
+      - 'assets/css/theme.css'
+      - '.github/workflows/menu-legal-build.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: spanish-menu-legal-build
+  cancel-in-progress: false
+jobs:
+  validate-and-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - name: Build generated pages
+        run: |
+          node --check scripts/taxonomy.mjs
+          node --check scripts/build.mjs
+          node --check scripts/qa-menu-legal.mjs
+          node scripts/build.mjs
+      - name: Verify SEO / taxonomy / 300 articles / homepage / legal menu / responsive
+        run: |
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
+          node scripts/qa-approved-links-a4.mjs
+          node scripts/qa-theme.mjs
+          node scripts/qa-seo-core.mjs
+          node scripts/qa-menu-legal.mjs
+          node scripts/qa-responsive.mjs
+          node scripts/smoke-factory.mjs
+      - name: Commit generated HTML on technical branch only
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-nav-build-bot"
+          git config user.email "spanish-nav-build-bot@users.noreply.github.com"
+          git add -A -- '*.html' sitemap.xml robots.txt
+          if git diff --cached --quiet; then echo "No generated HTML changes"; exit 0; fi
+          changed="$(git diff --cached --name-only)"
+          if echo "$changed" | grep -Ev '(^|/)index\.html$|^404\.html$|^sitemap\.xml$|^robots\.txt$'; then
+            echo "SAFE_STOP unexpected staged file" >&2
+            exit 1
+          fi
+          git commit -m "build(spanish): mirror nested About and legal links in all static pages"
+          git fetch origin feat/spanish-menu-legal-20261014
+          if [ "$(git rev-parse origin/feat/spanish-menu-legal-20261014)" != "$(git rev-parse HEAD^)" ]; then
+            echo "SAFE_STOP branch advanced during build" >&2
+            exit 1
+          fi
+          git push origin HEAD:feat/spanish-menu-legal-20261014
