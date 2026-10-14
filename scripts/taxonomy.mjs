@@ -62,15 +62,13 @@ export function decorateTaxonomy(taxonomy,pages,accepted){
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 export function taxonomyMenu(taxonomy,pages,categoryMap,current,navExtras={}){
  const routes=new Set(pages.map(p=>p.url));
- const mainLink=(name,url)=>'<a href="'+esc(url)+'"'+(current.url===url?' aria-current="page"':'')+'>'+esc(name)+'</a>';
- const utility=(label,url)=>{
-  const links=navExtras[url]||[];
-  for(const [,href] of links)if(!routes.has(href))throw Error('Utility navigation target missing '+href);
-  const children=links.map(([name,href])=>mainLink(name,href)).join('');
-  return '<details class="nav-group utility-nav-group"><summary>'+esc(label)+'</summary><div class="nav-panel utility-panel">'+
-    '<a class="taxonomy-all" href="'+esc(url)+'"'+(current.url===url?' aria-current="page"':'')+'>Ver '+esc(label)+' ↗</a>'+children+'</div></details>';
+ const mainLink=(name,url)=>{
+  if(!routes.has(url))throw Error('Navigation target missing '+url);
+  return '<a class="nav-direct" href="'+esc(url)+'"'+(current.url===url?' aria-current="page"':'')+'>'+esc(name)+'</a>';
  };
- let html=utility('Inicio','/');
+ // Information and legal pages are top-level links, never children of Inicio/Contacto.
+ const extras=url=>(navExtras[url]||[]).map(([name,href])=>mainLink(name,href)).join('');
+ let html=mainLink('Inicio','/')+extras('/');
  for(const parent of taxonomy.parents){
   const available=routes.has(parent.url);
   const items=parent.children.map(child=>{
@@ -82,10 +80,11 @@ export function taxonomyMenu(taxonomy,pages,categoryMap,current,navExtras={}){
   }).join('');
   const landing=available?'<a class="taxonomy-all" href="'+esc(parent.url)+'">Ver '+esc(parent.label)+' ↗</a>':'';
   html+='<details class="nav-group"><summary>'+esc(parent.nav_label)+'</summary><div class="nav-panel">'+
-    '<strong class="nav-panel-heading">'+esc(parent.label)+'</strong>'+landing+items+'</div></details>';
+   '<strong class="nav-panel-heading">'+esc(parent.label)+'</strong>'+landing+items+'</div></details>';
  }
- return html+mainLink('FAQ','/faq/')+utility('Contacto','/contacto/');
+ return html+mainLink('FAQ','/faq/')+mainLink('Contacto','/contacto/')+extras('/contacto/');
 }
+
 export function parentCategorySection(parentUrl,taxonomy,liveCategories,pages){
  const parent=taxonomy.parents.find(p=>p.url===parentUrl);if(!parent)return '';
  const published=parent.children.filter(c=>(liveCategories.get(c.id)||[]).length);

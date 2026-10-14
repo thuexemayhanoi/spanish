@@ -263,3 +263,25 @@ main,.hero-grid>* ,.split>* ,.cards>* ,.taxonomy-grid>* ,.foot-grid>*{
  .footer-nav-child{padding-left:12px}
  .footer-topic-group>a{min-height:40px}
 }
+
+
+/* Utility navigation: independent About / Contact / Privacy / Terms links. */
+.nav>.nav-direct{display:inline-flex;align-items:center;min-height:44px;font-size:.84rem;font-weight:730;white-space:nowrap;text-decoration:none}
+.nav>.nav-direct[aria-current="page"],.mobile-nav>.nav-direct[aria-current="page"]{color:var(--link);text-decoration:underline;text-underline-offset:5px}
+@media(min-width:1121px){
+  /* Two deliberate header rows prevent utility links from compressing the branding. */
+  .header .top{display:grid;grid-template-columns:minmax(0,1fr) auto;row-gap:5px;column-gap:16px;padding-block:8px}
+  .header .top>.logo{grid-column:1;grid-row:1;width:fit-content}
+  .header .top>.tools{grid-column:2;grid-row:1}
+  .header .top>.nav{grid-column:1/-1;grid-row:2;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:5px clamp(9px,1.2vw,21px);padding-block:2px 5px}
+  .header .top>.nav>.nav-group>summary{font-size:.84rem}
+  html{scroll-padding-top:9rem}
+}
+@media(max-width:1120px){
+  .mobile-nav>.nav-direct{display:flex;align-items:center;min-height:48px;padding:12px 4px;border-bottom:1px solid var(--line);font-size:.93rem;font-weight:740;text-decoration:none;overflow-wrap:anywhere}
+  .mobile-nav>.nav-direct:last-child{border-bottom:0}
+}
+/* Footer already has a Back to Top anchor. Hide any stale cached floating widgets. */
+.back-to-top{display:none!important}
+.footer-nav-group{min-width:0}
+.footer-nav-group>a{font-weight:740}

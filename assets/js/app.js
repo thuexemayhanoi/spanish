@@ -118,16 +118,6 @@
     const track=document.createElement('span');
     progress.append(track);
     document.body.append(progress);
-    const back=document.createElement('button');
-    back.type='button';back.className='back-to-top';back.hidden=true;
-    back.setAttribute('aria-label','Volver al inicio');
-    back.title='Volver al inicio';
-    back.textContent='↑';
-    document.body.append(back);
-    back.addEventListener('click',()=>{
-      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      window.scrollTo({top:0,behavior:reduced?'instant':'smooth'});
-    });
     let scheduled=false;
     function update(){
       scheduled=false;
@@ -137,7 +127,6 @@
       const position=window.scrollY+window.innerHeight*.42;
       const percent=Math.max(0,Math.min(1,(position-start)/Math.max(1,finish-start)));
       track.style.transform='scaleX('+percent.toFixed(3)+')';
-      back.hidden=window.scrollY<550;
     }
     function schedule(){
       if(scheduled)return;
@@ -160,43 +149,19 @@
     anchor.textContent='↑ Volver arriba';
     footerBottom.append(anchor);
   }
-  if(!document.querySelector('.prose article')){
-    const jump=document.createElement('button');
-    jump.type='button';
-    jump.className='back-to-top';
-    jump.textContent='↑';
-    jump.title='Volver al inicio';
-    jump.setAttribute('aria-label','Volver al inicio');
-    jump.hidden=true;
-    document.body.append(jump);
-    jump.addEventListener('click',()=>{
-      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      window.scrollTo({top:0,behavior:reduced?'auto':'smooth'});
-    });
-    let scheduled=false;
-    const update=()=>{
-      scheduled=false;
-      jump.hidden=window.scrollY<560;
-      header?.classList.toggle('is-scrolled',window.scrollY>10);
-    };
-    const schedule=()=>{
-      if(scheduled)return;
-      scheduled=true;
-      window.requestAnimationFrame(update);
-    };
-    window.addEventListener('scroll',schedule,{passive:true});
-    window.addEventListener('resize',schedule,{passive:true});
-    update();
-  }else if(header){
+  // No floating back-to-top duplicates. The only site-owned Back to Top is in the footer.
+  if(header){
     let frame=false;
+    const updateShadow=()=>{
+      frame=false;
+      header.classList.toggle('is-scrolled',window.scrollY>10);
+    };
     window.addEventListener('scroll',()=>{
       if(frame)return;
       frame=true;
-      window.requestAnimationFrame(()=>{
-        frame=false;
-        header.classList.toggle('is-scrolled',window.scrollY>10);
-      });
+      window.requestAnimationFrame(updateShadow);
     },{passive:true});
+    updateShadow();
   }
 
   document.addEventListener('click',event=>{

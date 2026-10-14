@@ -1,0 +1,66 @@
+name: Spanish Responsive Navigation Build
+on:
+  push:
+    branches: [fix/spanish-flat-utility-nav-20261014]
+    paths:
+      - scripts/taxonomy.mjs
+      - scripts/build.mjs
+      - scripts/qa-theme.mjs
+      - assets/js/app.js
+      - assets/css/theme.css
+      - .github/workflows/navigation-responsive-build.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: spanish-responsive-navigation-build
+  cancel-in-progress: false
+jobs:
+  nav-build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Regenerate HTML using shared navigation
+        run: |
+          node --check scripts/taxonomy.mjs
+          node --check scripts/build.mjs
+          node --check scripts/qa-theme.mjs
+          node --check assets/js/app.js
+          node scripts/build.mjs
+      - name: Full SEO and content protection QA
+        run: |
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-growth-a4-a6.mjs
+          node scripts/qa-candidate-review-a6.mjs
+          node scripts/qa-approved-links-a4.mjs
+          node scripts/qa-theme.mjs
+          node scripts/qa-seo-core.mjs
+          node scripts/smoke-factory.mjs
+      - name: Publish generated HTML to technical branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-navigation-build-bot"
+          git config user.email "spanish-navigation-build-bot@users.noreply.github.com"
+          git add -A -- '*.html' sitemap.xml robots.txt
+          if git diff --cached --quiet; then echo "No generated changes"; exit 0; fi
+          changed="$(git diff --cached --name-only)"
+          if echo "$changed" | grep -Ev '(^|/)index\.html$|^404\.html$|^sitemap\.xml$|^robots\.txt$'; then
+            echo "SAFE_STOP: unexpected output" >&2
+            exit 1
+          fi
+          git commit -m "build(spanish): flatten utility menus for all published pages"
+          git fetch origin fix/spanish-flat-utility-nav-20261014
+          if [ "$(git rev-parse origin/fix/spanish-flat-utility-nav-20261014)" != "$(git rev-parse HEAD^)" ]; then
+            echo "SAFE_STOP: branch advanced while building" >&2
+            exit 1
+          fi
+          git push origin HEAD:fix/spanish-flat-utility-nav-20261014
