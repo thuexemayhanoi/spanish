@@ -285,3 +285,214 @@ main,.hero-grid>* ,.split>* ,.cards>* ,.taxonomy-grid>* ,.foot-grid>*{
 .back-to-top{display:none!important}
 .footer-nav-group{min-width:0}
 .footer-nav-group>a{font-weight:740}
+
+
+/* Two floating contact/AI controls, ported from /web; palette mapped to Spanish Blue Titanium. */
+:root{
+ --brand:var(--blue);--brand-hover:#4b9cd1;--text:var(--ink);--border:var(--line);
+ --surface-2:var(--soft);--spanish-float-shadow:0 7px 22px rgba(7,32,55,.18);
+ --spanish-float-shadow-lg:0 14px 42px rgba(7,32,55,.24);
+ --s2:8px;--s3:12px;--s4:16px;--r-lg:18px;--r-md:14px;
+}
+/* ============ Floating UI shared positioning ============ */
+.quick-contact,
+.chat-fab{
+  position:fixed;
+  bottom:calc(16px + env(safe-area-inset-bottom));
+}
+.quick-contact{
+  left:calc(16px + env(safe-area-inset-left));
+  z-index:130;
+}
+.chat-fab{
+  right:calc(16px + env(safe-area-inset-right));
+  z-index:130;
+}
+[data-float-hidden]{display:none!important}
+
+/* ============ Quick contact FAB (bottom-left) ============ */
+.qc-main{
+  width:56px;height:56px;min-width:56px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--brand);color:#111;
+  border:0;border-radius:50%;cursor:pointer;
+  box-shadow:var(--spanish-float-shadow-lg);
+  transition:background .15s,transform .15s;
+}
+.qc-main:hover{background:var(--brand-hover);transform:scale(1.05)}
+.qc-main[aria-expanded="true"]{background:var(--brand-hover)}
+.qc-actions{
+  position:absolute;bottom:calc(56px + 12px);left:0;
+  display:none;flex-direction:column;gap:var(--s2);
+}
+.quick-contact[data-open="true"] .qc-actions{display:flex}
+.qc-btn{
+  position:relative;
+  width:48px;height:48px;min-width:48px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--surface);color:var(--text);
+  border:1px solid var(--border);border-radius:50%;
+  box-shadow:var(--spanish-float-shadow);
+  transition:border-color .15s,color .15s,transform .15s;
+}
+.qc-btn:hover{border-color:var(--brand);color:var(--brand-hover);transform:scale(1.05)}
+.qc-tip{
+  position:absolute;left:calc(100% + 10px);top:50%;transform:translateY(-50%);
+  background:var(--surface);color:var(--text);
+  border:1px solid var(--border);border-radius:8px;
+  padding:4px 10px;font-size:.8rem;font-weight:600;white-space:nowrap;
+  box-shadow:var(--spanish-float-shadow);
+}
+
+/* ============ Chatbot (bottom-right) ============ */
+.chat-fab{
+  width:56px;height:56px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--brand);color:#111;border:0;border-radius:50%;
+  cursor:pointer;box-shadow:var(--spanish-float-shadow-lg);
+  transition:background .15s,transform .15s,bottom .15s ease-out;
+}
+.chat-fab:hover{background:var(--brand-hover);transform:scale(1.05)}
+.chat-fab[aria-expanded="true"]{background:var(--brand-hover)}
+.chat-tip{
+  position:absolute;right:calc(100% + 10px);top:50%;transform:translateY(-50%);
+  background:var(--surface);color:var(--text);
+  border:1px solid var(--border);border-radius:8px;
+  padding:4px 10px;font-size:.8rem;font-weight:600;white-space:nowrap;
+  box-shadow:var(--spanish-float-shadow);
+}
+
+.chat-panel{
+  position:fixed;right:16px;z-index:140;
+  /* Normal state sits above the two floating launch buttons. */
+  bottom:calc(84px + env(safe-area-inset-bottom));
+  width:min(360px,calc(100vw - 32px));
+  height:min(480px,calc(var(--vv-h,100dvh) - 120px - env(safe-area-inset-bottom)));
+  display:flex;flex-direction:column;
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--r-lg);
+  box-shadow:var(--spanish-float-shadow-lg);
+  overflow:hidden;
+  animation:chatIn .18s ease-out;
+}
+@keyframes chatIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.chat-head{
+  display:flex;align-items:center;justify-content:space-between;gap:var(--s2);
+  padding:var(--s3) var(--s4);
+  background:var(--brand);color:#111;
+}
+.chat-title{font-weight:600;font-size:.95rem}
+.chat-close{
+  width:44px;height:44px;min-width:44px;
+  display:flex;align-items:center;justify-content:center;
+  background:rgba(0,0,0,.18);border:0;border-radius:10px;
+  color:#111;cursor:pointer;
+}
+.chat-close:hover{background:rgba(0,0,0,.3)}
+.chat-log{
+  flex:1;overflow-y:auto;padding:var(--s4);
+  display:flex;flex-direction:column;gap:var(--s2);
+}
+.chat-msg{
+  max-width:82%;padding:10px 14px;
+  border-radius:14px;font-size:15px;line-height:1.55;
+  white-space:pre-wrap;overflow-wrap:anywhere;
+}
+.chat-msg.bot{
+  align-self:flex-start;
+  background:var(--surface-2);color:var(--text);
+  border:1px solid var(--border);border-bottom-left-radius:4px;
+}
+.chat-msg.user{
+  align-self:flex-end;
+  background:var(--brand);color:#111;border-bottom-right-radius:4px;
+}
+.chat-msg a{color:var(--brand-hover);text-decoration:underline}
+html[data-theme="dark"] .chat-msg.bot a{color:var(--brand)}
+.chat-quick{
+  display:flex;flex-wrap:wrap;gap:6px;
+  padding:0 var(--s4) var(--s2);
+}
+.chat-quick button{
+  min-height:44px;padding:0 14px;
+  background:var(--bg);color:var(--text);
+  border:1px solid var(--border);border-radius:999px;
+  font:inherit;font-size:.8rem;cursor:pointer;
+  transition:border-color .15s,color .15s;
+}
+.chat-quick button:hover{border-color:var(--brand);color:var(--brand-hover)}
+/* follow-up suggestion tags after each answer */
+.chat-suggest{
+  display:flex;flex-wrap:wrap;gap:6px;
+  padding:2px 0 10px 44px;
+}
+.chat-suggest button{
+  min-height:36px;padding:0 12px;
+  background:var(--surface);color:var(--muted);
+  border:1px solid var(--border);border-radius:999px;
+  font:inherit;font-size:.76rem;cursor:pointer;
+  transition:border-color .15s,color .15s;
+}
+.chat-suggest button:hover{border-color:var(--brand);color:var(--brand-hover)}
+html[data-theme="dark"] .chat-suggest button{background:var(--bg);color:var(--text)}
+/* typing indicator */
+.chat-typing{opacity:.7;font-style:normal}
+/* messages wrap correctly */
+.chat-msg{overflow-wrap:anywhere;word-break:break-word}
+.chat-input{
+  display:flex;gap:var(--s2);
+  padding:var(--s2) var(--s3) var(--s3);
+  border-top:1px solid var(--border);
+}
+.chat-input input{
+  flex:1;min-width:0;min-height:44px;
+  padding:0 var(--s3);
+  background:var(--bg);color:var(--text);
+  border:1px solid var(--border);border-radius:12px;
+  font:inherit;font-size:16px;
+}
+.chat-input button{
+  width:44px;min-width:44px;
+  display:flex;align-items:center;justify-content:center;
+  background:var(--brand);color:#111;border:0;border-radius:12px;
+  cursor:pointer;transition:background .15s;
+}
+.chat-input button:hover{background:var(--brand-hover)}
+
+/* iOS/Android keyboard mode.
+   visualViewport JS supplies an exact top + height so the whole chat follows
+   the visible area instead of sitting behind the keyboard/browser dock. */
+.chat-panel[data-keyboard-open="true"]{
+  top:var(--chat-vv-top,8px);
+  bottom:auto;
+  height:var(--chat-vv-height,420px);
+  max-height:none;
+}
+body.chat-keyboard-open .quick-contact,
+body.chat-keyboard-open .chat-fab{
+  visibility:hidden;
+  pointer-events:none;
+}
+body.chat-keyboard-open .chat-panel{
+  border-radius:var(--r-md);
+}
+body.chat-keyboard-open .chat-log{
+  overscroll-behavior:contain;
+}
+
+
+.chat-panel[hidden]{display:none!important}
+.quick-contact,.chat-fab{bottom:calc(17px + env(safe-area-inset-bottom));z-index:130}
+.quick-contact{left:calc(17px + env(safe-area-inset-left))}
+.chat-fab{right:calc(17px + env(safe-area-inset-right))}
+.chat-head,.qc-main,.chat-fab,.chat-input button,.chat-msg.user{background:linear-gradient(135deg,#bce7ff,var(--blue) 60%,#65aad8);color:#091d2e}
+.qc-btn:hover,.chat-input button:hover,.chat-fab:hover,.qc-main:hover{background:var(--ice);color:#09283e}
+.chat-panel{color:var(--ink);border-color:var(--line);border-radius:18px}
+.chat-close{color:#102238}
+.chat-msg.bot{color:var(--ink)}
+.floating-chat-open .reader-toc{visibility:hidden;pointer-events:none}
+@media(max-width:767px){.chat-panel{right:12px;left:12px;width:auto}.chat-panel[data-keyboard-open="true"]{right:8px;left:8px;width:auto}}
+@media(max-width:767px),(hover:none){.chat-tip{display:none}}
+@media(prefers-reduced-motion:reduce){.chat-panel{animation:none}.chat-fab,.qc-main,.qc-btn{transition:none}}
+
