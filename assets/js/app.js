@@ -173,4 +173,13 @@
       closeMenu();
     }
   });
+
+  // Shared loader: all 334 static pages already include this shared app.js.
+  // Dynamic injection protects all canonical/meta/schema/article HTML from regeneration.
+  if(!document.getElementById('spanish-floating-loader')){
+    const portScript=document.createElement('script');
+    portScript.id='spanish-floating-loader';
+    portScript.src='/assets/js/floating-port.js';
+    document.head.append(portScript);
+  }
 })();

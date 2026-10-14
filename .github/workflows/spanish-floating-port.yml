@@ -1,0 +1,53 @@
+name: Spanish Floating AI & Quick Call Branch QA
+on:
+  push:
+    branches:
+      - feature/spanish-local-ai-quick-call-20261014
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: spanish-floating-port-branch
+  cancel-in-progress: false
+jobs:
+  build-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Syntax checks
+        run: |
+          node --check assets/js/app.js
+          node --check assets/js/floating-port.js
+          node --check assets/js/assistant.js
+          node --check assets/js/business-config.js
+          node --check scripts/build-chat-index.mjs
+          node --check scripts/test-floating-assistant.mjs
+      - name: Generate source-accurate Spanish full-text index
+        run: node scripts/build-chat-index.mjs
+      - name: Run all existing checks
+        run: |
+          node scripts/build-chat-index.mjs --check
+          node scripts/qa-floating-port.mjs
+          node scripts/test-floating-assistant.mjs
+          node scripts/build.mjs --check
+          node scripts/qa-factory.mjs
+          node scripts/qa-theme.mjs
+          node scripts/qa-taxonomy.mjs
+          node scripts/qa-responsive.mjs
+      - name: Commit chat index only to feature branch
+        run: |
+          set -euo pipefail
+          git config user.name "spanish-assistant-qa"
+          git config user.email "spanish-assistant-qa@users.noreply.github.com"
+          git add assets/chat/search-index.json
+          if git diff --cached --quiet; then echo "Index already current"; exit 0; fi
+          git commit -m "build(spanish): populate approved full-text chatbot search index"
+          git fetch origin feature/spanish-local-ai-quick-call-20261014
+          test "$(git rev-parse origin/feature/spanish-local-ai-quick-call-20261014)" = "$(git rev-parse HEAD^)"
+          git push origin HEAD:feature/spanish-local-ai-quick-call-20261014
