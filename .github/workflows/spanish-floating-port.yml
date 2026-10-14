@@ -27,12 +27,14 @@ jobs:
           node --check assets/js/assistant.js
           node --check assets/js/business-config.js
           node --check scripts/build-chat-index.mjs
+          node --check scripts/test-floating-assistant.mjs
       - name: Generate source-accurate Spanish full-text index
         run: node scripts/build-chat-index.mjs
       - name: Run all existing checks
         run: |
           node scripts/build-chat-index.mjs --check
           node scripts/qa-floating-port.mjs
+          node scripts/test-floating-assistant.mjs
           node scripts/build.mjs --check
           node scripts/qa-factory.mjs
           node scripts/qa-theme.mjs

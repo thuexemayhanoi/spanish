@@ -1,0 +1,42 @@
+#!/usr/bin/env node
+/* Behaviour regression: local source assistant in a zero-network Node sandbox. */
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const sandbox={console,Intl,Date,URL,module:{exports:{}}};
+vm.createContext(sandbox);
+vm.runInContext(fs.readFileSync('assets/js/business-config.js','utf8'),sandbox,{filename:'business-config.js'});
+vm.runInContext(fs.readFileSync('assets/js/assistant.js','utf8'),sandbox,{filename:'assistant.js'});
+const API=sandbox.MotorbikeAssistant;
+assert(API&&API.Engine&&API.SiteSearch,'Assistant exports must remain available');
+const make=()=>new API.Engine({BUSINESS:sandbox.BUSINESS,PRICES:sandbox.PRICES});
+const check=(label,question,must,mustNot)=>{
+ const result=make().reply(question);
+ assert.match(result,must,label+': '+result);
+ if(mustNot)assert.doesNotMatch(result,mustNot,label+': '+result);
+ console.log('PASS '+label);
+};
+check('Spanish Vision 3 days','¿Cuánto cuesta una moto Honda Vision por 3 días?',/600[.,]000 VND/i);
+check('Spanish electric rate not invented','Precio moto eléctrica',/eléctricas, consulta el precio/i,/eléctrica.{0,25}200[.,]000/i);
+check('Spanish scooter 50cc','Precio de moto 50cc por día',/200[.,]000 VND/i);
+check('Spanish Honda Wave deposit','Fianza Honda Wave',/2–3 millones/i);
+check('Spanish hours','Horario de la tienda',/09:00–21:00/i);
+check('Spanish location','¿Dónde está la tienda?',/112 Nguyễn Văn Cừ/i);
+check('Spanish availability caution','¿Hay disponibilidad de motos?',/No puedo consultar la disponibilidad/i);
+check('English preserved','How much is a Honda Vision per week?',/1,000,000 VND/i);
+check('Vietnamese preserved','Giá xe Honda Vision theo ngày?',/200\.000 VND|200,000 VND/i);
+const engine=make();
+engine.reply('Precio Honda Wave por semana');
+const followUp=engine.reply('¿Y por mes?');
+assert.match(followUp,/900[.,]000 VND/i,'Spanish session model memory');
+console.log('PASS remembered model + period');
+const index=JSON.parse(fs.readFileSync('assets/chat/search-index.json','utf8'));
+assert.equal(index.e.length,334);
+const full=index.e.filter(x=>x.s.length>=4).length;
+assert(full>=300,'300 complete published articles must remain searchable');
+const urls=new Set(index.e.map(x=>x.u));
+assert.equal(urls.size,334);
+const search=new API.SiteSearch(); search.data=index; search.state='ready';
+const hit=search.search('alquilar moto en hanoi');
+assert(hit&&hit.entry.u.startsWith('/'),'Search must return actual internal Spanish article URL');
+console.log('PASS full-content search 334 unique pages; rich articles '+full);
