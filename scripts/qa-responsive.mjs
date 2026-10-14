@@ -71,7 +71,7 @@ for(const url of allUrls){
  if(!html.includes('<main id="content">'))fail('Main landmark missing '+url);
  if(!html.includes('<footer class="footer">'))fail('Footer missing '+url);
  if(!html.includes('rel="canonical" href="https://es.rentbikehanoi.com'+url+'"'))fail('Canonical changed '+url);
- if((html.match(/<h1\\b/g)||[]).length!==1)fail('Heading hierarchy changed '+url);
+ if((html.match(/<h1\b/g)||[]).length!==1)fail('Heading hierarchy changed '+url);
  if(postSet.has(url)&&!html.includes('class="wrap prose"'))fail('Post reading shell missing '+url);
  if(url!=='/'&&!html.includes('href="/"'))fail('Home link missing '+url);
 }
