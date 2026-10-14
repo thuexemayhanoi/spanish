@@ -51,3 +51,42 @@ for(const viewport of [320,360,375,390,768,1024,1440]){
  console.log('RESPONSIVE_GUTTER source-model '+viewport+'px side>='+gutter.toFixed(1)+'px article='+article.toFixed(1)+'px core='+core.toFixed(1)+'px');
 }
 console.log('RESPONSIVE_QA_PASS common source, 300 article guard, 13-page shared stylesheet; visual browser checks still required');
+
+// Matrix P1: assert complete generated-site coverage, not only three sample posts.
+const urlMatches=[...sitemap.matchAll(/<loc>(https:\/\/es\.rentbikehanoi\.com\/[^<]*)<\/loc>/g)];
+if(urlMatches.length!==334)fail('Sitemap must expose 334 canonical generated pages');
+const allUrls=urlMatches.map(match=>new URL(match[1]).pathname);
+if(new Set(allUrls).size!==allUrls.length)fail('Duplicate URLs in sitemap');
+const knownPublished=new Set(state.published_ids);
+const postUrls=plan.filter(row=>knownPublished.has(row.id)).map(row=>row.url);
+if(postUrls.length!==300)fail('Published article URL mapping incomplete');
+for(const u of postUrls)if(!allUrls.includes(u))fail('Published article missing sitemap '+u);
+const postSet=new Set(postUrls);
+for(const url of allUrls){
+ const file=url==='/'?'index.html':url.slice(1)+'index.html';
+ const html=read(file);
+ if(!html.startsWith('<!doctype html>'))fail('HTML doctype missing '+url);
+ if(!html.includes('name="viewport" content="width=device-width,initial-scale=1"'))fail('Viewport metadata absent '+url);
+ if(!html.includes('href="/assets/css/theme.css"'))fail('Shared responsive stylesheet absent '+url);
+ if(!html.includes('<main id="content">'))fail('Main landmark missing '+url);
+ if(!html.includes('<footer class="footer">'))fail('Footer missing '+url);
+ if(!html.includes('rel="canonical" href="https://es.rentbikehanoi.com'+url+'"'))fail('Canonical changed '+url);
+ if((html.match(/<h1\b/g)||[]).length!==1)fail('Heading hierarchy changed '+url);
+ if(postSet.has(url)&&!html.includes('class="wrap prose"'))fail('Post reading shell missing '+url);
+ if(url!=='/'&&!html.includes('href="/"'))fail('Home link missing '+url);
+}
+const pillars=['/','/sobre-nosotros/','/tipos-de-motos/','/tipos-de-motos/scooters/',
+ '/tipos-de-motos/motos-50cc/','/precios/','/guia-de-alquiler/',
+ '/guia-de-alquiler/documentacion-y-deposito/','/faq/','/politica-de-privacidad/',
+ '/terminos-y-condiciones/','/zonas-de-hanoi/','/rutas-y-movilidad/'];
+for(const url of pillars){
+ const html=read(url==='/'?'index.html':url.slice(1)+'index.html');
+ if(!html.includes('class="section seo-core-longform"'))fail('Core reading shell missing '+url);
+}
+const lastOld=css.lastIndexOf('.seo-core-longform .prose{');
+const lastFix=css.lastIndexOf('.seo-core-longform .wrap.prose{');
+if(lastFix<=lastOld)fail('Old full-width longform rule overrides the repaired gutter');
+if(!css.includes('max-width:calc(100% - var(--reading-gutter) - var(--reading-gutter))'))fail('Viewport guard removed');
+if(!css.includes('.table-scroll{max-width:100%'))fail('Responsive table scroll missing');
+if(!css.includes('.seo-core-related a{max-width:100%'))fail('Internal link wrap guard missing');
+console.log('RESPONSIVE_MATRIX_PASS generatedPages='+allUrls.length+' posts='+postUrls.length+' pillars='+pillars.length+' viewports=320,360,375,390,768,1024,1440');

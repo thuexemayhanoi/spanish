@@ -7,6 +7,8 @@ on:
     branches: [main]
     paths:
       - 'scripts/**'
+      - 'assets/css/**'
+      - 'assets/js/**'
       - 'site/**'
       - 'data/**'
       - 'content/articles/**'
@@ -39,3 +41,5 @@ jobs:
           node --check scripts/qa-candidate-review-a6.mjs
           node scripts/qa-candidate-review-a6.mjs
           node scripts/smoke-factory.mjs
+          node --check scripts/qa-responsive.mjs
+          node scripts/qa-responsive.mjs
