@@ -60,10 +60,17 @@ export function decorateTaxonomy(taxonomy,pages,accepted){
  return liveCategories;
 }
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
-export function taxonomyMenu(taxonomy,pages,categoryMap,current){
+export function taxonomyMenu(taxonomy,pages,categoryMap,current,navExtras={}){
  const routes=new Set(pages.map(p=>p.url));
  const mainLink=(name,url)=>'<a href="'+esc(url)+'"'+(current.url===url?' aria-current="page"':'')+'>'+esc(name)+'</a>';
- let html=mainLink('Inicio','/');
+ const utility=(label,url)=>{
+  const links=navExtras[url]||[];
+  for(const [,href] of links)if(!routes.has(href))throw Error('Utility navigation target missing '+href);
+  const children=links.map(([name,href])=>mainLink(name,href)).join('');
+  return '<details class="nav-group utility-nav-group"><summary>'+esc(label)+'</summary><div class="nav-panel utility-panel">'+
+    '<a class="taxonomy-all" href="'+esc(url)+'"'+(current.url===url?' aria-current="page"':'')+'>Ver '+esc(label)+' ↗</a>'+children+'</div></details>';
+ };
+ let html=utility('Inicio','/');
  for(const parent of taxonomy.parents){
   const available=routes.has(parent.url);
   const items=parent.children.map(child=>{
@@ -77,7 +84,7 @@ export function taxonomyMenu(taxonomy,pages,categoryMap,current){
   html+='<details class="nav-group"><summary>'+esc(parent.nav_label)+'</summary><div class="nav-panel">'+
     '<strong class="nav-panel-heading">'+esc(parent.label)+'</strong>'+landing+items+'</div></details>';
  }
- return html+mainLink('FAQ','/faq/')+mainLink('Contacto','/contacto/');
+ return html+mainLink('FAQ','/faq/')+utility('Contacto','/contacto/');
 }
 export function parentCategorySection(parentUrl,taxonomy,liveCategories,pages){
  const parent=taxonomy.parents.find(p=>p.url===parentUrl);if(!parent)return '';
