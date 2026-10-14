@@ -21,15 +21,15 @@ for(const p of site.pages||[]){
 /* Include taxonomy archives and any remaining published pages from the public sitemap. */
 const all=new Set(entries.map(x=>x.u));
 const xml=fs.readFileSync('sitemap.xml','utf8');
-for(const match of xml.matchAll(/<loc>([^<]+)<\\/loc>/g)){
+for(const match of xml.matchAll(/<loc>([^<]+)<\/loc>/g)){
  const url=new URL(match[1]);
  if(url.origin!==new URL(site.site.base).origin)throw Error('Unexpected sitemap host: '+url.origin);
  const u=url.pathname;
  if(all.has(u))continue;
  const file=u==='/'?'index.html':u.slice(1)+'index.html';
  const html=fs.readFileSync(file,'utf8');
- const title=(html.match(/<title>([^<]+)<\\/title>/i)||[])[1]||u;
- const heading=(html.match(/<h1[^>]*>([\\s\\S]*?)<\\/h1>/i)||[])[1]||title;
+ const title=(html.match(/<title>([^<]+)<\/title>/i)||[])[1]||u;
+ const heading=(html.match(/<h1[^>]*>([\\s\\S]*?)<\/h1>/i)||[])[1]||title;
  const desc=(html.match(/<meta\\s+name="description"\\s+content="([^"]+)"/i)||[])[1]||'';
  const clean=x=>x.replace(/<[^>]+>/g,' ').replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/\\s+/g,' ').trim();
  entries.push({u,t:clean(title),head:[clean(heading)],s:[{h:clean(heading),p:[clean(desc)]}]});
